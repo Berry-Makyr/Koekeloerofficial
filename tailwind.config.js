@@ -1,0 +1,86 @@
+/** @type {import('tailwindcss').Config} */
+module.exports = {
+  content: [
+    "./app/**/*.{js,ts,jsx,tsx,mdx}",
+    "./pages/**/*.{js,ts,jsx,tsx,mdx}",
+    "./components/**/*.{js,ts,jsx,tsx,mdx}",
+    "./src/**/*.{js,ts,jsx,tsx,mdx}",
+  ],
+  theme: {
+    extend: {
+      colors: {
+        sand: {
+          50: '#FAF8F5',
+          100: '#F5EFEB',
+          200: '#E9DDD2',
+          300: '#DCC7B6',
+          400: '#C9A991',
+          500: '#B0886C',
+          600: '#946E53',
+          700: '#75543D',
+          800: '#5A402E',
+          900: '#3D2B1E',
+        },
+        coastal: {
+          50: '#F0F6F8',
+          100: '#DEECF0',
+          200: '#BFDBE3',
+          300: '#94C3D2',
+          400: '#5E9FBA',
+          500: '#3C819F',
+          600: '#2E6680',
+          700: '#244F64',
+          800: '#1C3E4F',
+          900: '#142E3B',
+          950: '#0C1C24',
+        },
+        driftwood: {
+          50: '#F7F6F5',
+          100: '#EFECE9',
+          200: '#DED8D1',
+          300: '#C4B9AD',
+          400: '#A49585',
+          500: '#877665',
+          600: '#6C5D4F',
+          700: '#53473D',
+          800: '#3D342C',
+          900: '#28221D',
+        },
+        terracotta: {
+          50: '#FDF5F2',
+          100: '#FBE8E2',
+          200: '#F7D0C4',
+          300: '#F0B09D',
+          400: '#E4846B',
+          500: '#D55C3E',
+          600: '#BC4427',
+          700: '#97351D',
+          800: '#792C1A',
+          900: '#63271A',
+        },
+        sage: {
+          50: '#F4F7F4',
+          100: '#E5EDE5',
+          200: '#CCDBCC',
+          300: '#A8C2A8',
+          400: '#80A580',
+          500: '#618861',
+          600: '#4B6C4B',
+          700: '#3C553C',
+          800: '#314431',
+          900: '#293829',
+        }
+      },
+      fontFamily: {
+        serif: ['var(--font-serif)', 'Playfair Display', 'Georgia', 'serif'],
+        sans: ['var(--font-sans)', 'Plus Jakarta Sans', 'Inter', 'sans-serif'],
+      },
+      boxShadow: {
+        'soft': '0 4px 20px -2px rgba(0, 0, 0, 0.05)',
+        'lift': '0 10px 30px -5px rgba(0, 0, 0, 0.08)',
+        'coastal': '0 12px 36px -8px rgba(36, 79, 100, 0.12)',
+      }
+    },
+  },
+  plugins: [],
+};
