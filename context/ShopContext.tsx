@@ -73,19 +73,18 @@ export function ShopProvider({ children }: { children: React.ReactNode }) {
   // Hydrate from localStorage
   useEffect(() => {
     try {
-      const savedProducts = localStorage.getItem('koekeloer_custom_products');
+      const savedProducts = localStorage.getItem('koekeloer_custom_products_v3');
       if (savedProducts) {
         const parsed = JSON.parse(savedProducts);
-        // If parsed products contain outdated unsplash URLs, refresh to new defaultProducts
-        const hasOutdatedUrls = Array.isArray(parsed) && parsed.some((p: Product) => 
-          p.images?.some(img => img.includes('unsplash.com'))
-        );
-        if (Array.isArray(parsed) && parsed.length > 0 && !hasOutdatedUrls) {
+        if (Array.isArray(parsed) && parsed.length > 0) {
           setProductsList(parsed);
         } else {
           setProductsList(defaultProducts);
-          localStorage.setItem('koekeloer_custom_products', JSON.stringify(defaultProducts));
+          localStorage.setItem('koekeloer_custom_products_v3', JSON.stringify(defaultProducts));
         }
+      } else {
+        setProductsList(defaultProducts);
+        localStorage.setItem('koekeloer_custom_products_v3', JSON.stringify(defaultProducts));
       }
 
       const savedCart = localStorage.getItem('koekeloer_cart');
@@ -106,7 +105,7 @@ export function ShopProvider({ children }: { children: React.ReactNode }) {
   useEffect(() => {
     if (!isHydrated) return;
     try {
-      localStorage.setItem('koekeloer_custom_products', JSON.stringify(productsList));
+      localStorage.setItem('koekeloer_custom_products_v3', JSON.stringify(productsList));
     } catch (e) {
       console.error('Error saving custom products', e);
     }
@@ -165,7 +164,7 @@ export function ShopProvider({ children }: { children: React.ReactNode }) {
   const resetProducts = () => {
     setProductsList(defaultProducts);
     try {
-      localStorage.removeItem('koekeloer_custom_products');
+      localStorage.removeItem('koekeloer_custom_products_v3');
     } catch (e) {
       console.error(e);
     }

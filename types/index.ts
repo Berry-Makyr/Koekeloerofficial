@@ -19,7 +19,7 @@ export interface Product {
   stockStatus: 'in_stock' | 'low_stock' | 'out_of_stock';
   stockCount: number;
   images: string[];
-  badges?: ('New' | 'Best Seller' | 'Sale' | 'Handmade' | 'Bali Import')[];
+  badges?: string[];
   variants?: {
     type: 'size' | 'color' | 'finish';
     options: string[];

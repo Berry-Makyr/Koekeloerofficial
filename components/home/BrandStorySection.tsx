@@ -17,7 +17,7 @@ export default function BrandStorySection() {
                 {/* eslint-disable-next-line @next/next/no-img-element */}
                 <img
                   src="/fb-images/606030198_24884683841210437_5271712182053158002_n.jpg"
-                  alt="Koekeloer Gansbaai Store Display"
+                  alt="Koekeloer Gansbaai Geskenkwinkel Vertoonlokaal"
                   className="w-full h-full object-cover hover:scale-105 transition duration-500"
                 />
               </div>
@@ -25,7 +25,7 @@ export default function BrandStorySection() {
                 {/* eslint-disable-next-line @next/next/no-img-element */}
                 <img
                   src="/fb-images/618282172_25073502085661944_8993232252802069912_n.jpg"
-                  alt="Esthe Leather Shoes at Koekeloer"
+                  alt="Kuslyn Seildoekkuns by Koekeloer"
                   className="w-full h-full object-cover hover:scale-105 transition duration-500"
                 />
               </div>
@@ -35,16 +35,16 @@ export default function BrandStorySection() {
               <div className="rounded-2xl overflow-hidden shadow-soft aspect-square bg-sand-200">
                 {/* eslint-disable-next-line @next/next/no-img-element */}
                 <img
-                  src="/fb-images/616021815_25039359379076215_1756254157454596129_n.jpg"
-                  alt="Bali Teak Furniture"
+                  src="/fb-images/615833673_25039360082409478_6904760111975843436_n.jpg"
+                  alt="Balinese Gebrandskilderde Meubels"
                   className="w-full h-full object-cover hover:scale-105 transition duration-500"
                 />
               </div>
               <div className="rounded-2xl overflow-hidden shadow-soft aspect-[4/5] bg-sand-200">
                 {/* eslint-disable-next-line @next/next/no-img-element */}
                 <img
-                  src="/fb-images/615156136_25021772044168282_5150259627999386532_n.jpg"
-                  alt="Koekeloer Boutique Resort Dress"
+                  src="/fb-images/615057225_24998643253147828_5505068522394442945_n.jpg"
+                  alt="Koekeloer Boetiek Linne Drag"
                   className="w-full h-full object-cover hover:scale-105 transition duration-500"
                 />
               </div>
@@ -66,12 +66,12 @@ export default function BrandStorySection() {
                 Ons Storie • Since 2012
               </span>
               <h2 className="font-serif text-3xl sm:text-4xl lg:text-5xl font-bold text-driftwood-950 leading-tight">
-                A Journey of Discovery in the Overberg
+                ‘n Reis van Ontdekking in die Overberg
               </h2>
             </div>
 
             <p className="text-sm sm:text-base text-driftwood-700 leading-relaxed">
-              In 2012, <strong>Koekeloer</strong> opened its doors at the Great White Junction in Gansbaai. Founded by Nelia Koekemoer with four decades of retail passion, we set out to create an emporium where every corner reveals something extraordinary.
+              In 2012 open <strong>Koekeloer</strong> sy deure by die Great White Junction in Gansbaai. Gestig deur Nelia Koekemoer met vier dekades se kleinhandelpassie, het ons 'n leefstyl-emporium geskep waar elke hoekie iets besonders openbaar.
             </p>
 
             <p className="text-sm sm:text-base text-driftwood-700 leading-relaxed">
@@ -83,32 +83,32 @@ export default function BrandStorySection() {
               <div className="flex items-start gap-3">
                 <CheckCircle2 className="w-5 h-5 text-coastal-700 flex-shrink-0 mt-0.5" />
                 <div>
-                  <h4 className="font-semibold text-xs sm:text-sm text-driftwood-950">Direct Bali Imports</h4>
-                  <p className="text-xs text-driftwood-600 mt-0.5">Teakwood, paras stone, and rattan sourced personally from artisan studios.</p>
+                  <h4 className="font-semibold text-xs sm:text-sm text-driftwood-950">Direkte Bali Invoere</h4>
+                  <p className="text-xs text-driftwood-600 mt-0.5">Teakhout, rivierklip wasbakke en rotang meubels direk vanaf ateljees.</p>
                 </div>
               </div>
 
               <div className="flex items-start gap-3">
                 <CheckCircle2 className="w-5 h-5 text-coastal-700 flex-shrink-0 mt-0.5" />
                 <div>
-                  <h4 className="font-semibold text-xs sm:text-sm text-driftwood-950">4 Physical Locations</h4>
-                  <p className="text-xs text-driftwood-600 mt-0.5">Stores across Gansbaai, Bredasdorp, Struisbaai & Pearly Beach.</p>
+                  <h4 className="font-semibold text-xs sm:text-sm text-driftwood-950">4 Fisiese Winkels</h4>
+                  <p className="text-xs text-driftwood-600 mt-0.5">Winkels regoor Gansbaai, Bredasdorp, Struisbaai & Pearly Beach.</p>
                 </div>
               </div>
 
               <div className="flex items-start gap-3">
                 <CheckCircle2 className="w-5 h-5 text-coastal-700 flex-shrink-0 mt-0.5" />
                 <div>
-                  <h4 className="font-semibold text-xs sm:text-sm text-driftwood-950">Esthé Footwear & Boutique</h4>
-                  <p className="text-xs text-driftwood-600 mt-0.5">Full ladies boutique with pure linen resort wear and leather sandals.</p>
+                  <h4 className="font-semibold text-xs sm:text-sm text-driftwood-950">Savoy Skoene & Boetiek</h4>
+                  <p className="text-xs text-driftwood-600 mt-0.5">Volledige damesboetiek met suiwer linne somerdrag en geriefsandale.</p>
                 </div>
               </div>
 
               <div className="flex items-start gap-3">
                 <CheckCircle2 className="w-5 h-5 text-coastal-700 flex-shrink-0 mt-0.5" />
                 <div>
-                  <h4 className="font-semibold text-xs sm:text-sm text-driftwood-950">Community Giving</h4>
-                  <p className="text-xs text-driftwood-600 mt-0.5">Dedicated to supporting local Overberg charities and elderly homes.</p>
+                  <h4 className="font-semibold text-xs sm:text-sm text-driftwood-950">Gemeenskapsondersteuning</h4>
+                  <p className="text-xs text-driftwood-600 mt-0.5">Gereelde ondersteuning aan plaaslike Overberg ouetehuise en liefdadigheid.</p>
                 </div>
               </div>
             </div>
@@ -118,7 +118,7 @@ export default function BrandStorySection() {
                 href="/about"
                 className="bg-coastal-800 hover:bg-coastal-900 text-white font-semibold text-xs sm:text-sm px-6 py-3.5 rounded-xl shadow-sm flex items-center gap-2 transition"
               >
-                <span>Read Our Full Story</span>
+                <span>Lees Ons Volledige Storie</span>
                 <ArrowRight className="w-4 h-4" />
               </Link>
 
@@ -126,7 +126,7 @@ export default function BrandStorySection() {
                 href="/stores"
                 className="bg-white hover:bg-sand-100 text-driftwood-900 font-semibold text-xs sm:text-sm px-6 py-3.5 rounded-xl border border-sand-300 transition"
               >
-                <span>Visit Our Stores</span>
+                <span>Besoek Ons Winkels</span>
               </Link>
             </div>
 

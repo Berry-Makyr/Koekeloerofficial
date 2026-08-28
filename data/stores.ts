@@ -41,13 +41,13 @@ export const stores: StoreLocation[] = [
       publicHolidays: '09:00 – 13:00',
     },
     features: [
-      'Damesmode & Vakansiedrag',
-      'Esthé Handgemaakte Egte Leerskoene',
-      'Handsakke, Hoede & Juwele',
-      'Persoonlike Styladvies',
+      'Damesmode & Linne Vakansiedrag',
+      'Savoy Ultra-Gerief Ortopediese Sandale',
+      'Frida Kahlo Totes, Hoede & Edelsteen Juwele',
+      'Persoonlike Pas- en Styladvies',
     ],
     mapEmbedUrl: 'https://maps.google.com/maps?q=Great%20White%20Junction%20Gansbaai&t=&z=15&ie=UTF8&iwloc=&output=embed',
-    image: '/fb-images/618282172_25073502085661944_8993232252802069912_n.jpg',
+    image: '/fb-images/546631879_23983512777994219_8454657023277643559_n.jpg',
   },
   {
     id: 'bredasdorp',
@@ -70,7 +70,7 @@ export const stores: StoreLocation[] = [
       'Sagte Meublement & Muurkuns',
     ],
     mapEmbedUrl: 'https://maps.google.com/maps?q=Bredasdorp%20Western%20Cape&t=&z=14&ie=UTF8&iwloc=&output=embed',
-    image: '/fb-images/615215046_25039359722409514_4929115687782931252_n.jpg',
+    image: '/fb-images/708512177_26353474417664698_5291974240629621864_n.jpg',
   },
   {
     id: 'struisbaai',
@@ -93,7 +93,7 @@ export const stores: StoreLocation[] = [
       'Somer Drag & Strooihoede',
     ],
     mapEmbedUrl: 'https://maps.google.com/maps?q=Struisbaai%20Western%20Cape&t=&z=14&ie=UTF8&iwloc=&output=embed',
-    image: '/fb-images/482052378_8815936321845112_8713775723889611670_n.jpg',
+    image: '/fb-images/468944955_8292019254236824_7623446276911688929_n.jpg',
   },
 ];
 
@@ -105,7 +105,7 @@ export const customerReviews: Review[] = [
     rating: 5,
     date: '14 August 2026',
     title: 'Absolute juweel van ‘n winkel in die Overberg!',
-    comment: 'Koekeloer is altyd ons eerste stop wanneer ons Gansbaai toe ry. Die kwaliteit van die Bali kaste en teak meubels is ongelooflik, en die personeel is so vriendelik en hulpvaardig. Koerieraflewering na Hermanus was vinnig en deeglik verpak.',
+    comment: 'Koekeloer is altyd ons eerste stop wanneer ons Gansbaai toe ry. Die kwaliteit van die Balinese kaste en teak meubels is ongelooflik, en die personeel is so vriendelik en hulpvaardig. Koerieraflewering na Hermanus was vinnig en deeglik verpak.',
     verified: true,
   },
   {
@@ -114,8 +114,8 @@ export const customerReviews: Review[] = [
     location: 'Kaapstad',
     rating: 5,
     date: '28 Julie 2026',
-    title: 'Esthé leerskoene sit soos ‘n droom',
-    comment: 'Ek het die Esthé egte leer vellies aanlyn bestel nadat ek dit op hulle Facebook-blad gesien het. Hulle pas perfek en is so sag! Vinnige diens en goeie pryse.',
+    title: 'Savoy geriefskoene sit soos ‘n droom',
+    comment: 'Ek het die Savoy geriefskoene by die boetiek in Gansbaai gekry. Hulle sit soos ‘n kussing op my voete! Vriendelike diens en pragtige keuse van linne klere.',
     verified: true,
   },
   {
@@ -125,7 +125,7 @@ export const customerReviews: Review[] = [
     rating: 5,
     date: '02 Julie 2026',
     title: 'Ons strandhuis getransformeer',
-    comment: 'Nelia en die Koekeloer-span het ons gehelp om die toutapisserieë, spieëls en lampe vir ons kusplaashuis in Pearly Beach te kies. Wonderlike stukke wat elke vertrek ophelder.',
+    comment: 'Nelia en die Koekeloer-span het ons gehelp om die seeskulp kandelare, spieëls en mandala kussings vir ons kusplaashuis in Pearly Beach te kies. Wonderlike stukke wat elke vertrek ophelder.',
     verified: true,
   },
 ];
