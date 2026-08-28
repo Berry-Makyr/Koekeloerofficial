@@ -3,47 +3,12 @@
 import React from 'react';
 import { FacebookIcon, InstagramIcon } from '@/components/common/SocialIcons';
 import { Heart } from 'lucide-react';
-
-const lookbookImages = [
-  {
-    id: 1,
-    image: '/fb-images/606030198_24884683841210437_5271712182053158002_n.jpg',
-    title: 'Gansbaai Geskenkwinkel Vertoonlokaal',
-    tag: '#KoekeloerGansbaai',
-  },
-  {
-    id: 2,
-    image: '/fb-images/615057225_24998643253147828_5505068522394442945_n.jpg',
-    title: 'Kuslyn Geborduurde Linne Drag',
-    tag: '#BoutiqueStyle',
-  },
-  {
-    id: 3,
-    image: '/fb-images/548098641_23983512831327547_7475263356052133354_n.jpg',
-    title: 'Savoy Ultra-Gerief Dames Skoene',
-    tag: '#SavoyShoes',
-  },
-  {
-    id: 4,
-    image: '/fb-images/724341447_26619252904420180_7184782576607009732_n.jpg',
-    title: 'Boheemse Mandala Vloerkussings',
-    tag: '#CoastalLiving',
-  },
-  {
-    id: 5,
-    image: '/fb-images/615833673_25039360082409478_6904760111975843436_n.jpg',
-    title: 'Balinese Gebrandskilderde Meubels',
-    tag: '#BaliImports',
-  },
-  {
-    id: 6,
-    image: '/fb-images/618282172_25073502085661944_8993232252802069912_n.jpg',
-    title: 'Kuslyn Seemeeu Seildoekkuns',
-    tag: '#SeagullArt',
-  },
-];
+import { useShop } from '@/context/ShopContext';
 
 export default function InstagramLookbook() {
+  const { siteContent } = useShop();
+  const items = siteContent.lookbookItems || [];
+
   return (
     <section className="py-16 sm:py-24 bg-sand-50">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -51,13 +16,13 @@ export default function InstagramLookbook() {
         {/* Section Header */}
         <div className="text-center max-w-2xl mx-auto mb-12">
           <span className="text-xs uppercase tracking-[0.2em] font-semibold text-sand-600">
-            Sosiale Lookbook & Inspirasie
+            Social Lookbook & Inspiration
           </span>
           <h2 className="font-serif text-3xl sm:text-4xl font-bold text-driftwood-950 mt-1">
-            Volg @koekeloer.winkel
+            {siteContent.lookbookTitle || 'Follow @koekeloer.winkel'}
           </h2>
           <p className="text-xs sm:text-sm text-driftwood-600 mt-2">
-            Sluit aan by duisende dekor- en mode-liefhebbers regoor die Overberg en Suid-Afrika.
+            {siteContent.lookbookSubtitle || 'Join thousands of home decorators and fashion lovers across the Overberg and South Africa.'}
           </p>
 
           <div className="flex items-center justify-center gap-3 mt-4">
@@ -68,7 +33,7 @@ export default function InstagramLookbook() {
               className="inline-flex items-center gap-2 bg-[#1877F2] hover:bg-[#166fe5] text-white text-xs font-semibold px-4 py-2 rounded-full shadow-sm transition"
             >
               <FacebookIcon className="w-3.5 h-3.5" />
-              <span>Volg op Facebook</span>
+              <span>Follow on Facebook</span>
             </a>
             <a
               href="https://www.instagram.com/"
@@ -77,17 +42,17 @@ export default function InstagramLookbook() {
               className="inline-flex items-center gap-2 bg-gradient-to-r from-[#833ab4] via-[#fd1d1d] to-[#fcb045] text-white text-xs font-semibold px-4 py-2 rounded-full shadow-sm transition"
             >
               <InstagramIcon className="w-3.5 h-3.5" />
-              <span>Volg op Instagram</span>
+              <span>Follow on Instagram</span>
             </a>
           </div>
         </div>
 
         {/* 6-Grid Lookbook */}
         <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-3 sm:gap-4">
-          {lookbookImages.map((item) => (
+          {items.map((item, idx) => (
             <a
-              key={item.id}
-              href="https://www.facebook.com/koekeloer.winkel/photos"
+              key={item.id || idx}
+              href={item.link || 'https://www.facebook.com/koekeloer.winkel/photos'}
               target="_blank"
               rel="noopener noreferrer"
               className="group relative aspect-square rounded-xl overflow-hidden bg-sand-200 shadow-soft block"

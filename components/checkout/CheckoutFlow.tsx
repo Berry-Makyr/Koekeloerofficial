@@ -159,7 +159,7 @@ export default function CheckoutFlow() {
                 Payment & Order Confirmed
               </span>
               <h1 className="font-serif text-3xl sm:text-4xl font-bold text-driftwood-950">
-                Baie Dankie, {formData.firstName}!
+                Thank You, {formData.firstName}!
               </h1>
               <p className="text-xs sm:text-sm text-driftwood-600 max-w-md mx-auto">
                 We have received your order <strong>#{orderId}</strong>. A confirmation email has been dispatched to <strong>{formData.email}</strong>.

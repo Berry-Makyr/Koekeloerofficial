@@ -16,12 +16,11 @@ import {
   Sparkles
 } from 'lucide-react';
 import { useShop } from '@/context/ShopContext';
-import { categories } from '@/data/categories';
 import { cn } from '@/lib/utils';
 
 export default function Header() {
   const pathname = usePathname();
-  const { cartCount, wishlist, setIsCartOpen, setIsSearchOpen } = useShop();
+  const { cartCount, wishlist, setIsCartOpen, setIsSearchOpen, categories } = useShop();
   const [isScrolled, setIsScrolled] = useState(false);
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
   const [dropdownOpen, setDropdownOpen] = useState(false);

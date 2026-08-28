@@ -3,12 +3,9 @@ import Link from 'next/link';
 import { 
   Heart, 
   Award, 
-  Sparkles, 
   Compass, 
   Truck, 
   ArrowRight,
-  ShieldCheck,
-  CheckCircle2
 } from 'lucide-react';
 
 export const metadata = {
@@ -44,28 +41,28 @@ export default function AboutPage() {
           />
         </div>
 
-        {/* Story Section in Afrikaans & English */}
+        {/* Story Section in English */}
         <div className="bg-white rounded-3xl p-8 sm:p-12 border border-sand-200 shadow-soft space-y-8">
           
           <div className="prose prose-sand max-w-none text-xs sm:text-sm text-driftwood-700 space-y-4 leading-relaxed">
             <h2 className="font-serif text-2xl sm:text-3xl font-bold text-driftwood-950 not-prose mb-4">
-              40 Jaar van Kleinhandel Passie en Eie Invoere
+              40 Years of Retail Passion & Direct Global Imports
             </h2>
             
             <p>
-              In <strong>2012</strong> open Koekeloer sy deure in Gansbaai by die <em>Great White Junction</em>, en in <strong>2017</strong> brei dié gewilde dekor- en geskenkwinkel uit met ’n susterstak in Bredasdorp, gevolg deur takke in Struisbaai en Pearly Beach.
+              In <strong>2012</strong>, Koekeloer first opened its welcoming doors in Gansbaai at the <em>Great White Junction</em>. By <strong>2017</strong>, this beloved coastal décor and gift emporium expanded with a sister branch in Bredasdorp, followed by locations in Struisbaai and Pearly Beach.
             </p>
 
             <p>
-              Stigter <strong>Nelia Koekemoer</strong> het veertig jaar se kosbare ondervinding in kleinhandel, dus is die meeste groothandelaars aan haar bekend. Die afgelope dekade hanteer ons ook ons eie direkte invoere vanaf ambagslui in Bali en Indië om ons kliënte die grootste en mees unieke verskeidenheid moontlik te bied.
+              Founder <strong>Nelia Koekemoer</strong> brings more than forty years of invaluable retail mastery and passion. Over the last decade, we have established our own direct import relationships with skilled master artisans in Bali and India, enabling us to bring our customers the largest, most authentic, and uniquely crafted collections.
             </p>
 
             <blockquote className="p-4 sm:p-6 bg-sand-50 rounded-2xl border-l-4 border-coastal-700 my-6 not-italic font-serif text-sm sm:text-base text-driftwood-900 font-medium leading-relaxed">
-              &ldquo;Die uniekheid van ons winkel is die wye verskeidenheid van produkte, want behalwe dat ons voorsien aan die gesofistikeerde koper, bedien ons ook Jan Alleman en is hier ’n groot keuse om te verseker dat ons in elkeen se smaak en behoefte kan voorsien.&rdquo;
+              &ldquo;The magic of our store lies in its vibrant variety. Alongside catering to the most discerning interior decorator, we warmly welcome every homemaker, ensuring there is a timeless piece to enrich every taste, budget, and lifestyle.&rdquo;
             </blockquote>
 
             <p>
-              Koekeloer is ’n unieke winkel wat jou op ’n verkenningstog neem van geskenke, dekor, teak meubels, nautical items, boetiekklere, Esthé egte leerskoene, handsakke, kombuisware, canvasse, chalk paint en vele meer. Die ideaal is verseker om tyd tot jou beskikking te hê om tussen die rakke te spandeer, opsoek na daardie spesiale geskenk of décor item vir jou tuiste.
+              Koekeloer is a destination store that invites you on an inspiring journey through artisan gifts, coastal home accents, hand-carved teak furniture, nautical statement pieces, boutique linen apparel, Savoy orthopaedic comfort footwear, organic ceramics, and fine art canvases.
             </p>
           </div>
 
@@ -94,10 +91,10 @@ export default function AboutPage() {
             <div className="p-5 bg-sand-50 rounded-2xl border border-sand-200 space-y-2">
               <div className="flex items-center gap-2 text-coastal-800 font-bold text-sm">
                 <Award className="w-4 h-4 text-amber-600" />
-                <span>Esthé Leather Shoes Exclusive</span>
+                <span>Savoy Comfort Footwear</span>
               </div>
               <p className="text-xs text-driftwood-600 leading-relaxed">
-                Stocking premium South African vegetable-tanned leather sandals and footwear, where comfort meets enduring style.
+                Stocking premium cushioned orthopaedic leather sandals and walking shoes, where supreme comfort meets enduring coastal style.
               </p>
             </div>
 

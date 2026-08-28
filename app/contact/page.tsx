@@ -61,7 +61,7 @@ export default function ContactPage() {
                 <CheckCircle2 className="w-12 h-12 text-emerald-600 mx-auto" />
                 <h3 className="font-serif text-lg font-bold text-emerald-950">Message Sent Successfully!</h3>
                 <p className="text-xs text-emerald-800">
-                  Baie dankie for reaching out. Our team at Great White Junction Gansbaai will get back to you shortly.
+                  Thank you very much for reaching out. Our team at Great White Junction Gansbaai will get back to you shortly.
                 </p>
               </div>
             ) : (

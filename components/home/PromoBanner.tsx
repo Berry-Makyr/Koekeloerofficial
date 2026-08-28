@@ -6,12 +6,15 @@ import { Tag, Sparkles, Copy, Check, ArrowRight } from 'lucide-react';
 import { useShop } from '@/context/ShopContext';
 
 export default function PromoBanner() {
-  const { applyCoupon } = useShop();
+  const { applyCoupon, siteContent } = useShop();
+  const banner = siteContent.promoBanner;
   const [copied, setCopied] = useState(false);
 
+  if (!banner) return null;
+
   const handleApply = () => {
-    applyCoupon('WINTER20');
-    navigator.clipboard?.writeText('WINTER20');
+    applyCoupon(banner.couponCode || 'WINTER20');
+    navigator.clipboard?.writeText(banner.couponCode || 'WINTER20');
     setCopied(true);
     setTimeout(() => setCopied(false), 2500);
   };
@@ -26,18 +29,22 @@ export default function PromoBanner() {
 
           <div className="relative z-10 max-w-3xl space-y-6">
             
-            <div className="inline-flex items-center gap-2 bg-terracotta-600/90 text-sand-50 px-3.5 py-1.5 rounded-full text-xs font-bold uppercase tracking-wider">
-              <Sparkles className="w-3.5 h-3.5" />
-              <span>Limited Season Offer</span>
-            </div>
+            {banner.tag && (
+              <div className="inline-flex items-center gap-2 bg-terracotta-600/90 text-sand-50 px-3.5 py-1.5 rounded-full text-xs font-bold uppercase tracking-wider">
+                <Sparkles className="w-3.5 h-3.5" />
+                <span>{banner.tag}</span>
+              </div>
+            )}
 
             <h2 className="font-serif text-3xl sm:text-5xl font-bold leading-tight">
-              20% OFF Everything <br className="hidden sm:inline" />
-              <span className="text-sand-300">Online & In-Store</span>
+              {banner.title} <br className="hidden sm:inline" />
+              {banner.highlightText && (
+                <span className="text-sand-300">{banner.highlightText}</span>
+              )}
             </h2>
 
             <p className="text-sm sm:text-base text-sand-200 leading-relaxed max-w-xl">
-              Elevate your home with hand-carved teak, organic ceramics, marine rope mirrors, and breezy boutique dresses. Use our seasonal promo code at checkout.
+              {banner.description}
             </p>
 
             {/* Coupon Box */}
@@ -46,7 +53,7 @@ export default function PromoBanner() {
                 <Tag className="w-4 h-4 text-sand-300" />
                 <span className="text-xs text-sand-200 font-medium">Use Coupon:</span>
                 <span className="font-mono font-bold text-base text-white tracking-widest pl-1">
-                  WINTER20
+                  {banner.couponCode}
                 </span>
                 <button
                   onClick={handleApply}
@@ -68,17 +75,19 @@ export default function PromoBanner() {
               </div>
 
               <Link
-                href="/shop?filter=sale"
+                href={banner.ctaLink || '/shop?filter=sale'}
                 className="bg-sand-100 hover:bg-white text-driftwood-950 font-bold px-6 py-3.5 rounded-xl text-xs sm:text-sm flex items-center gap-2 shadow-sm transition"
               >
-                <span>Shop Sale Items</span>
+                <span>{banner.ctaText || 'Shop Sale Items'}</span>
                 <ArrowRight className="w-4 h-4" />
               </Link>
             </div>
 
-            <p className="text-[11px] text-sand-400">
-              * Valid across all collections. Free delivery automatically applied to orders over R1,200.
-            </p>
+            {banner.footerNote && (
+              <p className="text-[11px] text-sand-400">
+                {banner.footerNote}
+              </p>
+            )}
 
           </div>
         </div>

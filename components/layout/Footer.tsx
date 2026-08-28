@@ -15,9 +15,10 @@ import {
   CheckCircle2
 } from 'lucide-react';
 import { FacebookIcon, InstagramIcon } from '@/components/common/SocialIcons';
-import { categories } from '@/data/categories';
+import { useShop } from '@/context/ShopContext';
 
 export default function Footer() {
+  const { categories, siteContent } = useShop();
   const [email, setEmail] = useState('');
   const [subscribed, setSubscribed] = useState(false);
 
@@ -56,7 +57,7 @@ export default function Footer() {
             <div>
               <h4 className="font-serif text-white font-semibold text-base mb-1">40 Years in Retail</h4>
               <p className="text-xs text-sand-400 leading-relaxed">
-                Founded by Nelia Koekemoer in Gansbaai. Dedicated to serving both sophisticated buyers and Jan Alleman.
+                Founded by Nelia Koekemoer in Gansbaai. Dedicated to serving both sophisticated buyers and everyday homemakers.
               </p>
             </div>
           </div>
@@ -103,7 +104,8 @@ export default function Footer() {
               </span>
             </Link>
             <p className="text-xs text-sand-400 leading-relaxed max-w-sm">
-              ‘n Unieke winkel wat jou op ‘n verkenningstog neem van geskenke, dekor, meubels, nautical items, boetiekklere, Esthé leerskoene en kombuisware. Kom snuffel en ontdek iets besonders vir jou tuiste.
+              {siteContent.footerBio ||
+                'A unique lifestyle store that takes you on a voyage of discovery through artisanal gifts, coastal decor, hand-carved Bali teak furniture, resort wear, Savoy footwear, and kitchenware. Visit our stores in Gansbaai, Bredasdorp, Struisbaai, and Pearly Beach.'}
             </p>
 
             {/* Newsletter */}
@@ -131,7 +133,7 @@ export default function Footer() {
               {subscribed && (
                 <p className="text-xs text-emerald-400 mt-2 flex items-center gap-1">
                   <CheckCircle2 className="w-3.5 h-3.5" />
-                  <span>Baie dankie! You are subscribed to new arrivals and specials.</span>
+                  <span>Thank you! You are subscribed to new arrivals and exclusive specials.</span>
                 </p>
               )}
             </div>
@@ -204,7 +206,7 @@ export default function Footer() {
               </li>
               <li>
                 <Link href="/admin" className="hover:text-white transition text-sand-300 font-medium">
-                  Catalog Manager & Listings (Admin)
+                  Catalog & Section Admin
                 </Link>
               </li>
               <li>
@@ -255,7 +257,7 @@ export default function Footer() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-8 border-t border-driftwood-800">
         <div className="flex flex-col md:flex-row items-center justify-between gap-4 text-xs text-sand-500">
           <div>
-            <p>© {new Date().getFullYear()} Koekeloer Geskenk & Dekor Winkel. All rights reserved.</p>
+            <p>© {new Date().getFullYear()} Koekeloer Gift & Décor Emporium. All rights reserved.</p>
             <p className="text-[11px] text-sand-600 mt-0.5">
               Great White Junction, Gansbaai • Bredasdorp • Struisbaai • Pearly Beach
             </p>

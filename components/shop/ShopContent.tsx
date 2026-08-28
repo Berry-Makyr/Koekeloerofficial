@@ -13,8 +13,6 @@ import {
   Sparkles,
   Heart
 } from 'lucide-react';
-import { products } from '@/data/products';
-import { categories } from '@/data/categories';
 import ProductCard from '@/components/product/ProductCard';
 import { useShop } from '@/context/ShopContext';
 import { formatZAR, cn } from '@/lib/utils';
@@ -22,7 +20,7 @@ import { formatZAR, cn } from '@/lib/utils';
 export default function ShopContent() {
   const router = useRouter();
   const searchParams = useSearchParams();
-  const { wishlist, products } = useShop();
+  const { wishlist, products, categories } = useShop();
 
   // Read initial query params
   const categoryParam = searchParams.get('category') || 'all';

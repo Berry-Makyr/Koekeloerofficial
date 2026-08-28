@@ -3,9 +3,11 @@
 import React from 'react';
 import Link from 'next/link';
 import { ArrowUpRight } from 'lucide-react';
-import { categories } from '@/data/categories';
+import { useShop } from '@/context/ShopContext';
 
 export default function CategoryGrid() {
+  const { categories } = useShop();
+
   return (
     <section className="py-16 sm:py-24 bg-sand-50">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -24,7 +26,7 @@ export default function CategoryGrid() {
           </p>
         </div>
 
-        {/* 8-Category Grid like Beachsand */}
+        {/* Category Grid */}
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
           {categories.map((category) => (
             <Link
@@ -44,7 +46,7 @@ export default function CategoryGrid() {
               {/* Card Content */}
               <div className="relative z-10 text-white space-y-2">
                 <span className="text-[11px] uppercase tracking-wider font-semibold text-sand-300">
-                  {category.itemCount} Products
+                  {category.itemCount || 20}+ Items
                 </span>
                 
                 <h3 className="font-serif text-xl sm:text-2xl font-bold leading-tight group-hover:text-sand-200 transition">

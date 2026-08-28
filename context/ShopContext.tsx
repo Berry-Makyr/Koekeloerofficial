@@ -1,9 +1,10 @@
 'use client';
 
 import React, { createContext, useContext, useState, useEffect, useMemo } from 'react';
-import { Product, CartItem } from '@/types';
+import { Product, CartItem, Category, SiteContent, HeroSlide, LookbookItem } from '@/types';
 import { FREE_SHIPPING_THRESHOLD, COUPON_CODES } from '@/lib/utils';
-import { products as defaultProducts } from '@/data/products';
+import { products as defaultProducts, defaultSiteContent } from '@/data/products';
+import { categories as defaultCategories } from '@/data/categories';
 
 interface ShopContextType {
   // Products Management
@@ -12,6 +13,22 @@ interface ShopContextType {
   updateProduct: (id: string, updated: Partial<Product>) => void;
   deleteProduct: (id: string) => void;
   resetProducts: () => void;
+
+  // Categories Management (Admin & Shop)
+  categories: Category[];
+  addCategory: (category: Category) => void;
+  updateCategory: (id: string, updated: Partial<Category>) => void;
+  deleteCategory: (id: string) => void;
+  resetCategories: () => void;
+
+  // Site Content & Banners Management
+  siteContent: SiteContent;
+  updateSiteContent: (updated: Partial<SiteContent>) => void;
+  updateHeroSlide: (index: number, slide: Partial<HeroSlide>) => void;
+  addHeroSlide: (slide: HeroSlide) => void;
+  deleteHeroSlide: (index: number) => void;
+  updateLookbookItem: (index: number, item: Partial<LookbookItem>) => void;
+  resetSiteContent: () => void;
 
   // Cart
   cart: CartItem[];
@@ -61,6 +78,9 @@ function getVariantKey(variants?: Record<string, string>): string {
 
 export function ShopProvider({ children }: { children: React.ReactNode }) {
   const [productsList, setProductsList] = useState<Product[]>(defaultProducts);
+  const [categoriesList, setCategoriesList] = useState<Category[]>(defaultCategories);
+  const [siteContentState, setSiteContentState] = useState<SiteContent>(defaultSiteContent);
+
   const [cart, setCart] = useState<CartItem[]>([]);
   const [wishlist, setWishlist] = useState<string[]>([]);
   const [isCartOpen, setIsCartOpen] = useState(false);
@@ -73,20 +93,50 @@ export function ShopProvider({ children }: { children: React.ReactNode }) {
   // Hydrate from localStorage
   useEffect(() => {
     try {
-      const savedProducts = localStorage.getItem('koekeloer_custom_products_v3');
+      // Products
+      const savedProducts = localStorage.getItem('koekeloer_custom_products_v4');
       if (savedProducts) {
         const parsed = JSON.parse(savedProducts);
         if (Array.isArray(parsed) && parsed.length > 0) {
           setProductsList(parsed);
         } else {
           setProductsList(defaultProducts);
-          localStorage.setItem('koekeloer_custom_products_v3', JSON.stringify(defaultProducts));
+          localStorage.setItem('koekeloer_custom_products_v4', JSON.stringify(defaultProducts));
         }
       } else {
         setProductsList(defaultProducts);
-        localStorage.setItem('koekeloer_custom_products_v3', JSON.stringify(defaultProducts));
+        localStorage.setItem('koekeloer_custom_products_v4', JSON.stringify(defaultProducts));
       }
 
+      // Categories
+      const savedCategories = localStorage.getItem('koekeloer_custom_categories_v2');
+      if (savedCategories) {
+        const parsed = JSON.parse(savedCategories);
+        if (Array.isArray(parsed) && parsed.length > 0) {
+          setCategoriesList(parsed);
+        } else {
+          setCategoriesList(defaultCategories);
+          localStorage.setItem('koekeloer_custom_categories_v2', JSON.stringify(defaultCategories));
+        }
+      } else {
+        setCategoriesList(defaultCategories);
+        localStorage.setItem('koekeloer_custom_categories_v2', JSON.stringify(defaultCategories));
+      }
+
+      // Site Content
+      const savedContent = localStorage.getItem('koekeloer_site_content_v2');
+      if (savedContent) {
+        const parsed = JSON.parse(savedContent);
+        if (parsed && typeof parsed === 'object') {
+          setSiteContentState({ ...defaultSiteContent, ...parsed });
+        } else {
+          setSiteContentState(defaultSiteContent);
+        }
+      } else {
+        setSiteContentState(defaultSiteContent);
+      }
+
+      // Cart & Wishlist
       const savedCart = localStorage.getItem('koekeloer_cart');
       if (savedCart) setCart(JSON.parse(savedCart));
 
@@ -105,11 +155,31 @@ export function ShopProvider({ children }: { children: React.ReactNode }) {
   useEffect(() => {
     if (!isHydrated) return;
     try {
-      localStorage.setItem('koekeloer_custom_products_v3', JSON.stringify(productsList));
+      localStorage.setItem('koekeloer_custom_products_v4', JSON.stringify(productsList));
     } catch (e) {
       console.error('Error saving custom products', e);
     }
   }, [productsList, isHydrated]);
+
+  // Sync categories to localStorage
+  useEffect(() => {
+    if (!isHydrated) return;
+    try {
+      localStorage.setItem('koekeloer_custom_categories_v2', JSON.stringify(categoriesList));
+    } catch (e) {
+      console.error('Error saving custom categories', e);
+    }
+  }, [categoriesList, isHydrated]);
+
+  // Sync site content to localStorage
+  useEffect(() => {
+    if (!isHydrated) return;
+    try {
+      localStorage.setItem('koekeloer_site_content_v2', JSON.stringify(siteContentState));
+    } catch (e) {
+      console.error('Error saving site content', e);
+    }
+  }, [siteContentState, isHydrated]);
 
   // Sync cart & wishlist
   useEffect(() => {
@@ -143,7 +213,7 @@ export function ShopProvider({ children }: { children: React.ReactNode }) {
     }
   }, [activeCoupon, isHydrated]);
 
-  // Dynamic Product Management Operations
+  // Product Management Operations
   const addProduct = (product: Product) => {
     setProductsList((prev) => [product, ...prev]);
   };
@@ -156,7 +226,6 @@ export function ShopProvider({ children }: { children: React.ReactNode }) {
 
   const deleteProduct = (id: string) => {
     setProductsList((prev) => prev.filter((p) => p.id !== id));
-    // Also remove from cart and wishlist if present
     setCart((prev) => prev.filter((item) => item.product.id !== id));
     setWishlist((prev) => prev.filter((wId) => wId !== id));
   };
@@ -164,7 +233,79 @@ export function ShopProvider({ children }: { children: React.ReactNode }) {
   const resetProducts = () => {
     setProductsList(defaultProducts);
     try {
-      localStorage.removeItem('koekeloer_custom_products_v3');
+      localStorage.setItem('koekeloer_custom_products_v4', JSON.stringify(defaultProducts));
+    } catch (e) {
+      console.error(e);
+    }
+  };
+
+  // Category Management Operations
+  const addCategory = (category: Category) => {
+    setCategoriesList((prev) => [...prev, category]);
+  };
+
+  const updateCategory = (id: string, updated: Partial<Category>) => {
+    setCategoriesList((prev) =>
+      prev.map((c) => (c.id === id ? { ...c, ...updated } : c))
+    );
+  };
+
+  const deleteCategory = (id: string) => {
+    setCategoriesList((prev) => prev.filter((c) => c.id !== id));
+  };
+
+  const resetCategories = () => {
+    setCategoriesList(defaultCategories);
+    try {
+      localStorage.setItem('koekeloer_custom_categories_v2', JSON.stringify(defaultCategories));
+    } catch (e) {
+      console.error(e);
+    }
+  };
+
+  // Site Content Management Operations
+  const updateSiteContent = (updated: Partial<SiteContent>) => {
+    setSiteContentState((prev) => ({ ...prev, ...updated }));
+  };
+
+  const updateHeroSlide = (index: number, updatedSlide: Partial<HeroSlide>) => {
+    setSiteContentState((prev) => {
+      const slides = [...prev.heroSlides];
+      if (slides[index]) {
+        slides[index] = { ...slides[index], ...updatedSlide };
+      }
+      return { ...prev, heroSlides: slides };
+    });
+  };
+
+  const addHeroSlide = (slide: HeroSlide) => {
+    setSiteContentState((prev) => ({
+      ...prev,
+      heroSlides: [...prev.heroSlides, slide],
+    }));
+  };
+
+  const deleteHeroSlide = (index: number) => {
+    setSiteContentState((prev) => ({
+      ...prev,
+      heroSlides: prev.heroSlides.filter((_, i) => i !== index),
+    }));
+  };
+
+  const updateLookbookItem = (index: number, item: Partial<LookbookItem>) => {
+    setSiteContentState((prev) => {
+      const items = [...prev.lookbookItems];
+      if (items[index]) {
+        items[index] = { ...items[index], ...item };
+      }
+      return { ...prev, lookbookItems: items };
+    });
+  };
+
+  const resetSiteContent = () => {
+    setSiteContentState(defaultSiteContent);
+    try {
+      localStorage.setItem('koekeloer_site_content_v2', JSON.stringify(defaultSiteContent));
     } catch (e) {
       console.error(e);
     }
@@ -270,6 +411,18 @@ export function ShopProvider({ children }: { children: React.ReactNode }) {
         updateProduct,
         deleteProduct,
         resetProducts,
+        categories: categoriesList,
+        addCategory,
+        updateCategory,
+        deleteCategory,
+        resetCategories,
+        siteContent: siteContentState,
+        updateSiteContent,
+        updateHeroSlide,
+        addHeroSlide,
+        deleteHeroSlide,
+        updateLookbookItem,
+        resetSiteContent,
         cart,
         addToCart,
         removeFromCart,
