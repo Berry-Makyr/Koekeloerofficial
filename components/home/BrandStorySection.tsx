@@ -16,7 +16,7 @@ export default function BrandStorySection() {
               <div className="rounded-2xl overflow-hidden shadow-soft aspect-[4/5] bg-sand-200">
                 {/* eslint-disable-next-line @next/next/no-img-element */}
                 <img
-                  src="https://images.unsplash.com/photo-1583847268964-b28dc8f51f92?q=80&w=800&auto=format&fit=crop"
+                  src="/fb-images/606030198_24884683841210437_5271712182053158002_n.jpg"
                   alt="Koekeloer Gansbaai Store Display"
                   className="w-full h-full object-cover hover:scale-105 transition duration-500"
                 />
@@ -24,7 +24,7 @@ export default function BrandStorySection() {
               <div className="rounded-2xl overflow-hidden shadow-soft aspect-square bg-sand-200">
                 {/* eslint-disable-next-line @next/next/no-img-element */}
                 <img
-                  src="https://images.unsplash.com/photo-1543163521-1bf539c55dd2?q=80&w=800&auto=format&fit=crop"
+                  src="/fb-images/618282172_25073502085661944_8993232252802069912_n.jpg"
                   alt="Esthe Leather Shoes at Koekeloer"
                   className="w-full h-full object-cover hover:scale-105 transition duration-500"
                 />
@@ -35,7 +35,7 @@ export default function BrandStorySection() {
               <div className="rounded-2xl overflow-hidden shadow-soft aspect-square bg-sand-200">
                 {/* eslint-disable-next-line @next/next/no-img-element */}
                 <img
-                  src="https://images.unsplash.com/photo-1555041469-a586c61ea9bc?q=80&w=800&auto=format&fit=crop"
+                  src="/fb-images/616021815_25039359379076215_1756254157454596129_n.jpg"
                   alt="Bali Teak Furniture"
                   className="w-full h-full object-cover hover:scale-105 transition duration-500"
                 />
@@ -43,7 +43,7 @@ export default function BrandStorySection() {
               <div className="rounded-2xl overflow-hidden shadow-soft aspect-[4/5] bg-sand-200">
                 {/* eslint-disable-next-line @next/next/no-img-element */}
                 <img
-                  src="https://images.unsplash.com/photo-1496747611176-843222e1e57c?q=80&w=800&auto=format&fit=crop"
+                  src="/fb-images/615156136_25021772044168282_5150259627999386532_n.jpg"
                   alt="Koekeloer Boutique Resort Dress"
                   className="w-full h-full object-cover hover:scale-105 transition duration-500"
                 />

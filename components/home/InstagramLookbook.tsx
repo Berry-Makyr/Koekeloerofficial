@@ -2,43 +2,43 @@
 
 import React from 'react';
 import { FacebookIcon, InstagramIcon } from '@/components/common/SocialIcons';
-import { Heart, Eye } from 'lucide-react';
+import { Heart } from 'lucide-react';
 
 const lookbookImages = [
   {
     id: 1,
-    image: 'https://images.unsplash.com/photo-1583847268964-b28dc8f51f92?q=80&w=800&auto=format&fit=crop',
-    title: 'Gansbaai Store Interior',
+    image: '/fb-images/606030198_24884683841210437_5271712182053158002_n.jpg',
+    title: 'Gansbaai Winkel Vertoonlokaal',
     tag: '#KoekeloerGansbaai',
   },
   {
     id: 2,
-    image: 'https://images.unsplash.com/photo-1496747611176-843222e1e57c?q=80&w=800&auto=format&fit=crop',
-    title: 'Summer Indigo Dress Collection',
+    image: '/fb-images/615156136_25021772044168282_5150259627999386532_n.jpg',
+    title: 'Somer Linne Boetiekdrag',
     tag: '#BoutiqueStyle',
   },
   {
     id: 3,
-    image: 'https://images.unsplash.com/photo-1543163521-1bf539c55dd2?q=80&w=800&auto=format&fit=crop',
-    title: 'Esthé Handcrafted Leather Sandals',
+    image: '/fb-images/618282172_25073502085661944_8993232252802069912_n.jpg',
+    title: 'Esthé Handgemaakte Leerskoene',
     tag: '#EstheShoes',
   },
   {
     id: 4,
-    image: 'https://images.unsplash.com/photo-1618221195710-dd6b41faaea6?q=80&w=800&auto=format&fit=crop',
-    title: 'Marine Manila Rope Mirrors',
+    image: '/fb-images/481994294_8815936081845136_1726978424915024681_n.jpg',
+    title: 'Marine Tou & Dryfhout Spieëls',
     tag: '#CoastalLiving',
   },
   {
     id: 5,
-    image: 'https://images.unsplash.com/photo-1555041469-a586c61ea9bc?q=80&w=800&auto=format&fit=crop',
-    title: 'Solid Teak & Natural Cane Lounge',
+    image: '/fb-images/616021815_25039359379076215_1756254157454596129_n.jpg',
+    title: 'Bali Invoere & Teakhout Kaste',
     tag: '#BaliImports',
   },
   {
     id: 6,
-    image: 'https://images.unsplash.com/photo-1603006905003-be475563bc59?q=80&w=800&auto=format&fit=crop',
-    title: 'Fynbos & Atlantic Sea Salt Candles',
+    image: '/fb-images/508550909_9526457524126318_8639517097577902135_n.jpg',
+    title: 'Fynbos & Seebries Kerse & Geskenke',
     tag: '#GansbaaiGifts',
   },
 ];
@@ -51,13 +51,13 @@ export default function InstagramLookbook() {
         {/* Section Header */}
         <div className="text-center max-w-2xl mx-auto mb-12">
           <span className="text-xs uppercase tracking-[0.2em] font-semibold text-sand-600">
-            Social Lookbook & Inspiration
+            Sosiale Lookbook & Inspirasie
           </span>
           <h2 className="font-serif text-3xl sm:text-4xl font-bold text-driftwood-950 mt-1">
-            Follow @koekeloer.winkel
+            Volg @koekeloer.winkel
           </h2>
           <p className="text-xs sm:text-sm text-driftwood-600 mt-2">
-            Join thousands of coastal decor lovers across the Overberg & South Africa. Tag us in your home styling photos!
+            Sluit aan by duisende dekor- en mode-liefhebbers regoor die Overberg en Suid-Afrika.
           </p>
 
           <div className="flex items-center justify-center gap-3 mt-4">
@@ -68,7 +68,7 @@ export default function InstagramLookbook() {
               className="inline-flex items-center gap-2 bg-[#1877F2] hover:bg-[#166fe5] text-white text-xs font-semibold px-4 py-2 rounded-full shadow-sm transition"
             >
               <FacebookIcon className="w-3.5 h-3.5" />
-              <span>Follow on Facebook</span>
+              <span>Volg op Facebook</span>
             </a>
             <a
               href="https://www.instagram.com/"
@@ -77,7 +77,7 @@ export default function InstagramLookbook() {
               className="inline-flex items-center gap-2 bg-gradient-to-r from-[#833ab4] via-[#fd1d1d] to-[#fcb045] text-white text-xs font-semibold px-4 py-2 rounded-full shadow-sm transition"
             >
               <InstagramIcon className="w-3.5 h-3.5" />
-              <span>Follow on Instagram</span>
+              <span>Volg op Instagram</span>
             </a>
           </div>
         </div>

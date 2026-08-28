@@ -76,8 +76,15 @@ export function ShopProvider({ children }: { children: React.ReactNode }) {
       const savedProducts = localStorage.getItem('koekeloer_custom_products');
       if (savedProducts) {
         const parsed = JSON.parse(savedProducts);
-        if (Array.isArray(parsed) && parsed.length > 0) {
+        // If parsed products contain outdated unsplash URLs, refresh to new defaultProducts
+        const hasOutdatedUrls = Array.isArray(parsed) && parsed.some((p: Product) => 
+          p.images?.some(img => img.includes('unsplash.com'))
+        );
+        if (Array.isArray(parsed) && parsed.length > 0 && !hasOutdatedUrls) {
           setProductsList(parsed);
+        } else {
+          setProductsList(defaultProducts);
+          localStorage.setItem('koekeloer_custom_products', JSON.stringify(defaultProducts));
         }
       }
 

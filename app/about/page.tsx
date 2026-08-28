@@ -38,7 +38,7 @@ export default function AboutPage() {
         <div className="rounded-3xl overflow-hidden shadow-lift border border-sand-200 aspect-[16/9] sm:aspect-[21/9] bg-sand-200">
           {/* eslint-disable-next-line @next/next/no-img-element */}
           <img
-            src="https://images.unsplash.com/photo-1618221195710-dd6b41faaea6?q=80&w=1600&auto=format&fit=crop"
+            src="/fb-images/616021815_25039359379076215_1756254157454596129_n.jpg"
             alt="Koekeloer coastal decor aesthetic"
             className="w-full h-full object-cover"
           />

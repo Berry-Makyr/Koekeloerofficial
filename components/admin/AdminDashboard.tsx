@@ -11,73 +11,16 @@ import {
   Check, 
   X, 
   RotateCcw, 
-  Download, 
   Copy, 
   ExternalLink, 
-  Image as ImageIcon,
-  Eye,
-  SlidersHorizontal,
-  Package,
-  TrendingUp,
-  Tag,
+  Package, 
+  Tag, 
   Store
 } from 'lucide-react';
 import { useShop } from '@/context/ShopContext';
 import { Product } from '@/types';
 import { categories } from '@/data/categories';
 import { formatZAR, cn } from '@/lib/utils';
-
-// Real sample photos from Koekeloer's Facebook page ready for 1-click insertion
-export const FACEBOOK_PHOTO_PRESETS = [
-  {
-    title: 'Hand-Carved Balinese Credenza / Sideboard',
-    url: 'https://images.unsplash.com/photo-1538688525198-9b88f6f53126?q=80&w=1200&auto=format&fit=crop',
-    category: 'Coastal & Bali Furniture',
-    categorySlug: 'furniture',
-    price: 7800,
-    desc: 'Handgemaakte prag, ryk aan kultuur en tradisie. Hand-carved solid timber sideboard imported from artisan workshops in Bali.',
-  },
-  {
-    title: 'Bali Hand-Carved Teakwood Bed Headboard',
-    url: 'https://images.unsplash.com/photo-1555041469-a586c61ea9bc?q=80&w=1200&auto=format&fit=crop',
-    category: 'Coastal & Bali Furniture',
-    categorySlug: 'furniture',
-    price: 8900,
-    desc: 'Unieke erfstuk-gehalte handgesnede teakwood bedkopstuk. Eksklusief by Koekeloer Gansbaai & Struisbaai.',
-  },
-  {
-    title: 'Solid Plantation Timber Dining & Accent Table',
-    url: 'https://images.unsplash.com/photo-1586023492125-27b2c045efd7?q=80&w=1200&auto=format&fit=crop',
-    category: 'Coastal & Bali Furniture',
-    categorySlug: 'furniture',
-    price: 6200,
-    desc: 'Natuurlike soliede hout eetkamertafel en koffietafel met natuurlike wasafwerking.',
-  },
-  {
-    title: 'Artisan Macramé & Shell Wall Hanging',
-    url: 'https://images.unsplash.com/photo-1583847268964-b28dc8f51f92?q=80&w=1200&auto=format&fit=crop',
-    category: 'Home Décor & Accents',
-    categorySlug: 'decor',
-    price: 750,
-    desc: 'Handgemaakte macramé muurhangsel met natuurlike seeskulpies en dryfhout.',
-  },
-  {
-    title: 'Boutique Seaside Blue & White Linen Dress',
-    url: 'https://images.unsplash.com/photo-1496747611176-843222e1e57c?q=80&w=1200&auto=format&fit=crop',
-    category: 'Boutique Apparel & Dresses',
-    categorySlug: 'boutique-fashion',
-    price: 895,
-    desc: 'Pragtige blou en wit patroondress perfek vir daardie seaside chic styl.',
-  },
-  {
-    title: 'Esthé Handcrafted Genuine Leather Loafers',
-    url: 'https://images.unsplash.com/photo-1543163521-1bf539c55dd2?q=80&w=1200&auto=format&fit=crop',
-    category: 'Leather Shoes & Handbags',
-    categorySlug: 'shoes-leather',
-    price: 1150,
-    desc: 'Esthé egte leerskoene - waar gerief ontmoet tydlose styl. Vervaardig in Suid-Afrika.',
-  },
-];
 
 export default function AdminDashboard() {
   const { products, addProduct, updateProduct, deleteProduct, resetProducts } = useShop();
@@ -87,7 +30,6 @@ export default function AdminDashboard() {
   const [isModalOpen, setIsModalOpen] = useState(false);
   const [editingProduct, setEditingProduct] = useState<Product | null>(null);
   const [copiedCode, setCopiedCode] = useState(false);
-  const [showJsonExport, setShowJsonExport] = useState(false);
 
   // Form State
   const initialFormState: Omit<Product, 'id'> = {
@@ -101,13 +43,13 @@ export default function AdminDashboard() {
     reviewCount: 1,
     description: '',
     shortDescription: '',
-    features: ['Handcrafted quality', 'Available at Gansbaai store'],
+    features: ['Handgemaakte gehalte', 'Beskikbaar by Gansbaai vertoonlokaal'],
     dimensions: '',
     materials: '',
-    origin: 'Koekeloer Curated',
+    origin: 'Koekeloer Uitgesoek',
     stockStatus: 'in_stock',
     stockCount: 10,
-    images: ['https://images.unsplash.com/photo-1583847268964-b28dc8f51f92?q=80&w=1000&auto=format&fit=crop'],
+    images: ['/fb-images/606030198_24884683841210437_5271712182053158002_n.jpg'],
     badges: ['New'],
     tags: ['decor', 'gansbaai'],
     isFeatured: true,
@@ -170,27 +112,12 @@ export default function AdminDashboard() {
         id: newId,
         category: categoryObj?.name || formData.category,
         slug: generatedSlug || `product-${Date.now()}`,
-        images: cleanImages.length > 0 ? cleanImages : ['https://images.unsplash.com/photo-1583847268964-b28dc8f51f92?q=80&w=1000&auto=format&fit=crop'],
+        images: cleanImages.length > 0 ? cleanImages : ['/fb-images/606030198_24884683841210437_5271712182053158002_n.jpg'],
       };
       addProduct(newProduct);
     }
 
     setIsModalOpen(false);
-  };
-
-  const handleQuickInsertPreset = (preset: typeof FACEBOOK_PHOTO_PRESETS[0]) => {
-    setFormData((prev) => ({
-      ...prev,
-      name: preset.title,
-      category: preset.category,
-      categorySlug: preset.categorySlug,
-      price: preset.price,
-      description: preset.desc,
-      shortDescription: preset.desc,
-      images: [preset.url],
-      badges: ['Bali Import', 'New'],
-    }));
-    setImageUrlInput(preset.url);
   };
 
   const handleExportJSON = () => {
@@ -209,13 +136,13 @@ export default function AdminDashboard() {
           <div>
             <div className="flex items-center gap-2 text-xs uppercase tracking-widest font-semibold text-coastal-700 mb-1">
               <Store className="w-4 h-4 text-coastal-600" />
-              <span>Koekeloer Catalog Manager</span>
+              <span>Koekeloer Winkel Kataloog</span>
             </div>
             <h1 className="font-serif text-3xl sm:text-4xl font-bold text-driftwood-950">
-              Quick Listings & Product Manager
+              Kataloog & Produk Bestuurder
             </h1>
             <p className="text-xs sm:text-sm text-driftwood-600 mt-1">
-              Easily add, edit, or remove products and pictures from Facebook. Changes update the live store instantly.
+              Voeg nuwe produkte by, verwyder uitverkoopte items, of verander pryse en foto&apos;s vinnig en maklik.
             </p>
           </div>
 
@@ -226,7 +153,7 @@ export default function AdminDashboard() {
               className="px-4 py-2.5 bg-white hover:bg-sand-100 text-driftwood-800 text-xs font-semibold rounded-xl border border-sand-300 shadow-sm flex items-center gap-1.5 transition"
             >
               <ExternalLink className="w-3.5 h-3.5" />
-              <span>View Live Shop</span>
+              <span>Kyk na Winkel</span>
             </Link>
 
             <button
@@ -234,7 +161,7 @@ export default function AdminDashboard() {
               className="px-4 py-2.5 bg-white hover:bg-sand-100 text-driftwood-800 text-xs font-semibold rounded-xl border border-sand-300 shadow-sm flex items-center gap-1.5 transition"
             >
               {copiedCode ? <Check className="w-3.5 h-3.5 text-emerald-600" /> : <Copy className="w-3.5 h-3.5" />}
-              <span>{copiedCode ? 'Catalog Copied!' : 'Export Catalog JSON'}</span>
+              <span>{copiedCode ? 'Gekopieer!' : 'Kopieer Kataloog JSON'}</span>
             </button>
 
             <button
@@ -242,7 +169,7 @@ export default function AdminDashboard() {
               className="px-5 py-2.5 bg-coastal-800 hover:bg-coastal-900 text-white text-xs font-bold rounded-xl shadow-lift flex items-center gap-2 transition"
             >
               <Plus className="w-4 h-4" />
-              <span>Add New Listing</span>
+              <span>Voeg Nuwe Item By</span>
             </button>
           </div>
         </div>
@@ -251,7 +178,7 @@ export default function AdminDashboard() {
         <div className="grid grid-cols-2 sm:grid-cols-4 gap-4 mb-8">
           <div className="bg-white p-4 rounded-2xl border border-sand-200 shadow-soft">
             <div className="flex items-center justify-between text-driftwood-500 text-xs mb-1">
-              <span>Total Listings</span>
+              <span>Totale Lysings</span>
               <Package className="w-4 h-4 text-coastal-700" />
             </div>
             <span className="font-serif text-2xl font-bold text-driftwood-950">{products.length}</span>
@@ -259,7 +186,7 @@ export default function AdminDashboard() {
 
           <div className="bg-white p-4 rounded-2xl border border-sand-200 shadow-soft">
             <div className="flex items-center justify-between text-driftwood-500 text-xs mb-1">
-              <span>In Stock</span>
+              <span>In Voorraad</span>
               <Check className="w-4 h-4 text-emerald-600" />
             </div>
             <span className="font-serif text-2xl font-bold text-emerald-800">
@@ -269,7 +196,7 @@ export default function AdminDashboard() {
 
           <div className="bg-white p-4 rounded-2xl border border-sand-200 shadow-soft">
             <div className="flex items-center justify-between text-driftwood-500 text-xs mb-1">
-              <span>Featured on Homepage</span>
+              <span>Tuisblad Uitgesoek</span>
               <Sparkles className="w-4 h-4 text-amber-500" />
             </div>
             <span className="font-serif text-2xl font-bold text-amber-900">
@@ -279,61 +206,12 @@ export default function AdminDashboard() {
 
           <div className="bg-white p-4 rounded-2xl border border-sand-200 shadow-soft">
             <div className="flex items-center justify-between text-driftwood-500 text-xs mb-1">
-              <span>On Sale</span>
+              <span>Spesiale Aanbiedinge</span>
               <Tag className="w-4 h-4 text-terracotta-600" />
             </div>
             <span className="font-serif text-2xl font-bold text-terracotta-800">
               {products.filter((p) => p.isSale || p.originalPrice).length}
             </span>
-          </div>
-        </div>
-
-        {/* Quick Facebook Photo Insert Banner */}
-        <div className="bg-gradient-to-r from-coastal-900 to-driftwood-900 text-white rounded-3xl p-6 mb-8 shadow-soft space-y-4">
-          <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-3">
-            <div>
-              <span className="text-[10px] uppercase tracking-widest font-bold text-sand-300">
-                1-Click Quick Add
-              </span>
-              <h2 className="font-serif text-xl font-bold">
-                Add Items directly from Facebook Page
-              </h2>
-            </div>
-            <a
-              href="https://www.facebook.com/koekeloer.winkel/photos"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="text-xs text-sand-200 hover:text-white underline flex items-center gap-1"
-            >
-              <span>Open Facebook Photos Tab</span>
-              <ExternalLink className="w-3.5 h-3.5" />
-            </a>
-          </div>
-
-          <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-6 gap-3">
-            {FACEBOOK_PHOTO_PRESETS.map((preset, idx) => (
-              <div
-                key={idx}
-                onClick={() => {
-                  handleOpenAdd();
-                  handleQuickInsertPreset(preset);
-                }}
-                className="group cursor-pointer bg-white/10 hover:bg-white/20 rounded-xl p-2.5 border border-white/10 transition flex flex-col justify-between space-y-2"
-                title="Click to quickly create this listing"
-              >
-                <div className="aspect-square rounded-lg overflow-hidden bg-white/10">
-                  {/* eslint-disable-next-line @next/next/no-img-element */}
-                  <img src={preset.url} alt={preset.title} className="w-full h-full object-cover group-hover:scale-105 transition" />
-                </div>
-                <div>
-                  <p className="text-[11px] font-bold text-sand-100 truncate">{preset.title}</p>
-                  <p className="text-[10px] text-sand-300">{formatZAR(preset.price)}</p>
-                </div>
-                <button className="w-full text-[10px] bg-white/20 hover:bg-white/30 text-white py-1 rounded font-semibold transition">
-                  + Use Image
-                </button>
-              </div>
-            ))}
           </div>
         </div>
 
@@ -347,20 +225,20 @@ export default function AdminDashboard() {
               type="text"
               value={searchQuery}
               onChange={(e) => setSearchQuery(e.target.value)}
-              placeholder="Search listings by title..."
+              placeholder="Soek produkte volgens naam..."
               className="w-full bg-sand-50 border border-sand-300 rounded-xl pl-9 pr-4 py-2 text-xs text-driftwood-900 focus:outline-none focus:border-coastal-700"
             />
           </div>
 
           {/* Department Filter */}
           <div className="flex items-center gap-2">
-            <span className="text-xs text-driftwood-500">Filter Department:</span>
+            <span className="text-xs text-driftwood-500">Departement:</span>
             <select
               value={selectedCategoryFilter}
               onChange={(e) => setSelectedCategoryFilter(e.target.value)}
               className="bg-sand-50 border border-sand-300 text-driftwood-900 text-xs rounded-xl px-3 py-2 font-medium focus:outline-none focus:border-coastal-700"
             >
-              <option value="all">All Departments</option>
+              <option value="all">Alle Departemente</option>
               {categories.map((c) => (
                 <option key={c.id} value={c.slug}>{c.name}</option>
               ))}
@@ -370,37 +248,37 @@ export default function AdminDashboard() {
           {/* Reset button */}
           <button
             onClick={() => {
-              if (confirm('Reset catalog to default original listings? Any custom additions will be reverted.')) {
+              if (confirm('Herstel die produkte na die verstek lys? Enige nuwe items wat nie gestoor is nie sal herstel word.')) {
                 resetProducts();
               }
             }}
             className="text-xs text-driftwood-500 hover:text-terracotta-600 flex items-center gap-1 font-medium ml-auto"
           >
             <RotateCcw className="w-3.5 h-3.5" />
-            <span>Restore Defaults</span>
+            <span>Herstel Verstek Produkte</span>
           </button>
         </div>
 
-        {/* Listings Table / Cards */}
+        {/* Listings Table */}
         <div className="bg-white rounded-3xl overflow-hidden border border-sand-200 shadow-soft">
           <div className="overflow-x-auto">
             <table className="w-full text-left border-collapse">
               <thead>
                 <tr className="bg-sand-100/60 border-b border-sand-200 text-[11px] font-bold uppercase tracking-wider text-driftwood-600">
-                  <th className="p-4 pl-6">Product & Image</th>
-                  <th className="p-4">Department</th>
-                  <th className="p-4">Price (ZAR)</th>
-                  <th className="p-4">Stock Status</th>
-                  <th className="p-4 text-center">Featured</th>
-                  <th className="p-4 text-center">Sale</th>
-                  <th className="p-4 pr-6 text-right">Actions</th>
+                  <th className="p-4 pl-6">Produk & Foto</th>
+                  <th className="p-4">Departement</th>
+                  <th className="p-4">Prys (ZAR)</th>
+                  <th className="p-4">Voorraad</th>
+                  <th className="p-4 text-center">Tuisblad</th>
+                  <th className="p-4 text-center">Afslag</th>
+                  <th className="p-4 pr-6 text-right">Aksies</th>
                 </tr>
               </thead>
               <tbody className="divide-y divide-sand-100 text-xs">
                 {filteredProducts.length === 0 ? (
                   <tr>
                     <td colSpan={7} className="p-12 text-center text-driftwood-500">
-                      No listings match your search query.
+                      Geen produkte gevind nie.
                     </td>
                   </tr>
                 ) : (
@@ -464,7 +342,7 @@ export default function AdminDashboard() {
                               : "bg-red-50 text-red-800 border-red-300"
                           )}
                         >
-                          {p.stockStatus === 'in_stock' ? '✓ In Stock' : '✗ Out of Stock'}
+                          {p.stockStatus === 'in_stock' ? '✓ In Voorraad' : '✗ Uitverkoop'}
                         </button>
                       </td>
 
@@ -494,18 +372,18 @@ export default function AdminDashboard() {
                           <button
                             onClick={() => handleOpenEdit(p)}
                             className="p-2 rounded-lg text-driftwood-600 hover:text-coastal-800 hover:bg-sand-200 transition"
-                            title="Edit Listing"
+                            title="Wysig Produk"
                           >
                             <Edit3 className="w-4 h-4" />
                           </button>
                           <button
                             onClick={() => {
-                              if (confirm(`Are you sure you want to remove "${p.name}"?`)) {
+                              if (confirm(`Is jy seker jy wil "${p.name}" verwyder?`)) {
                                 deleteProduct(p.id);
                               }
                             }}
                             className="p-2 rounded-lg text-driftwood-400 hover:text-red-600 hover:bg-red-50 transition"
-                            title="Delete Listing"
+                            title="Verwyder Produk"
                           >
                             <Trash2 className="w-4 h-4" />
                           </button>
@@ -530,7 +408,7 @@ export default function AdminDashboard() {
             {/* Modal Header */}
             <div className="p-5 border-b border-sand-200 bg-sand-50 flex items-center justify-between">
               <h3 className="font-serif text-lg font-bold text-driftwood-950">
-                {editingProduct ? `Edit Listing: ${editingProduct.name}` : 'Create New Product Listing'}
+                {editingProduct ? `Wysig: ${editingProduct.name}` : 'Nuwe Produk Lysing'}
               </h3>
               <button
                 onClick={() => setIsModalOpen(false)}
@@ -544,11 +422,11 @@ export default function AdminDashboard() {
             <form onSubmit={handleSaveProduct} className="p-6 overflow-y-auto flex-1 space-y-4 text-xs">
               
               <div>
-                <label className="block font-semibold text-driftwood-800 mb-1">Product Title *</label>
+                <label className="block font-semibold text-driftwood-800 mb-1">Produk Naam *</label>
                 <input
                   type="text"
                   required
-                  placeholder="e.g. Bali Hand-Carved Teakwood Sideboard"
+                  placeholder="bv. Bali Handgesnede Teakhout Dressoir"
                   value={formData.name}
                   onChange={(e) => setFormData({ ...formData, name: e.target.value })}
                   className="w-full p-3 bg-sand-50 border border-sand-300 rounded-xl focus:border-coastal-700 focus:outline-none"
@@ -557,7 +435,7 @@ export default function AdminDashboard() {
 
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
                 <div>
-                  <label className="block font-semibold text-driftwood-800 mb-1">Department / Category *</label>
+                  <label className="block font-semibold text-driftwood-800 mb-1">Departement *</label>
                   <select
                     value={formData.categorySlug}
                     onChange={(e) => setFormData({ ...formData, categorySlug: e.target.value })}
@@ -570,12 +448,12 @@ export default function AdminDashboard() {
                 </div>
 
                 <div>
-                  <label className="block font-semibold text-driftwood-800 mb-1">Selling Price (ZAR) *</label>
+                  <label className="block font-semibold text-driftwood-800 mb-1">Prys (ZAR) *</label>
                   <input
                     type="number"
                     required
                     min="1"
-                    placeholder="e.g. 1450"
+                    placeholder="bv. 1450"
                     value={formData.price}
                     onChange={(e) => setFormData({ ...formData, price: Number(e.target.value) })}
                     className="w-full p-3 bg-sand-50 border border-sand-300 rounded-xl focus:border-coastal-700 focus:outline-none"
@@ -585,10 +463,10 @@ export default function AdminDashboard() {
 
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
                 <div>
-                  <label className="block font-semibold text-driftwood-800 mb-1">Original / Compare Price (Optional)</label>
+                  <label className="block font-semibold text-driftwood-800 mb-1">Oorspronklike Prys (Opsioneel vir afslag)</label>
                   <input
                     type="number"
-                    placeholder="e.g. 1850 (shows discount)"
+                    placeholder="bv. 1850"
                     value={formData.originalPrice || ''}
                     onChange={(e) => setFormData({ ...formData, originalPrice: e.target.value ? Number(e.target.value) : undefined })}
                     className="w-full p-3 bg-sand-50 border border-sand-300 rounded-xl focus:border-coastal-700 focus:outline-none"
@@ -596,10 +474,10 @@ export default function AdminDashboard() {
                 </div>
 
                 <div>
-                  <label className="block font-semibold text-driftwood-800 mb-1">Origin / Provenance</label>
+                  <label className="block font-semibold text-driftwood-800 mb-1">Oorsprong</label>
                   <input
                     type="text"
-                    placeholder="e.g. Handmade in Bali / Gansbaai Local"
+                    placeholder="bv. Handgemaak in Bali / Gansbaai"
                     value={formData.origin || ''}
                     onChange={(e) => setFormData({ ...formData, origin: e.target.value })}
                     className="w-full p-3 bg-sand-50 border border-sand-300 rounded-xl focus:border-coastal-700 focus:outline-none"
@@ -610,12 +488,12 @@ export default function AdminDashboard() {
               {/* Image URLs Input */}
               <div>
                 <label className="block font-semibold text-driftwood-800 mb-1">
-                  Image URLs (Paste Facebook photo link or web image URL, one per line) *
+                  Foto Skakel (/fb-images/... of web skakel) *
                 </label>
                 <textarea
                   required
-                  rows={3}
-                  placeholder="https://..."
+                  rows={2}
+                  placeholder="/fb-images/606030198_24884683841210437_5271712182053158002_n.jpg"
                   value={imageUrlInput}
                   onChange={(e) => setImageUrlInput(e.target.value)}
                   className="w-full p-3 bg-sand-50 border border-sand-300 rounded-xl focus:border-coastal-700 focus:outline-none font-mono text-[11px]"
@@ -629,23 +507,23 @@ export default function AdminDashboard() {
                     {/* eslint-disable-next-line @next/next/no-img-element */}
                     <img
                       src={imageUrlInput.split('\n')[0]?.trim()}
-                      alt="Preview"
+                      alt="Voorskou"
                       className="w-full h-full object-cover"
                     />
                   </div>
                   <div>
-                    <span className="font-semibold text-driftwood-900 block">Image Preview</span>
-                    <span className="text-[10px] text-emerald-700">Valid image link ready</span>
+                    <span className="font-semibold text-driftwood-900 block">Foto Voorskou</span>
+                    <span className="text-[10px] text-emerald-700">Foto suksesvol gelaai</span>
                   </div>
                 </div>
               )}
 
               <div>
-                <label className="block font-semibold text-driftwood-800 mb-1">Product Description *</label>
+                <label className="block font-semibold text-driftwood-800 mb-1">Beskrywing *</label>
                 <textarea
                   required
                   rows={3}
-                  placeholder="Describe dimensions, texture, artisan heritage..."
+                  placeholder="Beskryf die produk se materiaal, afmetings en styl..."
                   value={formData.description}
                   onChange={(e) => setFormData({ ...formData, description: e.target.value, shortDescription: e.target.value })}
                   className="w-full p-3 bg-sand-50 border border-sand-300 rounded-xl focus:border-coastal-700 focus:outline-none"
@@ -661,7 +539,7 @@ export default function AdminDashboard() {
                     onChange={(e) => setFormData({ ...formData, isFeatured: e.target.checked })}
                     className="accent-coastal-800"
                   />
-                  <span className="font-semibold text-driftwood-800">Featured Home</span>
+                  <span className="font-semibold text-driftwood-800">Tuisblad Uitgesoek</span>
                 </label>
 
                 <label className="flex items-center gap-2 p-3 bg-sand-50 rounded-xl border border-sand-200 cursor-pointer">
@@ -671,7 +549,7 @@ export default function AdminDashboard() {
                     onChange={(e) => setFormData({ ...formData, isNewArrival: e.target.checked })}
                     className="accent-sage-700"
                   />
-                  <span className="font-semibold text-driftwood-800">New Arrival</span>
+                  <span className="font-semibold text-driftwood-800">Nuut Aangekom</span>
                 </label>
 
                 <label className="flex items-center gap-2 p-3 bg-sand-50 rounded-xl border border-sand-200 cursor-pointer">
@@ -681,7 +559,7 @@ export default function AdminDashboard() {
                     onChange={(e) => setFormData({ ...formData, isSale: e.target.checked })}
                     className="accent-terracotta-600"
                   />
-                  <span className="font-semibold text-driftwood-800">On Sale</span>
+                  <span className="font-semibold text-driftwood-800">Spesiale Aanbod</span>
                 </label>
               </div>
 
@@ -692,13 +570,13 @@ export default function AdminDashboard() {
                   onClick={() => setIsModalOpen(false)}
                   className="px-5 py-2.5 rounded-xl border border-sand-300 text-driftwood-700 font-semibold hover:bg-sand-100"
                 >
-                  Cancel
+                  Kanselleer
                 </button>
                 <button
                   type="submit"
                   className="px-6 py-2.5 rounded-xl bg-coastal-800 hover:bg-coastal-900 text-white font-bold shadow-sm"
                 >
-                  {editingProduct ? 'Update Listing' : 'Save & Publish Listing'}
+                  {editingProduct ? 'Stoor Wysigings' : 'Publiseer Produk'}
                 </button>
               </div>
 
