@@ -11,7 +11,7 @@ import { formatZAR } from '@/lib/utils';
 
 export default function SearchDialog() {
   const router = useRouter();
-  const { isSearchOpen, setIsSearchOpen } = useShop();
+  const { isSearchOpen, setIsSearchOpen, products } = useShop();
   const [query, setQuery] = useState('');
   const inputRef = useRef<HTMLInputElement>(null);
 

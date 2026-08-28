@@ -21,6 +21,14 @@ const nextConfig = {
         protocol: 'https',
         hostname: 'beachsand.co.za',
       },
+      {
+        protocol: 'https',
+        hostname: '**.fbcdn.net',
+      },
+      {
+        protocol: 'https',
+        hostname: '**.facebook.com',
+      },
     ],
   },
   webpack: (config) => {

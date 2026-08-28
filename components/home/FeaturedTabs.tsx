@@ -3,13 +3,14 @@
 import React, { useState } from 'react';
 import Link from 'next/link';
 import { Sparkles, ArrowRight } from 'lucide-react';
-import { products } from '@/data/products';
+import { useShop } from '@/context/ShopContext';
 import ProductCard from '@/components/product/ProductCard';
 import { cn } from '@/lib/utils';
 
 type TabType = 'all' | 'best-sellers' | 'new-arrivals' | 'bali' | 'sale';
 
 export default function FeaturedTabs() {
+  const { products } = useShop();
   const [activeTab, setActiveTab] = useState<TabType>('all');
 
   const filteredProducts = products.filter((p) => {

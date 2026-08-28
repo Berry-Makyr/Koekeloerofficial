@@ -185,6 +185,19 @@ export default function Header() {
             >
               Contact
             </Link>
+
+            <Link 
+              href="/admin" 
+              className={cn(
+                "px-2.5 py-1 rounded-lg text-xs font-semibold border transition flex items-center gap-1",
+                pathname === '/admin' 
+                  ? "bg-coastal-800 text-white border-coastal-800"
+                  : "bg-sand-100 text-driftwood-700 border-sand-300/80 hover:bg-sand-200"
+              )}
+            >
+              <Sparkles className="w-3 h-3 text-sand-500" />
+              <span>Admin / Listings</span>
+            </Link>
           </nav>
 
           {/* Right Action Icons */}
@@ -292,6 +305,12 @@ export default function Header() {
               className="block px-3 py-2 rounded-md text-base font-medium text-driftwood-900 hover:bg-sand-100"
             >
               Contact Us
+            </Link>
+            <Link
+              href="/admin"
+              className="block px-3 py-2 rounded-md text-base font-semibold text-coastal-800 bg-sand-100/70 hover:bg-sand-200"
+            >
+              ✨ Manage Listings (Admin)
             </Link>
           </div>
 

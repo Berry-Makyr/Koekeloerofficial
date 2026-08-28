@@ -3,8 +3,17 @@
 import React, { createContext, useContext, useState, useEffect, useMemo } from 'react';
 import { Product, CartItem } from '@/types';
 import { FREE_SHIPPING_THRESHOLD, COUPON_CODES } from '@/lib/utils';
+import { products as defaultProducts } from '@/data/products';
 
 interface ShopContextType {
+  // Products Management
+  products: Product[];
+  addProduct: (product: Product) => void;
+  updateProduct: (id: string, updated: Partial<Product>) => void;
+  deleteProduct: (id: string) => void;
+  resetProducts: () => void;
+
+  // Cart
   cart: CartItem[];
   addToCart: (product: Product, quantity?: number, selectedVariant?: Record<string, string>) => void;
   removeFromCart: (productId: string, variantKey?: string) => void;
@@ -51,6 +60,7 @@ function getVariantKey(variants?: Record<string, string>): string {
 }
 
 export function ShopProvider({ children }: { children: React.ReactNode }) {
+  const [productsList, setProductsList] = useState<Product[]>(defaultProducts);
   const [cart, setCart] = useState<CartItem[]>([]);
   const [wishlist, setWishlist] = useState<string[]>([]);
   const [isCartOpen, setIsCartOpen] = useState(false);
@@ -63,6 +73,14 @@ export function ShopProvider({ children }: { children: React.ReactNode }) {
   // Hydrate from localStorage
   useEffect(() => {
     try {
+      const savedProducts = localStorage.getItem('koekeloer_custom_products');
+      if (savedProducts) {
+        const parsed = JSON.parse(savedProducts);
+        if (Array.isArray(parsed) && parsed.length > 0) {
+          setProductsList(parsed);
+        }
+      }
+
       const savedCart = localStorage.getItem('koekeloer_cart');
       if (savedCart) setCart(JSON.parse(savedCart));
 
@@ -77,7 +95,17 @@ export function ShopProvider({ children }: { children: React.ReactNode }) {
     setIsHydrated(true);
   }, []);
 
-  // Sync to localStorage
+  // Sync products to localStorage
+  useEffect(() => {
+    if (!isHydrated) return;
+    try {
+      localStorage.setItem('koekeloer_custom_products', JSON.stringify(productsList));
+    } catch (e) {
+      console.error('Error saving custom products', e);
+    }
+  }, [productsList, isHydrated]);
+
+  // Sync cart & wishlist
   useEffect(() => {
     if (!isHydrated) return;
     try {
@@ -108,6 +136,33 @@ export function ShopProvider({ children }: { children: React.ReactNode }) {
       console.error('Error saving coupon', e);
     }
   }, [activeCoupon, isHydrated]);
+
+  // Dynamic Product Management Operations
+  const addProduct = (product: Product) => {
+    setProductsList((prev) => [product, ...prev]);
+  };
+
+  const updateProduct = (id: string, updated: Partial<Product>) => {
+    setProductsList((prev) =>
+      prev.map((p) => (p.id === id ? { ...p, ...updated } : p))
+    );
+  };
+
+  const deleteProduct = (id: string) => {
+    setProductsList((prev) => prev.filter((p) => p.id !== id));
+    // Also remove from cart and wishlist if present
+    setCart((prev) => prev.filter((item) => item.product.id !== id));
+    setWishlist((prev) => prev.filter((wId) => wId !== id));
+  };
+
+  const resetProducts = () => {
+    setProductsList(defaultProducts);
+    try {
+      localStorage.removeItem('koekeloer_custom_products');
+    } catch (e) {
+      console.error(e);
+    }
+  };
 
   const addToCart = (product: Product, quantity = 1, selectedVariant?: Record<string, string>) => {
     const variantKey = getVariantKey(selectedVariant);
@@ -204,6 +259,11 @@ export function ShopProvider({ children }: { children: React.ReactNode }) {
   return (
     <ShopContext.Provider
       value={{
+        products: productsList,
+        addProduct,
+        updateProduct,
+        deleteProduct,
+        resetProducts,
         cart,
         addToCart,
         removeFromCart,

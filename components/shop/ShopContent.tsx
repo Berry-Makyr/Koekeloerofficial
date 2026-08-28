@@ -22,7 +22,7 @@ import { formatZAR, cn } from '@/lib/utils';
 export default function ShopContent() {
   const router = useRouter();
   const searchParams = useSearchParams();
-  const { wishlist } = useShop();
+  const { wishlist, products } = useShop();
 
   // Read initial query params
   const categoryParam = searchParams.get('category') || 'all';

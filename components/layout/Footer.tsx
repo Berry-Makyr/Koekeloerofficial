@@ -203,6 +203,11 @@ export default function Footer() {
                 </Link>
               </li>
               <li>
+                <Link href="/admin" className="hover:text-white transition text-sand-300 font-medium">
+                  Catalog Manager & Listings (Admin)
+                </Link>
+              </li>
+              <li>
                 <a 
                   href="https://wa.me/27787030250" 
                   target="_blank" 
