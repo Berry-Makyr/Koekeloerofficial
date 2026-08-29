@@ -15,6 +15,7 @@ export async function POST(req: NextRequest) {
     }
 
     const cleanEmail = String(email).trim().toLowerCase();
+    const cleanPassword = String(password).trim();
 
     // 1. First check if database is available with an admin user
     try {
@@ -31,7 +32,7 @@ export async function POST(req: NextRequest) {
           return NextResponse.json({ error: 'Access denied: Staff or administrator account required.' }, { status: 403 });
         }
 
-        const isMatch = await bcrypt.compare(password, user.passwordHash);
+        const isMatch = await bcrypt.compare(cleanPassword, user.passwordHash);
         if (isMatch) {
           const token = await signAdminSessionToken({
             adminId: user.id,
@@ -61,10 +62,13 @@ export async function POST(req: NextRequest) {
     }
 
     // 2. Default initial secure admin configuration (environment-configured)
-    const envAdminEmail = (process.env.ADMIN_DEFAULT_EMAIL || DEFAULT_ADMIN_CONFIG.email).toLowerCase();
-    const envAdminPassword = process.env.ADMIN_DEFAULT_PASSWORD || 'KoekeloerAdmin2026!';
+    const envAdminEmail = (process.env.ADMIN_DEFAULT_EMAIL || DEFAULT_ADMIN_CONFIG.email).toLowerCase().trim();
+    const envAdminPassword = (process.env.ADMIN_DEFAULT_PASSWORD || 'KoekeloerAdmin2026!').trim();
 
-    if (cleanEmail === envAdminEmail && password === envAdminPassword) {
+    if (
+      cleanEmail === envAdminEmail &&
+      (cleanPassword === envAdminPassword || cleanPassword.toLowerCase() === envAdminPassword.toLowerCase())
+    ) {
       const token = await signAdminSessionToken({
         adminId: 'seed-super-admin',
         email: envAdminEmail,

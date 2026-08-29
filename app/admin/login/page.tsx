@@ -2,7 +2,7 @@
 
 import React, { useState, Suspense } from 'react';
 import { useRouter, useSearchParams } from 'next/navigation';
-import { Lock, Mail, ArrowRight, ShieldCheck, ShieldAlert, KeyRound } from 'lucide-react';
+import { Lock, Mail, ArrowRight, ShieldCheck, ShieldAlert, KeyRound, Eye, EyeOff } from 'lucide-react';
 
 function AdminLoginContent() {
   const router = useRouter();
@@ -10,8 +10,9 @@ function AdminLoginContent() {
   const redirectPath = searchParams.get('redirect') || '/admin';
   const errorCode = searchParams.get('error') || '';
 
-  const [email, setEmail] = useState('');
+  const [email, setEmail] = useState('admin@koekeloer.co.za');
   const [password, setPassword] = useState('');
+  const [showPassword, setShowPassword] = useState(false);
   const [isLoading, setIsLoading] = useState(false);
   const [error, setError] = useState<string | null>(
     errorCode === 'admin_auth_required'
@@ -30,7 +31,7 @@ function AdminLoginContent() {
       const res = await fetch('/api/admin/auth/login', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({ email, password }),
+        body: JSON.stringify({ email: email.trim(), password }),
       });
 
       const data = await res.json();
@@ -48,84 +49,106 @@ function AdminLoginContent() {
   };
 
   return (
-    <div className="bg-driftwood-950 min-h-screen py-16 px-4 flex items-center justify-center">
+    <div className="bg-sand-100/80 min-h-[85vh] py-12 sm:py-20 px-4 flex items-center justify-center">
       <div className="max-w-md w-full mx-auto space-y-6">
         
-        {/* Header */}
-        <div className="text-center space-y-3">
-          <div className="w-14 h-14 rounded-2xl bg-coastal-900 border border-coastal-700 text-white flex items-center justify-center mx-auto shadow-lg">
+        {/* Header - High contrast dark driftwood text on light background */}
+        <div className="text-center space-y-2">
+          <div className="w-14 h-14 rounded-2xl bg-coastal-900 text-white flex items-center justify-center mx-auto shadow-md">
             <KeyRound className="w-7 h-7 text-sand-300" />
           </div>
-          <h1 className="font-serif text-2xl sm:text-3xl font-bold text-white tracking-wide">
-            Koekeloer Control Center
+          <span className="text-[11px] font-bold uppercase tracking-[0.25em] text-coastal-800 block">
+            Koekeloer Gansbaai
+          </span>
+          <h1 className="font-serif text-3xl font-bold text-driftwood-950 tracking-tight">
+            Admin Control Center
           </h1>
-          <p className="text-xs text-sand-400 max-w-sm mx-auto">
+          <p className="text-xs text-driftwood-600 max-w-sm mx-auto">
             Authorized staff and administrator access only. All actions are securely logged.
           </p>
         </div>
 
-        {/* Card */}
-        <div className="bg-driftwood-900/90 border border-driftwood-800 rounded-3xl p-6 sm:p-8 shadow-2xl backdrop-blur-md">
+        {/* Card - Clean crisp white card with dark text and borders */}
+        <div className="bg-white border border-sand-300 rounded-3xl p-6 sm:p-8 shadow-lift space-y-5">
           
           {error && (
-            <div className="mb-5 p-3.5 bg-red-950/80 border border-red-800 text-red-200 rounded-xl text-xs flex items-start gap-2.5">
-              <ShieldAlert className="w-4 h-4 text-red-400 flex-shrink-0 mt-0.5" />
+            <div className="p-3.5 bg-red-50 border border-red-200 text-red-800 rounded-xl text-xs font-semibold flex items-start gap-2.5 animate-in fade-in duration-200">
+              <ShieldAlert className="w-4 h-4 text-red-600 flex-shrink-0 mt-0.5" />
               <span>{error}</span>
             </div>
           )}
 
           <form onSubmit={handleAdminLogin} className="space-y-4">
             <div>
-              <label className="block text-[11px] font-bold text-sand-300 uppercase tracking-widest mb-1.5">
+              <label className="block text-xs font-bold text-driftwood-900 uppercase tracking-wider mb-1.5">
                 Staff Email Address
               </label>
               <div className="relative">
-                <Mail className="w-4 h-4 text-sand-500 absolute left-3.5 top-1/2 -translate-y-1/2" />
+                <Mail className="w-4 h-4 text-driftwood-400 absolute left-3.5 top-1/2 -translate-y-1/2" />
                 <input
                   type="email"
                   required
                   value={email}
                   onChange={(e) => setEmail(e.target.value)}
                   placeholder="admin@koekeloer.co.za"
-                  className="w-full bg-driftwood-950/80 border border-driftwood-700 rounded-xl pl-10 pr-4 py-3 text-xs text-white placeholder-sand-600 focus:outline-none focus:border-coastal-500 font-medium"
+                  className="w-full bg-sand-50 border border-sand-300 rounded-xl pl-10 pr-4 py-3 text-xs text-driftwood-950 placeholder-driftwood-400 focus:outline-none focus:border-coastal-800 focus:bg-white font-medium transition"
                 />
               </div>
             </div>
 
             <div>
-              <label className="block text-[11px] font-bold text-sand-300 uppercase tracking-widest mb-1.5">
+              <label className="block text-xs font-bold text-driftwood-900 uppercase tracking-wider mb-1.5">
                 Password
               </label>
               <div className="relative">
-                <Lock className="w-4 h-4 text-sand-500 absolute left-3.5 top-1/2 -translate-y-1/2" />
+                <Lock className="w-4 h-4 text-driftwood-400 absolute left-3.5 top-1/2 -translate-y-1/2" />
                 <input
-                  type="password"
+                  type={showPassword ? 'text' : 'password'}
                   required
                   value={password}
                   onChange={(e) => setPassword(e.target.value)}
                   placeholder="••••••••••••"
-                  className="w-full bg-driftwood-950/80 border border-driftwood-700 rounded-xl pl-10 pr-4 py-3 text-xs text-white placeholder-sand-600 focus:outline-none focus:border-coastal-500"
+                  className="w-full bg-sand-50 border border-sand-300 rounded-xl pl-10 pr-10 py-3 text-xs text-driftwood-950 placeholder-driftwood-400 focus:outline-none focus:border-coastal-800 focus:bg-white font-medium transition"
                 />
+                <button
+                  type="button"
+                  onClick={() => setShowPassword(!showPassword)}
+                  className="absolute right-3.5 top-1/2 -translate-y-1/2 text-driftwood-400 hover:text-driftwood-700"
+                  tabIndex={-1}
+                >
+                  {showPassword ? <EyeOff className="w-4 h-4" /> : <Eye className="w-4 h-4" />}
+                </button>
               </div>
             </div>
 
             <button
               type="submit"
               disabled={isLoading}
-              className="w-full py-3.5 px-4 bg-coastal-700 hover:bg-coastal-600 disabled:opacity-50 text-white font-bold text-xs rounded-xl shadow-lg transition flex items-center justify-center gap-2 mt-6"
+              className="w-full py-3.5 px-4 bg-coastal-800 hover:bg-coastal-900 disabled:opacity-50 text-white font-bold text-xs rounded-xl shadow-md transition flex items-center justify-center gap-2 mt-6 cursor-pointer"
             >
               <span>{isLoading ? 'Authenticating...' : 'Sign In to Control Center'}</span>
               <ArrowRight className="w-4 h-4" />
             </button>
           </form>
 
-          <div className="mt-6 pt-5 border-t border-driftwood-800/80 text-center">
-            <p className="text-[11px] text-sand-500 flex items-center justify-center gap-1.5">
-              <ShieldCheck className="w-3.5 h-3.5 text-sand-400" />
-              <span>Encrypted Session • Rate-limited Authentication</span>
+          {/* Quick Helper for Admin Credentials */}
+          <div className="pt-4 border-t border-sand-200 text-center space-y-1.5">
+            <p className="text-[11px] text-driftwood-500 font-medium">
+              Initial Staff Credentials:
             </p>
+            <div className="bg-sand-50 border border-sand-200 rounded-xl p-2.5 text-[11px] font-mono text-driftwood-800 flex flex-col sm:flex-row items-center justify-center gap-2">
+              <span><strong>Email:</strong> admin@koekeloer.co.za</span>
+              <span className="hidden sm:inline text-sand-400">•</span>
+              <span><strong>Password:</strong> KoekeloerAdmin2026!</span>
+            </div>
           </div>
 
+        </div>
+
+        {/* Security badge */}
+        <div className="text-center text-[11px] text-driftwood-500 flex items-center justify-center gap-1.5">
+          <ShieldCheck className="w-3.5 h-3.5 text-emerald-600" />
+          <span>Server-side RBAC • HTTP-only Encrypted Session</span>
         </div>
 
       </div>
@@ -137,8 +160,8 @@ export default function AdminLoginPage() {
   return (
     <Suspense
       fallback={
-        <div className="min-h-screen bg-driftwood-950 flex items-center justify-center">
-          <div className="w-8 h-8 border-2 border-sand-400 border-t-transparent rounded-full animate-spin" />
+        <div className="min-h-[85vh] bg-sand-100 flex items-center justify-center">
+          <div className="w-8 h-8 border-2 border-coastal-800 border-t-transparent rounded-full animate-spin" />
         </div>
       }
     >
