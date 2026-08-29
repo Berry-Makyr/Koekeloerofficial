@@ -22,7 +22,7 @@ export default function CategoryGrid() {
           </h2>
           <div className="w-16 h-0.5 bg-coastal-600 mx-auto mt-4 mb-4" />
           <p className="text-sm sm:text-base text-driftwood-600 leading-relaxed">
-            From the warmth of sea-washed driftwood and hand-carved Bali stone to genuine South African leather and resort wear.
+            From handcrafted solid wood furniture and coastal décor to genuine South African leather and boutique resort wear.
           </p>
         </div>
 

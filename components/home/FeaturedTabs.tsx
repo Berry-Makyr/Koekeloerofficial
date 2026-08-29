@@ -7,7 +7,7 @@ import { useShop } from '@/context/ShopContext';
 import ProductCard from '@/components/product/ProductCard';
 import { cn } from '@/lib/utils';
 
-type TabType = 'all' | 'best-sellers' | 'new-arrivals' | 'bali' | 'sale';
+type TabType = 'all' | 'best-sellers' | 'new-arrivals' | 'furniture' | 'sale';
 
 export default function FeaturedTabs() {
   const { products } = useShop();
@@ -15,9 +15,9 @@ export default function FeaturedTabs() {
 
   const filteredProducts = products.filter((p) => {
     if (activeTab === 'all') return true;
-    if (activeTab === 'best-sellers') return p.badges?.includes('Best Seller');
+    if (activeTab === 'best-sellers') return p.badges?.includes('Best Seller') || p.isFeatured;
     if (activeTab === 'new-arrivals') return p.isNewArrival;
-    if (activeTab === 'bali') return p.badges?.includes('Bali Import') || p.tags.includes('bali');
+    if (activeTab === 'furniture') return p.categorySlug === 'furniture';
     if (activeTab === 'sale') return p.isSale || (p.originalPrice && p.originalPrice > p.price);
     return true;
   });
@@ -26,8 +26,8 @@ export default function FeaturedTabs() {
     { id: 'all', label: 'All Highlights' },
     { id: 'best-sellers', label: 'Best Sellers' },
     { id: 'new-arrivals', label: 'New Arrivals' },
-    { id: 'bali', label: 'Bali Direct Imports' },
-    { id: 'sale', label: 'Winter Sale Deals' },
+    { id: 'furniture', label: 'Signature Furniture' },
+    { id: 'sale', label: 'Special Offers' },
   ];
 
   return (
@@ -83,7 +83,7 @@ export default function FeaturedTabs() {
               New Coastal Arrivals Coming Soon
             </h3>
             <p className="text-xs text-driftwood-600 leading-relaxed">
-              We are currently updating our online catalog with fresh coastal homeware, Bali teak furniture, and boutique fashion. Visit our showrooms at Great White Junction or browse all collections.
+              We are currently updating our online catalog with fresh coastal homeware, solid wood furniture, and boutique fashion. Visit our store at Shop 2, Great White Junction or browse all collections.
             </p>
             <div className="pt-2 flex items-center justify-center gap-3">
               <Link

@@ -94,7 +94,7 @@ export default function ProductCard({ product }: ProductCardProps) {
               className={cn(
                 "px-2.5 py-1 rounded-md text-[10px] font-bold uppercase tracking-wider shadow-sm",
                 badge === 'Sale' ? 'bg-terracotta-600 text-white' :
-                badge === 'Bali Import' ? 'bg-coastal-900 text-sand-100' :
+                badge === 'Handmade' ? 'bg-coastal-900 text-sand-100' :
                 badge === 'New' ? 'bg-sage-700 text-white' :
                 badge === 'Best Seller' ? 'bg-amber-600 text-white' : 'bg-driftwood-800 text-white'
               )}

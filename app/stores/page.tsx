@@ -30,7 +30,7 @@ export default function StoresPage() {
             Our Store in Gansbaai
           </h1>
           <p className="text-xs sm:text-sm text-driftwood-600 max-w-2xl mx-auto leading-relaxed">
-            Come browse in person at Great White Junction (Shop 2), explore our hand-carved Bali teak furniture, artisan coastal gifts, Savoy comfort sandals, and meet our warm team.
+            Come browse in person at Great White Junction (Shop 2), explore our solid wood furniture, artisan coastal gifts, Savoy &amp; Julz footwear, and meet our warm team.
           </p>
         </div>
 

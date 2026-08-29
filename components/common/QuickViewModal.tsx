@@ -94,7 +94,7 @@ export default function QuickViewModal() {
                     className={cn(
                       "px-2.5 py-1 rounded-md text-[10px] font-bold uppercase tracking-wider shadow-sm",
                       b === 'Sale' ? 'bg-terracotta-600 text-white' :
-                      b === 'Bali Import' ? 'bg-coastal-800 text-sand-100' :
+                      b === 'Handmade' ? 'bg-coastal-800 text-sand-100' :
                       b === 'New' ? 'bg-sage-700 text-white' : 'bg-driftwood-800 text-white'
                     )}
                   >

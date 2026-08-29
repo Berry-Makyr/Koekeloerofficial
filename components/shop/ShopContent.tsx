@@ -132,7 +132,7 @@ export default function ShopContent() {
               <p className="text-xs sm:text-sm text-driftwood-600 mt-2 max-w-2xl">
                 {selectedCategory !== 'all'
                   ? categories.find(c => c.slug === selectedCategory)?.description
-                  : 'Browse our signature assortment of coastal home accessories, imported Bali furniture, and boutique apparel.'}
+                  : 'Browse our signature assortment of coastal home accessories, handcrafted furniture, and boutique apparel.'}
               </p>
             </div>
 
@@ -200,15 +200,15 @@ export default function ShopContent() {
               New In
             </button>
             <button
-              onClick={() => setSelectedBadge(selectedBadge === 'Bali Import' ? 'all' : 'Bali Import')}
+              onClick={() => setSelectedBadge(selectedBadge === 'Handmade' ? 'all' : 'Handmade')}
               className={cn(
                 "px-3 py-1.5 rounded-lg text-xs font-medium border transition",
-                selectedBadge === 'Bali Import'
+                selectedBadge === 'Handmade'
                   ? "bg-coastal-900 text-white border-coastal-900"
                   : "bg-sand-50 text-driftwood-700 border-sand-200 hover:bg-sand-100"
               )}
             >
-              Bali Imports
+              Handcrafted
             </button>
           </div>
 
@@ -385,7 +385,7 @@ export default function ShopContent() {
                 Origin & Specialty
               </h3>
               <div className="space-y-2 text-xs">
-                {['Bali Import', 'Handmade', 'Best Seller', 'New', 'Sale'].map((badge) => (
+                {['Handmade', 'Best Seller', 'New', 'Sale'].map((badge) => (
                   <label key={badge} className="flex items-center gap-2 cursor-pointer text-driftwood-700 hover:text-driftwood-950">
                     <input
                       type="radio"

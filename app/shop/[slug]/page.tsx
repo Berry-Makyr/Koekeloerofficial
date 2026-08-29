@@ -15,7 +15,7 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
   if (!product) {
     return {
       title: 'Product Details | Koekeloer Gansbaai',
-      description: 'Explore custom artisan coastal decor, Bali teak furniture, and boutique fashion at Koekeloer Gansbaai.',
+      description: 'Explore custom artisan coastal decor, handcrafted furniture, and boutique fashion at Koekeloer Gansbaai.',
     };
   }
 

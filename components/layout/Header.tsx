@@ -139,7 +139,7 @@ export default function Header() {
                   <div className="col-span-2 bg-sand-100/60 p-3 rounded-lg flex items-center justify-between text-xs text-driftwood-700">
                     <div className="flex items-center gap-2">
                       <Sparkles className="w-4 h-4 text-terracotta-500" />
-                      <span>Direct Imports from Bali & local handcrafted pieces</span>
+                      <span>Handpicked artisan home & boutique collections</span>
                     </div>
                     <Link href="/shop?filter=sale" className="font-semibold text-terracotta-600 hover:underline">
                       View Sale Items

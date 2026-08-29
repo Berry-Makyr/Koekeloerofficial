@@ -3,7 +3,7 @@ import ShopContent from '@/components/shop/ShopContent';
 
 export const metadata = {
   title: 'Shop All Collections | Koekeloer Gansbaai',
-  description: 'Explore coastal home decor, Bali teak furniture, artisan lighting, nautical gifts, and boutique ladies fashion at Koekeloer Gansbaai.',
+  description: 'Explore coastal home decor, handcrafted furniture, artisan lighting, nautical gifts, and boutique ladies fashion at Koekeloer Gansbaai.',
 };
 
 export default function ShopPage() {

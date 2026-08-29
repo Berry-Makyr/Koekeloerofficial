@@ -46,7 +46,7 @@ export default function AboutPage() {
           
           <div className="prose prose-sand max-w-none text-xs sm:text-sm text-driftwood-700 space-y-4 leading-relaxed">
             <h2 className="font-serif text-2xl sm:text-3xl font-bold text-driftwood-950 not-prose mb-4">
-              40 Years of Retail Passion & Direct Global Imports
+              40 Years of Retail Mastery & Curated Lifestyle Collections
             </h2>
             
             <p>
@@ -54,7 +54,7 @@ export default function AboutPage() {
             </p>
 
             <p>
-              Founder <strong>Nelia Koekemoer</strong> brings more than forty years of invaluable retail mastery and passion. Over the last decade, we have established our own direct import relationships with skilled master artisans in Bali and India, enabling us to bring our customers the largest, most authentic, and uniquely crafted collections.
+              Founder <strong>Nelia Koekemoer</strong> brings more than forty years of invaluable retail mastery and passion. Connected to leading suppliers and specialized artisans, she curates fresh and exciting local and imported collections that give customers a shopping experience they won&apos;t find anywhere else.
             </p>
 
             <blockquote className="p-4 sm:p-6 bg-sand-50 rounded-2xl border-l-4 border-coastal-700 my-6 not-italic font-serif text-sm sm:text-base text-driftwood-900 font-medium leading-relaxed">
@@ -62,7 +62,7 @@ export default function AboutPage() {
             </blockquote>
 
             <p>
-              Koekeloer is a destination store that invites you on an inspiring journey through artisan gifts, coastal home accents, hand-carved teak furniture, nautical statement pieces, boutique linen apparel, Savoy orthopaedic comfort footwear, organic ceramics, and fine art canvases.
+              Koekeloer is a destination store that invites you on an inspiring journey through artisan gifts, coastal home accents, handcrafted solid wood furniture, nautical statement pieces, boutique linen apparel, Savoy &amp; Julz footwear, organic ceramics, and fine art canvases.
             </p>
           </div>
 
@@ -71,10 +71,10 @@ export default function AboutPage() {
             <div className="p-5 bg-sand-50 rounded-2xl border border-sand-200 space-y-2">
               <div className="flex items-center gap-2 text-coastal-800 font-bold text-sm">
                 <Compass className="w-4 h-4 text-coastal-700" />
-                <span>Direct Bali & Artisan Imports</span>
+                <span>Curated &amp; Handpicked Imports</span>
               </div>
               <p className="text-xs text-driftwood-600 leading-relaxed">
-                We travel abroad to curate solid plantation teakwood furniture, hand-carved stone bowls, and woven rattan lighting directly from village artisans.
+                We select unique solid wood furniture, carved cabinets, and natural woven decor to bring character and warmth to your living space.
               </p>
             </div>
 

@@ -2,7 +2,7 @@
 
 A coastal lifestyle e-commerce web platform for **Koekeloer** (Great White Junction, Gansbaai, Western Cape, South Africa).
 
-Inspired by the design of [beachsand.co.za](https://beachsand.co.za/), built for showcasing curated home décor, Bali teak furniture, marine rope mirrors, Esthé genuine leather footwear, and resort apparel.
+Inspired by the design of [beachsand.co.za](https://beachsand.co.za/), built for showcasing curated home décor, solid wood furniture, coastal mirrors, Savoy & Julz footwear, and resort apparel.
 
 ---
 
@@ -12,7 +12,7 @@ Inspired by the design of [beachsand.co.za](https://beachsand.co.za/), built for
 - **Full Catalog & Filtering**:
   - Filter by 8 curated departments (Decor, Furniture, Lighting, Mirrors & Art, Boutique, Leather Shoes, Kitchenware, Nautical & Gifts).
   - Price limit slider (ZAR).
-  - Quick filters (Sale, New, Bali Imports, In-Stock, Wishlist).
+  - Quick filters (Sale, New, In-Stock, Wishlist).
   - Sort by Featured, Price, Rating, and Newest.
 - **Product Details & Quick View Modal**:
   - Image gallery with thumbnail selection.

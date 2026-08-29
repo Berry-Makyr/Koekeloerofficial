@@ -18,7 +18,7 @@ export const stores: StoreLocation[] = [
     },
     features: [
       'Artisanal Coastal Gifts, Décor & Nautical Accents',
-      'Handcrafted Bali & Indian Teak Furniture & Statement Mirrors',
+      'Handcrafted Solid Wood Furniture & Statement Mirrors',
       'Boutique Ladies Apparel, Savoy & Julz Leather Footwear',
       'Handmade Carved Leather Bags & Mandala Laptop Bags',
       'Charlotte Rhys Luxury Fragrances & Traditional Boereseep',

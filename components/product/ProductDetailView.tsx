@@ -144,7 +144,7 @@ export default function ProductDetailView({
                     className={cn(
                       "px-3 py-1 rounded-md text-[11px] font-bold uppercase tracking-wider shadow-sm",
                       badge === 'Sale' ? 'bg-terracotta-600 text-white' :
-                      badge === 'Bali Import' ? 'bg-coastal-900 text-sand-100' :
+                      badge === 'Handmade' ? 'bg-coastal-900 text-sand-100' :
                       badge === 'New' ? 'bg-sage-700 text-white' : 'bg-driftwood-800 text-white'
                     )}
                   >

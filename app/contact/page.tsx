@@ -43,7 +43,7 @@ export default function ContactPage() {
             Contact Koekeloer
           </h1>
           <p className="text-xs sm:text-sm text-driftwood-600 max-w-xl mx-auto leading-relaxed">
-            Have a question about product dimensions, Bali furniture arrivals, clothing sizes, or your delivery? We are here to help.
+            Have a question about product dimensions, furniture availability, clothing sizes, or your delivery? We are here to help.
           </p>
         </div>
 
@@ -111,8 +111,8 @@ export default function ContactPage() {
                     >
                       <option value="General Inquiry">General Inquiry</option>
                       <option value="Product Availability">Product Availability / Stock</option>
-                      <option value="Bali Furniture Sourcing">Bali Furniture Sourcing</option>
-                      <option value="Esthe Shoes Sizing">Esthé Shoes / Boutique Sizing</option>
+                      <option value="Furniture & Decor Inquiry">Furniture &amp; Decor Inquiry</option>
+                      <option value="Footwear & Boutique Sizing">Footwear &amp; Boutique Sizing</option>
                       <option value="Order & Delivery Tracking">Order & Delivery Tracking</option>
                     </select>
                   </div>

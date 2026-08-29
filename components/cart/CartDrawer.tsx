@@ -116,7 +116,7 @@ export default function CartDrawer() {
                 <div>
                   <h3 className="font-serif text-lg font-semibold text-driftwood-900">Your cart is empty</h3>
                   <p className="text-xs text-driftwood-500 mt-1 max-w-xs">
-                    Explore our curated collection of coastal home decor, Bali imports, and boutique fashion.
+                    Explore our curated collection of coastal home decor, handcrafted furniture, and boutique fashion.
                   </p>
                 </div>
                 <button

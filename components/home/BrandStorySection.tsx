@@ -42,7 +42,7 @@ export default function BrandStorySection() {
                 {/* eslint-disable-next-line @next/next/no-img-element */}
                 <img
                   src={story.images?.furniture || '/fb-images/615833673_25039360082409478_6904760111975843436_n.jpg'}
-                  alt="Balinese Hand-Carved Teak Furniture"
+                  alt="Handcrafted Solid Wood Furniture at Koekeloer"
                   className="w-full h-full object-cover hover:scale-105 transition duration-500"
                 />
               </div>

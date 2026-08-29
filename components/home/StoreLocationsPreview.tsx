@@ -88,7 +88,7 @@ export default function StoreLocationsPreview() {
                   <Sparkles className="w-4 h-4 text-coastal-700 flex-shrink-0 mt-0.5" />
                   <div>
                     <strong className="block text-driftwood-950">Specialties</strong>
-                    <span>Coastal Décor & Bali Teak</span>
+                    <span>Coastal Décor & Solid Wood Furniture</span>
                   </div>
                 </div>
               </div>

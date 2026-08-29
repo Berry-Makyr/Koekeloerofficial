@@ -1446,7 +1446,7 @@ export default function AdminDashboard({ currentUser }: { currentUser?: any }) {
                 <input
                   type="text"
                   required
-                  placeholder="e.g. Balinese Hand-Carved Teak Sideboard"
+                  placeholder="e.g. Hand-Carved Teak Sideboard"
                   value={productFormData.name}
                   onChange={(e) => setProductFormData({ ...productFormData, name: e.target.value })}
                   className="w-full p-3 bg-sand-50 border border-sand-300 rounded-xl focus:border-coastal-700 focus:outline-none"
@@ -1497,7 +1497,7 @@ export default function AdminDashboard({ currentUser }: { currentUser?: any }) {
                   <label className="block font-semibold text-driftwood-800 mb-1">Origin / Craftsmanship</label>
                   <input
                     type="text"
-                    placeholder="e.g. Handcrafted in Bali (Direct Import)"
+                    placeholder="e.g. Handcrafted Local & Imported"
                     value={productFormData.origin || ''}
                     onChange={(e) => setProductFormData({ ...productFormData, origin: e.target.value })}
                     className="w-full p-3 bg-sand-50 border border-sand-300 rounded-xl focus:border-coastal-700 focus:outline-none"
@@ -1633,7 +1633,7 @@ export default function AdminDashboard({ currentUser }: { currentUser?: any }) {
                 <input
                   type="text"
                   required
-                  placeholder="e.g. Coastal & Bali Furniture"
+                  placeholder="e.g. Furniture & Living"
                   value={categoryFormData.name}
                   onChange={(e) => setCategoryFormData({ ...categoryFormData, name: e.target.value })}
                   className="w-full p-3 bg-sand-50 border border-sand-300 rounded-xl focus:border-coastal-700 focus:outline-none"

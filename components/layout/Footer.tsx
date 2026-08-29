@@ -67,9 +67,9 @@ export default function Footer() {
               <RefreshCw className="w-6 h-6 text-sand-200" />
             </div>
             <div>
-              <h4 className="font-serif text-white font-semibold text-base mb-1">Direct Bali Imports</h4>
+              <h4 className="font-serif text-white font-semibold text-base mb-1">Handpicked Collections</h4>
               <p className="text-xs text-sand-400 leading-relaxed">
-                Handpicked teak furniture, stone carvings, and natural woven decor imported straight from artisan studios.
+                Unique solid wood furniture, organic ceramics, marine artwork, and natural woven décor curated with care.
               </p>
             </div>
           </div>
@@ -105,7 +105,7 @@ export default function Footer() {
             </Link>
             <p className="text-xs text-sand-400 leading-relaxed max-w-sm">
               {siteContent.footerBio ||
-                'A unique lifestyle store that takes you on a voyage of discovery through artisanal gifts, coastal decor, hand-carved Bali teak furniture, resort wear, Savoy footwear, and kitchenware. Visit our showrooms at Great White Junction in Gansbaai, Western Cape.'}
+                'A unique lifestyle store that takes you on a voyage of discovery through artisanal gifts, coastal decor, handcrafted solid wood furniture, resort wear, Savoy footwear, and kitchenware. Visit our store at Shop 2, Great White Junction in Gansbaai, Western Cape.'}
             </p>
 
             {/* Newsletter */}
