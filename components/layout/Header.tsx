@@ -96,16 +96,20 @@ export default function Header() {
               onMouseEnter={() => setDropdownOpen(true)}
               onMouseLeave={() => setDropdownOpen(false)}
             >
-              <Link
-                href="/shop"
+              <button
+                type="button"
+                onClick={() => setDropdownOpen(!dropdownOpen)}
                 className={cn(
-                  "flex items-center gap-1 hover:text-coastal-700 transition py-1",
+                  "flex items-center gap-1 hover:text-coastal-700 transition py-1 text-driftwood-800",
                   pathname.startsWith('/shop') && "text-coastal-800 font-semibold"
                 )}
               >
                 <span>Shop Collections</span>
-                <ChevronDown className="w-4 h-4 text-driftwood-500 group-hover:rotate-180 transition-transform duration-200" />
-              </Link>
+                <ChevronDown className={cn(
+                  "w-4 h-4 text-driftwood-500 transition-transform duration-200",
+                  dropdownOpen ? "rotate-180" : "group-hover:rotate-180"
+                )} />
+              </button>
 
               {/* Mega Dropdown Menu */}
               {dropdownOpen && (
