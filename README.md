@@ -2,7 +2,7 @@
 
 A coastal lifestyle e-commerce web platform for **Koekeloer** (Great White Junction, Gansbaai, Western Cape, South Africa).
 
-Inspired by the design of [beachsand.co.za](https://beachsand.co.za/), built for showcasing curated home décor, solid wood furniture, coastal mirrors, Savoy & Julz footwear, and resort apparel.
+Inspired by the design of [beachsand.co.za](https://beachsand.co.za/), built for showcasing curated home décor, solid wood furniture, coastal mirrors, genuine leather footwear, and resort apparel.
 
 ---
 

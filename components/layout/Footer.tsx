@@ -105,7 +105,7 @@ export default function Footer() {
             </Link>
             <p className="text-xs text-sand-400 leading-relaxed max-w-sm">
               {siteContent.footerBio ||
-                'A unique lifestyle store that takes you on a voyage of discovery through artisanal gifts, coastal decor, handcrafted solid wood furniture, resort wear, Savoy footwear, and kitchenware. Visit our store at Shop 2, Great White Junction in Gansbaai, Western Cape.'}
+                'A unique lifestyle store that takes you on a voyage of discovery through artisanal gifts, coastal decor, handcrafted solid wood furniture, resort wear, genuine leather footwear, and kitchenware. Visit our store at Shop 2, Great White Junction in Gansbaai, Western Cape.'}
             </p>
 
             {/* Newsletter */}

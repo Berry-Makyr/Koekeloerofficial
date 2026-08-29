@@ -15,8 +15,8 @@ export const viewport: Viewport = {
 
 export const metadata: Metadata = {
   title: 'Koekeloer | Coastal Décor, Solid Wood Furniture & Boutique Gansbaai',
-  description: 'Gansbaai lifestyle emporium at Great White Junction. Discover artisan home decor, handcrafted wooden furniture, coastal mirrors, Savoy leather footwear, and resort fashion.',
-  keywords: ['Koekeloer', 'Gansbaai decor', 'Great White Junction Gansbaai', 'Gansbaai gift shop', 'coastal furniture South Africa', 'coastal living decor', 'Savoy shoes Gansbaai'],
+  description: 'Gansbaai lifestyle emporium at Great White Junction. Discover artisan home decor, handcrafted wooden furniture, coastal mirrors, genuine leather footwear, and resort fashion.',
+  keywords: ['Koekeloer', 'Gansbaai decor', 'Great White Junction Gansbaai', 'Gansbaai gift shop', 'coastal furniture South Africa', 'coastal living decor', 'leather footwear Gansbaai'],
   authors: [{ name: 'Koekeloer Gansbaai' }],
   icons: {
     icon: '/favicon.ico',

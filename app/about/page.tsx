@@ -62,7 +62,7 @@ export default function AboutPage() {
             </blockquote>
 
             <p>
-              Koekeloer is a destination store that invites you on an inspiring journey through artisan gifts, coastal home accents, handcrafted solid wood furniture, nautical statement pieces, boutique linen apparel, Savoy &amp; Julz footwear, organic ceramics, and fine art canvases.
+              Koekeloer is a destination store that invites you on an inspiring journey through artisan gifts, coastal home accents, handcrafted solid wood furniture, nautical statement pieces, boutique linen apparel, genuine leather footwear, organic ceramics, and fine art canvases.
             </p>
           </div>
 
@@ -91,10 +91,10 @@ export default function AboutPage() {
             <div className="p-5 bg-sand-50 rounded-2xl border border-sand-200 space-y-2">
               <div className="flex items-center gap-2 text-coastal-800 font-bold text-sm">
                 <Award className="w-4 h-4 text-amber-600" />
-                <span>Savoy Comfort Footwear</span>
+                <span>Quality Leather &amp; Footwear</span>
               </div>
               <p className="text-xs text-driftwood-600 leading-relaxed">
-                Stocking premium cushioned orthopaedic leather sandals and walking shoes, where supreme comfort meets enduring coastal style.
+                Stocking premium cushioned leather sandals, shoes, and handmade bags, where comfort meets enduring style.
               </p>
             </div>
 

@@ -50,7 +50,7 @@ export const categories: Category[] = [
     id: 'shoes-leather',
     name: 'Leather Bags & Footwear',
     slug: 'shoes-leather',
-    description: 'Handcrafted genuine leather bags, carved mandala satchels, and Julz footwear.',
+    description: 'Handcrafted genuine leather bags, carved mandala satchels, and curated footwear.',
     image: 'https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2F185cc96b-762e-4128-a040-28d49eae4078.jpg?alt=media',
     itemCount: 28,
     featured: true,

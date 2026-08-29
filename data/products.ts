@@ -10,7 +10,7 @@ export const products: Product[] = [
     "price": 2900,
     "originalPrice": 3335,
     "rating": 5,
-    "reviewCount": 6,
+    "reviewCount": 14,
     "shortDescription": "Leather Business Bag available at Koekeloer Gift & Décor Shop in Gansbaai.",
     "description": "Authentic Leather Business Bag from Koekeloer Geskenkwinkel & Décor, Shop 2, Great White Junction, Gansbaai. Curated with care for beautiful home living.",
     "features": [
@@ -44,7 +44,7 @@ export const products: Product[] = [
     "price": 1560,
     "originalPrice": 1794,
     "rating": 5,
-    "reviewCount": 16,
+    "reviewCount": 10,
     "shortDescription": "Leather Carved Slingbag available at Koekeloer Gift & Décor Shop in Gansbaai.",
     "description": "Authentic Leather Carved Slingbag from Koekeloer Geskenkwinkel & Décor, Shop 2, Great White Junction, Gansbaai. Curated with care for beautiful home living.",
     "features": [
@@ -54,7 +54,7 @@ export const products: Product[] = [
       "Nationwide courier delivery across South Africa"
     ],
     "stockStatus": "in_stock",
-    "stockCount": 8,
+    "stockCount": 5,
     "images": [
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Fdaeb15a3-28e1-4f29-9342-9f158ded779f.jpg?alt=media",
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Fthumb_280_daeb15a3-28e1-4f29-9342-9f158ded779f.jpg?alt=media"
@@ -78,7 +78,7 @@ export const products: Product[] = [
     "price": 1800,
     "originalPrice": 2070,
     "rating": 5,
-    "reviewCount": 8,
+    "reviewCount": 13,
     "shortDescription": "Leather Handbag Carved available at Koekeloer Gift & Décor Shop in Gansbaai.",
     "description": "Authentic Leather Handbag Carved from Koekeloer Geskenkwinkel & Décor, Shop 2, Great White Junction, Gansbaai. Curated with care for beautiful home living.",
     "features": [
@@ -88,7 +88,7 @@ export const products: Product[] = [
       "Nationwide courier delivery across South Africa"
     ],
     "stockStatus": "in_stock",
-    "stockCount": 2,
+    "stockCount": 4,
     "images": [
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2F2a6edda8-0986-4bb2-ac2c-fe1034905eae.jpg?alt=media",
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Fthumb_280_2a6edda8-0986-4bb2-ac2c-fe1034905eae.jpg?alt=media"
@@ -112,7 +112,7 @@ export const products: Product[] = [
     "price": 2000,
     "originalPrice": 2300,
     "rating": 5,
-    "reviewCount": 16,
+    "reviewCount": 4,
     "shortDescription": "Leather Laptop Bag Carved Mandala available at Koekeloer Gift & Décor Shop in Gansbaai.",
     "description": "Authentic Leather Laptop Bag Carved Mandala from Koekeloer Geskenkwinkel & Décor, Shop 2, Great White Junction, Gansbaai. Curated with care for beautiful home living.",
     "features": [
@@ -122,7 +122,7 @@ export const products: Product[] = [
       "Nationwide courier delivery across South Africa"
     ],
     "stockStatus": "in_stock",
-    "stockCount": 4,
+    "stockCount": 6,
     "images": [
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2F703015f6-a2e0-411c-9b9f-7b458e55ef4a.jpg?alt=media",
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Fthumb_280_703015f6-a2e0-411c-9b9f-7b458e55ef4a.jpg?alt=media"
@@ -156,7 +156,7 @@ export const products: Product[] = [
       "Nationwide courier delivery across South Africa"
     ],
     "stockStatus": "in_stock",
-    "stockCount": 5,
+    "stockCount": 3,
     "images": [
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2F3ff92162-e836-4224-a720-2957f0ac3096.jpg?alt=media",
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Fthumb_280_3ff92162-e836-4224-a720-2957f0ac3096.jpg?alt=media"
@@ -180,7 +180,7 @@ export const products: Product[] = [
     "price": 2500,
     "originalPrice": 2875,
     "rating": 5,
-    "reviewCount": 10,
+    "reviewCount": 4,
     "shortDescription": "Leather Satchel available at Koekeloer Gift & Décor Shop in Gansbaai.",
     "description": "Authentic Leather Satchel from Koekeloer Geskenkwinkel & Décor, Shop 2, Great White Junction, Gansbaai. Curated with care for beautiful home living.",
     "features": [
@@ -190,7 +190,7 @@ export const products: Product[] = [
       "Nationwide courier delivery across South Africa"
     ],
     "stockStatus": "in_stock",
-    "stockCount": 9,
+    "stockCount": 4,
     "images": [
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Fc9993fe3-c99c-4c1b-854a-3a421b3d122c.jpg?alt=media",
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Fthumb_280_c9993fe3-c99c-4c1b-854a-3a421b3d122c.jpg?alt=media"
@@ -214,7 +214,7 @@ export const products: Product[] = [
     "price": 5200,
     "originalPrice": 5980,
     "rating": 5,
-    "reviewCount": 17,
+    "reviewCount": 8,
     "shortDescription": "Leather Travel Bag Carved available at Koekeloer Gift & Décor Shop in Gansbaai.",
     "description": "Authentic Leather Travel Bag Carved from Koekeloer Geskenkwinkel & Décor, Shop 2, Great White Junction, Gansbaai. Curated with care for beautiful home living.",
     "features": [
@@ -224,7 +224,7 @@ export const products: Product[] = [
       "Nationwide courier delivery across South Africa"
     ],
     "stockStatus": "in_stock",
-    "stockCount": 4,
+    "stockCount": 7,
     "images": [
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2F0b35bc79-59df-4a8f-b249-70e5d0f97836.jpg?alt=media",
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Fthumb_280_0b35bc79-59df-4a8f-b249-70e5d0f97836.jpg?alt=media"
@@ -248,7 +248,7 @@ export const products: Product[] = [
     "price": 650,
     "originalPrice": 747,
     "rating": 5,
-    "reviewCount": 7,
+    "reviewCount": 13,
     "shortDescription": "Moonbag Geniune Leather available at Koekeloer Gift & Décor Shop in Gansbaai.",
     "description": "Authentic Moonbag Geniune Leather from Koekeloer Geskenkwinkel & Décor, Shop 2, Great White Junction, Gansbaai. Curated with care for beautiful home living.",
     "features": [
@@ -258,7 +258,7 @@ export const products: Product[] = [
       "Nationwide courier delivery across South Africa"
     ],
     "stockStatus": "in_stock",
-    "stockCount": 5,
+    "stockCount": 4,
     "images": [
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2F78481648-5a81-47b9-8ff7-2bd75f77b30c.jpg?alt=media",
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Fthumb_280_78481648-5a81-47b9-8ff7-2bd75f77b30c.jpg?alt=media"
@@ -282,7 +282,7 @@ export const products: Product[] = [
     "price": 399,
     "originalPrice": 459,
     "rating": 5,
-    "reviewCount": 15,
+    "reviewCount": 4,
     "shortDescription": "Moonbag Leather available at Koekeloer Gift & Décor Shop in Gansbaai.",
     "description": "Authentic Moonbag Leather from Koekeloer Geskenkwinkel & Décor, Shop 2, Great White Junction, Gansbaai. Curated with care for beautiful home living.",
     "features": [
@@ -292,7 +292,7 @@ export const products: Product[] = [
       "Nationwide courier delivery across South Africa"
     ],
     "stockStatus": "in_stock",
-    "stockCount": 7,
+    "stockCount": 9,
     "images": [
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2F3f389e7d-7f76-4416-8622-b7d74ec8721c.jpg?alt=media",
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Fthumb_280_3f389e7d-7f76-4416-8622-b7d74ec8721c.jpg?alt=media"
@@ -316,7 +316,7 @@ export const products: Product[] = [
     "price": 425,
     "originalPrice": 489,
     "rating": 5,
-    "reviewCount": 13,
+    "reviewCount": 12,
     "shortDescription": "Slingbag Men available at Koekeloer Gift & Décor Shop in Gansbaai.",
     "description": "Authentic Slingbag Men from Koekeloer Geskenkwinkel & Décor, Shop 2, Great White Junction, Gansbaai. Curated with care for beautiful home living.",
     "features": [
@@ -326,7 +326,7 @@ export const products: Product[] = [
       "Nationwide courier delivery across South Africa"
     ],
     "stockStatus": "in_stock",
-    "stockCount": 7,
+    "stockCount": 5,
     "images": [
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2F00d661aa-3db9-466f-a86e-af532949b09a.jpg?alt=media",
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Fthumb_280_00d661aa-3db9-466f-a86e-af532949b09a.jpg?alt=media"
@@ -350,7 +350,7 @@ export const products: Product[] = [
     "price": 320,
     "originalPrice": 368,
     "rating": 5,
-    "reviewCount": 4,
+    "reviewCount": 12,
     "shortDescription": "Travel Bag Material Small available at Koekeloer Gift & Décor Shop in Gansbaai.",
     "description": "Authentic Travel Bag Material Small from Koekeloer Geskenkwinkel & Décor, Shop 2, Great White Junction, Gansbaai. Curated with care for beautiful home living.",
     "features": [
@@ -360,7 +360,7 @@ export const products: Product[] = [
       "Nationwide courier delivery across South Africa"
     ],
     "stockStatus": "in_stock",
-    "stockCount": 5,
+    "stockCount": 3,
     "images": [
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2F4ff0c0f1-09cc-4b2c-b5b4-e44b5f887a9d.jpg?alt=media",
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Fthumb_280_4ff0c0f1-09cc-4b2c-b5b4-e44b5f887a9d.jpg?alt=media"
@@ -384,7 +384,7 @@ export const products: Product[] = [
     "price": 890,
     "originalPrice": 1023,
     "rating": 5,
-    "reviewCount": 9,
+    "reviewCount": 3,
     "shortDescription": "Basket Large Rattan with handles and fringe available at Koekeloer Gift & Décor Shop in Gansbaai.",
     "description": "Authentic Basket Large Rattan with handles and fringe from Koekeloer Geskenkwinkel & Décor, Shop 2, Great White Junction, Gansbaai. Curated with care for beautiful home living.",
     "features": [
@@ -394,7 +394,7 @@ export const products: Product[] = [
       "Nationwide courier delivery across South Africa"
     ],
     "stockStatus": "in_stock",
-    "stockCount": 2,
+    "stockCount": 6,
     "images": [
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2F0bfb3b23-3f90-48ba-b1fb-08647a484ccb.jpg?alt=media",
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Fthumb_280_0bfb3b23-3f90-48ba-b1fb-08647a484ccb.jpg?alt=media"
@@ -418,7 +418,7 @@ export const products: Product[] = [
     "price": 560,
     "originalPrice": 644,
     "rating": 5,
-    "reviewCount": 11,
+    "reviewCount": 13,
     "shortDescription": "Basket Lopa 33x42x33cm available at Koekeloer Gift & Décor Shop in Gansbaai.",
     "description": "Authentic Basket Lopa 33x42x33cm from Koekeloer Geskenkwinkel & Décor, Shop 2, Great White Junction, Gansbaai. Curated with care for beautiful home living.",
     "features": [
@@ -428,7 +428,7 @@ export const products: Product[] = [
       "Nationwide courier delivery across South Africa"
     ],
     "stockStatus": "in_stock",
-    "stockCount": 6,
+    "stockCount": 9,
     "images": [
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2F87342b8a-1d58-47da-9f1e-821c31b1636a.jpg?alt=media",
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Fthumb_280_87342b8a-1d58-47da-9f1e-821c31b1636a.jpg?alt=media"
@@ -452,7 +452,7 @@ export const products: Product[] = [
     "price": 699,
     "originalPrice": 804,
     "rating": 5,
-    "reviewCount": 10,
+    "reviewCount": 6,
     "shortDescription": "Basket med Rattan with fringe and handles available at Koekeloer Gift & Décor Shop in Gansbaai.",
     "description": "Authentic Basket med Rattan with fringe and handles from Koekeloer Geskenkwinkel & Décor, Shop 2, Great White Junction, Gansbaai. Curated with care for beautiful home living.",
     "features": [
@@ -462,7 +462,7 @@ export const products: Product[] = [
       "Nationwide courier delivery across South Africa"
     ],
     "stockStatus": "in_stock",
-    "stockCount": 4,
+    "stockCount": 5,
     "images": [
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Fec6e7d6a-92a6-41d8-b029-f0d403fab728.jpg?alt=media",
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Fthumb_280_ec6e7d6a-92a6-41d8-b029-f0d403fab728.jpg?alt=media"
@@ -486,7 +486,7 @@ export const products: Product[] = [
     "price": 499,
     "originalPrice": 574,
     "rating": 5,
-    "reviewCount": 9,
+    "reviewCount": 15,
     "shortDescription": "Basket sml Rattan with rafia fringe available at Koekeloer Gift & Décor Shop in Gansbaai.",
     "description": "Authentic Basket sml Rattan with rafia fringe from Koekeloer Geskenkwinkel & Décor, Shop 2, Great White Junction, Gansbaai. Curated with care for beautiful home living.",
     "features": [
@@ -496,7 +496,7 @@ export const products: Product[] = [
       "Nationwide courier delivery across South Africa"
     ],
     "stockStatus": "in_stock",
-    "stockCount": 4,
+    "stockCount": 3,
     "images": [
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2F89a94674-112f-4580-986b-c99351a15976.jpg?alt=media",
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Fthumb_280_89a94674-112f-4580-986b-c99351a15976.jpg?alt=media"
@@ -520,7 +520,7 @@ export const products: Product[] = [
     "price": 320,
     "originalPrice": 368,
     "rating": 5,
-    "reviewCount": 8,
+    "reviewCount": 10,
     "shortDescription": "Basket with Shells 16cm x 22cm black available at Koekeloer Gift & Décor Shop in Gansbaai.",
     "description": "Authentic Basket with Shells 16cm x 22cm black from Koekeloer Geskenkwinkel & Décor, Shop 2, Great White Junction, Gansbaai. Curated with care for beautiful home living.",
     "features": [
@@ -530,7 +530,7 @@ export const products: Product[] = [
       "Nationwide courier delivery across South Africa"
     ],
     "stockStatus": "in_stock",
-    "stockCount": 7,
+    "stockCount": 6,
     "images": [
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Ff11e6ab6-e5a8-4653-b497-136254639f80.jpg?alt=media",
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Fthumb_280_f11e6ab6-e5a8-4653-b497-136254639f80.jpg?alt=media"
@@ -554,7 +554,7 @@ export const products: Product[] = [
     "price": 320,
     "originalPrice": 368,
     "rating": 5,
-    "reviewCount": 6,
+    "reviewCount": 13,
     "shortDescription": "Basket with Shells 16cm x 22cm natural available at Koekeloer Gift & Décor Shop in Gansbaai.",
     "description": "Authentic Basket with Shells 16cm x 22cm natural from Koekeloer Geskenkwinkel & Décor, Shop 2, Great White Junction, Gansbaai. Curated with care for beautiful home living.",
     "features": [
@@ -564,7 +564,7 @@ export const products: Product[] = [
       "Nationwide courier delivery across South Africa"
     ],
     "stockStatus": "in_stock",
-    "stockCount": 6,
+    "stockCount": 5,
     "images": [
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Fdf6fe663-90fb-46e3-9574-88921e69db29.jpg?alt=media",
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Fthumb_280_df6fe663-90fb-46e3-9574-88921e69db29.jpg?alt=media"
@@ -598,7 +598,7 @@ export const products: Product[] = [
       "Nationwide courier delivery across South Africa"
     ],
     "stockStatus": "in_stock",
-    "stockCount": 6,
+    "stockCount": 3,
     "images": [
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2F52df72dc-85ad-48d0-9c6d-e2aaa4c921f2.jpg?alt=media",
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Fthumb_280_52df72dc-85ad-48d0-9c6d-e2aaa4c921f2.jpg?alt=media"
@@ -622,7 +622,7 @@ export const products: Product[] = [
     "price": 320,
     "originalPrice": 368,
     "rating": 5,
-    "reviewCount": 5,
+    "reviewCount": 15,
     "shortDescription": "Basket with Shells 19cm x 19cm with handles pink available at Koekeloer Gift & Décor Shop in Gansbaai.",
     "description": "Authentic Basket with Shells 19cm x 19cm with handles pink from Koekeloer Geskenkwinkel & Décor, Shop 2, Great White Junction, Gansbaai. Curated with care for beautiful home living.",
     "features": [
@@ -632,7 +632,7 @@ export const products: Product[] = [
       "Nationwide courier delivery across South Africa"
     ],
     "stockStatus": "in_stock",
-    "stockCount": 9,
+    "stockCount": 5,
     "images": [
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Fdd94bfc8-e796-413c-afb3-a19880901d34.jpg?alt=media",
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Fthumb_280_dd94bfc8-e796-413c-afb3-a19880901d34.jpg?alt=media"
@@ -656,7 +656,7 @@ export const products: Product[] = [
     "price": 320,
     "originalPrice": 368,
     "rating": 5,
-    "reviewCount": 12,
+    "reviewCount": 15,
     "shortDescription": "Basket with Shells 19cm x 19cm with handles white available at Koekeloer Gift & Décor Shop in Gansbaai.",
     "description": "Authentic Basket with Shells 19cm x 19cm with handles white from Koekeloer Geskenkwinkel & Décor, Shop 2, Great White Junction, Gansbaai. Curated with care for beautiful home living.",
     "features": [
@@ -666,7 +666,7 @@ export const products: Product[] = [
       "Nationwide courier delivery across South Africa"
     ],
     "stockStatus": "in_stock",
-    "stockCount": 2,
+    "stockCount": 5,
     "images": [
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Fbaf2c3d4-0062-4da3-8298-be09ca65bd8e.jpg?alt=media",
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Fthumb_280_baf2c3d4-0062-4da3-8298-be09ca65bd8e.jpg?alt=media"
@@ -690,7 +690,7 @@ export const products: Product[] = [
     "price": 520,
     "originalPrice": 598,
     "rating": 5,
-    "reviewCount": 17,
+    "reviewCount": 9,
     "shortDescription": "Basket with Shells 19cm x 28cm natural available at Koekeloer Gift & Décor Shop in Gansbaai.",
     "description": "Authentic Basket with Shells 19cm x 28cm natural from Koekeloer Geskenkwinkel & Décor, Shop 2, Great White Junction, Gansbaai. Curated with care for beautiful home living.",
     "features": [
@@ -724,7 +724,7 @@ export const products: Product[] = [
     "price": 520,
     "originalPrice": 598,
     "rating": 5,
-    "reviewCount": 8,
+    "reviewCount": 12,
     "shortDescription": "Basket with Shells 22cm x 28cm black available at Koekeloer Gift & Décor Shop in Gansbaai.",
     "description": "Authentic Basket with Shells 22cm x 28cm black from Koekeloer Geskenkwinkel & Décor, Shop 2, Great White Junction, Gansbaai. Curated with care for beautiful home living.",
     "features": [
@@ -734,7 +734,7 @@ export const products: Product[] = [
       "Nationwide courier delivery across South Africa"
     ],
     "stockStatus": "in_stock",
-    "stockCount": 5,
+    "stockCount": 6,
     "images": [
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2F03b4c7c9-6247-4200-8def-a323100b6733.jpg?alt=media",
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Fthumb_280_03b4c7c9-6247-4200-8def-a323100b6733.jpg?alt=media"
@@ -758,7 +758,7 @@ export const products: Product[] = [
     "price": 320,
     "originalPrice": 368,
     "rating": 5,
-    "reviewCount": 15,
+    "reviewCount": 17,
     "shortDescription": "Basket with Shells 24cm x 24cm natural available at Koekeloer Gift & Décor Shop in Gansbaai.",
     "description": "Authentic Basket with Shells 24cm x 24cm natural from Koekeloer Geskenkwinkel & Décor, Shop 2, Great White Junction, Gansbaai. Curated with care for beautiful home living.",
     "features": [
@@ -768,7 +768,7 @@ export const products: Product[] = [
       "Nationwide courier delivery across South Africa"
     ],
     "stockStatus": "in_stock",
-    "stockCount": 6,
+    "stockCount": 5,
     "images": [
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Fae537cdd-18a0-4136-be63-350e947124fb.jpg?alt=media",
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Fthumb_280_ae537cdd-18a0-4136-be63-350e947124fb.jpg?alt=media"
@@ -792,7 +792,7 @@ export const products: Product[] = [
     "price": 520,
     "originalPrice": 598,
     "rating": 5,
-    "reviewCount": 4,
+    "reviewCount": 9,
     "shortDescription": "Basket with Shells 24cm x 24cm white available at Koekeloer Gift & Décor Shop in Gansbaai.",
     "description": "Authentic Basket with Shells 24cm x 24cm white from Koekeloer Geskenkwinkel & Décor, Shop 2, Great White Junction, Gansbaai. Curated with care for beautiful home living.",
     "features": [
@@ -802,7 +802,7 @@ export const products: Product[] = [
       "Nationwide courier delivery across South Africa"
     ],
     "stockStatus": "in_stock",
-    "stockCount": 7,
+    "stockCount": 8,
     "images": [
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2F64a0161f-b75d-41e1-8050-8e6a1be5b581.jpg?alt=media",
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Fthumb_280_64a0161f-b75d-41e1-8050-8e6a1be5b581.jpg?alt=media"
@@ -826,7 +826,7 @@ export const products: Product[] = [
     "price": 520,
     "originalPrice": 598,
     "rating": 5,
-    "reviewCount": 12,
+    "reviewCount": 17,
     "shortDescription": "Basket with Shells 24cm x 24cm with handles green available at Koekeloer Gift & Décor Shop in Gansbaai.",
     "description": "Authentic Basket with Shells 24cm x 24cm with handles green from Koekeloer Geskenkwinkel & Décor, Shop 2, Great White Junction, Gansbaai. Curated with care for beautiful home living.",
     "features": [
@@ -836,7 +836,7 @@ export const products: Product[] = [
       "Nationwide courier delivery across South Africa"
     ],
     "stockStatus": "in_stock",
-    "stockCount": 5,
+    "stockCount": 7,
     "images": [
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2F6e9307dd-d151-4a84-9389-1a3e36f37c73.jpg?alt=media",
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Fthumb_280_6e9307dd-d151-4a84-9389-1a3e36f37c73.jpg?alt=media"
@@ -860,7 +860,7 @@ export const products: Product[] = [
     "price": 520,
     "originalPrice": 598,
     "rating": 5,
-    "reviewCount": 5,
+    "reviewCount": 7,
     "shortDescription": "Basket with Shells 24cm x 24cm with handles pink available at Koekeloer Gift & Décor Shop in Gansbaai.",
     "description": "Authentic Basket with Shells 24cm x 24cm with handles pink from Koekeloer Geskenkwinkel & Décor, Shop 2, Great White Junction, Gansbaai. Curated with care for beautiful home living.",
     "features": [
@@ -870,7 +870,7 @@ export const products: Product[] = [
       "Nationwide courier delivery across South Africa"
     ],
     "stockStatus": "in_stock",
-    "stockCount": 6,
+    "stockCount": 9,
     "images": [
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Fd76afacd-c17b-41b5-aae3-1ec0853c1e75.jpg?alt=media",
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Fthumb_280_d76afacd-c17b-41b5-aae3-1ec0853c1e75.jpg?alt=media"
@@ -894,7 +894,7 @@ export const products: Product[] = [
     "price": 520,
     "originalPrice": 598,
     "rating": 5,
-    "reviewCount": 9,
+    "reviewCount": 5,
     "shortDescription": "Basket with Shells 24cm x 24cm with handles white available at Koekeloer Gift & Décor Shop in Gansbaai.",
     "description": "Authentic Basket with Shells 24cm x 24cm with handles white from Koekeloer Geskenkwinkel & Décor, Shop 2, Great White Junction, Gansbaai. Curated with care for beautiful home living.",
     "features": [
@@ -904,7 +904,7 @@ export const products: Product[] = [
       "Nationwide courier delivery across South Africa"
     ],
     "stockStatus": "in_stock",
-    "stockCount": 5,
+    "stockCount": 4,
     "images": [
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2F78ae9b95-b085-4b1c-94f1-2675652450a4.jpg?alt=media",
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Fthumb_280_78ae9b95-b085-4b1c-94f1-2675652450a4.jpg?alt=media"
@@ -928,7 +928,7 @@ export const products: Product[] = [
     "price": 750,
     "originalPrice": 862,
     "rating": 5,
-    "reviewCount": 13,
+    "reviewCount": 11,
     "shortDescription": "Basket with Shells 30cm x 30cm natural available at Koekeloer Gift & Décor Shop in Gansbaai.",
     "description": "Authentic Basket with Shells 30cm x 30cm natural from Koekeloer Geskenkwinkel & Décor, Shop 2, Great White Junction, Gansbaai. Curated with care for beautiful home living.",
     "features": [
@@ -938,7 +938,7 @@ export const products: Product[] = [
       "Nationwide courier delivery across South Africa"
     ],
     "stockStatus": "in_stock",
-    "stockCount": 4,
+    "stockCount": 5,
     "images": [
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Fcd681d6e-b9cb-46f4-8963-c1e3f4bbb9ac.jpg?alt=media",
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Fthumb_280_cd681d6e-b9cb-46f4-8963-c1e3f4bbb9ac.jpg?alt=media"
@@ -962,7 +962,7 @@ export const products: Product[] = [
     "price": 750,
     "originalPrice": 862,
     "rating": 5,
-    "reviewCount": 12,
+    "reviewCount": 9,
     "shortDescription": "Basket with Shells 30cm x 30cm white available at Koekeloer Gift & Décor Shop in Gansbaai.",
     "description": "Authentic Basket with Shells 30cm x 30cm white from Koekeloer Geskenkwinkel & Décor, Shop 2, Great White Junction, Gansbaai. Curated with care for beautiful home living.",
     "features": [
@@ -972,7 +972,7 @@ export const products: Product[] = [
       "Nationwide courier delivery across South Africa"
     ],
     "stockStatus": "in_stock",
-    "stockCount": 7,
+    "stockCount": 5,
     "images": [
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Fcc105cb8-5b4e-424a-b4fe-2441413ac29b.jpg?alt=media",
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Fthumb_280_cc105cb8-5b4e-424a-b4fe-2441413ac29b.jpg?alt=media"
@@ -996,7 +996,7 @@ export const products: Product[] = [
     "price": 750,
     "originalPrice": 862,
     "rating": 5,
-    "reviewCount": 12,
+    "reviewCount": 8,
     "shortDescription": "Basket with Shells 30cm x 30cm with handles green available at Koekeloer Gift & Décor Shop in Gansbaai.",
     "description": "Authentic Basket with Shells 30cm x 30cm with handles green from Koekeloer Geskenkwinkel & Décor, Shop 2, Great White Junction, Gansbaai. Curated with care for beautiful home living.",
     "features": [
@@ -1006,7 +1006,7 @@ export const products: Product[] = [
       "Nationwide courier delivery across South Africa"
     ],
     "stockStatus": "in_stock",
-    "stockCount": 8,
+    "stockCount": 2,
     "images": [
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2F8f331caf-5cde-43fd-8f6d-cc0e56d7190c.jpg?alt=media",
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Fthumb_280_8f331caf-5cde-43fd-8f6d-cc0e56d7190c.jpg?alt=media"
@@ -1030,7 +1030,7 @@ export const products: Product[] = [
     "price": 750,
     "originalPrice": 862,
     "rating": 5,
-    "reviewCount": 4,
+    "reviewCount": 14,
     "shortDescription": "Basket with Shells 30cm x 30cm with handles pink available at Koekeloer Gift & Décor Shop in Gansbaai.",
     "description": "Authentic Basket with Shells 30cm x 30cm with handles pink from Koekeloer Geskenkwinkel & Décor, Shop 2, Great White Junction, Gansbaai. Curated with care for beautiful home living.",
     "features": [
@@ -1040,7 +1040,7 @@ export const products: Product[] = [
       "Nationwide courier delivery across South Africa"
     ],
     "stockStatus": "in_stock",
-    "stockCount": 6,
+    "stockCount": 4,
     "images": [
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Ff3243aef-07a1-4398-8e31-de9cf5957111.jpg?alt=media",
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Fthumb_280_f3243aef-07a1-4398-8e31-de9cf5957111.jpg?alt=media"
@@ -1064,7 +1064,7 @@ export const products: Product[] = [
     "price": 750,
     "originalPrice": 862,
     "rating": 5,
-    "reviewCount": 8,
+    "reviewCount": 7,
     "shortDescription": "Basket with Shells 30cm x 30cm with handles white available at Koekeloer Gift & Décor Shop in Gansbaai.",
     "description": "Authentic Basket with Shells 30cm x 30cm with handles white from Koekeloer Geskenkwinkel & Décor, Shop 2, Great White Junction, Gansbaai. Curated with care for beautiful home living.",
     "features": [
@@ -1074,7 +1074,7 @@ export const products: Product[] = [
       "Nationwide courier delivery across South Africa"
     ],
     "stockStatus": "in_stock",
-    "stockCount": 8,
+    "stockCount": 3,
     "images": [
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Fd602c6f7-195a-4511-b88c-6a736c14a56e.jpg?alt=media",
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Fthumb_280_d602c6f7-195a-4511-b88c-6a736c14a56e.jpg?alt=media"
@@ -1098,7 +1098,7 @@ export const products: Product[] = [
     "price": 750,
     "originalPrice": 862,
     "rating": 5,
-    "reviewCount": 14,
+    "reviewCount": 3,
     "shortDescription": "Basket with Shells black 32cm x 23cm available at Koekeloer Gift & Décor Shop in Gansbaai.",
     "description": "Authentic Basket with Shells black 32cm x 23cm from Koekeloer Geskenkwinkel & Décor, Shop 2, Great White Junction, Gansbaai. Curated with care for beautiful home living.",
     "features": [
@@ -1108,7 +1108,7 @@ export const products: Product[] = [
       "Nationwide courier delivery across South Africa"
     ],
     "stockStatus": "in_stock",
-    "stockCount": 2,
+    "stockCount": 8,
     "images": [
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Ff79bcf53-ff55-4164-bdfc-c3ac509b7335.jpg?alt=media",
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Fthumb_280_f79bcf53-ff55-4164-bdfc-c3ac509b7335.jpg?alt=media"
@@ -1132,7 +1132,7 @@ export const products: Product[] = [
     "price": 520,
     "originalPrice": 598,
     "rating": 5,
-    "reviewCount": 3,
+    "reviewCount": 16,
     "shortDescription": "Basket with Shells blue 22cm x 28cm available at Koekeloer Gift & Décor Shop in Gansbaai.",
     "description": "Authentic Basket with Shells blue 22cm x 28cm from Koekeloer Geskenkwinkel & Décor, Shop 2, Great White Junction, Gansbaai. Curated with care for beautiful home living.",
     "features": [
@@ -1166,7 +1166,7 @@ export const products: Product[] = [
     "price": 750,
     "originalPrice": 862,
     "rating": 5,
-    "reviewCount": 5,
+    "reviewCount": 3,
     "shortDescription": "Basket with Shells blue 23cm x 33cm available at Koekeloer Gift & Décor Shop in Gansbaai.",
     "description": "Authentic Basket with Shells blue 23cm x 33cm from Koekeloer Geskenkwinkel & Décor, Shop 2, Great White Junction, Gansbaai. Curated with care for beautiful home living.",
     "features": [
@@ -1176,7 +1176,7 @@ export const products: Product[] = [
       "Nationwide courier delivery across South Africa"
     ],
     "stockStatus": "in_stock",
-    "stockCount": 8,
+    "stockCount": 9,
     "images": [
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2F2f67126c-aa4b-4969-8b27-5fba894c95a1.jpg?alt=media",
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Fthumb_280_2f67126c-aa4b-4969-8b27-5fba894c95a1.jpg?alt=media"
@@ -1200,7 +1200,7 @@ export const products: Product[] = [
     "price": 320,
     "originalPrice": 368,
     "rating": 5,
-    "reviewCount": 4,
+    "reviewCount": 11,
     "shortDescription": "Basket with Shells white 19cm x 19cm available at Koekeloer Gift & Décor Shop in Gansbaai.",
     "description": "Authentic Basket with Shells white 19cm x 19cm from Koekeloer Geskenkwinkel & Décor, Shop 2, Great White Junction, Gansbaai. Curated with care for beautiful home living.",
     "features": [
@@ -1210,7 +1210,7 @@ export const products: Product[] = [
       "Nationwide courier delivery across South Africa"
     ],
     "stockStatus": "in_stock",
-    "stockCount": 8,
+    "stockCount": 3,
     "images": [
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2F77f3a1f1-e098-4e0a-84c1-bfaa3126419d.jpg?alt=media",
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Fthumb_280_77f3a1f1-e098-4e0a-84c1-bfaa3126419d.jpg?alt=media"
@@ -1234,7 +1234,7 @@ export const products: Product[] = [
     "price": 445,
     "originalPrice": 512,
     "rating": 5,
-    "reviewCount": 3,
+    "reviewCount": 8,
     "shortDescription": "Candelabra 55x12cm glass available at Koekeloer Gift & Décor Shop in Gansbaai.",
     "description": "Authentic Candelabra 55x12cm glass from Koekeloer Geskenkwinkel & Décor, Shop 2, Great White Junction, Gansbaai. Curated with care for beautiful home living.",
     "features": [
@@ -1268,7 +1268,7 @@ export const products: Product[] = [
     "price": 445,
     "originalPrice": 512,
     "rating": 5,
-    "reviewCount": 7,
+    "reviewCount": 6,
     "shortDescription": "Candelabra 55x12cm sea glass available at Koekeloer Gift & Décor Shop in Gansbaai.",
     "description": "Authentic Candelabra 55x12cm sea glass from Koekeloer Geskenkwinkel & Décor, Shop 2, Great White Junction, Gansbaai. Curated with care for beautiful home living.",
     "features": [
@@ -1278,7 +1278,7 @@ export const products: Product[] = [
       "Nationwide courier delivery across South Africa"
     ],
     "stockStatus": "in_stock",
-    "stockCount": 5,
+    "stockCount": 8,
     "images": [
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Fe0cd8bf4-180d-426a-a212-b1ad1bb3c603.jpg?alt=media",
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Fthumb_280_e0cd8bf4-180d-426a-a212-b1ad1bb3c603.jpg?alt=media"
@@ -1302,7 +1302,7 @@ export const products: Product[] = [
     "price": 949,
     "originalPrice": 1091,
     "rating": 5,
-    "reviewCount": 9,
+    "reviewCount": 14,
     "shortDescription": "Candle on Driftwood available at Koekeloer Gift & Décor Shop in Gansbaai.",
     "description": "Authentic Candle on Driftwood from Koekeloer Geskenkwinkel & Décor, Shop 2, Great White Junction, Gansbaai. Curated with care for beautiful home living.",
     "features": [
@@ -1336,7 +1336,7 @@ export const products: Product[] = [
     "price": 120,
     "originalPrice": 138,
     "rating": 5,
-    "reviewCount": 7,
+    "reviewCount": 12,
     "shortDescription": "Candle Rose H10xDia6cm available at Koekeloer Gift & Décor Shop in Gansbaai.",
     "description": "Authentic Candle Rose H10xDia6cm from Koekeloer Geskenkwinkel & Décor, Shop 2, Great White Junction, Gansbaai. Curated with care for beautiful home living.",
     "features": [
@@ -1346,7 +1346,7 @@ export const products: Product[] = [
       "Nationwide courier delivery across South Africa"
     ],
     "stockStatus": "in_stock",
-    "stockCount": 4,
+    "stockCount": 8,
     "images": [
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Fcbb62d08-b16f-464d-b856-ae98a8d8c251.jpg?alt=media",
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Fthumb_280_cbb62d08-b16f-464d-b856-ae98a8d8c251.jpg?alt=media"
@@ -1370,7 +1370,7 @@ export const products: Product[] = [
     "price": 185,
     "originalPrice": 213,
     "rating": 5,
-    "reviewCount": 6,
+    "reviewCount": 12,
     "shortDescription": "Candle Rose H10xDia8cm available at Koekeloer Gift & Décor Shop in Gansbaai.",
     "description": "Authentic Candle Rose H10xDia8cm from Koekeloer Geskenkwinkel & Décor, Shop 2, Great White Junction, Gansbaai. Curated with care for beautiful home living.",
     "features": [
@@ -1380,7 +1380,7 @@ export const products: Product[] = [
       "Nationwide courier delivery across South Africa"
     ],
     "stockStatus": "in_stock",
-    "stockCount": 9,
+    "stockCount": 3,
     "images": [
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2F63958e96-3aa5-429d-af07-3edd97825e1c.jpg?alt=media",
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Fthumb_280_63958e96-3aa5-429d-af07-3edd97825e1c.jpg?alt=media"
@@ -1404,7 +1404,7 @@ export const products: Product[] = [
     "price": 236,
     "originalPrice": 271,
     "rating": 5,
-    "reviewCount": 10,
+    "reviewCount": 13,
     "shortDescription": "Candle Rose H15xDia8, 5cm available at Koekeloer Gift & Décor Shop in Gansbaai.",
     "description": "Authentic Candle Rose H15xDia8, 5cm from Koekeloer Geskenkwinkel & Décor, Shop 2, Great White Junction, Gansbaai. Curated with care for beautiful home living.",
     "features": [
@@ -1414,7 +1414,7 @@ export const products: Product[] = [
       "Nationwide courier delivery across South Africa"
     ],
     "stockStatus": "in_stock",
-    "stockCount": 3,
+    "stockCount": 7,
     "images": [
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Fba9d23a9-c6b4-459f-ba76-2dfdf0819feb.jpg?alt=media",
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Fthumb_280_ba9d23a9-c6b4-459f-ba76-2dfdf0819feb.jpg?alt=media"
@@ -1438,7 +1438,7 @@ export const products: Product[] = [
     "price": 1500,
     "originalPrice": 1725,
     "rating": 5,
-    "reviewCount": 16,
+    "reviewCount": 7,
     "shortDescription": "Candle Stand 5 Burner available at Koekeloer Gift & Décor Shop in Gansbaai.",
     "description": "Authentic Candle Stand 5 Burner from Koekeloer Geskenkwinkel & Décor, Shop 2, Great White Junction, Gansbaai. Curated with care for beautiful home living.",
     "features": [
@@ -1448,7 +1448,7 @@ export const products: Product[] = [
       "Nationwide courier delivery across South Africa"
     ],
     "stockStatus": "in_stock",
-    "stockCount": 8,
+    "stockCount": 5,
     "images": [
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2F5ae9ac95-c249-4515-b1ca-d01581aa2319.jpg?alt=media",
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Fthumb_280_5ae9ac95-c249-4515-b1ca-d01581aa2319.jpg?alt=media"
@@ -1472,7 +1472,7 @@ export const products: Product[] = [
     "price": 1680,
     "originalPrice": 1932,
     "rating": 5,
-    "reviewCount": 17,
+    "reviewCount": 12,
     "shortDescription": "Candle Stand 5 Burner available at Koekeloer Gift & Décor Shop in Gansbaai.",
     "description": "Authentic Candle Stand 5 Burner from Koekeloer Geskenkwinkel & Décor, Shop 2, Great White Junction, Gansbaai. Curated with care for beautiful home living.",
     "features": [
@@ -1482,7 +1482,7 @@ export const products: Product[] = [
       "Nationwide courier delivery across South Africa"
     ],
     "stockStatus": "in_stock",
-    "stockCount": 5,
+    "stockCount": 4,
     "images": [
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Fa460f10d-dcd8-4310-8f51-eecc9402ed4b.jpg?alt=media",
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Fthumb_280_a460f10d-dcd8-4310-8f51-eecc9402ed4b.jpg?alt=media"
@@ -1506,7 +1506,7 @@ export const products: Product[] = [
     "price": 120,
     "originalPrice": 138,
     "rating": 5,
-    "reviewCount": 9,
+    "reviewCount": 5,
     "shortDescription": "Candle Vanilla H10xDia6cm available at Koekeloer Gift & Décor Shop in Gansbaai.",
     "description": "Authentic Candle Vanilla H10xDia6cm from Koekeloer Geskenkwinkel & Décor, Shop 2, Great White Junction, Gansbaai. Curated with care for beautiful home living.",
     "features": [
@@ -1516,7 +1516,7 @@ export const products: Product[] = [
       "Nationwide courier delivery across South Africa"
     ],
     "stockStatus": "in_stock",
-    "stockCount": 5,
+    "stockCount": 6,
     "images": [
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2F78158d9d-fd45-4ac1-94c8-478d9c47f98a.jpg?alt=media",
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Fthumb_280_78158d9d-fd45-4ac1-94c8-478d9c47f98a.jpg?alt=media"
@@ -1540,7 +1540,7 @@ export const products: Product[] = [
     "price": 185,
     "originalPrice": 213,
     "rating": 5,
-    "reviewCount": 12,
+    "reviewCount": 9,
     "shortDescription": "Candle Vanilla H10xDia8cm available at Koekeloer Gift & Décor Shop in Gansbaai.",
     "description": "Authentic Candle Vanilla H10xDia8cm from Koekeloer Geskenkwinkel & Décor, Shop 2, Great White Junction, Gansbaai. Curated with care for beautiful home living.",
     "features": [
@@ -1574,7 +1574,7 @@ export const products: Product[] = [
     "price": 236,
     "originalPrice": 271,
     "rating": 5,
-    "reviewCount": 14,
+    "reviewCount": 9,
     "shortDescription": "Candle Vanilla H15xDia8,5cm available at Koekeloer Gift & Décor Shop in Gansbaai.",
     "description": "Authentic Candle Vanilla H15xDia8,5cm from Koekeloer Geskenkwinkel & Décor, Shop 2, Great White Junction, Gansbaai. Curated with care for beautiful home living.",
     "features": [
@@ -1584,7 +1584,7 @@ export const products: Product[] = [
       "Nationwide courier delivery across South Africa"
     ],
     "stockStatus": "in_stock",
-    "stockCount": 4,
+    "stockCount": 3,
     "images": [
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2F5aa7b49a-0c66-41af-8d30-f72581cda82e.jpg?alt=media",
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Fthumb_280_5aa7b49a-0c66-41af-8d30-f72581cda82e.jpg?alt=media"
@@ -1608,7 +1608,7 @@ export const products: Product[] = [
     "price": 120,
     "originalPrice": 138,
     "rating": 5,
-    "reviewCount": 10,
+    "reviewCount": 8,
     "shortDescription": "Candle Ylang Ylang H10xDia6cm available at Koekeloer Gift & Décor Shop in Gansbaai.",
     "description": "Authentic Candle Ylang Ylang H10xDia6cm from Koekeloer Geskenkwinkel & Décor, Shop 2, Great White Junction, Gansbaai. Curated with care for beautiful home living.",
     "features": [
@@ -1618,7 +1618,7 @@ export const products: Product[] = [
       "Nationwide courier delivery across South Africa"
     ],
     "stockStatus": "in_stock",
-    "stockCount": 6,
+    "stockCount": 2,
     "images": [
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2F9fde073a-15a9-4422-8e2c-a77b0add83b7.jpg?alt=media",
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Fthumb_280_9fde073a-15a9-4422-8e2c-a77b0add83b7.jpg?alt=media"
@@ -1642,7 +1642,7 @@ export const products: Product[] = [
     "price": 185,
     "originalPrice": 213,
     "rating": 5,
-    "reviewCount": 4,
+    "reviewCount": 16,
     "shortDescription": "Candle Ylang Ylang H10xDia8cm available at Koekeloer Gift & Décor Shop in Gansbaai.",
     "description": "Authentic Candle Ylang Ylang H10xDia8cm from Koekeloer Geskenkwinkel & Décor, Shop 2, Great White Junction, Gansbaai. Curated with care for beautiful home living.",
     "features": [
@@ -1652,7 +1652,7 @@ export const products: Product[] = [
       "Nationwide courier delivery across South Africa"
     ],
     "stockStatus": "in_stock",
-    "stockCount": 3,
+    "stockCount": 9,
     "images": [
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Fab40f3a4-98c2-4832-afc0-89de9d99c3b9.jpg?alt=media",
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Fthumb_280_ab40f3a4-98c2-4832-afc0-89de9d99c3b9.jpg?alt=media"
@@ -1676,7 +1676,7 @@ export const products: Product[] = [
     "price": 236,
     "originalPrice": 271,
     "rating": 5,
-    "reviewCount": 9,
+    "reviewCount": 12,
     "shortDescription": "Candle Ylang Ylang H15xDia8, 5cm available at Koekeloer Gift & Décor Shop in Gansbaai.",
     "description": "Authentic Candle Ylang Ylang H15xDia8, 5cm from Koekeloer Geskenkwinkel & Décor, Shop 2, Great White Junction, Gansbaai. Curated with care for beautiful home living.",
     "features": [
@@ -1686,7 +1686,7 @@ export const products: Product[] = [
       "Nationwide courier delivery across South Africa"
     ],
     "stockStatus": "in_stock",
-    "stockCount": 9,
+    "stockCount": 4,
     "images": [
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2F27165368-bcab-499f-8f29-57f2e7aff97b.jpg?alt=media",
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Fthumb_280_27165368-bcab-499f-8f29-57f2e7aff97b.jpg?alt=media"
@@ -1710,7 +1710,7 @@ export const products: Product[] = [
     "price": 363,
     "originalPrice": 417,
     "rating": 5,
-    "reviewCount": 17,
+    "reviewCount": 16,
     "shortDescription": "Glass candelabra medium available at Koekeloer Gift & Décor Shop in Gansbaai.",
     "description": "Authentic Glass candelabra medium from Koekeloer Geskenkwinkel & Décor, Shop 2, Great White Junction, Gansbaai. Curated with care for beautiful home living.",
     "features": [
@@ -1720,7 +1720,7 @@ export const products: Product[] = [
       "Nationwide courier delivery across South Africa"
     ],
     "stockStatus": "in_stock",
-    "stockCount": 2,
+    "stockCount": 9,
     "images": [
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2F8aa77e73-14ea-4f09-88cd-2f455dd484db.jpg?alt=media",
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Fthumb_280_8aa77e73-14ea-4f09-88cd-2f455dd484db.jpg?alt=media"
@@ -1778,7 +1778,7 @@ export const products: Product[] = [
     "price": 220,
     "originalPrice": 253,
     "rating": 5,
-    "reviewCount": 5,
+    "reviewCount": 11,
     "shortDescription": "Wdn Candle Holder 30cm available at Koekeloer Gift & Décor Shop in Gansbaai.",
     "description": "Authentic Wdn Candle Holder 30cm from Koekeloer Geskenkwinkel & Décor, Shop 2, Great White Junction, Gansbaai. Curated with care for beautiful home living.",
     "features": [
@@ -1812,7 +1812,7 @@ export const products: Product[] = [
     "price": 440,
     "originalPrice": 506,
     "rating": 5,
-    "reviewCount": 12,
+    "reviewCount": 13,
     "shortDescription": "Wdn Candle Holder 40cm available at Koekeloer Gift & Décor Shop in Gansbaai.",
     "description": "Authentic Wdn Candle Holder 40cm from Koekeloer Geskenkwinkel & Décor, Shop 2, Great White Junction, Gansbaai. Curated with care for beautiful home living.",
     "features": [
@@ -1822,7 +1822,7 @@ export const products: Product[] = [
       "Nationwide courier delivery across South Africa"
     ],
     "stockStatus": "in_stock",
-    "stockCount": 8,
+    "stockCount": 7,
     "images": [
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2F742a2a37-319d-45eb-ab52-bcf73a051bb2.jpg?alt=media",
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Fthumb_280_742a2a37-319d-45eb-ab52-bcf73a051bb2.jpg?alt=media"
@@ -1856,7 +1856,7 @@ export const products: Product[] = [
       "Nationwide courier delivery across South Africa"
     ],
     "stockStatus": "in_stock",
-    "stockCount": 4,
+    "stockCount": 2,
     "images": [
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Fe98e6520-a832-4089-8ab1-96aa187d5879.jpg?alt=media",
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Fthumb_280_e98e6520-a832-4089-8ab1-96aa187d5879.jpg?alt=media"
@@ -1880,7 +1880,7 @@ export const products: Product[] = [
     "price": 3500,
     "originalPrice": 4025,
     "rating": 5,
-    "reviewCount": 10,
+    "reviewCount": 17,
     "shortDescription": "Canvas available at Koekeloer Gift & Décor Shop in Gansbaai.",
     "description": "Authentic Canvas from Koekeloer Geskenkwinkel & Décor, Shop 2, Great White Junction, Gansbaai. Curated with care for beautiful home living.",
     "features": [
@@ -1890,7 +1890,7 @@ export const products: Product[] = [
       "Nationwide courier delivery across South Africa"
     ],
     "stockStatus": "in_stock",
-    "stockCount": 5,
+    "stockCount": 3,
     "images": [
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2F14adb641-ca2c-45f6-b80e-7dd0cb49efbf.jpg?alt=media",
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Fthumb_280_14adb641-ca2c-45f6-b80e-7dd0cb49efbf.jpg?alt=media"
@@ -1914,7 +1914,7 @@ export const products: Product[] = [
     "price": 3500,
     "originalPrice": 4025,
     "rating": 5,
-    "reviewCount": 11,
+    "reviewCount": 8,
     "shortDescription": "Canvas available at Koekeloer Gift & Décor Shop in Gansbaai.",
     "description": "Authentic Canvas from Koekeloer Geskenkwinkel & Décor, Shop 2, Great White Junction, Gansbaai. Curated with care for beautiful home living.",
     "features": [
@@ -1924,7 +1924,7 @@ export const products: Product[] = [
       "Nationwide courier delivery across South Africa"
     ],
     "stockStatus": "in_stock",
-    "stockCount": 2,
+    "stockCount": 9,
     "images": [
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2F06cfa4b5-dafe-488e-88bb-3bb9b03b9a73.jpg?alt=media",
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Fthumb_280_06cfa4b5-dafe-488e-88bb-3bb9b03b9a73.jpg?alt=media"
@@ -1948,7 +1948,7 @@ export const products: Product[] = [
     "price": 4995,
     "originalPrice": 5744,
     "rating": 5,
-    "reviewCount": 13,
+    "reviewCount": 7,
     "shortDescription": "Canvas available at Koekeloer Gift & Décor Shop in Gansbaai.",
     "description": "Authentic Canvas from Koekeloer Geskenkwinkel & Décor, Shop 2, Great White Junction, Gansbaai. Curated with care for beautiful home living.",
     "features": [
@@ -1958,7 +1958,7 @@ export const products: Product[] = [
       "Nationwide courier delivery across South Africa"
     ],
     "stockStatus": "in_stock",
-    "stockCount": 2,
+    "stockCount": 3,
     "images": [
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Fd08ae9c0-e6eb-4870-be6a-6f340bef0151.jpg?alt=media",
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Fthumb_280_d08ae9c0-e6eb-4870-be6a-6f340bef0151.jpg?alt=media"
@@ -1982,7 +1982,7 @@ export const products: Product[] = [
     "price": 3500,
     "originalPrice": 4025,
     "rating": 5,
-    "reviewCount": 3,
+    "reviewCount": 11,
     "shortDescription": "Canvas available at Koekeloer Gift & Décor Shop in Gansbaai.",
     "description": "Authentic Canvas from Koekeloer Geskenkwinkel & Décor, Shop 2, Great White Junction, Gansbaai. Curated with care for beautiful home living.",
     "features": [
@@ -1992,7 +1992,7 @@ export const products: Product[] = [
       "Nationwide courier delivery across South Africa"
     ],
     "stockStatus": "in_stock",
-    "stockCount": 7,
+    "stockCount": 6,
     "images": [
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2F96d7f7e3-bf48-4712-b4c2-a2af258cb7bd.jpg?alt=media",
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Fthumb_280_96d7f7e3-bf48-4712-b4c2-a2af258cb7bd.jpg?alt=media"
@@ -2016,7 +2016,7 @@ export const products: Product[] = [
     "price": 3900,
     "originalPrice": 4485,
     "rating": 5,
-    "reviewCount": 10,
+    "reviewCount": 7,
     "shortDescription": "Canvas available at Koekeloer Gift & Décor Shop in Gansbaai.",
     "description": "Authentic Canvas from Koekeloer Geskenkwinkel & Décor, Shop 2, Great White Junction, Gansbaai. Curated with care for beautiful home living.",
     "features": [
@@ -2050,7 +2050,7 @@ export const products: Product[] = [
     "price": 3500,
     "originalPrice": 4025,
     "rating": 5,
-    "reviewCount": 10,
+    "reviewCount": 3,
     "shortDescription": "Canvas available at Koekeloer Gift & Décor Shop in Gansbaai.",
     "description": "Authentic Canvas from Koekeloer Geskenkwinkel & Décor, Shop 2, Great White Junction, Gansbaai. Curated with care for beautiful home living.",
     "features": [
@@ -2060,7 +2060,7 @@ export const products: Product[] = [
       "Nationwide courier delivery across South Africa"
     ],
     "stockStatus": "in_stock",
-    "stockCount": 5,
+    "stockCount": 3,
     "images": [
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2F54bf98c9-bc75-455e-af5d-88bb041f27eb.jpg?alt=media",
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Fthumb_280_54bf98c9-bc75-455e-af5d-88bb041f27eb.jpg?alt=media"
@@ -2084,7 +2084,7 @@ export const products: Product[] = [
     "price": 3600,
     "originalPrice": 4140,
     "rating": 5,
-    "reviewCount": 4,
+    "reviewCount": 3,
     "shortDescription": "Canvas Albatross on fence available at Koekeloer Gift & Décor Shop in Gansbaai.",
     "description": "Authentic Canvas Albatross on fence from Koekeloer Geskenkwinkel & Décor, Shop 2, Great White Junction, Gansbaai. Curated with care for beautiful home living.",
     "features": [
@@ -2094,7 +2094,7 @@ export const products: Product[] = [
       "Nationwide courier delivery across South Africa"
     ],
     "stockStatus": "in_stock",
-    "stockCount": 7,
+    "stockCount": 8,
     "images": [
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2F0f310964-e2b7-48d3-b2ee-edba25a1e8db.jpg?alt=media",
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Fthumb_280_0f310964-e2b7-48d3-b2ee-edba25a1e8db.jpg?alt=media"
@@ -2118,7 +2118,7 @@ export const products: Product[] = [
     "price": 3600,
     "originalPrice": 4140,
     "rating": 5,
-    "reviewCount": 7,
+    "reviewCount": 3,
     "shortDescription": "Canvas Bird on Pole available at Koekeloer Gift & Décor Shop in Gansbaai.",
     "description": "Authentic Canvas Bird on Pole from Koekeloer Geskenkwinkel & Décor, Shop 2, Great White Junction, Gansbaai. Curated with care for beautiful home living.",
     "features": [
@@ -2128,7 +2128,7 @@ export const products: Product[] = [
       "Nationwide courier delivery across South Africa"
     ],
     "stockStatus": "in_stock",
-    "stockCount": 9,
+    "stockCount": 4,
     "images": [
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2F48f4ee47-b181-4e10-b043-8da1e68e897d.jpg?alt=media",
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Fthumb_280_48f4ee47-b181-4e10-b043-8da1e68e897d.jpg?alt=media"
@@ -2152,7 +2152,7 @@ export const products: Product[] = [
     "price": 3500,
     "originalPrice": 4025,
     "rating": 5,
-    "reviewCount": 13,
+    "reviewCount": 9,
     "shortDescription": "Canvas Bird on Rock available at Koekeloer Gift & Décor Shop in Gansbaai.",
     "description": "Authentic Canvas Bird on Rock from Koekeloer Geskenkwinkel & Décor, Shop 2, Great White Junction, Gansbaai. Curated with care for beautiful home living.",
     "features": [
@@ -2162,7 +2162,7 @@ export const products: Product[] = [
       "Nationwide courier delivery across South Africa"
     ],
     "stockStatus": "in_stock",
-    "stockCount": 6,
+    "stockCount": 8,
     "images": [
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2F8686c838-29c6-4e96-8089-928799867fcf.jpg?alt=media",
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Fthumb_280_8686c838-29c6-4e96-8089-928799867fcf.jpg?alt=media"
@@ -2186,7 +2186,7 @@ export const products: Product[] = [
     "price": 3600,
     "originalPrice": 4140,
     "rating": 5,
-    "reviewCount": 8,
+    "reviewCount": 14,
     "shortDescription": "Canvas Birds in a row 50x150cm available at Koekeloer Gift & Décor Shop in Gansbaai.",
     "description": "Authentic Canvas Birds in a row 50x150cm from Koekeloer Geskenkwinkel & Décor, Shop 2, Great White Junction, Gansbaai. Curated with care for beautiful home living.",
     "features": [
@@ -2196,7 +2196,7 @@ export const products: Product[] = [
       "Nationwide courier delivery across South Africa"
     ],
     "stockStatus": "in_stock",
-    "stockCount": 5,
+    "stockCount": 6,
     "images": [
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Fd169a46c-cff2-4631-855b-c5349126b711.jpg?alt=media",
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Fthumb_280_d169a46c-cff2-4631-855b-c5349126b711.jpg?alt=media"
@@ -2220,7 +2220,7 @@ export const products: Product[] = [
     "price": 3000,
     "originalPrice": 3450,
     "rating": 5,
-    "reviewCount": 5,
+    "reviewCount": 16,
     "shortDescription": "Canvas Birds in row 50x150cm available at Koekeloer Gift & Décor Shop in Gansbaai.",
     "description": "Authentic Canvas Birds in row 50x150cm from Koekeloer Geskenkwinkel & Décor, Shop 2, Great White Junction, Gansbaai. Curated with care for beautiful home living.",
     "features": [
@@ -2230,7 +2230,7 @@ export const products: Product[] = [
       "Nationwide courier delivery across South Africa"
     ],
     "stockStatus": "in_stock",
-    "stockCount": 7,
+    "stockCount": 8,
     "images": [
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2F563c73b1-438c-4a51-918f-57434d36e836.jpg?alt=media",
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Fthumb_280_563c73b1-438c-4a51-918f-57434d36e836.jpg?alt=media"
@@ -2254,7 +2254,7 @@ export const products: Product[] = [
     "price": 4200,
     "originalPrice": 4830,
     "rating": 5,
-    "reviewCount": 5,
+    "reviewCount": 10,
     "shortDescription": "Canvas Birds on beach available at Koekeloer Gift & Décor Shop in Gansbaai.",
     "description": "Authentic Canvas Birds on beach from Koekeloer Geskenkwinkel & Décor, Shop 2, Great White Junction, Gansbaai. Curated with care for beautiful home living.",
     "features": [
@@ -2288,7 +2288,7 @@ export const products: Product[] = [
     "price": 3000,
     "originalPrice": 3450,
     "rating": 5,
-    "reviewCount": 14,
+    "reviewCount": 12,
     "shortDescription": "Canvas Birds on beach available at Koekeloer Gift & Décor Shop in Gansbaai.",
     "description": "Authentic Canvas Birds on beach from Koekeloer Geskenkwinkel & Décor, Shop 2, Great White Junction, Gansbaai. Curated with care for beautiful home living.",
     "features": [
@@ -2298,7 +2298,7 @@ export const products: Product[] = [
       "Nationwide courier delivery across South Africa"
     ],
     "stockStatus": "in_stock",
-    "stockCount": 7,
+    "stockCount": 4,
     "images": [
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Fe9d2f20a-09cb-4d37-bd1b-3e273c7f4344.jpg?alt=media",
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Fthumb_280_e9d2f20a-09cb-4d37-bd1b-3e273c7f4344.jpg?alt=media"
@@ -2322,7 +2322,7 @@ export const products: Product[] = [
     "price": 3000,
     "originalPrice": 3450,
     "rating": 5,
-    "reviewCount": 13,
+    "reviewCount": 14,
     "shortDescription": "Canvas Birds on branch 50x150cm available at Koekeloer Gift & Décor Shop in Gansbaai.",
     "description": "Authentic Canvas Birds on branch 50x150cm from Koekeloer Geskenkwinkel & Décor, Shop 2, Great White Junction, Gansbaai. Curated with care for beautiful home living.",
     "features": [
@@ -2332,7 +2332,7 @@ export const products: Product[] = [
       "Nationwide courier delivery across South Africa"
     ],
     "stockStatus": "in_stock",
-    "stockCount": 8,
+    "stockCount": 2,
     "images": [
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2F617b0325-0bbf-471e-a33c-b4dd28094a9e.jpg?alt=media",
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Fthumb_280_617b0325-0bbf-471e-a33c-b4dd28094a9e.jpg?alt=media"
@@ -2356,7 +2356,7 @@ export const products: Product[] = [
     "price": 3600,
     "originalPrice": 4140,
     "rating": 5,
-    "reviewCount": 6,
+    "reviewCount": 12,
     "shortDescription": "Canvas Birds on Poles available at Koekeloer Gift & Décor Shop in Gansbaai.",
     "description": "Authentic Canvas Birds on Poles from Koekeloer Geskenkwinkel & Décor, Shop 2, Great White Junction, Gansbaai. Curated with care for beautiful home living.",
     "features": [
@@ -2366,7 +2366,7 @@ export const products: Product[] = [
       "Nationwide courier delivery across South Africa"
     ],
     "stockStatus": "in_stock",
-    "stockCount": 5,
+    "stockCount": 9,
     "images": [
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2F0a1fef76-1ede-41c5-9bcc-0f60f64b9ffd.jpg?alt=media",
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Fthumb_280_0a1fef76-1ede-41c5-9bcc-0f60f64b9ffd.jpg?alt=media"
@@ -2390,7 +2390,7 @@ export const products: Product[] = [
     "price": 3500,
     "originalPrice": 4025,
     "rating": 5,
-    "reviewCount": 9,
+    "reviewCount": 16,
     "shortDescription": "Canvas Boats In Harbour available at Koekeloer Gift & Décor Shop in Gansbaai.",
     "description": "Authentic Canvas Boats In Harbour from Koekeloer Geskenkwinkel & Décor, Shop 2, Great White Junction, Gansbaai. Curated with care for beautiful home living.",
     "features": [
@@ -2400,7 +2400,7 @@ export const products: Product[] = [
       "Nationwide courier delivery across South Africa"
     ],
     "stockStatus": "in_stock",
-    "stockCount": 5,
+    "stockCount": 7,
     "images": [
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Ff9e38bcd-15a5-4756-8dee-fd1696bf9202.jpg?alt=media",
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Fthumb_280_f9e38bcd-15a5-4756-8dee-fd1696bf9202.jpg?alt=media"
@@ -2424,7 +2424,7 @@ export const products: Product[] = [
     "price": 2200,
     "originalPrice": 2530,
     "rating": 5,
-    "reviewCount": 7,
+    "reviewCount": 17,
     "shortDescription": "Canvas Boy Fishing 60x100cm available at Koekeloer Gift & Décor Shop in Gansbaai.",
     "description": "Authentic Canvas Boy Fishing 60x100cm from Koekeloer Geskenkwinkel & Décor, Shop 2, Great White Junction, Gansbaai. Curated with care for beautiful home living.",
     "features": [
@@ -2434,7 +2434,7 @@ export const products: Product[] = [
       "Nationwide courier delivery across South Africa"
     ],
     "stockStatus": "in_stock",
-    "stockCount": 4,
+    "stockCount": 8,
     "images": [
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2F162fb889-2fa2-4e18-b523-bdaf6a8dee94.jpg?alt=media",
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Fthumb_280_162fb889-2fa2-4e18-b523-bdaf6a8dee94.jpg?alt=media"
@@ -2458,7 +2458,7 @@ export const products: Product[] = [
     "price": 2200,
     "originalPrice": 2530,
     "rating": 5,
-    "reviewCount": 6,
+    "reviewCount": 11,
     "shortDescription": "Canvas Boy on Beach available at Koekeloer Gift & Décor Shop in Gansbaai.",
     "description": "Authentic Canvas Boy on Beach from Koekeloer Geskenkwinkel & Décor, Shop 2, Great White Junction, Gansbaai. Curated with care for beautiful home living.",
     "features": [
@@ -2468,7 +2468,7 @@ export const products: Product[] = [
       "Nationwide courier delivery across South Africa"
     ],
     "stockStatus": "in_stock",
-    "stockCount": 9,
+    "stockCount": 8,
     "images": [
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2F0b6bab20-2303-4638-97d2-2ceb38429630.jpg?alt=media",
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Fthumb_280_0b6bab20-2303-4638-97d2-2ceb38429630.jpg?alt=media"
@@ -2492,7 +2492,7 @@ export const products: Product[] = [
     "price": 1900,
     "originalPrice": 2185,
     "rating": 5,
-    "reviewCount": 7,
+    "reviewCount": 11,
     "shortDescription": "Canvas Cactus 80cm x 80cm available at Koekeloer Gift & Décor Shop in Gansbaai.",
     "description": "Authentic Canvas Cactus 80cm x 80cm from Koekeloer Geskenkwinkel & Décor, Shop 2, Great White Junction, Gansbaai. Curated with care for beautiful home living.",
     "features": [
@@ -2502,7 +2502,7 @@ export const products: Product[] = [
       "Nationwide courier delivery across South Africa"
     ],
     "stockStatus": "in_stock",
-    "stockCount": 7,
+    "stockCount": 5,
     "images": [
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Fd9debcaf-df7b-406a-b02c-fc669f1c43ba.jpg?alt=media",
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Fthumb_280_d9debcaf-df7b-406a-b02c-fc669f1c43ba.jpg?alt=media"
@@ -2526,7 +2526,7 @@ export const products: Product[] = [
     "price": 1900,
     "originalPrice": 2185,
     "rating": 5,
-    "reviewCount": 17,
+    "reviewCount": 11,
     "shortDescription": "Canvas Cactus 80cm x 80cm available at Koekeloer Gift & Décor Shop in Gansbaai.",
     "description": "Authentic Canvas Cactus 80cm x 80cm from Koekeloer Geskenkwinkel & Décor, Shop 2, Great White Junction, Gansbaai. Curated with care for beautiful home living.",
     "features": [
@@ -2536,7 +2536,7 @@ export const products: Product[] = [
       "Nationwide courier delivery across South Africa"
     ],
     "stockStatus": "in_stock",
-    "stockCount": 4,
+    "stockCount": 8,
     "images": [
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2F67cb0c61-4574-44be-8844-070a528d1462.jpg?alt=media",
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Fthumb_280_67cb0c61-4574-44be-8844-070a528d1462.jpg?alt=media"
@@ -2560,7 +2560,7 @@ export const products: Product[] = [
     "price": 1650,
     "originalPrice": 1897,
     "rating": 5,
-    "reviewCount": 16,
+    "reviewCount": 9,
     "shortDescription": "Canvas Car available at Koekeloer Gift & Décor Shop in Gansbaai.",
     "description": "Authentic Canvas Car from Koekeloer Geskenkwinkel & Décor, Shop 2, Great White Junction, Gansbaai. Curated with care for beautiful home living.",
     "features": [
@@ -2570,7 +2570,7 @@ export const products: Product[] = [
       "Nationwide courier delivery across South Africa"
     ],
     "stockStatus": "in_stock",
-    "stockCount": 2,
+    "stockCount": 7,
     "images": [
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2F8790e9dc-a110-40a6-a7b7-238d2a4fffd0.jpg?alt=media",
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Fthumb_280_8790e9dc-a110-40a6-a7b7-238d2a4fffd0.jpg?alt=media"
@@ -2594,7 +2594,7 @@ export const products: Product[] = [
     "price": 3000,
     "originalPrice": 3450,
     "rating": 5,
-    "reviewCount": 7,
+    "reviewCount": 16,
     "shortDescription": "Canvas Dolphins 50x150cm available at Koekeloer Gift & Décor Shop in Gansbaai.",
     "description": "Authentic Canvas Dolphins 50x150cm from Koekeloer Geskenkwinkel & Décor, Shop 2, Great White Junction, Gansbaai. Curated with care for beautiful home living.",
     "features": [
@@ -2604,7 +2604,7 @@ export const products: Product[] = [
       "Nationwide courier delivery across South Africa"
     ],
     "stockStatus": "in_stock",
-    "stockCount": 9,
+    "stockCount": 6,
     "images": [
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2F3f2df622-f885-415d-80cb-557c2812785c.jpg?alt=media",
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Fthumb_280_3f2df622-f885-415d-80cb-557c2812785c.jpg?alt=media"
@@ -2628,7 +2628,7 @@ export const products: Product[] = [
     "price": 2400,
     "originalPrice": 2760,
     "rating": 5,
-    "reviewCount": 3,
+    "reviewCount": 10,
     "shortDescription": "Canvas Flower Blue & White 60x100cm available at Koekeloer Gift & Décor Shop in Gansbaai.",
     "description": "Authentic Canvas Flower Blue & White 60x100cm from Koekeloer Geskenkwinkel & Décor, Shop 2, Great White Junction, Gansbaai. Curated with care for beautiful home living.",
     "features": [
@@ -2638,7 +2638,7 @@ export const products: Product[] = [
       "Nationwide courier delivery across South Africa"
     ],
     "stockStatus": "in_stock",
-    "stockCount": 2,
+    "stockCount": 8,
     "images": [
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2F9b468bf8-7baf-4c06-9d81-f07df681adb3.jpg?alt=media",
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Fthumb_280_9b468bf8-7baf-4c06-9d81-f07df681adb3.jpg?alt=media"
@@ -2662,7 +2662,7 @@ export const products: Product[] = [
     "price": 2400,
     "originalPrice": 2760,
     "rating": 5,
-    "reviewCount": 16,
+    "reviewCount": 7,
     "shortDescription": "Canvas Flower Blue available at Koekeloer Gift & Décor Shop in Gansbaai.",
     "description": "Authentic Canvas Flower Blue from Koekeloer Geskenkwinkel & Décor, Shop 2, Great White Junction, Gansbaai. Curated with care for beautiful home living.",
     "features": [
@@ -2696,7 +2696,7 @@ export const products: Product[] = [
     "price": 2400,
     "originalPrice": 2760,
     "rating": 5,
-    "reviewCount": 6,
+    "reviewCount": 3,
     "shortDescription": "Canvas Flower Blue 60x100cm available at Koekeloer Gift & Décor Shop in Gansbaai.",
     "description": "Authentic Canvas Flower Blue 60x100cm from Koekeloer Geskenkwinkel & Décor, Shop 2, Great White Junction, Gansbaai. Curated with care for beautiful home living.",
     "features": [
@@ -2706,7 +2706,7 @@ export const products: Product[] = [
       "Nationwide courier delivery across South Africa"
     ],
     "stockStatus": "in_stock",
-    "stockCount": 8,
+    "stockCount": 5,
     "images": [
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2F81d840d7-8fdf-4a6c-b151-ceb529db2656.jpg?alt=media",
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Fthumb_280_81d840d7-8fdf-4a6c-b151-ceb529db2656.jpg?alt=media"
@@ -2730,7 +2730,7 @@ export const products: Product[] = [
     "price": 2400,
     "originalPrice": 2760,
     "rating": 5,
-    "reviewCount": 12,
+    "reviewCount": 7,
     "shortDescription": "Canvas Flower Blue black 60x100cm available at Koekeloer Gift & Décor Shop in Gansbaai.",
     "description": "Authentic Canvas Flower Blue black 60x100cm from Koekeloer Geskenkwinkel & Décor, Shop 2, Great White Junction, Gansbaai. Curated with care for beautiful home living.",
     "features": [
@@ -2740,7 +2740,7 @@ export const products: Product[] = [
       "Nationwide courier delivery across South Africa"
     ],
     "stockStatus": "in_stock",
-    "stockCount": 5,
+    "stockCount": 8,
     "images": [
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Ff7ee6eb1-a661-42f2-9f2b-109f2d001072.jpg?alt=media",
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Fthumb_280_f7ee6eb1-a661-42f2-9f2b-109f2d001072.jpg?alt=media"
@@ -2764,7 +2764,7 @@ export const products: Product[] = [
     "price": 2200,
     "originalPrice": 2530,
     "rating": 5,
-    "reviewCount": 9,
+    "reviewCount": 8,
     "shortDescription": "Canvas Flower Bunch available at Koekeloer Gift & Décor Shop in Gansbaai.",
     "description": "Authentic Canvas Flower Bunch from Koekeloer Geskenkwinkel & Décor, Shop 2, Great White Junction, Gansbaai. Curated with care for beautiful home living.",
     "features": [
@@ -2774,7 +2774,7 @@ export const products: Product[] = [
       "Nationwide courier delivery across South Africa"
     ],
     "stockStatus": "in_stock",
-    "stockCount": 8,
+    "stockCount": 5,
     "images": [
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2F496b60e4-dda3-4a6a-8c54-ee7cf43c6483.jpg?alt=media",
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Fthumb_280_496b60e4-dda3-4a6a-8c54-ee7cf43c6483.jpg?alt=media"
@@ -2798,7 +2798,7 @@ export const products: Product[] = [
     "price": 2200,
     "originalPrice": 2530,
     "rating": 5,
-    "reviewCount": 16,
+    "reviewCount": 10,
     "shortDescription": "Canvas Flower mix colour 60x100cm available at Koekeloer Gift & Décor Shop in Gansbaai.",
     "description": "Authentic Canvas Flower mix colour 60x100cm from Koekeloer Geskenkwinkel & Décor, Shop 2, Great White Junction, Gansbaai. Curated with care for beautiful home living.",
     "features": [
@@ -2808,7 +2808,7 @@ export const products: Product[] = [
       "Nationwide courier delivery across South Africa"
     ],
     "stockStatus": "in_stock",
-    "stockCount": 3,
+    "stockCount": 7,
     "images": [
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Fc1bd9a98-8f06-42da-9c74-e29041bbb206.jpg?alt=media",
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Fthumb_280_c1bd9a98-8f06-42da-9c74-e29041bbb206.jpg?alt=media"
@@ -2832,7 +2832,7 @@ export const products: Product[] = [
     "price": 2300,
     "originalPrice": 2645,
     "rating": 5,
-    "reviewCount": 15,
+    "reviewCount": 5,
     "shortDescription": "Canvas Flower mix colour 60x100cm available at Koekeloer Gift & Décor Shop in Gansbaai.",
     "description": "Authentic Canvas Flower mix colour 60x100cm from Koekeloer Geskenkwinkel & Décor, Shop 2, Great White Junction, Gansbaai. Curated with care for beautiful home living.",
     "features": [
@@ -2842,7 +2842,7 @@ export const products: Product[] = [
       "Nationwide courier delivery across South Africa"
     ],
     "stockStatus": "in_stock",
-    "stockCount": 2,
+    "stockCount": 8,
     "images": [
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2F8da2d804-bb1b-44ac-8360-a0cc0d7b7a79.jpg?alt=media",
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Fthumb_280_8da2d804-bb1b-44ac-8360-a0cc0d7b7a79.jpg?alt=media"
@@ -2866,7 +2866,7 @@ export const products: Product[] = [
     "price": 2200,
     "originalPrice": 2530,
     "rating": 5,
-    "reviewCount": 13,
+    "reviewCount": 16,
     "shortDescription": "Canvas Girl on Beach available at Koekeloer Gift & Décor Shop in Gansbaai.",
     "description": "Authentic Canvas Girl on Beach from Koekeloer Geskenkwinkel & Décor, Shop 2, Great White Junction, Gansbaai. Curated with care for beautiful home living.",
     "features": [
@@ -2876,7 +2876,7 @@ export const products: Product[] = [
       "Nationwide courier delivery across South Africa"
     ],
     "stockStatus": "in_stock",
-    "stockCount": 8,
+    "stockCount": 9,
     "images": [
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2F91885812-380c-4ab2-bcf6-862f89661a0a.jpg?alt=media",
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Fthumb_280_91885812-380c-4ab2-bcf6-862f89661a0a.jpg?alt=media"
@@ -2900,7 +2900,7 @@ export const products: Product[] = [
     "price": 2200,
     "originalPrice": 2530,
     "rating": 5,
-    "reviewCount": 16,
+    "reviewCount": 11,
     "shortDescription": "Canvas Girl on beach available at Koekeloer Gift & Décor Shop in Gansbaai.",
     "description": "Authentic Canvas Girl on beach from Koekeloer Geskenkwinkel & Décor, Shop 2, Great White Junction, Gansbaai. Curated with care for beautiful home living.",
     "features": [
@@ -2910,7 +2910,7 @@ export const products: Product[] = [
       "Nationwide courier delivery across South Africa"
     ],
     "stockStatus": "in_stock",
-    "stockCount": 9,
+    "stockCount": 8,
     "images": [
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2F207dbc66-8292-407f-a6a0-9c14de172b45.jpg?alt=media",
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Fthumb_280_207dbc66-8292-407f-a6a0-9c14de172b45.jpg?alt=media"
@@ -2934,7 +2934,7 @@ export const products: Product[] = [
     "price": 2200,
     "originalPrice": 2530,
     "rating": 5,
-    "reviewCount": 12,
+    "reviewCount": 11,
     "shortDescription": "Canvas Girl w/hat&bucket available at Koekeloer Gift & Décor Shop in Gansbaai.",
     "description": "Authentic Canvas Girl w/hat&bucket from Koekeloer Geskenkwinkel & Décor, Shop 2, Great White Junction, Gansbaai. Curated with care for beautiful home living.",
     "features": [
@@ -2968,7 +2968,7 @@ export const products: Product[] = [
     "price": 2600,
     "originalPrice": 2990,
     "rating": 5,
-    "reviewCount": 14,
+    "reviewCount": 13,
     "shortDescription": "Canvas Ladies mix colour available at Koekeloer Gift & Décor Shop in Gansbaai.",
     "description": "Authentic Canvas Ladies mix colour from Koekeloer Geskenkwinkel & Décor, Shop 2, Great White Junction, Gansbaai. Curated with care for beautiful home living.",
     "features": [
@@ -2978,7 +2978,7 @@ export const products: Product[] = [
       "Nationwide courier delivery across South Africa"
     ],
     "stockStatus": "in_stock",
-    "stockCount": 8,
+    "stockCount": 5,
     "images": [
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Ffd798ffe-3039-4ea3-8160-b899f8ca9780.jpg?alt=media",
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Fthumb_280_fd798ffe-3039-4ea3-8160-b899f8ca9780.jpg?alt=media"
@@ -3002,7 +3002,7 @@ export const products: Product[] = [
     "price": 4200,
     "originalPrice": 4830,
     "rating": 5,
-    "reviewCount": 13,
+    "reviewCount": 17,
     "shortDescription": "Canvas Lady in Blue available at Koekeloer Gift & Décor Shop in Gansbaai.",
     "description": "Authentic Canvas Lady in Blue from Koekeloer Geskenkwinkel & Décor, Shop 2, Great White Junction, Gansbaai. Curated with care for beautiful home living.",
     "features": [
@@ -3012,7 +3012,7 @@ export const products: Product[] = [
       "Nationwide courier delivery across South Africa"
     ],
     "stockStatus": "in_stock",
-    "stockCount": 6,
+    "stockCount": 4,
     "images": [
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2F2e859126-6295-46b9-839a-f95c3465cef2.jpg?alt=media",
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Fthumb_280_2e859126-6295-46b9-839a-f95c3465cef2.jpg?alt=media"
@@ -3036,7 +3036,7 @@ export const products: Product[] = [
     "price": 4200,
     "originalPrice": 4830,
     "rating": 5,
-    "reviewCount": 10,
+    "reviewCount": 17,
     "shortDescription": "Canvas Lady in Red available at Koekeloer Gift & Décor Shop in Gansbaai.",
     "description": "Authentic Canvas Lady in Red from Koekeloer Geskenkwinkel & Décor, Shop 2, Great White Junction, Gansbaai. Curated with care for beautiful home living.",
     "features": [
@@ -3046,7 +3046,7 @@ export const products: Product[] = [
       "Nationwide courier delivery across South Africa"
     ],
     "stockStatus": "in_stock",
-    "stockCount": 4,
+    "stockCount": 5,
     "images": [
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Fa9e057f3-393d-48fa-bbc1-a8f39e39a44d.jpg?alt=media",
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Fthumb_280_a9e057f3-393d-48fa-bbc1-a8f39e39a44d.jpg?alt=media"
@@ -3070,7 +3070,7 @@ export const products: Product[] = [
     "price": 1200,
     "originalPrice": 1380,
     "rating": 5,
-    "reviewCount": 11,
+    "reviewCount": 8,
     "shortDescription": "Canvas Lighthouse Red 30cm x 90cm available at Koekeloer Gift & Décor Shop in Gansbaai.",
     "description": "Authentic Canvas Lighthouse Red 30cm x 90cm from Koekeloer Geskenkwinkel & Décor, Shop 2, Great White Junction, Gansbaai. Curated with care for beautiful home living.",
     "features": [
@@ -3080,7 +3080,7 @@ export const products: Product[] = [
       "Nationwide courier delivery across South Africa"
     ],
     "stockStatus": "in_stock",
-    "stockCount": 6,
+    "stockCount": 5,
     "images": [
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2F4f62d06c-bb95-4ae9-8248-7e259699a7f4.jpg?alt=media",
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Fthumb_280_4f62d06c-bb95-4ae9-8248-7e259699a7f4.jpg?alt=media"
@@ -3104,7 +3104,7 @@ export const products: Product[] = [
     "price": 1440,
     "originalPrice": 1656,
     "rating": 5,
-    "reviewCount": 15,
+    "reviewCount": 13,
     "shortDescription": "Canvas Off Shore available at Koekeloer Gift & Décor Shop in Gansbaai.",
     "description": "Authentic Canvas Off Shore from Koekeloer Geskenkwinkel & Décor, Shop 2, Great White Junction, Gansbaai. Curated with care for beautiful home living.",
     "features": [
@@ -3114,7 +3114,7 @@ export const products: Product[] = [
       "Nationwide courier delivery across South Africa"
     ],
     "stockStatus": "in_stock",
-    "stockCount": 9,
+    "stockCount": 8,
     "images": [
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2F12813e2e-a24d-45d2-ba29-c450a78591c0.jpg?alt=media",
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Fthumb_280_12813e2e-a24d-45d2-ba29-c450a78591c0.jpg?alt=media"
@@ -3138,7 +3138,7 @@ export const products: Product[] = [
     "price": 1200,
     "originalPrice": 1380,
     "rating": 5,
-    "reviewCount": 13,
+    "reviewCount": 6,
     "shortDescription": "Canvas Shell 40x60cm available at Koekeloer Gift & Décor Shop in Gansbaai.",
     "description": "Authentic Canvas Shell 40x60cm from Koekeloer Geskenkwinkel & Décor, Shop 2, Great White Junction, Gansbaai. Curated with care for beautiful home living.",
     "features": [
@@ -3148,7 +3148,7 @@ export const products: Product[] = [
       "Nationwide courier delivery across South Africa"
     ],
     "stockStatus": "in_stock",
-    "stockCount": 8,
+    "stockCount": 9,
     "images": [
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Fc4f7414e-5d35-4f59-8a5e-9878f071b860.jpg?alt=media",
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Fthumb_280_c4f7414e-5d35-4f59-8a5e-9878f071b860.jpg?alt=media"
@@ -3172,7 +3172,7 @@ export const products: Product[] = [
     "price": 1200,
     "originalPrice": 1380,
     "rating": 5,
-    "reviewCount": 11,
+    "reviewCount": 8,
     "shortDescription": "Canvas Shell 40x60cm available at Koekeloer Gift & Décor Shop in Gansbaai.",
     "description": "Authentic Canvas Shell 40x60cm from Koekeloer Geskenkwinkel & Décor, Shop 2, Great White Junction, Gansbaai. Curated with care for beautiful home living.",
     "features": [
@@ -3182,7 +3182,7 @@ export const products: Product[] = [
       "Nationwide courier delivery across South Africa"
     ],
     "stockStatus": "in_stock",
-    "stockCount": 4,
+    "stockCount": 9,
     "images": [
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2F7365f942-f68e-4954-9915-a0bbb3ee9609.jpg?alt=media",
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Fthumb_280_7365f942-f68e-4954-9915-a0bbb3ee9609.jpg?alt=media"
@@ -3206,7 +3206,7 @@ export const products: Product[] = [
     "price": 1200,
     "originalPrice": 1380,
     "rating": 5,
-    "reviewCount": 17,
+    "reviewCount": 10,
     "shortDescription": "Canvas Shell 40x60cm available at Koekeloer Gift & Décor Shop in Gansbaai.",
     "description": "Authentic Canvas Shell 40x60cm from Koekeloer Geskenkwinkel & Décor, Shop 2, Great White Junction, Gansbaai. Curated with care for beautiful home living.",
     "features": [
@@ -3216,7 +3216,7 @@ export const products: Product[] = [
       "Nationwide courier delivery across South Africa"
     ],
     "stockStatus": "in_stock",
-    "stockCount": 8,
+    "stockCount": 6,
     "images": [
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2F7e06697c-5463-49e3-ac1f-523a400692b2.jpg?alt=media",
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Fthumb_280_7e06697c-5463-49e3-ac1f-523a400692b2.jpg?alt=media"
@@ -3240,7 +3240,7 @@ export const products: Product[] = [
     "price": 2100,
     "originalPrice": 2415,
     "rating": 5,
-    "reviewCount": 3,
+    "reviewCount": 11,
     "shortDescription": "Canvas Shells on pebble Beach framed available at Koekeloer Gift & Décor Shop in Gansbaai.",
     "description": "Authentic Canvas Shells on pebble Beach framed from Koekeloer Geskenkwinkel & Décor, Shop 2, Great White Junction, Gansbaai. Curated with care for beautiful home living.",
     "features": [
@@ -3250,7 +3250,7 @@ export const products: Product[] = [
       "Nationwide courier delivery across South Africa"
     ],
     "stockStatus": "in_stock",
-    "stockCount": 3,
+    "stockCount": 7,
     "images": [
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Fb8d5153b-e3ce-437e-b64c-0778df523e05.jpg?alt=media",
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Fthumb_280_b8d5153b-e3ce-437e-b64c-0778df523e05.jpg?alt=media"
@@ -3274,7 +3274,7 @@ export const products: Product[] = [
     "price": 2400,
     "originalPrice": 2760,
     "rating": 5,
-    "reviewCount": 3,
+    "reviewCount": 16,
     "shortDescription": "Canvas Tree available at Koekeloer Gift & Décor Shop in Gansbaai.",
     "description": "Authentic Canvas Tree from Koekeloer Geskenkwinkel & Décor, Shop 2, Great White Junction, Gansbaai. Curated with care for beautiful home living.",
     "features": [
@@ -3284,7 +3284,7 @@ export const products: Product[] = [
       "Nationwide courier delivery across South Africa"
     ],
     "stockStatus": "in_stock",
-    "stockCount": 5,
+    "stockCount": 8,
     "images": [
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2F815518b4-6452-402e-987b-f26054855f0f.jpg?alt=media",
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Fthumb_280_815518b4-6452-402e-987b-f26054855f0f.jpg?alt=media"
@@ -3308,7 +3308,7 @@ export const products: Product[] = [
     "price": 579,
     "originalPrice": 666,
     "rating": 5,
-    "reviewCount": 10,
+    "reviewCount": 16,
     "shortDescription": "Ceramic 3 Spicedrawer available at Koekeloer Gift & Décor Shop in Gansbaai.",
     "description": "Authentic Ceramic 3 Spicedrawer from Koekeloer Geskenkwinkel & Décor, Shop 2, Great White Junction, Gansbaai. Curated with care for beautiful home living.",
     "features": [
@@ -3318,7 +3318,7 @@ export const products: Product[] = [
       "Nationwide courier delivery across South Africa"
     ],
     "stockStatus": "in_stock",
-    "stockCount": 3,
+    "stockCount": 8,
     "images": [
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2F7630c8b2-c8be-40b4-b0ca-5bf8d92f7d4c.jpg?alt=media",
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Fthumb_280_7630c8b2-c8be-40b4-b0ca-5bf8d92f7d4c.jpg?alt=media"
@@ -3342,7 +3342,7 @@ export const products: Product[] = [
     "price": 770,
     "originalPrice": 885,
     "rating": 5,
-    "reviewCount": 10,
+    "reviewCount": 4,
     "shortDescription": "Ceramic 4 Spicedrawer available at Koekeloer Gift & Décor Shop in Gansbaai.",
     "description": "Authentic Ceramic 4 Spicedrawer from Koekeloer Geskenkwinkel & Décor, Shop 2, Great White Junction, Gansbaai. Curated with care for beautiful home living.",
     "features": [
@@ -3376,7 +3376,7 @@ export const products: Product[] = [
     "price": 960,
     "originalPrice": 1104,
     "rating": 5,
-    "reviewCount": 15,
+    "reviewCount": 13,
     "shortDescription": "Ceramic 5 Spicedrawer available at Koekeloer Gift & Décor Shop in Gansbaai.",
     "description": "Authentic Ceramic 5 Spicedrawer from Koekeloer Geskenkwinkel & Décor, Shop 2, Great White Junction, Gansbaai. Curated with care for beautiful home living.",
     "features": [
@@ -3386,7 +3386,7 @@ export const products: Product[] = [
       "Nationwide courier delivery across South Africa"
     ],
     "stockStatus": "in_stock",
-    "stockCount": 2,
+    "stockCount": 6,
     "images": [
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Fc9829620-247c-4248-9b49-330560dce08b.jpg?alt=media",
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Fthumb_280_c9829620-247c-4248-9b49-330560dce08b.jpg?alt=media"
@@ -3410,7 +3410,7 @@ export const products: Product[] = [
     "price": 1100,
     "originalPrice": 1265,
     "rating": 5,
-    "reviewCount": 12,
+    "reviewCount": 11,
     "shortDescription": "Ceramic 6 Spicedrawer available at Koekeloer Gift & Décor Shop in Gansbaai.",
     "description": "Authentic Ceramic 6 Spicedrawer from Koekeloer Geskenkwinkel & Décor, Shop 2, Great White Junction, Gansbaai. Curated with care for beautiful home living.",
     "features": [
@@ -3420,7 +3420,7 @@ export const products: Product[] = [
       "Nationwide courier delivery across South Africa"
     ],
     "stockStatus": "in_stock",
-    "stockCount": 5,
+    "stockCount": 4,
     "images": [
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2F7bb2c36a-9ea0-4f05-8c93-a6860e59c534.jpg?alt=media",
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Fthumb_280_7bb2c36a-9ea0-4f05-8c93-a6860e59c534.jpg?alt=media"
@@ -3444,7 +3444,7 @@ export const products: Product[] = [
     "price": 140,
     "originalPrice": 161,
     "rating": 5,
-    "reviewCount": 17,
+    "reviewCount": 6,
     "shortDescription": "Ceramic Bird Hanging available at Koekeloer Gift & Décor Shop in Gansbaai.",
     "description": "Authentic Ceramic Bird Hanging from Koekeloer Geskenkwinkel & Décor, Shop 2, Great White Junction, Gansbaai. Curated with care for beautiful home living.",
     "features": [
@@ -3478,7 +3478,7 @@ export const products: Product[] = [
     "price": 140,
     "originalPrice": 161,
     "rating": 5,
-    "reviewCount": 11,
+    "reviewCount": 14,
     "shortDescription": "Ceramic Fish Hanging available at Koekeloer Gift & Décor Shop in Gansbaai.",
     "description": "Authentic Ceramic Fish Hanging from Koekeloer Geskenkwinkel & Décor, Shop 2, Great White Junction, Gansbaai. Curated with care for beautiful home living.",
     "features": [
@@ -3488,7 +3488,7 @@ export const products: Product[] = [
       "Nationwide courier delivery across South Africa"
     ],
     "stockStatus": "in_stock",
-    "stockCount": 2,
+    "stockCount": 8,
     "images": [
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2F70b623cd-e7f7-4930-9a3d-f51133a42f9b.jpg?alt=media",
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Fthumb_280_70b623cd-e7f7-4930-9a3d-f51133a42f9b.jpg?alt=media"
@@ -3512,7 +3512,7 @@ export const products: Product[] = [
     "price": 280,
     "originalPrice": 322,
     "rating": 5,
-    "reviewCount": 12,
+    "reviewCount": 4,
     "shortDescription": "Ceramic Fish Hanging available at Koekeloer Gift & Décor Shop in Gansbaai.",
     "description": "Authentic Ceramic Fish Hanging from Koekeloer Geskenkwinkel & Décor, Shop 2, Great White Junction, Gansbaai. Curated with care for beautiful home living.",
     "features": [
@@ -3546,7 +3546,7 @@ export const products: Product[] = [
     "price": 359,
     "originalPrice": 413,
     "rating": 5,
-    "reviewCount": 12,
+    "reviewCount": 10,
     "shortDescription": "Ceramic Jug Queen Pine 20cm available at Koekeloer Gift & Décor Shop in Gansbaai.",
     "description": "Authentic Ceramic Jug Queen Pine 20cm from Koekeloer Geskenkwinkel & Décor, Shop 2, Great White Junction, Gansbaai. Curated with care for beautiful home living.",
     "features": [
@@ -3556,7 +3556,7 @@ export const products: Product[] = [
       "Nationwide courier delivery across South Africa"
     ],
     "stockStatus": "in_stock",
-    "stockCount": 6,
+    "stockCount": 8,
     "images": [
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2F99343c8e-00fb-4218-a5c8-e8cd066755e4.jpg?alt=media",
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Fthumb_280_99343c8e-00fb-4218-a5c8-e8cd066755e4.jpg?alt=media"
@@ -3580,7 +3580,7 @@ export const products: Product[] = [
     "price": 140,
     "originalPrice": 161,
     "rating": 5,
-    "reviewCount": 12,
+    "reviewCount": 11,
     "shortDescription": "Ceramic Seahorse Hanging available at Koekeloer Gift & Décor Shop in Gansbaai.",
     "description": "Authentic Ceramic Seahorse Hanging from Koekeloer Geskenkwinkel & Décor, Shop 2, Great White Junction, Gansbaai. Curated with care for beautiful home living.",
     "features": [
@@ -3590,7 +3590,7 @@ export const products: Product[] = [
       "Nationwide courier delivery across South Africa"
     ],
     "stockStatus": "in_stock",
-    "stockCount": 2,
+    "stockCount": 4,
     "images": [
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2F46abf965-5d56-4028-9126-8befc83e3aed.jpg?alt=media",
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Fthumb_280_46abf965-5d56-4028-9126-8befc83e3aed.jpg?alt=media"
@@ -3614,7 +3614,7 @@ export const products: Product[] = [
     "price": 230,
     "originalPrice": 265,
     "rating": 5,
-    "reviewCount": 9,
+    "reviewCount": 5,
     "shortDescription": "Half-moon Ceramic bowl available at Koekeloer Gift & Décor Shop in Gansbaai.",
     "description": "Authentic Half-moon Ceramic bowl from Koekeloer Geskenkwinkel & Décor, Shop 2, Great White Junction, Gansbaai. Curated with care for beautiful home living.",
     "features": [
@@ -3624,7 +3624,7 @@ export const products: Product[] = [
       "Nationwide courier delivery across South Africa"
     ],
     "stockStatus": "in_stock",
-    "stockCount": 9,
+    "stockCount": 6,
     "images": [
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Fc0e3a7af-929b-48ff-b590-8e33a3d597dd.jpg?alt=media",
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Fthumb_280_c0e3a7af-929b-48ff-b590-8e33a3d597dd.jpg?alt=media"
@@ -3648,7 +3648,7 @@ export const products: Product[] = [
     "price": 230,
     "originalPrice": 265,
     "rating": 5,
-    "reviewCount": 10,
+    "reviewCount": 17,
     "shortDescription": "Heart Ceramic bowl available at Koekeloer Gift & Décor Shop in Gansbaai.",
     "description": "Authentic Heart Ceramic bowl from Koekeloer Geskenkwinkel & Décor, Shop 2, Great White Junction, Gansbaai. Curated with care for beautiful home living.",
     "features": [
@@ -3658,7 +3658,7 @@ export const products: Product[] = [
       "Nationwide courier delivery across South Africa"
     ],
     "stockStatus": "in_stock",
-    "stockCount": 9,
+    "stockCount": 4,
     "images": [
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2F66e62bb6-4c16-407b-b8e9-76de11d9eeb1.jpg?alt=media",
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Fthumb_280_66e62bb6-4c16-407b-b8e9-76de11d9eeb1.jpg?alt=media"
@@ -3682,7 +3682,7 @@ export const products: Product[] = [
     "price": 289,
     "originalPrice": 332,
     "rating": 5,
-    "reviewCount": 5,
+    "reviewCount": 12,
     "shortDescription": "Spoon Rest Ceramic available at Koekeloer Gift & Décor Shop in Gansbaai.",
     "description": "Authentic Spoon Rest Ceramic from Koekeloer Geskenkwinkel & Décor, Shop 2, Great White Junction, Gansbaai. Curated with care for beautiful home living.",
     "features": [
@@ -3692,7 +3692,7 @@ export const products: Product[] = [
       "Nationwide courier delivery across South Africa"
     ],
     "stockStatus": "in_stock",
-    "stockCount": 9,
+    "stockCount": 8,
     "images": [
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2F69279dcd-9166-4add-8a7f-21c0c8214406.jpg?alt=media",
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Fthumb_280_69279dcd-9166-4add-8a7f-21c0c8214406.jpg?alt=media"
@@ -3716,7 +3716,7 @@ export const products: Product[] = [
     "price": 250,
     "originalPrice": 288,
     "rating": 5,
-    "reviewCount": 9,
+    "reviewCount": 14,
     "shortDescription": "Vase Medium Ceramic H16cm available at Koekeloer Gift & Décor Shop in Gansbaai.",
     "description": "Authentic Vase Medium Ceramic H16cm from Koekeloer Geskenkwinkel & Décor, Shop 2, Great White Junction, Gansbaai. Curated with care for beautiful home living.",
     "features": [
@@ -3726,7 +3726,7 @@ export const products: Product[] = [
       "Nationwide courier delivery across South Africa"
     ],
     "stockStatus": "in_stock",
-    "stockCount": 6,
+    "stockCount": 9,
     "images": [
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2F787655ba-5b5c-4995-81d2-50de6fe7dd25.jpg?alt=media",
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Fthumb_280_787655ba-5b5c-4995-81d2-50de6fe7dd25.jpg?alt=media"
@@ -3750,7 +3750,7 @@ export const products: Product[] = [
     "price": 1200,
     "originalPrice": 1380,
     "rating": 5,
-    "reviewCount": 4,
+    "reviewCount": 10,
     "shortDescription": "Wall clock & calendar available at Koekeloer Gift & Décor Shop in Gansbaai.",
     "description": "Authentic Wall clock & calendar from Koekeloer Geskenkwinkel & Décor, Shop 2, Great White Junction, Gansbaai. Curated with care for beautiful home living.",
     "features": [
@@ -3760,7 +3760,7 @@ export const products: Product[] = [
       "Nationwide courier delivery across South Africa"
     ],
     "stockStatus": "in_stock",
-    "stockCount": 6,
+    "stockCount": 7,
     "images": [
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Fd67077e0-0595-456c-99d1-2ec2c1643751.jpg?alt=media",
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Fthumb_280_d67077e0-0595-456c-99d1-2ec2c1643751.jpg?alt=media"
@@ -3784,7 +3784,7 @@ export const products: Product[] = [
     "price": 1999,
     "originalPrice": 2299,
     "rating": 5,
-    "reviewCount": 17,
+    "reviewCount": 6,
     "shortDescription": "Wall clock available at Koekeloer Gift & Décor Shop in Gansbaai.",
     "description": "Authentic Wall clock from Koekeloer Geskenkwinkel & Décor, Shop 2, Great White Junction, Gansbaai. Curated with care for beautiful home living.",
     "features": [
@@ -3794,7 +3794,7 @@ export const products: Product[] = [
       "Nationwide courier delivery across South Africa"
     ],
     "stockStatus": "in_stock",
-    "stockCount": 6,
+    "stockCount": 2,
     "images": [
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2F6ea6131e-0446-432b-9f56-cc508a452e59.jpg?alt=media",
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Fthumb_280_6ea6131e-0446-432b-9f56-cc508a452e59.jpg?alt=media"
@@ -3818,7 +3818,7 @@ export const products: Product[] = [
     "price": 899,
     "originalPrice": 1034,
     "rating": 5,
-    "reviewCount": 3,
+    "reviewCount": 9,
     "shortDescription": "Cushion Cover 42x40cm available at Koekeloer Gift & Décor Shop in Gansbaai.",
     "description": "Authentic Cushion Cover 42x40cm from Koekeloer Geskenkwinkel & Décor, Shop 2, Great White Junction, Gansbaai. Curated with care for beautiful home living.",
     "features": [
@@ -3828,7 +3828,7 @@ export const products: Product[] = [
       "Nationwide courier delivery across South Africa"
     ],
     "stockStatus": "in_stock",
-    "stockCount": 9,
+    "stockCount": 4,
     "images": [
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2F6c45b14b-5dfb-467b-bf63-da3e8481db30.jpg?alt=media",
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Fthumb_280_6c45b14b-5dfb-467b-bf63-da3e8481db30.jpg?alt=media"
@@ -3852,7 +3852,7 @@ export const products: Product[] = [
     "price": 799,
     "originalPrice": 919,
     "rating": 5,
-    "reviewCount": 15,
+    "reviewCount": 12,
     "shortDescription": "Cushion Cover 42x42cm Art available at Koekeloer Gift & Décor Shop in Gansbaai.",
     "description": "Authentic Cushion Cover 42x42cm Art from Koekeloer Geskenkwinkel & Décor, Shop 2, Great White Junction, Gansbaai. Curated with care for beautiful home living.",
     "features": [
@@ -3862,7 +3862,7 @@ export const products: Product[] = [
       "Nationwide courier delivery across South Africa"
     ],
     "stockStatus": "in_stock",
-    "stockCount": 6,
+    "stockCount": 7,
     "images": [
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Feadd1209-83fd-4d40-b153-9aed6ee1142d.jpg?alt=media",
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Fthumb_280_eadd1209-83fd-4d40-b153-9aed6ee1142d.jpg?alt=media"
@@ -3886,7 +3886,7 @@ export const products: Product[] = [
     "price": 799,
     "originalPrice": 919,
     "rating": 5,
-    "reviewCount": 7,
+    "reviewCount": 4,
     "shortDescription": "Cushion Cover 42x42cm Gypsy available at Koekeloer Gift & Décor Shop in Gansbaai.",
     "description": "Authentic Cushion Cover 42x42cm Gypsy from Koekeloer Geskenkwinkel & Décor, Shop 2, Great White Junction, Gansbaai. Curated with care for beautiful home living.",
     "features": [
@@ -3896,7 +3896,7 @@ export const products: Product[] = [
       "Nationwide courier delivery across South Africa"
     ],
     "stockStatus": "in_stock",
-    "stockCount": 6,
+    "stockCount": 7,
     "images": [
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2F53c01978-dcdf-4063-b419-b16f02eadaeb.jpg?alt=media",
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Fthumb_280_53c01978-dcdf-4063-b419-b16f02eadaeb.jpg?alt=media"
@@ -3920,7 +3920,7 @@ export const products: Product[] = [
     "price": 799,
     "originalPrice": 919,
     "rating": 5,
-    "reviewCount": 10,
+    "reviewCount": 3,
     "shortDescription": "Cushion Cover 42x42cm Lady Flute available at Koekeloer Gift & Décor Shop in Gansbaai.",
     "description": "Authentic Cushion Cover 42x42cm Lady Flute from Koekeloer Geskenkwinkel & Décor, Shop 2, Great White Junction, Gansbaai. Curated with care for beautiful home living.",
     "features": [
@@ -3954,7 +3954,7 @@ export const products: Product[] = [
     "price": 750,
     "originalPrice": 862,
     "rating": 5,
-    "reviewCount": 14,
+    "reviewCount": 6,
     "shortDescription": "Cushion Cover 43x43cm Cat 3 available at Koekeloer Gift & Décor Shop in Gansbaai.",
     "description": "Authentic Cushion Cover 43x43cm Cat 3 from Koekeloer Geskenkwinkel & Décor, Shop 2, Great White Junction, Gansbaai. Curated with care for beautiful home living.",
     "features": [
@@ -3964,7 +3964,7 @@ export const products: Product[] = [
       "Nationwide courier delivery across South Africa"
     ],
     "stockStatus": "in_stock",
-    "stockCount": 3,
+    "stockCount": 9,
     "images": [
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Fbe9d2beb-664d-4e63-a19d-ae3abcccd320.jpg?alt=media",
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Fthumb_280_be9d2beb-664d-4e63-a19d-ae3abcccd320.jpg?alt=media"
@@ -3988,7 +3988,7 @@ export const products: Product[] = [
     "price": 750,
     "originalPrice": 862,
     "rating": 5,
-    "reviewCount": 16,
+    "reviewCount": 3,
     "shortDescription": "Cushion Cover 43x43cm Cat 4 available at Koekeloer Gift & Décor Shop in Gansbaai.",
     "description": "Authentic Cushion Cover 43x43cm Cat 4 from Koekeloer Geskenkwinkel & Décor, Shop 2, Great White Junction, Gansbaai. Curated with care for beautiful home living.",
     "features": [
@@ -3998,7 +3998,7 @@ export const products: Product[] = [
       "Nationwide courier delivery across South Africa"
     ],
     "stockStatus": "in_stock",
-    "stockCount": 4,
+    "stockCount": 6,
     "images": [
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Fa4e1c167-d38b-422b-808a-b89dcb891c18.jpg?alt=media",
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Fthumb_280_a4e1c167-d38b-422b-808a-b89dcb891c18.jpg?alt=media"
@@ -4056,7 +4056,7 @@ export const products: Product[] = [
     "price": 750,
     "originalPrice": 862,
     "rating": 5,
-    "reviewCount": 8,
+    "reviewCount": 11,
     "shortDescription": "Cushion Cover 43x43cm Cat Collage available at Koekeloer Gift & Décor Shop in Gansbaai.",
     "description": "Authentic Cushion Cover 43x43cm Cat Collage from Koekeloer Geskenkwinkel & Décor, Shop 2, Great White Junction, Gansbaai. Curated with care for beautiful home living.",
     "features": [
@@ -4066,7 +4066,7 @@ export const products: Product[] = [
       "Nationwide courier delivery across South Africa"
     ],
     "stockStatus": "in_stock",
-    "stockCount": 9,
+    "stockCount": 8,
     "images": [
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Fabc9e9b2-dfa1-40ec-97c7-8c62ed05054a.jpg?alt=media",
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Fthumb_280_abc9e9b2-dfa1-40ec-97c7-8c62ed05054a.jpg?alt=media"
@@ -4090,7 +4090,7 @@ export const products: Product[] = [
     "price": 750,
     "originalPrice": 862,
     "rating": 5,
-    "reviewCount": 14,
+    "reviewCount": 11,
     "shortDescription": "Cushion Cover 43x43cm Cat Cres Moon available at Koekeloer Gift & Décor Shop in Gansbaai.",
     "description": "Authentic Cushion Cover 43x43cm Cat Cres Moon from Koekeloer Geskenkwinkel & Décor, Shop 2, Great White Junction, Gansbaai. Curated with care for beautiful home living.",
     "features": [
@@ -4100,7 +4100,7 @@ export const products: Product[] = [
       "Nationwide courier delivery across South Africa"
     ],
     "stockStatus": "in_stock",
-    "stockCount": 4,
+    "stockCount": 9,
     "images": [
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Fd1044ffd-49c5-4ff6-9833-214b9f50e847.jpg?alt=media",
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Fthumb_280_d1044ffd-49c5-4ff6-9833-214b9f50e847.jpg?alt=media"
@@ -4124,7 +4124,7 @@ export const products: Product[] = [
     "price": 750,
     "originalPrice": 862,
     "rating": 5,
-    "reviewCount": 7,
+    "reviewCount": 11,
     "shortDescription": "Cushion Cover 43x43cm Cat Taj available at Koekeloer Gift & Décor Shop in Gansbaai.",
     "description": "Authentic Cushion Cover 43x43cm Cat Taj from Koekeloer Geskenkwinkel & Décor, Shop 2, Great White Junction, Gansbaai. Curated with care for beautiful home living.",
     "features": [
@@ -4134,7 +4134,7 @@ export const products: Product[] = [
       "Nationwide courier delivery across South Africa"
     ],
     "stockStatus": "in_stock",
-    "stockCount": 5,
+    "stockCount": 9,
     "images": [
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Fedd0cc75-fa91-41aa-bd68-268e3b041d45.jpg?alt=media",
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Fthumb_280_edd0cc75-fa91-41aa-bd68-268e3b041d45.jpg?alt=media"
@@ -4158,7 +4158,7 @@ export const products: Product[] = [
     "price": 750,
     "originalPrice": 862,
     "rating": 5,
-    "reviewCount": 3,
+    "reviewCount": 9,
     "shortDescription": "Cushion Cover 43x43cm Cat available at Koekeloer Gift & Décor Shop in Gansbaai.",
     "description": "Authentic Cushion Cover 43x43cm Cat from Koekeloer Geskenkwinkel & Décor, Shop 2, Great White Junction, Gansbaai. Curated with care for beautiful home living.",
     "features": [
@@ -4168,7 +4168,7 @@ export const products: Product[] = [
       "Nationwide courier delivery across South Africa"
     ],
     "stockStatus": "in_stock",
-    "stockCount": 4,
+    "stockCount": 8,
     "images": [
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2F0eee03a3-d243-4111-af2e-01245c670d13.jpg?alt=media",
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Fthumb_280_0eee03a3-d243-4111-af2e-01245c670d13.jpg?alt=media"
@@ -4192,7 +4192,7 @@ export const products: Product[] = [
     "price": 750,
     "originalPrice": 862,
     "rating": 5,
-    "reviewCount": 11,
+    "reviewCount": 17,
     "shortDescription": "Cushion Cover 43x43cm Cats 4 available at Koekeloer Gift & Décor Shop in Gansbaai.",
     "description": "Authentic Cushion Cover 43x43cm Cats 4 from Koekeloer Geskenkwinkel & Décor, Shop 2, Great White Junction, Gansbaai. Curated with care for beautiful home living.",
     "features": [
@@ -4202,7 +4202,7 @@ export const products: Product[] = [
       "Nationwide courier delivery across South Africa"
     ],
     "stockStatus": "in_stock",
-    "stockCount": 9,
+    "stockCount": 4,
     "images": [
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Ffbc75706-77b8-4cbf-8b33-55f1e89f627b.jpg?alt=media",
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Fthumb_280_fbc75706-77b8-4cbf-8b33-55f1e89f627b.jpg?alt=media"
@@ -4226,7 +4226,7 @@ export const products: Product[] = [
     "price": 750,
     "originalPrice": 862,
     "rating": 5,
-    "reviewCount": 9,
+    "reviewCount": 5,
     "shortDescription": "Cushion Cover 43x43cm Cats available at Koekeloer Gift & Décor Shop in Gansbaai.",
     "description": "Authentic Cushion Cover 43x43cm Cats from Koekeloer Geskenkwinkel & Décor, Shop 2, Great White Junction, Gansbaai. Curated with care for beautiful home living.",
     "features": [
@@ -4236,7 +4236,7 @@ export const products: Product[] = [
       "Nationwide courier delivery across South Africa"
     ],
     "stockStatus": "in_stock",
-    "stockCount": 8,
+    "stockCount": 6,
     "images": [
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2F30343317-afe1-46d6-804b-6b97c6c37693.jpg?alt=media",
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Fthumb_280_30343317-afe1-46d6-804b-6b97c6c37693.jpg?alt=media"
@@ -4260,7 +4260,7 @@ export const products: Product[] = [
     "price": 750,
     "originalPrice": 862,
     "rating": 5,
-    "reviewCount": 11,
+    "reviewCount": 16,
     "shortDescription": "Cushion Cover 44x44cm Abstract Face available at Koekeloer Gift & Décor Shop in Gansbaai.",
     "description": "Authentic Cushion Cover 44x44cm Abstract Face from Koekeloer Geskenkwinkel & Décor, Shop 2, Great White Junction, Gansbaai. Curated with care for beautiful home living.",
     "features": [
@@ -4270,7 +4270,7 @@ export const products: Product[] = [
       "Nationwide courier delivery across South Africa"
     ],
     "stockStatus": "in_stock",
-    "stockCount": 2,
+    "stockCount": 3,
     "images": [
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Fe46e07a3-a990-4b37-90c9-a0dc2d0c892c.jpg?alt=media",
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Fthumb_280_e46e07a3-a990-4b37-90c9-a0dc2d0c892c.jpg?alt=media"
@@ -4294,7 +4294,7 @@ export const products: Product[] = [
     "price": 750,
     "originalPrice": 862,
     "rating": 5,
-    "reviewCount": 15,
+    "reviewCount": 12,
     "shortDescription": "Cushion Cover 44x44cm Abstract Frieda available at Koekeloer Gift & Décor Shop in Gansbaai.",
     "description": "Authentic Cushion Cover 44x44cm Abstract Frieda from Koekeloer Geskenkwinkel & Décor, Shop 2, Great White Junction, Gansbaai. Curated with care for beautiful home living.",
     "features": [
@@ -4304,7 +4304,7 @@ export const products: Product[] = [
       "Nationwide courier delivery across South Africa"
     ],
     "stockStatus": "in_stock",
-    "stockCount": 3,
+    "stockCount": 2,
     "images": [
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Fbd9ce337-e2e9-4d51-99c9-3c52660e0e1f.jpg?alt=media",
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Fthumb_280_bd9ce337-e2e9-4d51-99c9-3c52660e0e1f.jpg?alt=media"
@@ -4328,7 +4328,7 @@ export const products: Product[] = [
     "price": 750,
     "originalPrice": 862,
     "rating": 5,
-    "reviewCount": 12,
+    "reviewCount": 6,
     "shortDescription": "Cushion Cover 45x43cm available at Koekeloer Gift & Décor Shop in Gansbaai.",
     "description": "Authentic Cushion Cover 45x43cm from Koekeloer Geskenkwinkel & Décor, Shop 2, Great White Junction, Gansbaai. Curated with care for beautiful home living.",
     "features": [
@@ -4338,7 +4338,7 @@ export const products: Product[] = [
       "Nationwide courier delivery across South Africa"
     ],
     "stockStatus": "in_stock",
-    "stockCount": 7,
+    "stockCount": 5,
     "images": [
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Fe3b109a6-11b7-419b-b94f-ba62d8f5b908.jpg?alt=media",
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Fthumb_280_e3b109a6-11b7-419b-b94f-ba62d8f5b908.jpg?alt=media"
@@ -4362,7 +4362,7 @@ export const products: Product[] = [
     "price": 950,
     "originalPrice": 1093,
     "rating": 5,
-    "reviewCount": 14,
+    "reviewCount": 7,
     "shortDescription": "Cushion Cover 45x45cm Blue and Mustard available at Koekeloer Gift & Décor Shop in Gansbaai.",
     "description": "Authentic Cushion Cover 45x45cm Blue and Mustard from Koekeloer Geskenkwinkel & Décor, Shop 2, Great White Junction, Gansbaai. Curated with care for beautiful home living.",
     "features": [
@@ -4372,7 +4372,7 @@ export const products: Product[] = [
       "Nationwide courier delivery across South Africa"
     ],
     "stockStatus": "in_stock",
-    "stockCount": 7,
+    "stockCount": 3,
     "images": [
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Fcd60c88c-9d83-43f1-ad71-490bce06c6f9.jpg?alt=media",
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Fthumb_280_cd60c88c-9d83-43f1-ad71-490bce06c6f9.jpg?alt=media"
@@ -4396,7 +4396,7 @@ export const products: Product[] = [
     "price": 950,
     "originalPrice": 1093,
     "rating": 5,
-    "reviewCount": 7,
+    "reviewCount": 3,
     "shortDescription": "Cushion Cover 45x45cm Dark Blue available at Koekeloer Gift & Décor Shop in Gansbaai.",
     "description": "Authentic Cushion Cover 45x45cm Dark Blue from Koekeloer Geskenkwinkel & Décor, Shop 2, Great White Junction, Gansbaai. Curated with care for beautiful home living.",
     "features": [
@@ -4406,7 +4406,7 @@ export const products: Product[] = [
       "Nationwide courier delivery across South Africa"
     ],
     "stockStatus": "in_stock",
-    "stockCount": 7,
+    "stockCount": 4,
     "images": [
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2F1c77a463-0b51-46ca-873f-ed1298405848.jpg?alt=media",
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Fthumb_280_1c77a463-0b51-46ca-873f-ed1298405848.jpg?alt=media"
@@ -4430,7 +4430,7 @@ export const products: Product[] = [
     "price": 950,
     "originalPrice": 1093,
     "rating": 5,
-    "reviewCount": 4,
+    "reviewCount": 14,
     "shortDescription": "Cushion Cover 45x45cm Red available at Koekeloer Gift & Décor Shop in Gansbaai.",
     "description": "Authentic Cushion Cover 45x45cm Red from Koekeloer Geskenkwinkel & Décor, Shop 2, Great White Junction, Gansbaai. Curated with care for beautiful home living.",
     "features": [
@@ -4440,7 +4440,7 @@ export const products: Product[] = [
       "Nationwide courier delivery across South Africa"
     ],
     "stockStatus": "in_stock",
-    "stockCount": 5,
+    "stockCount": 3,
     "images": [
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2F3dc73e43-9fd2-48ff-8e99-2c99c7e4addd.jpg?alt=media",
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Fthumb_280_3dc73e43-9fd2-48ff-8e99-2c99c7e4addd.jpg?alt=media"
@@ -4464,7 +4464,7 @@ export const products: Product[] = [
     "price": 950,
     "originalPrice": 1093,
     "rating": 5,
-    "reviewCount": 14,
+    "reviewCount": 4,
     "shortDescription": "Cushion Cover 45x45cm Turkish available at Koekeloer Gift & Décor Shop in Gansbaai.",
     "description": "Authentic Cushion Cover 45x45cm Turkish from Koekeloer Geskenkwinkel & Décor, Shop 2, Great White Junction, Gansbaai. Curated with care for beautiful home living.",
     "features": [
@@ -4474,7 +4474,7 @@ export const products: Product[] = [
       "Nationwide courier delivery across South Africa"
     ],
     "stockStatus": "in_stock",
-    "stockCount": 8,
+    "stockCount": 9,
     "images": [
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2F95cadd6f-6c70-407e-82ee-a13bd5576e2e.jpg?alt=media",
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Fthumb_280_95cadd6f-6c70-407e-82ee-a13bd5576e2e.jpg?alt=media"
@@ -4498,7 +4498,7 @@ export const products: Product[] = [
     "price": 780,
     "originalPrice": 897,
     "rating": 5,
-    "reviewCount": 12,
+    "reviewCount": 7,
     "shortDescription": "Cushion Cover 50x50cm Black available at Koekeloer Gift & Décor Shop in Gansbaai.",
     "description": "Authentic Cushion Cover 50x50cm Black from Koekeloer Geskenkwinkel & Décor, Shop 2, Great White Junction, Gansbaai. Curated with care for beautiful home living.",
     "features": [
@@ -4508,7 +4508,7 @@ export const products: Product[] = [
       "Nationwide courier delivery across South Africa"
     ],
     "stockStatus": "in_stock",
-    "stockCount": 5,
+    "stockCount": 6,
     "images": [
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2F4cf20360-c2b5-404e-b7b5-3540eeb97727.jpg?alt=media",
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Fthumb_280_4cf20360-c2b5-404e-b7b5-3540eeb97727.jpg?alt=media"
@@ -4532,7 +4532,7 @@ export const products: Product[] = [
     "price": 780,
     "originalPrice": 897,
     "rating": 5,
-    "reviewCount": 12,
+    "reviewCount": 9,
     "shortDescription": "Cushion Cover 50x50cm available at Koekeloer Gift & Décor Shop in Gansbaai.",
     "description": "Authentic Cushion Cover 50x50cm from Koekeloer Geskenkwinkel & Décor, Shop 2, Great White Junction, Gansbaai. Curated with care for beautiful home living.",
     "features": [
@@ -4542,7 +4542,7 @@ export const products: Product[] = [
       "Nationwide courier delivery across South Africa"
     ],
     "stockStatus": "in_stock",
-    "stockCount": 9,
+    "stockCount": 8,
     "images": [
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2F07c26279-6f1e-49f4-9c59-3c51476150f2.jpg?alt=media",
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Fthumb_280_07c26279-6f1e-49f4-9c59-3c51476150f2.jpg?alt=media"
@@ -4566,7 +4566,7 @@ export const products: Product[] = [
     "price": 569,
     "originalPrice": 654,
     "rating": 5,
-    "reviewCount": 16,
+    "reviewCount": 5,
     "shortDescription": "Cushion Cover 60x60cm available at Koekeloer Gift & Décor Shop in Gansbaai.",
     "description": "Authentic Cushion Cover 60x60cm from Koekeloer Geskenkwinkel & Décor, Shop 2, Great White Junction, Gansbaai. Curated with care for beautiful home living.",
     "features": [
@@ -4576,7 +4576,7 @@ export const products: Product[] = [
       "Nationwide courier delivery across South Africa"
     ],
     "stockStatus": "in_stock",
-    "stockCount": 7,
+    "stockCount": 3,
     "images": [
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Fb20b982e-5b38-4661-a0fc-fcecfb69fe3e.jpg?alt=media",
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Fthumb_280_b20b982e-5b38-4661-a0fc-fcecfb69fe3e.jpg?alt=media"
@@ -4600,7 +4600,7 @@ export const products: Product[] = [
     "price": 1500,
     "originalPrice": 1725,
     "rating": 5,
-    "reviewCount": 7,
+    "reviewCount": 13,
     "shortDescription": "Cushion Cover 65x48cm Aqua available at Koekeloer Gift & Décor Shop in Gansbaai.",
     "description": "Authentic Cushion Cover 65x48cm Aqua from Koekeloer Geskenkwinkel & Décor, Shop 2, Great White Junction, Gansbaai. Curated with care for beautiful home living.",
     "features": [
@@ -4634,7 +4634,7 @@ export const products: Product[] = [
     "price": 1500,
     "originalPrice": 1725,
     "rating": 5,
-    "reviewCount": 15,
+    "reviewCount": 8,
     "shortDescription": "Cushion Cover 65x48cm Beige available at Koekeloer Gift & Décor Shop in Gansbaai.",
     "description": "Authentic Cushion Cover 65x48cm Beige from Koekeloer Geskenkwinkel & Décor, Shop 2, Great White Junction, Gansbaai. Curated with care for beautiful home living.",
     "features": [
@@ -4668,7 +4668,7 @@ export const products: Product[] = [
     "price": 1500,
     "originalPrice": 1725,
     "rating": 5,
-    "reviewCount": 14,
+    "reviewCount": 11,
     "shortDescription": "Cushion Cover 65x48cm Red available at Koekeloer Gift & Décor Shop in Gansbaai.",
     "description": "Authentic Cushion Cover 65x48cm Red from Koekeloer Geskenkwinkel & Décor, Shop 2, Great White Junction, Gansbaai. Curated with care for beautiful home living.",
     "features": [
@@ -4678,7 +4678,7 @@ export const products: Product[] = [
       "Nationwide courier delivery across South Africa"
     ],
     "stockStatus": "in_stock",
-    "stockCount": 4,
+    "stockCount": 7,
     "images": [
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Ff88ce13c-2a29-41af-b4d5-6f2c56346555.jpg?alt=media",
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Fthumb_280_f88ce13c-2a29-41af-b4d5-6f2c56346555.jpg?alt=media"
@@ -4702,7 +4702,7 @@ export const products: Product[] = [
     "price": 410,
     "originalPrice": 471,
     "rating": 5,
-    "reviewCount": 15,
+    "reviewCount": 16,
     "shortDescription": "Cushion Cover Compass 60x60cm available at Koekeloer Gift & Décor Shop in Gansbaai.",
     "description": "Authentic Cushion Cover Compass 60x60cm from Koekeloer Geskenkwinkel & Décor, Shop 2, Great White Junction, Gansbaai. Curated with care for beautiful home living.",
     "features": [
@@ -4712,7 +4712,7 @@ export const products: Product[] = [
       "Nationwide courier delivery across South Africa"
     ],
     "stockStatus": "in_stock",
-    "stockCount": 6,
+    "stockCount": 2,
     "images": [
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Fc61a47d2-d886-4242-a623-93ceaf684d27.jpg?alt=media",
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Fthumb_280_c61a47d2-d886-4242-a623-93ceaf684d27.jpg?alt=media"
@@ -4736,7 +4736,7 @@ export const products: Product[] = [
     "price": 599,
     "originalPrice": 689,
     "rating": 5,
-    "reviewCount": 10,
+    "reviewCount": 14,
     "shortDescription": "Cushion cover Cotton 50x30cm available at Koekeloer Gift & Décor Shop in Gansbaai.",
     "description": "Authentic Cushion cover Cotton 50x30cm from Koekeloer Geskenkwinkel & Décor, Shop 2, Great White Junction, Gansbaai. Curated with care for beautiful home living.",
     "features": [
@@ -4746,7 +4746,7 @@ export const products: Product[] = [
       "Nationwide courier delivery across South Africa"
     ],
     "stockStatus": "in_stock",
-    "stockCount": 7,
+    "stockCount": 4,
     "images": [
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2F6d7ae5a2-9f26-47d0-a113-e833fef2357c.jpg?alt=media",
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Fthumb_280_6d7ae5a2-9f26-47d0-a113-e833fef2357c.jpg?alt=media"
@@ -4770,7 +4770,7 @@ export const products: Product[] = [
     "price": 799,
     "originalPrice": 919,
     "rating": 5,
-    "reviewCount": 15,
+    "reviewCount": 11,
     "shortDescription": "Cushion cover Cotton 50x50cm available at Koekeloer Gift & Décor Shop in Gansbaai.",
     "description": "Authentic Cushion cover Cotton 50x50cm from Koekeloer Geskenkwinkel & Décor, Shop 2, Great White Junction, Gansbaai. Curated with care for beautiful home living.",
     "features": [
@@ -4780,7 +4780,7 @@ export const products: Product[] = [
       "Nationwide courier delivery across South Africa"
     ],
     "stockStatus": "in_stock",
-    "stockCount": 3,
+    "stockCount": 6,
     "images": [
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2F28eabcd9-0e34-416c-82f3-0d7ebc043a79.jpg?alt=media",
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Fthumb_280_28eabcd9-0e34-416c-82f3-0d7ebc043a79.jpg?alt=media"
@@ -4804,7 +4804,7 @@ export const products: Product[] = [
     "price": 780,
     "originalPrice": 897,
     "rating": 5,
-    "reviewCount": 10,
+    "reviewCount": 3,
     "shortDescription": "Cushion Cover Cotton 50x50cm available at Koekeloer Gift & Décor Shop in Gansbaai.",
     "description": "Authentic Cushion Cover Cotton 50x50cm from Koekeloer Geskenkwinkel & Décor, Shop 2, Great White Junction, Gansbaai. Curated with care for beautiful home living.",
     "features": [
@@ -4814,7 +4814,7 @@ export const products: Product[] = [
       "Nationwide courier delivery across South Africa"
     ],
     "stockStatus": "in_stock",
-    "stockCount": 5,
+    "stockCount": 3,
     "images": [
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2F937a7cc8-c193-4005-ad9e-63f80afb6745.jpg?alt=media",
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Fthumb_280_937a7cc8-c193-4005-ad9e-63f80afb6745.jpg?alt=media"
@@ -4838,7 +4838,7 @@ export const products: Product[] = [
     "price": 410,
     "originalPrice": 471,
     "rating": 5,
-    "reviewCount": 5,
+    "reviewCount": 11,
     "shortDescription": "Cushion Cover Fish 60x60cm available at Koekeloer Gift & Décor Shop in Gansbaai.",
     "description": "Authentic Cushion Cover Fish 60x60cm from Koekeloer Geskenkwinkel & Décor, Shop 2, Great White Junction, Gansbaai. Curated with care for beautiful home living.",
     "features": [
@@ -4848,7 +4848,7 @@ export const products: Product[] = [
       "Nationwide courier delivery across South Africa"
     ],
     "stockStatus": "in_stock",
-    "stockCount": 6,
+    "stockCount": 9,
     "images": [
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2F7f6ac8a8-def7-4206-ba9a-3927df21b1bd.jpg?alt=media",
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Fthumb_280_7f6ac8a8-def7-4206-ba9a-3927df21b1bd.jpg?alt=media"
@@ -4872,7 +4872,7 @@ export const products: Product[] = [
     "price": 750,
     "originalPrice": 862,
     "rating": 5,
-    "reviewCount": 10,
+    "reviewCount": 3,
     "shortDescription": "Cushion Cover Grass 40x40cm available at Koekeloer Gift & Décor Shop in Gansbaai.",
     "description": "Authentic Cushion Cover Grass 40x40cm from Koekeloer Geskenkwinkel & Décor, Shop 2, Great White Junction, Gansbaai. Curated with care for beautiful home living.",
     "features": [
@@ -4882,7 +4882,7 @@ export const products: Product[] = [
       "Nationwide courier delivery across South Africa"
     ],
     "stockStatus": "in_stock",
-    "stockCount": 9,
+    "stockCount": 6,
     "images": [
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Fc0b64c1c-42f2-4c6d-9f65-d3a43033b600.jpg?alt=media",
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Fthumb_280_c0b64c1c-42f2-4c6d-9f65-d3a43033b600.jpg?alt=media"
@@ -4906,7 +4906,7 @@ export const products: Product[] = [
     "price": 780,
     "originalPrice": 897,
     "rating": 5,
-    "reviewCount": 6,
+    "reviewCount": 15,
     "shortDescription": "Cushion Cover Grass 40x40cm available at Koekeloer Gift & Décor Shop in Gansbaai.",
     "description": "Authentic Cushion Cover Grass 40x40cm from Koekeloer Geskenkwinkel & Décor, Shop 2, Great White Junction, Gansbaai. Curated with care for beautiful home living.",
     "features": [
@@ -4916,7 +4916,7 @@ export const products: Product[] = [
       "Nationwide courier delivery across South Africa"
     ],
     "stockStatus": "in_stock",
-    "stockCount": 6,
+    "stockCount": 2,
     "images": [
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Feeddf066-6d55-4de3-b307-432ec5f75ce3.jpg?alt=media",
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Fthumb_280_eeddf066-6d55-4de3-b307-432ec5f75ce3.jpg?alt=media"
@@ -4940,7 +4940,7 @@ export const products: Product[] = [
     "price": 799,
     "originalPrice": 919,
     "rating": 5,
-    "reviewCount": 12,
+    "reviewCount": 7,
     "shortDescription": "Cushion Cover Navy 50x50cm available at Koekeloer Gift & Décor Shop in Gansbaai.",
     "description": "Authentic Cushion Cover Navy 50x50cm from Koekeloer Geskenkwinkel & Décor, Shop 2, Great White Junction, Gansbaai. Curated with care for beautiful home living.",
     "features": [
@@ -4950,7 +4950,7 @@ export const products: Product[] = [
       "Nationwide courier delivery across South Africa"
     ],
     "stockStatus": "in_stock",
-    "stockCount": 8,
+    "stockCount": 9,
     "images": [
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2F91ebba7e-5090-491d-be51-77cb3f563579.jpg?alt=media",
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Fthumb_280_91ebba7e-5090-491d-be51-77cb3f563579.jpg?alt=media"
@@ -4974,7 +4974,7 @@ export const products: Product[] = [
     "price": 780,
     "originalPrice": 897,
     "rating": 5,
-    "reviewCount": 5,
+    "reviewCount": 16,
     "shortDescription": "Cushion Cover Navy 50x50cm available at Koekeloer Gift & Décor Shop in Gansbaai.",
     "description": "Authentic Cushion Cover Navy 50x50cm from Koekeloer Geskenkwinkel & Décor, Shop 2, Great White Junction, Gansbaai. Curated with care for beautiful home living.",
     "features": [
@@ -4984,7 +4984,7 @@ export const products: Product[] = [
       "Nationwide courier delivery across South Africa"
     ],
     "stockStatus": "in_stock",
-    "stockCount": 2,
+    "stockCount": 6,
     "images": [
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Fe57ad187-20da-455a-b9cc-08b4a3de03c2.jpg?alt=media",
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Fthumb_280_e57ad187-20da-455a-b9cc-08b4a3de03c2.jpg?alt=media"
@@ -5008,7 +5008,7 @@ export const products: Product[] = [
     "price": 799,
     "originalPrice": 919,
     "rating": 5,
-    "reviewCount": 3,
+    "reviewCount": 7,
     "shortDescription": "Cushion Cover Pink 50x50cm available at Koekeloer Gift & Décor Shop in Gansbaai.",
     "description": "Authentic Cushion Cover Pink 50x50cm from Koekeloer Geskenkwinkel & Décor, Shop 2, Great White Junction, Gansbaai. Curated with care for beautiful home living.",
     "features": [
@@ -5018,7 +5018,7 @@ export const products: Product[] = [
       "Nationwide courier delivery across South Africa"
     ],
     "stockStatus": "in_stock",
-    "stockCount": 2,
+    "stockCount": 4,
     "images": [
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2F4a7b1a9d-9428-4dc2-bd0b-01505733acf4.jpg?alt=media",
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Fthumb_280_4a7b1a9d-9428-4dc2-bd0b-01505733acf4.jpg?alt=media"
@@ -5042,7 +5042,7 @@ export const products: Product[] = [
     "price": 410,
     "originalPrice": 471,
     "rating": 5,
-    "reviewCount": 3,
+    "reviewCount": 17,
     "shortDescription": "Cushion Cover Seastar 60x60cm available at Koekeloer Gift & Décor Shop in Gansbaai.",
     "description": "Authentic Cushion Cover Seastar 60x60cm from Koekeloer Geskenkwinkel & Décor, Shop 2, Great White Junction, Gansbaai. Curated with care for beautiful home living.",
     "features": [
@@ -5052,7 +5052,7 @@ export const products: Product[] = [
       "Nationwide courier delivery across South Africa"
     ],
     "stockStatus": "in_stock",
-    "stockCount": 8,
+    "stockCount": 3,
     "images": [
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2F62ad1157-2f3c-4625-bc43-7b3dd6187e94.jpg?alt=media",
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Fthumb_280_62ad1157-2f3c-4625-bc43-7b3dd6187e94.jpg?alt=media"
@@ -5076,7 +5076,7 @@ export const products: Product[] = [
     "price": 410,
     "originalPrice": 471,
     "rating": 5,
-    "reviewCount": 11,
+    "reviewCount": 12,
     "shortDescription": "Cushion Cover Ships Wheel 60x60cm available at Koekeloer Gift & Décor Shop in Gansbaai.",
     "description": "Authentic Cushion Cover Ships Wheel 60x60cm from Koekeloer Geskenkwinkel & Décor, Shop 2, Great White Junction, Gansbaai. Curated with care for beautiful home living.",
     "features": [
@@ -5086,7 +5086,7 @@ export const products: Product[] = [
       "Nationwide courier delivery across South Africa"
     ],
     "stockStatus": "in_stock",
-    "stockCount": 9,
+    "stockCount": 7,
     "images": [
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Ff5754212-b924-4e97-bd00-15dbf28af266.jpg?alt=media",
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Fthumb_280_f5754212-b924-4e97-bd00-15dbf28af266.jpg?alt=media"
@@ -5110,7 +5110,7 @@ export const products: Product[] = [
     "price": 560,
     "originalPrice": 644,
     "rating": 5,
-    "reviewCount": 4,
+    "reviewCount": 6,
     "shortDescription": "4CUS70 available at Koekeloer Gift & Décor Shop in Gansbaai.",
     "description": "Authentic 4CUS70 from Koekeloer Geskenkwinkel & Décor, Shop 2, Great White Junction, Gansbaai. Curated with care for beautiful home living.",
     "features": [
@@ -5120,7 +5120,7 @@ export const products: Product[] = [
       "Nationwide courier delivery across South Africa"
     ],
     "stockStatus": "in_stock",
-    "stockCount": 4,
+    "stockCount": 3,
     "images": [
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2F8ed9882c-3fcc-468d-a92d-6ecca2dad062.jpg?alt=media",
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Fthumb_280_8ed9882c-3fcc-468d-a92d-6ecca2dad062.jpg?alt=media"
@@ -5144,7 +5144,7 @@ export const products: Product[] = [
     "price": 730,
     "originalPrice": 839,
     "rating": 5,
-    "reviewCount": 5,
+    "reviewCount": 15,
     "shortDescription": "Cushion Hibiscus 75cm x 40cm available at Koekeloer Gift & Décor Shop in Gansbaai.",
     "description": "Authentic Cushion Hibiscus 75cm x 40cm from Koekeloer Geskenkwinkel & Décor, Shop 2, Great White Junction, Gansbaai. Curated with care for beautiful home living.",
     "features": [
@@ -5154,7 +5154,7 @@ export const products: Product[] = [
       "Nationwide courier delivery across South Africa"
     ],
     "stockStatus": "in_stock",
-    "stockCount": 2,
+    "stockCount": 8,
     "images": [
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2F8036d74f-d11e-49db-892f-8cfe8d1c944e.jpg?alt=media",
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Fthumb_280_8036d74f-d11e-49db-892f-8cfe8d1c944e.jpg?alt=media"
@@ -5178,7 +5178,7 @@ export const products: Product[] = [
     "price": 520,
     "originalPrice": 598,
     "rating": 5,
-    "reviewCount": 17,
+    "reviewCount": 6,
     "shortDescription": "Cushion available at Koekeloer Gift & Décor Shop in Gansbaai.",
     "description": "Authentic Cushion from Koekeloer Geskenkwinkel & Décor, Shop 2, Great White Junction, Gansbaai. Curated with care for beautiful home living.",
     "features": [
@@ -5188,7 +5188,7 @@ export const products: Product[] = [
       "Nationwide courier delivery across South Africa"
     ],
     "stockStatus": "in_stock",
-    "stockCount": 4,
+    "stockCount": 5,
     "images": [
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Fb29081c7-f0c4-4834-8e7f-e2a9657b776d.jpg?alt=media",
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Fthumb_280_b29081c7-f0c4-4834-8e7f-e2a9657b776d.jpg?alt=media"
@@ -5212,7 +5212,7 @@ export const products: Product[] = [
     "price": 575,
     "originalPrice": 661,
     "rating": 5,
-    "reviewCount": 4,
+    "reviewCount": 14,
     "shortDescription": "Cushion available at Koekeloer Gift & Décor Shop in Gansbaai.",
     "description": "Authentic Cushion from Koekeloer Geskenkwinkel & Décor, Shop 2, Great White Junction, Gansbaai. Curated with care for beautiful home living.",
     "features": [
@@ -5222,7 +5222,7 @@ export const products: Product[] = [
       "Nationwide courier delivery across South Africa"
     ],
     "stockStatus": "in_stock",
-    "stockCount": 3,
+    "stockCount": 9,
     "images": [
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Ff6e55f42-d408-4cdd-acbb-99f406cafdab.jpg?alt=media",
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Fthumb_280_f6e55f42-d408-4cdd-acbb-99f406cafdab.jpg?alt=media"
@@ -5246,7 +5246,7 @@ export const products: Product[] = [
     "price": 450,
     "originalPrice": 518,
     "rating": 5,
-    "reviewCount": 4,
+    "reviewCount": 10,
     "shortDescription": "Cushion Printed 60x60cm available at Koekeloer Gift & Décor Shop in Gansbaai.",
     "description": "Authentic Cushion Printed 60x60cm from Koekeloer Geskenkwinkel & Décor, Shop 2, Great White Junction, Gansbaai. Curated with care for beautiful home living.",
     "features": [
@@ -5256,7 +5256,7 @@ export const products: Product[] = [
       "Nationwide courier delivery across South Africa"
     ],
     "stockStatus": "in_stock",
-    "stockCount": 5,
+    "stockCount": 4,
     "images": [
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2F2543e7b3-5548-4388-9bfa-fc75a3464745.jpg?alt=media",
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Fthumb_280_2543e7b3-5548-4388-9bfa-fc75a3464745.jpg?alt=media"
@@ -5280,7 +5280,7 @@ export const products: Product[] = [
     "price": 560,
     "originalPrice": 644,
     "rating": 5,
-    "reviewCount": 16,
+    "reviewCount": 11,
     "shortDescription": "Cushion Tufted 60x60cm available at Koekeloer Gift & Décor Shop in Gansbaai.",
     "description": "Authentic Cushion Tufted 60x60cm from Koekeloer Geskenkwinkel & Décor, Shop 2, Great White Junction, Gansbaai. Curated with care for beautiful home living.",
     "features": [
@@ -5290,7 +5290,7 @@ export const products: Product[] = [
       "Nationwide courier delivery across South Africa"
     ],
     "stockStatus": "in_stock",
-    "stockCount": 3,
+    "stockCount": 7,
     "images": [
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2F889e7ef8-e005-4179-8cc5-6ca52fdad05a.jpg?alt=media",
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Fthumb_280_889e7ef8-e005-4179-8cc5-6ca52fdad05a.jpg?alt=media"
@@ -5314,7 +5314,7 @@ export const products: Product[] = [
     "price": 560,
     "originalPrice": 644,
     "rating": 5,
-    "reviewCount": 3,
+    "reviewCount": 12,
     "shortDescription": "Cushion Woven 60x60cm available at Koekeloer Gift & Décor Shop in Gansbaai.",
     "description": "Authentic Cushion Woven 60x60cm from Koekeloer Geskenkwinkel & Décor, Shop 2, Great White Junction, Gansbaai. Curated with care for beautiful home living.",
     "features": [
@@ -5324,7 +5324,7 @@ export const products: Product[] = [
       "Nationwide courier delivery across South Africa"
     ],
     "stockStatus": "in_stock",
-    "stockCount": 7,
+    "stockCount": 5,
     "images": [
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Fafee963a-8798-4d0c-97b8-7a87acd69878.jpg?alt=media",
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Fthumb_280_afee963a-8798-4d0c-97b8-7a87acd69878.jpg?alt=media"
@@ -5348,7 +5348,7 @@ export const products: Product[] = [
     "price": 560,
     "originalPrice": 644,
     "rating": 5,
-    "reviewCount": 10,
+    "reviewCount": 16,
     "shortDescription": "Cushion Woven 60x60cm available at Koekeloer Gift & Décor Shop in Gansbaai.",
     "description": "Authentic Cushion Woven 60x60cm from Koekeloer Geskenkwinkel & Décor, Shop 2, Great White Junction, Gansbaai. Curated with care for beautiful home living.",
     "features": [
@@ -5382,7 +5382,7 @@ export const products: Product[] = [
     "price": 510,
     "originalPrice": 587,
     "rating": 5,
-    "reviewCount": 13,
+    "reviewCount": 9,
     "shortDescription": "Bell available at Koekeloer Gift & Décor Shop in Gansbaai.",
     "description": "Authentic Bell from Koekeloer Geskenkwinkel & Décor, Shop 2, Great White Junction, Gansbaai. Curated with care for beautiful home living.",
     "features": [
@@ -5392,7 +5392,7 @@ export const products: Product[] = [
       "Nationwide courier delivery across South Africa"
     ],
     "stockStatus": "in_stock",
-    "stockCount": 5,
+    "stockCount": 8,
     "images": [
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Faa6b43b8-05f4-4267-96c3-31f75debeab0.jpg?alt=media",
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Fthumb_280_aa6b43b8-05f4-4267-96c3-31f75debeab0.jpg?alt=media"
@@ -5416,7 +5416,7 @@ export const products: Product[] = [
     "price": 599,
     "originalPrice": 689,
     "rating": 5,
-    "reviewCount": 8,
+    "reviewCount": 10,
     "shortDescription": "Bell 30cm available at Koekeloer Gift & Décor Shop in Gansbaai.",
     "description": "Authentic Bell 30cm from Koekeloer Geskenkwinkel & Décor, Shop 2, Great White Junction, Gansbaai. Curated with care for beautiful home living.",
     "features": [
@@ -5426,7 +5426,7 @@ export const products: Product[] = [
       "Nationwide courier delivery across South Africa"
     ],
     "stockStatus": "in_stock",
-    "stockCount": 8,
+    "stockCount": 4,
     "images": [
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2F8ae0f30f-3c55-473f-b9f3-73b25e021ab4.jpg?alt=media",
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Fthumb_280_8ae0f30f-3c55-473f-b9f3-73b25e021ab4.jpg?alt=media"
@@ -5450,7 +5450,7 @@ export const products: Product[] = [
     "price": 350,
     "originalPrice": 402,
     "rating": 5,
-    "reviewCount": 8,
+    "reviewCount": 3,
     "shortDescription": "Bowl Coconut w/inlay available at Koekeloer Gift & Décor Shop in Gansbaai.",
     "description": "Authentic Bowl Coconut w/inlay from Koekeloer Geskenkwinkel & Décor, Shop 2, Great White Junction, Gansbaai. Curated with care for beautiful home living.",
     "features": [
@@ -5460,7 +5460,7 @@ export const products: Product[] = [
       "Nationwide courier delivery across South Africa"
     ],
     "stockStatus": "in_stock",
-    "stockCount": 2,
+    "stockCount": 8,
     "images": [
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2F05394f6c-1241-4cbe-bdd7-8322daf11ab5.jpg?alt=media",
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Fthumb_280_05394f6c-1241-4cbe-bdd7-8322daf11ab5.jpg?alt=media"
@@ -5494,7 +5494,7 @@ export const products: Product[] = [
       "Nationwide courier delivery across South Africa"
     ],
     "stockStatus": "in_stock",
-    "stockCount": 9,
+    "stockCount": 7,
     "images": [
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Fd4ed3cdf-cbca-4fe7-8b94-faf733905432.jpg?alt=media",
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Fthumb_280_d4ed3cdf-cbca-4fe7-8b94-faf733905432.jpg?alt=media"
@@ -5518,7 +5518,7 @@ export const products: Product[] = [
     "price": 800,
     "originalPrice": 920,
     "rating": 5,
-    "reviewCount": 14,
+    "reviewCount": 4,
     "shortDescription": "Cer Candle Holder Blue H17xW23cm available at Koekeloer Gift & Décor Shop in Gansbaai.",
     "description": "Authentic Cer Candle Holder Blue H17xW23cm from Koekeloer Geskenkwinkel & Décor, Shop 2, Great White Junction, Gansbaai. Curated with care for beautiful home living.",
     "features": [
@@ -5528,7 +5528,7 @@ export const products: Product[] = [
       "Nationwide courier delivery across South Africa"
     ],
     "stockStatus": "in_stock",
-    "stockCount": 7,
+    "stockCount": 2,
     "images": [
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Feb6ef2ed-f15f-4f03-ae2a-ee4554d9499c.jpg?alt=media",
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Fthumb_280_eb6ef2ed-f15f-4f03-ae2a-ee4554d9499c.jpg?alt=media"
@@ -5552,7 +5552,7 @@ export const products: Product[] = [
     "price": 850,
     "originalPrice": 977,
     "rating": 5,
-    "reviewCount": 7,
+    "reviewCount": 10,
     "shortDescription": "Cer Candle Holder Fish White H10cm x W28cm available at Koekeloer Gift & Décor Shop in Gansbaai.",
     "description": "Authentic Cer Candle Holder Fish White H10cm x W28cm from Koekeloer Geskenkwinkel & Décor, Shop 2, Great White Junction, Gansbaai. Curated with care for beautiful home living.",
     "features": [
@@ -5562,7 +5562,7 @@ export const products: Product[] = [
       "Nationwide courier delivery across South Africa"
     ],
     "stockStatus": "in_stock",
-    "stockCount": 9,
+    "stockCount": 8,
     "images": [
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Fd0ed1f0f-914c-49a0-ba25-25d099a011b5.jpg?alt=media",
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Fthumb_280_d0ed1f0f-914c-49a0-ba25-25d099a011b5.jpg?alt=media"
@@ -5586,7 +5586,7 @@ export const products: Product[] = [
     "price": 800,
     "originalPrice": 920,
     "rating": 5,
-    "reviewCount": 17,
+    "reviewCount": 12,
     "shortDescription": "Cer Candle Holder Green H20xW23cm available at Koekeloer Gift & Décor Shop in Gansbaai.",
     "description": "Authentic Cer Candle Holder Green H20xW23cm from Koekeloer Geskenkwinkel & Décor, Shop 2, Great White Junction, Gansbaai. Curated with care for beautiful home living.",
     "features": [
@@ -5596,7 +5596,7 @@ export const products: Product[] = [
       "Nationwide courier delivery across South Africa"
     ],
     "stockStatus": "in_stock",
-    "stockCount": 3,
+    "stockCount": 2,
     "images": [
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2F72402ef2-a0b8-4b13-b41f-3ee260024da5.jpg?alt=media",
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Fthumb_280_72402ef2-a0b8-4b13-b41f-3ee260024da5.jpg?alt=media"
@@ -5620,7 +5620,7 @@ export const products: Product[] = [
     "price": 540,
     "originalPrice": 621,
     "rating": 5,
-    "reviewCount": 3,
+    "reviewCount": 5,
     "shortDescription": "Cow Matilda available at Koekeloer Gift & Décor Shop in Gansbaai.",
     "description": "Authentic Cow Matilda from Koekeloer Geskenkwinkel & Décor, Shop 2, Great White Junction, Gansbaai. Curated with care for beautiful home living.",
     "features": [
@@ -5630,7 +5630,7 @@ export const products: Product[] = [
       "Nationwide courier delivery across South Africa"
     ],
     "stockStatus": "in_stock",
-    "stockCount": 5,
+    "stockCount": 4,
     "images": [
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2F02e8e3d2-b5b0-4973-8124-0068d6d7fcec.jpg?alt=media",
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Fthumb_280_02e8e3d2-b5b0-4973-8124-0068d6d7fcec.jpg?alt=media"
@@ -5654,7 +5654,7 @@ export const products: Product[] = [
     "price": 680,
     "originalPrice": 782,
     "rating": 5,
-    "reviewCount": 14,
+    "reviewCount": 7,
     "shortDescription": "Decor Swan Sitting available at Koekeloer Gift & Décor Shop in Gansbaai.",
     "description": "Authentic Decor Swan Sitting from Koekeloer Geskenkwinkel & Décor, Shop 2, Great White Junction, Gansbaai. Curated with care for beautiful home living.",
     "features": [
@@ -5664,7 +5664,7 @@ export const products: Product[] = [
       "Nationwide courier delivery across South Africa"
     ],
     "stockStatus": "in_stock",
-    "stockCount": 9,
+    "stockCount": 7,
     "images": [
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Fc974b801-31ae-473e-a011-4cdd673c1db0.jpg?alt=media",
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Fthumb_280_c974b801-31ae-473e-a011-4cdd673c1db0.jpg?alt=media"
@@ -5688,7 +5688,7 @@ export const products: Product[] = [
     "price": 250,
     "originalPrice": 288,
     "rating": 5,
-    "reviewCount": 11,
+    "reviewCount": 14,
     "shortDescription": "Decorative Bowl Fish cut-out available at Koekeloer Gift & Décor Shop in Gansbaai.",
     "description": "Authentic Decorative Bowl Fish cut-out from Koekeloer Geskenkwinkel & Décor, Shop 2, Great White Junction, Gansbaai. Curated with care for beautiful home living.",
     "features": [
@@ -5698,7 +5698,7 @@ export const products: Product[] = [
       "Nationwide courier delivery across South Africa"
     ],
     "stockStatus": "in_stock",
-    "stockCount": 3,
+    "stockCount": 9,
     "images": [
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Fd16b53ad-e724-4b74-aab8-2cd243ccd64e.jpg?alt=media",
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Fthumb_280_d16b53ad-e724-4b74-aab8-2cd243ccd64e.jpg?alt=media"
@@ -5722,7 +5722,7 @@ export const products: Product[] = [
     "price": 575,
     "originalPrice": 661,
     "rating": 5,
-    "reviewCount": 6,
+    "reviewCount": 16,
     "shortDescription": "Eagle on Rock 30cm Silver available at Koekeloer Gift & Décor Shop in Gansbaai.",
     "description": "Authentic Eagle on Rock 30cm Silver from Koekeloer Geskenkwinkel & Décor, Shop 2, Great White Junction, Gansbaai. Curated with care for beautiful home living.",
     "features": [
@@ -5732,7 +5732,7 @@ export const products: Product[] = [
       "Nationwide courier delivery across South Africa"
     ],
     "stockStatus": "in_stock",
-    "stockCount": 8,
+    "stockCount": 2,
     "images": [
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Fefc28b19-0b7e-49bc-89bd-e2c3478c08ba.jpg?alt=media",
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Fthumb_280_efc28b19-0b7e-49bc-89bd-e2c3478c08ba.jpg?alt=media"
@@ -5756,7 +5756,7 @@ export const products: Product[] = [
     "price": 1450,
     "originalPrice": 1667,
     "rating": 5,
-    "reviewCount": 15,
+    "reviewCount": 17,
     "shortDescription": "Elephant Cement available at Koekeloer Gift & Décor Shop in Gansbaai.",
     "description": "Authentic Elephant Cement from Koekeloer Geskenkwinkel & Décor, Shop 2, Great White Junction, Gansbaai. Curated with care for beautiful home living.",
     "features": [
@@ -5766,7 +5766,7 @@ export const products: Product[] = [
       "Nationwide courier delivery across South Africa"
     ],
     "stockStatus": "in_stock",
-    "stockCount": 4,
+    "stockCount": 6,
     "images": [
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2F78e5d3fa-97b5-4ce7-8ee6-57997dad5632.jpg?alt=media",
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Fthumb_280_78e5d3fa-97b5-4ce7-8ee6-57997dad5632.jpg?alt=media"
@@ -5790,7 +5790,7 @@ export const products: Product[] = [
     "price": 1380,
     "originalPrice": 1587,
     "rating": 5,
-    "reviewCount": 6,
+    "reviewCount": 3,
     "shortDescription": "Figure Ikanda Head H40xW19, 5 available at Koekeloer Gift & Décor Shop in Gansbaai.",
     "description": "Authentic Figure Ikanda Head H40xW19, 5 from Koekeloer Geskenkwinkel & Décor, Shop 2, Great White Junction, Gansbaai. Curated with care for beautiful home living.",
     "features": [
@@ -5800,7 +5800,7 @@ export const products: Product[] = [
       "Nationwide courier delivery across South Africa"
     ],
     "stockStatus": "in_stock",
-    "stockCount": 4,
+    "stockCount": 7,
     "images": [
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Fe3889338-976c-4c73-8c17-98c68ee1f184.jpg?alt=media",
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Fthumb_280_e3889338-976c-4c73-8c17-98c68ee1f184.jpg?alt=media"
@@ -5824,7 +5824,7 @@ export const products: Product[] = [
     "price": 540,
     "originalPrice": 621,
     "rating": 5,
-    "reviewCount": 10,
+    "reviewCount": 14,
     "shortDescription": "Figure Mary aged white available at Koekeloer Gift & Décor Shop in Gansbaai.",
     "description": "Authentic Figure Mary aged white from Koekeloer Geskenkwinkel & Décor, Shop 2, Great White Junction, Gansbaai. Curated with care for beautiful home living.",
     "features": [
@@ -5834,7 +5834,7 @@ export const products: Product[] = [
       "Nationwide courier delivery across South Africa"
     ],
     "stockStatus": "in_stock",
-    "stockCount": 8,
+    "stockCount": 3,
     "images": [
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2F14bd173e-8954-4ea7-9c28-aa13a2ae2680.jpg?alt=media",
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Fthumb_280_14bd173e-8954-4ea7-9c28-aa13a2ae2680.jpg?alt=media"
@@ -5858,7 +5858,7 @@ export const products: Product[] = [
     "price": 540,
     "originalPrice": 621,
     "rating": 5,
-    "reviewCount": 13,
+    "reviewCount": 5,
     "shortDescription": "Figure Mary Pearl available at Koekeloer Gift & Décor Shop in Gansbaai.",
     "description": "Authentic Figure Mary Pearl from Koekeloer Geskenkwinkel & Décor, Shop 2, Great White Junction, Gansbaai. Curated with care for beautiful home living.",
     "features": [
@@ -5868,7 +5868,7 @@ export const products: Product[] = [
       "Nationwide courier delivery across South Africa"
     ],
     "stockStatus": "in_stock",
-    "stockCount": 9,
+    "stockCount": 3,
     "images": [
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2F4214f087-b737-4c1f-a483-f5a9247ffa88.jpg?alt=media",
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Fthumb_280_4214f087-b737-4c1f-a483-f5a9247ffa88.jpg?alt=media"
@@ -5892,7 +5892,7 @@ export const products: Product[] = [
     "price": 899,
     "originalPrice": 1034,
     "rating": 5,
-    "reviewCount": 4,
+    "reviewCount": 7,
     "shortDescription": "Figure Princess 47cm H available at Koekeloer Gift & Décor Shop in Gansbaai.",
     "description": "Authentic Figure Princess 47cm H from Koekeloer Geskenkwinkel & Décor, Shop 2, Great White Junction, Gansbaai. Curated with care for beautiful home living.",
     "features": [
@@ -5902,7 +5902,7 @@ export const products: Product[] = [
       "Nationwide courier delivery across South Africa"
     ],
     "stockStatus": "in_stock",
-    "stockCount": 4,
+    "stockCount": 7,
     "images": [
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Ff4a32b8f-af07-4d5a-8f92-0d53e673f0ed.jpg?alt=media",
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Fthumb_280_f4a32b8f-af07-4d5a-8f92-0d53e673f0ed.jpg?alt=media"
@@ -5926,7 +5926,7 @@ export const products: Product[] = [
     "price": 899,
     "originalPrice": 1034,
     "rating": 5,
-    "reviewCount": 13,
+    "reviewCount": 11,
     "shortDescription": "Figure princess l/Grey 47cm H available at Koekeloer Gift & Décor Shop in Gansbaai.",
     "description": "Authentic Figure princess l/Grey 47cm H from Koekeloer Geskenkwinkel & Décor, Shop 2, Great White Junction, Gansbaai. Curated with care for beautiful home living.",
     "features": [
@@ -5960,7 +5960,7 @@ export const products: Product[] = [
     "price": 1900,
     "originalPrice": 2185,
     "rating": 5,
-    "reviewCount": 7,
+    "reviewCount": 4,
     "shortDescription": "Horse Rocking Wooden available at Koekeloer Gift & Décor Shop in Gansbaai.",
     "description": "Authentic Horse Rocking Wooden from Koekeloer Geskenkwinkel & Décor, Shop 2, Great White Junction, Gansbaai. Curated with care for beautiful home living.",
     "features": [
@@ -5970,7 +5970,7 @@ export const products: Product[] = [
       "Nationwide courier delivery across South Africa"
     ],
     "stockStatus": "in_stock",
-    "stockCount": 2,
+    "stockCount": 4,
     "images": [
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2F2f539630-7e68-4020-8071-3e8324b26a82.jpg?alt=media",
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Fthumb_280_2f539630-7e68-4020-8071-3e8324b26a82.jpg?alt=media"
@@ -5994,7 +5994,7 @@ export const products: Product[] = [
     "price": 1350,
     "originalPrice": 1552,
     "rating": 5,
-    "reviewCount": 14,
+    "reviewCount": 9,
     "shortDescription": "Indian Painted Pot available at Koekeloer Gift & Décor Shop in Gansbaai.",
     "description": "Authentic Indian Painted Pot from Koekeloer Geskenkwinkel & Décor, Shop 2, Great White Junction, Gansbaai. Curated with care for beautiful home living.",
     "features": [
@@ -6004,7 +6004,7 @@ export const products: Product[] = [
       "Nationwide courier delivery across South Africa"
     ],
     "stockStatus": "in_stock",
-    "stockCount": 4,
+    "stockCount": 9,
     "images": [
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2F319876a9-ce5e-40e2-bf98-b07afba333d7.jpg?alt=media",
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Fthumb_280_319876a9-ce5e-40e2-bf98-b07afba333d7.jpg?alt=media"
@@ -6028,7 +6028,7 @@ export const products: Product[] = [
     "price": 1500,
     "originalPrice": 1725,
     "rating": 5,
-    "reviewCount": 8,
+    "reviewCount": 7,
     "shortDescription": "Jazz Sax 43cm Bronze available at Koekeloer Gift & Décor Shop in Gansbaai.",
     "description": "Authentic Jazz Sax 43cm Bronze from Koekeloer Geskenkwinkel & Décor, Shop 2, Great White Junction, Gansbaai. Curated with care for beautiful home living.",
     "features": [
@@ -6062,7 +6062,7 @@ export const products: Product[] = [
     "price": 1200,
     "originalPrice": 1380,
     "rating": 5,
-    "reviewCount": 14,
+    "reviewCount": 5,
     "shortDescription": "Lady w guitar available at Koekeloer Gift & Décor Shop in Gansbaai.",
     "description": "Authentic Lady w guitar from Koekeloer Geskenkwinkel & Décor, Shop 2, Great White Junction, Gansbaai. Curated with care for beautiful home living.",
     "features": [
@@ -6072,7 +6072,7 @@ export const products: Product[] = [
       "Nationwide courier delivery across South Africa"
     ],
     "stockStatus": "in_stock",
-    "stockCount": 2,
+    "stockCount": 3,
     "images": [
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Fece04338-4df5-4165-81a1-4c73f983d233.jpg?alt=media",
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Fthumb_280_ece04338-4df5-4165-81a1-4c73f983d233.jpg?alt=media"
@@ -6096,7 +6096,7 @@ export const products: Product[] = [
     "price": 268,
     "originalPrice": 308,
     "rating": 5,
-    "reviewCount": 14,
+    "reviewCount": 16,
     "shortDescription": "Lion available at Koekeloer Gift & Décor Shop in Gansbaai.",
     "description": "Authentic Lion from Koekeloer Geskenkwinkel & Décor, Shop 2, Great White Junction, Gansbaai. Curated with care for beautiful home living.",
     "features": [
@@ -6106,7 +6106,7 @@ export const products: Product[] = [
       "Nationwide courier delivery across South Africa"
     ],
     "stockStatus": "in_stock",
-    "stockCount": 7,
+    "stockCount": 4,
     "images": [
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2F01363a69-753c-43b6-968c-9183fc6596a7.jpg?alt=media",
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Fthumb_280_01363a69-753c-43b6-968c-9183fc6596a7.jpg?alt=media"
@@ -6130,7 +6130,7 @@ export const products: Product[] = [
     "price": 1100,
     "originalPrice": 1265,
     "rating": 5,
-    "reviewCount": 15,
+    "reviewCount": 6,
     "shortDescription": "Metal Bowl Decor available at Koekeloer Gift & Décor Shop in Gansbaai.",
     "description": "Authentic Metal Bowl Decor from Koekeloer Geskenkwinkel & Décor, Shop 2, Great White Junction, Gansbaai. Curated with care for beautiful home living.",
     "features": [
@@ -6140,7 +6140,7 @@ export const products: Product[] = [
       "Nationwide courier delivery across South Africa"
     ],
     "stockStatus": "in_stock",
-    "stockCount": 7,
+    "stockCount": 2,
     "images": [
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2F9dd0655e-0cfd-4795-ae05-07f4745003f4.jpg?alt=media",
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Fthumb_280_9dd0655e-0cfd-4795-ae05-07f4745003f4.jpg?alt=media"
@@ -6164,7 +6164,7 @@ export const products: Product[] = [
     "price": 1265,
     "originalPrice": 1455,
     "rating": 5,
-    "reviewCount": 9,
+    "reviewCount": 13,
     "shortDescription": "Musician w sax available at Koekeloer Gift & Décor Shop in Gansbaai.",
     "description": "Authentic Musician w sax from Koekeloer Geskenkwinkel & Décor, Shop 2, Great White Junction, Gansbaai. Curated with care for beautiful home living.",
     "features": [
@@ -6174,7 +6174,7 @@ export const products: Product[] = [
       "Nationwide courier delivery across South Africa"
     ],
     "stockStatus": "in_stock",
-    "stockCount": 4,
+    "stockCount": 2,
     "images": [
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2F0f69b42b-e216-4053-860d-ed618dd6ad2d.jpg?alt=media",
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Fthumb_280_0f69b42b-e216-4053-860d-ed618dd6ad2d.jpg?alt=media"
@@ -6198,7 +6198,7 @@ export const products: Product[] = [
     "price": 1100,
     "originalPrice": 1265,
     "rating": 5,
-    "reviewCount": 16,
+    "reviewCount": 12,
     "shortDescription": "Musician w/guitar available at Koekeloer Gift & Décor Shop in Gansbaai.",
     "description": "Authentic Musician w/guitar from Koekeloer Geskenkwinkel & Décor, Shop 2, Great White Junction, Gansbaai. Curated with care for beautiful home living.",
     "features": [
@@ -6208,7 +6208,7 @@ export const products: Product[] = [
       "Nationwide courier delivery across South Africa"
     ],
     "stockStatus": "in_stock",
-    "stockCount": 9,
+    "stockCount": 2,
     "images": [
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2F5066354b-b4ec-44e9-bbc3-638bba72d2ad.jpg?alt=media",
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Fthumb_280_5066354b-b4ec-44e9-bbc3-638bba72d2ad.jpg?alt=media"
@@ -6232,7 +6232,7 @@ export const products: Product[] = [
     "price": 420,
     "originalPrice": 483,
     "rating": 5,
-    "reviewCount": 16,
+    "reviewCount": 13,
     "shortDescription": "Pet Ashes Wooden Box available at Koekeloer Gift & Décor Shop in Gansbaai.",
     "description": "Authentic Pet Ashes Wooden Box from Koekeloer Geskenkwinkel & Décor, Shop 2, Great White Junction, Gansbaai. Curated with care for beautiful home living.",
     "features": [
@@ -6242,7 +6242,7 @@ export const products: Product[] = [
       "Nationwide courier delivery across South Africa"
     ],
     "stockStatus": "in_stock",
-    "stockCount": 4,
+    "stockCount": 8,
     "images": [
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2F38e12381-df3f-4ee1-a677-cd289fef2b63.jpg?alt=media",
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Fthumb_280_38e12381-df3f-4ee1-a677-cd289fef2b63.jpg?alt=media"
@@ -6266,7 +6266,7 @@ export const products: Product[] = [
     "price": 735,
     "originalPrice": 845,
     "rating": 5,
-    "reviewCount": 14,
+    "reviewCount": 13,
     "shortDescription": "Rabbit Sitting H40cm available at Koekeloer Gift & Décor Shop in Gansbaai.",
     "description": "Authentic Rabbit Sitting H40cm from Koekeloer Geskenkwinkel & Décor, Shop 2, Great White Junction, Gansbaai. Curated with care for beautiful home living.",
     "features": [
@@ -6276,7 +6276,7 @@ export const products: Product[] = [
       "Nationwide courier delivery across South Africa"
     ],
     "stockStatus": "in_stock",
-    "stockCount": 2,
+    "stockCount": 4,
     "images": [
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2F7019d009-feab-43ee-890f-0ac74eaf1bec.jpg?alt=media",
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Fthumb_280_7019d009-feab-43ee-890f-0ac74eaf1bec.jpg?alt=media"
@@ -6300,7 +6300,7 @@ export const products: Product[] = [
     "price": 1260,
     "originalPrice": 1449,
     "rating": 5,
-    "reviewCount": 9,
+    "reviewCount": 8,
     "shortDescription": "Shell Decor on Stand Lrg H58xW50cm available at Koekeloer Gift & Décor Shop in Gansbaai.",
     "description": "Authentic Shell Decor on Stand Lrg H58xW50cm from Koekeloer Geskenkwinkel & Décor, Shop 2, Great White Junction, Gansbaai. Curated with care for beautiful home living.",
     "features": [
@@ -6334,7 +6334,7 @@ export const products: Product[] = [
     "price": 860,
     "originalPrice": 989,
     "rating": 5,
-    "reviewCount": 13,
+    "reviewCount": 4,
     "shortDescription": "Shell Decor on Stand Med H50xW40cm available at Koekeloer Gift & Décor Shop in Gansbaai.",
     "description": "Authentic Shell Decor on Stand Med H50xW40cm from Koekeloer Geskenkwinkel & Décor, Shop 2, Great White Junction, Gansbaai. Curated with care for beautiful home living.",
     "features": [
@@ -6344,7 +6344,7 @@ export const products: Product[] = [
       "Nationwide courier delivery across South Africa"
     ],
     "stockStatus": "in_stock",
-    "stockCount": 4,
+    "stockCount": 5,
     "images": [
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Fe20c1db5-26d2-4323-ab7b-62e3e5ded316.jpg?alt=media",
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Fthumb_280_e20c1db5-26d2-4323-ab7b-62e3e5ded316.jpg?alt=media"
@@ -6368,7 +6368,7 @@ export const products: Product[] = [
     "price": 460,
     "originalPrice": 529,
     "rating": 5,
-    "reviewCount": 12,
+    "reviewCount": 9,
     "shortDescription": "Shell Decor on Stand sml H38xW30cm available at Koekeloer Gift & Décor Shop in Gansbaai.",
     "description": "Authentic Shell Decor on Stand sml H38xW30cm from Koekeloer Geskenkwinkel & Décor, Shop 2, Great White Junction, Gansbaai. Curated with care for beautiful home living.",
     "features": [
@@ -6378,7 +6378,7 @@ export const products: Product[] = [
       "Nationwide courier delivery across South Africa"
     ],
     "stockStatus": "in_stock",
-    "stockCount": 7,
+    "stockCount": 6,
     "images": [
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2F8f89df97-2953-44ef-8194-bc0af5aaede0.jpg?alt=media",
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Fthumb_280_8f89df97-2953-44ef-8194-bc0af5aaede0.jpg?alt=media"
@@ -6402,7 +6402,7 @@ export const products: Product[] = [
     "price": 1200,
     "originalPrice": 1380,
     "rating": 5,
-    "reviewCount": 9,
+    "reviewCount": 6,
     "shortDescription": "Statue Wooden Geranding Large N7 H120cm available at Koekeloer Gift & Décor Shop in Gansbaai.",
     "description": "Authentic Statue Wooden Geranding Large N7 H120cm from Koekeloer Geskenkwinkel & Décor, Shop 2, Great White Junction, Gansbaai. Curated with care for beautiful home living.",
     "features": [
@@ -6412,7 +6412,7 @@ export const products: Product[] = [
       "Nationwide courier delivery across South Africa"
     ],
     "stockStatus": "in_stock",
-    "stockCount": 4,
+    "stockCount": 3,
     "images": [
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Fe5f09960-ba5d-4b2c-94d2-492e3c79eb19.jpg?alt=media",
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Fthumb_280_e5f09960-ba5d-4b2c-94d2-492e3c79eb19.jpg?alt=media"
@@ -6446,7 +6446,7 @@ export const products: Product[] = [
       "Nationwide courier delivery across South Africa"
     ],
     "stockStatus": "in_stock",
-    "stockCount": 9,
+    "stockCount": 4,
     "images": [
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2F46b5a298-214e-441e-a573-eac249486012.jpg?alt=media",
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Fthumb_280_46b5a298-214e-441e-a573-eac249486012.jpg?alt=media"
@@ -6470,7 +6470,7 @@ export const products: Product[] = [
     "price": 1995,
     "originalPrice": 2294,
     "rating": 5,
-    "reviewCount": 17,
+    "reviewCount": 5,
     "shortDescription": "Umbrella Stand Cement Elephant available at Koekeloer Gift & Décor Shop in Gansbaai.",
     "description": "Authentic Umbrella Stand Cement Elephant from Koekeloer Geskenkwinkel & Décor, Shop 2, Great White Junction, Gansbaai. Curated with care for beautiful home living.",
     "features": [
@@ -6480,7 +6480,7 @@ export const products: Product[] = [
       "Nationwide courier delivery across South Africa"
     ],
     "stockStatus": "in_stock",
-    "stockCount": 4,
+    "stockCount": 6,
     "images": [
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2F89e81fff-1025-49fb-bec4-25f971152000.jpg?alt=media",
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Fthumb_280_89e81fff-1025-49fb-bec4-25f971152000.jpg?alt=media"
@@ -6504,7 +6504,7 @@ export const products: Product[] = [
     "price": 725,
     "originalPrice": 834,
     "rating": 5,
-    "reviewCount": 3,
+    "reviewCount": 7,
     "shortDescription": "Vase 45cm Larry available at Koekeloer Gift & Décor Shop in Gansbaai.",
     "description": "Authentic Vase 45cm Larry from Koekeloer Geskenkwinkel & Décor, Shop 2, Great White Junction, Gansbaai. Curated with care for beautiful home living.",
     "features": [
@@ -6538,7 +6538,7 @@ export const products: Product[] = [
     "price": 810,
     "originalPrice": 931,
     "rating": 5,
-    "reviewCount": 17,
+    "reviewCount": 12,
     "shortDescription": "Vase 55cm Larry available at Koekeloer Gift & Décor Shop in Gansbaai.",
     "description": "Authentic Vase 55cm Larry from Koekeloer Geskenkwinkel & Décor, Shop 2, Great White Junction, Gansbaai. Curated with care for beautiful home living.",
     "features": [
@@ -6548,7 +6548,7 @@ export const products: Product[] = [
       "Nationwide courier delivery across South Africa"
     ],
     "stockStatus": "in_stock",
-    "stockCount": 2,
+    "stockCount": 8,
     "images": [
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Ff7bcf057-6480-49ea-8986-d257a7434363.jpg?alt=media",
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Fthumb_280_f7bcf057-6480-49ea-8986-d257a7434363.jpg?alt=media"
@@ -6582,7 +6582,7 @@ export const products: Product[] = [
       "Nationwide courier delivery across South Africa"
     ],
     "stockStatus": "in_stock",
-    "stockCount": 6,
+    "stockCount": 7,
     "images": [
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2F3cc617a3-5c95-4325-a938-396c5f88c925.jpg?alt=media",
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Fthumb_280_3cc617a3-5c95-4325-a938-396c5f88c925.jpg?alt=media"
@@ -6606,7 +6606,7 @@ export const products: Product[] = [
     "price": 2500,
     "originalPrice": 2875,
     "rating": 5,
-    "reviewCount": 11,
+    "reviewCount": 6,
     "shortDescription": "Wdn Boat Bowl 120cm available at Koekeloer Gift & Décor Shop in Gansbaai.",
     "description": "Authentic Wdn Boat Bowl 120cm from Koekeloer Geskenkwinkel & Décor, Shop 2, Great White Junction, Gansbaai. Curated with care for beautiful home living.",
     "features": [
@@ -6616,7 +6616,7 @@ export const products: Product[] = [
       "Nationwide courier delivery across South Africa"
     ],
     "stockStatus": "in_stock",
-    "stockCount": 5,
+    "stockCount": 2,
     "images": [
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2F5283a56f-37e8-4651-bf7a-60204ee8b437.jpg?alt=media",
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Fthumb_280_5283a56f-37e8-4651-bf7a-60204ee8b437.jpg?alt=media"
@@ -6640,7 +6640,7 @@ export const products: Product[] = [
     "price": 2500,
     "originalPrice": 2875,
     "rating": 5,
-    "reviewCount": 11,
+    "reviewCount": 12,
     "shortDescription": "Wdn Boat Bowl 120cm available at Koekeloer Gift & Décor Shop in Gansbaai.",
     "description": "Authentic Wdn Boat Bowl 120cm from Koekeloer Geskenkwinkel & Décor, Shop 2, Great White Junction, Gansbaai. Curated with care for beautiful home living.",
     "features": [
@@ -6650,7 +6650,7 @@ export const products: Product[] = [
       "Nationwide courier delivery across South Africa"
     ],
     "stockStatus": "in_stock",
-    "stockCount": 5,
+    "stockCount": 2,
     "images": [
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Fcef8a3ed-1e2c-4a82-9841-579942410804.jpg?alt=media",
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Fthumb_280_cef8a3ed-1e2c-4a82-9841-579942410804.jpg?alt=media"
@@ -6674,7 +6674,7 @@ export const products: Product[] = [
     "price": 750,
     "originalPrice": 862,
     "rating": 5,
-    "reviewCount": 9,
+    "reviewCount": 12,
     "shortDescription": "Wdn Circle w /Tree lrg H42xW34cm available at Koekeloer Gift & Décor Shop in Gansbaai.",
     "description": "Authentic Wdn Circle w /Tree lrg H42xW34cm from Koekeloer Geskenkwinkel & Décor, Shop 2, Great White Junction, Gansbaai. Curated with care for beautiful home living.",
     "features": [
@@ -6708,7 +6708,7 @@ export const products: Product[] = [
     "price": 500,
     "originalPrice": 575,
     "rating": 5,
-    "reviewCount": 15,
+    "reviewCount": 13,
     "shortDescription": "Wdn Circle w /Tree Med H37xW30cm available at Koekeloer Gift & Décor Shop in Gansbaai.",
     "description": "Authentic Wdn Circle w /Tree Med H37xW30cm from Koekeloer Geskenkwinkel & Décor, Shop 2, Great White Junction, Gansbaai. Curated with care for beautiful home living.",
     "features": [
@@ -6718,7 +6718,7 @@ export const products: Product[] = [
       "Nationwide courier delivery across South Africa"
     ],
     "stockStatus": "in_stock",
-    "stockCount": 9,
+    "stockCount": 7,
     "images": [
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2F04103f00-0761-4d3e-852b-3d71fbce55a5.jpg?alt=media",
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Fthumb_280_04103f00-0761-4d3e-852b-3d71fbce55a5.jpg?alt=media"
@@ -6742,7 +6742,7 @@ export const products: Product[] = [
     "price": 250,
     "originalPrice": 288,
     "rating": 5,
-    "reviewCount": 6,
+    "reviewCount": 3,
     "shortDescription": "Wdn Circle w/Tree sml H31xW24cm available at Koekeloer Gift & Décor Shop in Gansbaai.",
     "description": "Authentic Wdn Circle w/Tree sml H31xW24cm from Koekeloer Geskenkwinkel & Décor, Shop 2, Great White Junction, Gansbaai. Curated with care for beautiful home living.",
     "features": [
@@ -6752,7 +6752,7 @@ export const products: Product[] = [
       "Nationwide courier delivery across South Africa"
     ],
     "stockStatus": "in_stock",
-    "stockCount": 3,
+    "stockCount": 9,
     "images": [
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Fca6001c6-34a5-47a9-abb5-32c2b44f636d.jpg?alt=media",
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Fthumb_280_ca6001c6-34a5-47a9-abb5-32c2b44f636d.jpg?alt=media"
@@ -6776,7 +6776,7 @@ export const products: Product[] = [
     "price": 690,
     "originalPrice": 793,
     "rating": 5,
-    "reviewCount": 14,
+    "reviewCount": 7,
     "shortDescription": "Wdn Frog with Umbrella available at Koekeloer Gift & Décor Shop in Gansbaai.",
     "description": "Authentic Wdn Frog with Umbrella from Koekeloer Geskenkwinkel & Décor, Shop 2, Great White Junction, Gansbaai. Curated with care for beautiful home living.",
     "features": [
@@ -6786,7 +6786,7 @@ export const products: Product[] = [
       "Nationwide courier delivery across South Africa"
     ],
     "stockStatus": "in_stock",
-    "stockCount": 7,
+    "stockCount": 8,
     "images": [
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2F6cd94c5d-0e85-4a9d-ad5c-a2552455c480.jpg?alt=media",
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Fthumb_280_6cd94c5d-0e85-4a9d-ad5c-a2552455c480.jpg?alt=media"
@@ -6810,7 +6810,7 @@ export const products: Product[] = [
     "price": 999,
     "originalPrice": 1149,
     "rating": 5,
-    "reviewCount": 14,
+    "reviewCount": 4,
     "shortDescription": "Wdn Frog w/umbrella available at Koekeloer Gift & Décor Shop in Gansbaai.",
     "description": "Authentic Wdn Frog w/umbrella from Koekeloer Geskenkwinkel & Décor, Shop 2, Great White Junction, Gansbaai. Curated with care for beautiful home living.",
     "features": [
@@ -6844,7 +6844,7 @@ export const products: Product[] = [
     "price": 350,
     "originalPrice": 402,
     "rating": 5,
-    "reviewCount": 8,
+    "reviewCount": 11,
     "shortDescription": "Wdn Porcupine Root lrg H22xW30 available at Koekeloer Gift & Décor Shop in Gansbaai.",
     "description": "Authentic Wdn Porcupine Root lrg H22xW30 from Koekeloer Geskenkwinkel & Décor, Shop 2, Great White Junction, Gansbaai. Curated with care for beautiful home living.",
     "features": [
@@ -6854,7 +6854,7 @@ export const products: Product[] = [
       "Nationwide courier delivery across South Africa"
     ],
     "stockStatus": "in_stock",
-    "stockCount": 4,
+    "stockCount": 3,
     "images": [
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Fd0f2d0cf-7bbb-41e3-ae83-3f5d992f3c92.jpg?alt=media",
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Fthumb_280_d0f2d0cf-7bbb-41e3-ae83-3f5d992f3c92.jpg?alt=media"
@@ -6878,7 +6878,7 @@ export const products: Product[] = [
     "price": 250,
     "originalPrice": 288,
     "rating": 5,
-    "reviewCount": 8,
+    "reviewCount": 5,
     "shortDescription": "Wdn Porcupine Root Medium H20xW23cm available at Koekeloer Gift & Décor Shop in Gansbaai.",
     "description": "Authentic Wdn Porcupine Root Medium H20xW23cm from Koekeloer Geskenkwinkel & Décor, Shop 2, Great White Junction, Gansbaai. Curated with care for beautiful home living.",
     "features": [
@@ -6888,7 +6888,7 @@ export const products: Product[] = [
       "Nationwide courier delivery across South Africa"
     ],
     "stockStatus": "in_stock",
-    "stockCount": 7,
+    "stockCount": 4,
     "images": [
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2F19acbc3c-b35e-4578-93ca-2cd22765af3f.jpg?alt=media",
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Fthumb_280_19acbc3c-b35e-4578-93ca-2cd22765af3f.jpg?alt=media"
@@ -6912,7 +6912,7 @@ export const products: Product[] = [
     "price": 150,
     "originalPrice": 173,
     "rating": 5,
-    "reviewCount": 12,
+    "reviewCount": 7,
     "shortDescription": "Wdn Porcupine Root sml H16xW20cm available at Koekeloer Gift & Décor Shop in Gansbaai.",
     "description": "Authentic Wdn Porcupine Root sml H16xW20cm from Koekeloer Geskenkwinkel & Décor, Shop 2, Great White Junction, Gansbaai. Curated with care for beautiful home living.",
     "features": [
@@ -6922,7 +6922,7 @@ export const products: Product[] = [
       "Nationwide courier delivery across South Africa"
     ],
     "stockStatus": "in_stock",
-    "stockCount": 2,
+    "stockCount": 5,
     "images": [
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2F4de87865-79df-40e8-9a83-42389e838240.jpg?alt=media",
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Fthumb_280_4de87865-79df-40e8-9a83-42389e838240.jpg?alt=media"
@@ -6946,7 +6946,7 @@ export const products: Product[] = [
     "price": 869,
     "originalPrice": 999,
     "rating": 5,
-    "reviewCount": 13,
+    "reviewCount": 17,
     "shortDescription": "Wdn Sculpture H30cm available at Koekeloer Gift & Décor Shop in Gansbaai.",
     "description": "Authentic Wdn Sculpture H30cm from Koekeloer Geskenkwinkel & Décor, Shop 2, Great White Junction, Gansbaai. Curated with care for beautiful home living.",
     "features": [
@@ -6956,7 +6956,7 @@ export const products: Product[] = [
       "Nationwide courier delivery across South Africa"
     ],
     "stockStatus": "in_stock",
-    "stockCount": 7,
+    "stockCount": 2,
     "images": [
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2F389eb19c-51bd-40e6-8454-bd10446fc75b.jpg?alt=media",
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Fthumb_280_389eb19c-51bd-40e6-8454-bd10446fc75b.jpg?alt=media"
@@ -6980,7 +6980,7 @@ export const products: Product[] = [
     "price": 389,
     "originalPrice": 447,
     "rating": 5,
-    "reviewCount": 15,
+    "reviewCount": 11,
     "shortDescription": "Wdn Sheep Root H25xW30cm available at Koekeloer Gift & Décor Shop in Gansbaai.",
     "description": "Authentic Wdn Sheep Root H25xW30cm from Koekeloer Geskenkwinkel & Décor, Shop 2, Great White Junction, Gansbaai. Curated with care for beautiful home living.",
     "features": [
@@ -6990,7 +6990,7 @@ export const products: Product[] = [
       "Nationwide courier delivery across South Africa"
     ],
     "stockStatus": "in_stock",
-    "stockCount": 9,
+    "stockCount": 7,
     "images": [
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Ff4662af1-6571-4bf2-a967-2c42fb758e18.jpg?alt=media",
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Fthumb_280_f4662af1-6571-4bf2-a967-2c42fb758e18.jpg?alt=media"
@@ -7014,7 +7014,7 @@ export const products: Product[] = [
     "price": 560,
     "originalPrice": 644,
     "rating": 5,
-    "reviewCount": 14,
+    "reviewCount": 15,
     "shortDescription": "Wdn Sheep Root H30xW40cm available at Koekeloer Gift & Décor Shop in Gansbaai.",
     "description": "Authentic Wdn Sheep Root H30xW40cm from Koekeloer Geskenkwinkel & Décor, Shop 2, Great White Junction, Gansbaai. Curated with care for beautiful home living.",
     "features": [
@@ -7024,7 +7024,7 @@ export const products: Product[] = [
       "Nationwide courier delivery across South Africa"
     ],
     "stockStatus": "in_stock",
-    "stockCount": 7,
+    "stockCount": 6,
     "images": [
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2F045dac39-800c-48b3-b337-468876d0b53a.jpg?alt=media",
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Fthumb_280_045dac39-800c-48b3-b337-468876d0b53a.jpg?alt=media"
@@ -7048,7 +7048,7 @@ export const products: Product[] = [
     "price": 720,
     "originalPrice": 828,
     "rating": 5,
-    "reviewCount": 13,
+    "reviewCount": 12,
     "shortDescription": "Wdn Sheep w/fur H23xxW34cm available at Koekeloer Gift & Décor Shop in Gansbaai.",
     "description": "Authentic Wdn Sheep w/fur H23xxW34cm from Koekeloer Geskenkwinkel & Décor, Shop 2, Great White Junction, Gansbaai. Curated with care for beautiful home living.",
     "features": [
@@ -7058,7 +7058,7 @@ export const products: Product[] = [
       "Nationwide courier delivery across South Africa"
     ],
     "stockStatus": "in_stock",
-    "stockCount": 5,
+    "stockCount": 7,
     "images": [
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Fb3cd9797-556c-4926-ad82-87088f964eb5.jpg?alt=media",
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Fthumb_280_b3cd9797-556c-4926-ad82-87088f964eb5.jpg?alt=media"
@@ -7082,7 +7082,7 @@ export const products: Product[] = [
     "price": 750,
     "originalPrice": 862,
     "rating": 5,
-    "reviewCount": 6,
+    "reviewCount": 13,
     "shortDescription": "Wings Angel on Stand Medium available at Koekeloer Gift & Décor Shop in Gansbaai.",
     "description": "Authentic Wings Angel on Stand Medium from Koekeloer Geskenkwinkel & Décor, Shop 2, Great White Junction, Gansbaai. Curated with care for beautiful home living.",
     "features": [
@@ -7116,7 +7116,7 @@ export const products: Product[] = [
     "price": 380,
     "originalPrice": 437,
     "rating": 5,
-    "reviewCount": 15,
+    "reviewCount": 3,
     "shortDescription": "Wings Angel on Stand Small available at Koekeloer Gift & Décor Shop in Gansbaai.",
     "description": "Authentic Wings Angel on Stand Small from Koekeloer Geskenkwinkel & Décor, Shop 2, Great White Junction, Gansbaai. Curated with care for beautiful home living.",
     "features": [
@@ -7126,7 +7126,7 @@ export const products: Product[] = [
       "Nationwide courier delivery across South Africa"
     ],
     "stockStatus": "in_stock",
-    "stockCount": 9,
+    "stockCount": 8,
     "images": [
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Fea9a92b2-6d13-4bf5-aab2-013a4406b7f7.jpg?alt=media",
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Fthumb_280_ea9a92b2-6d13-4bf5-aab2-013a4406b7f7.jpg?alt=media"
@@ -7150,7 +7150,7 @@ export const products: Product[] = [
     "price": 990,
     "originalPrice": 1139,
     "rating": 5,
-    "reviewCount": 12,
+    "reviewCount": 11,
     "shortDescription": "Wings Angelon Stand Large available at Koekeloer Gift & Décor Shop in Gansbaai.",
     "description": "Authentic Wings Angelon Stand Large from Koekeloer Geskenkwinkel & Décor, Shop 2, Great White Junction, Gansbaai. Curated with care for beautiful home living.",
     "features": [
@@ -7160,7 +7160,7 @@ export const products: Product[] = [
       "Nationwide courier delivery across South Africa"
     ],
     "stockStatus": "in_stock",
-    "stockCount": 6,
+    "stockCount": 2,
     "images": [
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2F033ad76a-7633-45a2-bf1b-d46463587d1b.jpg?alt=media",
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Fthumb_280_033ad76a-7633-45a2-bf1b-d46463587d1b.jpg?alt=media"
@@ -7184,7 +7184,7 @@ export const products: Product[] = [
     "price": 850,
     "originalPrice": 977,
     "rating": 5,
-    "reviewCount": 9,
+    "reviewCount": 12,
     "shortDescription": "Wings Wooden Decor Large H67cm available at Koekeloer Gift & Décor Shop in Gansbaai.",
     "description": "Authentic Wings Wooden Decor Large H67cm from Koekeloer Geskenkwinkel & Décor, Shop 2, Great White Junction, Gansbaai. Curated with care for beautiful home living.",
     "features": [
@@ -7194,7 +7194,7 @@ export const products: Product[] = [
       "Nationwide courier delivery across South Africa"
     ],
     "stockStatus": "in_stock",
-    "stockCount": 7,
+    "stockCount": 5,
     "images": [
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Fbc94f448-7a89-4b6d-a46c-a9bb7e941a12.jpg?alt=media",
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Fthumb_280_bc94f448-7a89-4b6d-a46c-a9bb7e941a12.jpg?alt=media"
@@ -7218,7 +7218,7 @@ export const products: Product[] = [
     "price": 450,
     "originalPrice": 518,
     "rating": 5,
-    "reviewCount": 5,
+    "reviewCount": 16,
     "shortDescription": "Wings Wooden Decor Small H47cm available at Koekeloer Gift & Décor Shop in Gansbaai.",
     "description": "Authentic Wings Wooden Decor Small H47cm from Koekeloer Geskenkwinkel & Décor, Shop 2, Great White Junction, Gansbaai. Curated with care for beautiful home living.",
     "features": [
@@ -7228,7 +7228,7 @@ export const products: Product[] = [
       "Nationwide courier delivery across South Africa"
     ],
     "stockStatus": "in_stock",
-    "stockCount": 3,
+    "stockCount": 8,
     "images": [
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Fbc94f448-7a89-4b6d-a46c-a9bb7e941a12.jpg?alt=media",
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Fthumb_280_bc94f448-7a89-4b6d-a46c-a9bb7e941a12.jpg?alt=media"
@@ -7252,7 +7252,7 @@ export const products: Product[] = [
     "price": 320,
     "originalPrice": 368,
     "rating": 5,
-    "reviewCount": 9,
+    "reviewCount": 5,
     "shortDescription": "Wooden Box available at Koekeloer Gift & Décor Shop in Gansbaai.",
     "description": "Authentic Wooden Box from Koekeloer Geskenkwinkel & Décor, Shop 2, Great White Junction, Gansbaai. Curated with care for beautiful home living.",
     "features": [
@@ -7262,7 +7262,7 @@ export const products: Product[] = [
       "Nationwide courier delivery across South Africa"
     ],
     "stockStatus": "in_stock",
-    "stockCount": 8,
+    "stockCount": 3,
     "images": [
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2F9c0f84f1-794a-44fa-bce9-c7fc734d7835.jpg?alt=media",
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Fthumb_280_9c0f84f1-794a-44fa-bce9-c7fc734d7835.jpg?alt=media"
@@ -7286,7 +7286,7 @@ export const products: Product[] = [
     "price": 420,
     "originalPrice": 483,
     "rating": 5,
-    "reviewCount": 11,
+    "reviewCount": 15,
     "shortDescription": "Wooden Jewelery Box available at Koekeloer Gift & Décor Shop in Gansbaai.",
     "description": "Authentic Wooden Jewelery Box from Koekeloer Geskenkwinkel & Décor, Shop 2, Great White Junction, Gansbaai. Curated with care for beautiful home living.",
     "features": [
@@ -7296,7 +7296,7 @@ export const products: Product[] = [
       "Nationwide courier delivery across South Africa"
     ],
     "stockStatus": "in_stock",
-    "stockCount": 7,
+    "stockCount": 6,
     "images": [
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2F080a39a1-4276-4f1f-ac71-355b2c0ab4e6.jpg?alt=media",
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Fthumb_280_080a39a1-4276-4f1f-ac71-355b2c0ab4e6.jpg?alt=media"
@@ -7320,7 +7320,7 @@ export const products: Product[] = [
     "price": 270,
     "originalPrice": 311,
     "rating": 5,
-    "reviewCount": 12,
+    "reviewCount": 14,
     "shortDescription": "Wooden Utility Box available at Koekeloer Gift & Décor Shop in Gansbaai.",
     "description": "Authentic Wooden Utility Box from Koekeloer Geskenkwinkel & Décor, Shop 2, Great White Junction, Gansbaai. Curated with care for beautiful home living.",
     "features": [
@@ -7330,7 +7330,7 @@ export const products: Product[] = [
       "Nationwide courier delivery across South Africa"
     ],
     "stockStatus": "in_stock",
-    "stockCount": 5,
+    "stockCount": 4,
     "images": [
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2F68c3720d-8e3d-4b6c-a22b-3de7cf65f60d.jpg?alt=media",
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Fthumb_280_68c3720d-8e3d-4b6c-a22b-3de7cf65f60d.jpg?alt=media"
@@ -7354,7 +7354,7 @@ export const products: Product[] = [
     "price": 430,
     "originalPrice": 494,
     "rating": 5,
-    "reviewCount": 14,
+    "reviewCount": 11,
     "shortDescription": "Diffuser Refill Forest Fern 160ml available at Koekeloer Gift & Décor Shop in Gansbaai.",
     "description": "Authentic Diffuser Refill Forest Fern 160ml from Koekeloer Geskenkwinkel & Décor, Shop 2, Great White Junction, Gansbaai. Curated with care for beautiful home living.",
     "features": [
@@ -7364,7 +7364,7 @@ export const products: Product[] = [
       "Nationwide courier delivery across South Africa"
     ],
     "stockStatus": "in_stock",
-    "stockCount": 7,
+    "stockCount": 8,
     "images": [
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2F657f8232-936f-4159-8486-790f5ff1b251.jpg?alt=media",
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Fthumb_280_657f8232-936f-4159-8486-790f5ff1b251.jpg?alt=media"
@@ -7388,7 +7388,7 @@ export const products: Product[] = [
     "price": 390,
     "originalPrice": 448,
     "rating": 5,
-    "reviewCount": 6,
+    "reviewCount": 7,
     "shortDescription": "Diffuser Refill Sugared Grapefruit available at Koekeloer Gift & Décor Shop in Gansbaai.",
     "description": "Authentic Diffuser Refill Sugared Grapefruit from Koekeloer Geskenkwinkel & Décor, Shop 2, Great White Junction, Gansbaai. Curated with care for beautiful home living.",
     "features": [
@@ -7398,7 +7398,7 @@ export const products: Product[] = [
       "Nationwide courier delivery across South Africa"
     ],
     "stockStatus": "in_stock",
-    "stockCount": 5,
+    "stockCount": 2,
     "images": [
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2F1e8df56f-7416-4c96-becc-96a1e92e34b9.jpg?alt=media",
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Fthumb_280_1e8df56f-7416-4c96-becc-96a1e92e34b9.jpg?alt=media"
@@ -7422,7 +7422,7 @@ export const products: Product[] = [
     "price": 560,
     "originalPrice": 644,
     "rating": 5,
-    "reviewCount": 9,
+    "reviewCount": 6,
     "shortDescription": "Mockana Diffuser Cape Fynbos available at Koekeloer Gift & Décor Shop in Gansbaai.",
     "description": "Authentic Mockana Diffuser Cape Fynbos from Koekeloer Geskenkwinkel & Décor, Shop 2, Great White Junction, Gansbaai. Curated with care for beautiful home living.",
     "features": [
@@ -7432,7 +7432,7 @@ export const products: Product[] = [
       "Nationwide courier delivery across South Africa"
     ],
     "stockStatus": "in_stock",
-    "stockCount": 6,
+    "stockCount": 5,
     "images": [
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Fc296392d-9028-4955-880c-494836d271b3.jpg?alt=media",
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Fthumb_280_c296392d-9028-4955-880c-494836d271b3.jpg?alt=media"
@@ -7456,7 +7456,7 @@ export const products: Product[] = [
     "price": 560,
     "originalPrice": 644,
     "rating": 5,
-    "reviewCount": 11,
+    "reviewCount": 6,
     "shortDescription": "Mockana Diffuser Luxury Oud available at Koekeloer Gift & Décor Shop in Gansbaai.",
     "description": "Authentic Mockana Diffuser Luxury Oud from Koekeloer Geskenkwinkel & Décor, Shop 2, Great White Junction, Gansbaai. Curated with care for beautiful home living.",
     "features": [
@@ -7466,7 +7466,7 @@ export const products: Product[] = [
       "Nationwide courier delivery across South Africa"
     ],
     "stockStatus": "in_stock",
-    "stockCount": 3,
+    "stockCount": 7,
     "images": [
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Fb078b01e-7958-4aca-a213-fbd849ee4872.jpg?alt=media",
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Fthumb_280_b078b01e-7958-4aca-a213-fbd849ee4872.jpg?alt=media"
@@ -7490,7 +7490,7 @@ export const products: Product[] = [
     "price": 560,
     "originalPrice": 644,
     "rating": 5,
-    "reviewCount": 4,
+    "reviewCount": 8,
     "shortDescription": "Mockana Diffuser Pink Champagne available at Koekeloer Gift & Décor Shop in Gansbaai.",
     "description": "Authentic Mockana Diffuser Pink Champagne from Koekeloer Geskenkwinkel & Décor, Shop 2, Great White Junction, Gansbaai. Curated with care for beautiful home living.",
     "features": [
@@ -7500,7 +7500,7 @@ export const products: Product[] = [
       "Nationwide courier delivery across South Africa"
     ],
     "stockStatus": "in_stock",
-    "stockCount": 7,
+    "stockCount": 8,
     "images": [
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2F1e7e1bc0-fd57-4eda-b71a-b58c41a67434.jpg?alt=media",
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Fthumb_280_1e7e1bc0-fd57-4eda-b71a-b58c41a67434.jpg?alt=media"
@@ -7524,7 +7524,7 @@ export const products: Product[] = [
     "price": 560,
     "originalPrice": 644,
     "rating": 5,
-    "reviewCount": 4,
+    "reviewCount": 16,
     "shortDescription": "Mockana diffuser Sugared Grapefruit available at Koekeloer Gift & Décor Shop in Gansbaai.",
     "description": "Authentic Mockana diffuser Sugared Grapefruit from Koekeloer Geskenkwinkel & Décor, Shop 2, Great White Junction, Gansbaai. Curated with care for beautiful home living.",
     "features": [
@@ -7534,7 +7534,7 @@ export const products: Product[] = [
       "Nationwide courier delivery across South Africa"
     ],
     "stockStatus": "in_stock",
-    "stockCount": 5,
+    "stockCount": 7,
     "images": [
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Fca4d9109-f301-45c3-8122-d31604f76f25.jpg?alt=media",
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Fthumb_280_ca4d9109-f301-45c3-8122-d31604f76f25.jpg?alt=media"
@@ -7558,7 +7558,7 @@ export const products: Product[] = [
     "price": 560,
     "originalPrice": 644,
     "rating": 5,
-    "reviewCount": 13,
+    "reviewCount": 6,
     "shortDescription": "Mockana Diffuser Vanilla Coconut available at Koekeloer Gift & Décor Shop in Gansbaai.",
     "description": "Authentic Mockana Diffuser Vanilla Coconut from Koekeloer Geskenkwinkel & Décor, Shop 2, Great White Junction, Gansbaai. Curated with care for beautiful home living.",
     "features": [
@@ -7592,7 +7592,7 @@ export const products: Product[] = [
     "price": 390,
     "originalPrice": 448,
     "rating": 5,
-    "reviewCount": 5,
+    "reviewCount": 11,
     "shortDescription": "Mockana Refills available at Koekeloer Gift & Décor Shop in Gansbaai.",
     "description": "Authentic Mockana Refills from Koekeloer Geskenkwinkel & Décor, Shop 2, Great White Junction, Gansbaai. Curated with care for beautiful home living.",
     "features": [
@@ -7602,7 +7602,7 @@ export const products: Product[] = [
       "Nationwide courier delivery across South Africa"
     ],
     "stockStatus": "in_stock",
-    "stockCount": 7,
+    "stockCount": 2,
     "images": [
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Fda8b03b7-20f2-47a9-b122-c9660ab8ebb3.jpg?alt=media",
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Fthumb_280_da8b03b7-20f2-47a9-b122-c9660ab8ebb3.jpg?alt=media"
@@ -7626,7 +7626,7 @@ export const products: Product[] = [
     "price": 20900,
     "originalPrice": 24035,
     "rating": 5,
-    "reviewCount": 6,
+    "reviewCount": 11,
     "shortDescription": "4pc Set Bench 2XChairs Table available at Koekeloer Gift & Décor Shop in Gansbaai.",
     "description": "Authentic 4pc Set Bench 2XChairs Table from Koekeloer Geskenkwinkel & Décor, Shop 2, Great White Junction, Gansbaai. Curated with care for beautiful home living.",
     "features": [
@@ -7636,7 +7636,7 @@ export const products: Product[] = [
       "Nationwide courier delivery across South Africa"
     ],
     "stockStatus": "in_stock",
-    "stockCount": 9,
+    "stockCount": 6,
     "images": [
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Fb0509e53-8a01-4379-b3c4-ba329f84311d.jpg?alt=media",
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Fthumb_280_b0509e53-8a01-4379-b3c4-ba329f84311d.jpg?alt=media"
@@ -7660,7 +7660,7 @@ export const products: Product[] = [
     "price": 3800,
     "originalPrice": 4370,
     "rating": 5,
-    "reviewCount": 16,
+    "reviewCount": 15,
     "shortDescription": "Bedside cupboard available at Koekeloer Gift & Décor Shop in Gansbaai.",
     "description": "Authentic Bedside cupboard from Koekeloer Geskenkwinkel & Décor, Shop 2, Great White Junction, Gansbaai. Curated with care for beautiful home living.",
     "features": [
@@ -7670,7 +7670,7 @@ export const products: Product[] = [
       "Nationwide courier delivery across South Africa"
     ],
     "stockStatus": "in_stock",
-    "stockCount": 3,
+    "stockCount": 5,
     "images": [
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Fc2166dfd-9c04-4fe6-9599-f67340613597.jpg?alt=media",
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Fthumb_280_c2166dfd-9c04-4fe6-9599-f67340613597.jpg?alt=media"
@@ -7694,7 +7694,7 @@ export const products: Product[] = [
     "price": 2900,
     "originalPrice": 3335,
     "rating": 5,
-    "reviewCount": 14,
+    "reviewCount": 4,
     "shortDescription": "Bedside Pedestal H50xL63xD39cm available at Koekeloer Gift & Décor Shop in Gansbaai.",
     "description": "Authentic Bedside Pedestal H50xL63xD39cm from Koekeloer Geskenkwinkel & Décor, Shop 2, Great White Junction, Gansbaai. Curated with care for beautiful home living.",
     "features": [
@@ -7704,7 +7704,7 @@ export const products: Product[] = [
       "Nationwide courier delivery across South Africa"
     ],
     "stockStatus": "in_stock",
-    "stockCount": 7,
+    "stockCount": 9,
     "images": [
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2F7cb66171-91c4-4155-8650-6de54dcb0b23.jpg?alt=media",
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Fthumb_280_7cb66171-91c4-4155-8650-6de54dcb0b23.jpg?alt=media"
@@ -7728,7 +7728,7 @@ export const products: Product[] = [
     "price": 1700,
     "originalPrice": 1955,
     "rating": 5,
-    "reviewCount": 12,
+    "reviewCount": 5,
     "shortDescription": "Cabinet available at Koekeloer Gift & Décor Shop in Gansbaai.",
     "description": "Authentic Cabinet from Koekeloer Geskenkwinkel & Décor, Shop 2, Great White Junction, Gansbaai. Curated with care for beautiful home living.",
     "features": [
@@ -7738,7 +7738,7 @@ export const products: Product[] = [
       "Nationwide courier delivery across South Africa"
     ],
     "stockStatus": "in_stock",
-    "stockCount": 4,
+    "stockCount": 7,
     "images": [
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Feff9e3d0-7193-4ef2-acb9-2ba6e19888d9.jpg?alt=media",
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Fthumb_280_eff9e3d0-7193-4ef2-acb9-2ba6e19888d9.jpg?alt=media"
@@ -7796,7 +7796,7 @@ export const products: Product[] = [
     "price": 2900,
     "originalPrice": 3335,
     "rating": 5,
-    "reviewCount": 9,
+    "reviewCount": 16,
     "shortDescription": "Cabinet 100x90x40cm available at Koekeloer Gift & Décor Shop in Gansbaai.",
     "description": "Authentic Cabinet 100x90x40cm from Koekeloer Geskenkwinkel & Décor, Shop 2, Great White Junction, Gansbaai. Curated with care for beautiful home living.",
     "features": [
@@ -7806,7 +7806,7 @@ export const products: Product[] = [
       "Nationwide courier delivery across South Africa"
     ],
     "stockStatus": "in_stock",
-    "stockCount": 9,
+    "stockCount": 7,
     "images": [
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2F1c365ff9-2a9a-478d-9223-1de231d62bb2.jpg?alt=media",
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Fthumb_280_1c365ff9-2a9a-478d-9223-1de231d62bb2.jpg?alt=media"
@@ -7830,7 +7830,7 @@ export const products: Product[] = [
     "price": 10908,
     "originalPrice": 12544,
     "rating": 5,
-    "reviewCount": 12,
+    "reviewCount": 14,
     "shortDescription": "Cabinet 150x129x35cm available at Koekeloer Gift & Décor Shop in Gansbaai.",
     "description": "Authentic Cabinet 150x129x35cm from Koekeloer Geskenkwinkel & Décor, Shop 2, Great White Junction, Gansbaai. Curated with care for beautiful home living.",
     "features": [
@@ -7840,7 +7840,7 @@ export const products: Product[] = [
       "Nationwide courier delivery across South Africa"
     ],
     "stockStatus": "in_stock",
-    "stockCount": 9,
+    "stockCount": 8,
     "images": [
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2F4c4a10e6-3acd-41cc-8651-63a330de896d.jpg?alt=media",
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Fthumb_280_4c4a10e6-3acd-41cc-8651-63a330de896d.jpg?alt=media"
@@ -7908,7 +7908,7 @@ export const products: Product[] = [
       "Nationwide courier delivery across South Africa"
     ],
     "stockStatus": "in_stock",
-    "stockCount": 6,
+    "stockCount": 7,
     "images": [
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Fc181ee36-8cb2-467e-bca0-9cf5032baa6f.jpg?alt=media",
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Fthumb_280_c181ee36-8cb2-467e-bca0-9cf5032baa6f.jpg?alt=media"
@@ -7932,7 +7932,7 @@ export const products: Product[] = [
     "price": 18500,
     "originalPrice": 21275,
     "rating": 5,
-    "reviewCount": 6,
+    "reviewCount": 14,
     "shortDescription": "Cabinet 180x90x40cm available at Koekeloer Gift & Décor Shop in Gansbaai.",
     "description": "Authentic Cabinet 180x90x40cm from Koekeloer Geskenkwinkel & Décor, Shop 2, Great White Junction, Gansbaai. Curated with care for beautiful home living.",
     "features": [
@@ -7942,7 +7942,7 @@ export const products: Product[] = [
       "Nationwide courier delivery across South Africa"
     ],
     "stockStatus": "in_stock",
-    "stockCount": 6,
+    "stockCount": 5,
     "images": [
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2F519eddda-d801-46b6-bfe1-fd8ad189a5cf.jpg?alt=media",
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Fthumb_280_519eddda-d801-46b6-bfe1-fd8ad189a5cf.jpg?alt=media"
@@ -7966,7 +7966,7 @@ export const products: Product[] = [
     "price": 19900,
     "originalPrice": 22885,
     "rating": 5,
-    "reviewCount": 9,
+    "reviewCount": 13,
     "shortDescription": "Cabinet 183x92x91 available at Koekeloer Gift & Décor Shop in Gansbaai.",
     "description": "Authentic Cabinet 183x92x91 from Koekeloer Geskenkwinkel & Décor, Shop 2, Great White Junction, Gansbaai. Curated with care for beautiful home living.",
     "features": [
@@ -7976,7 +7976,7 @@ export const products: Product[] = [
       "Nationwide courier delivery across South Africa"
     ],
     "stockStatus": "in_stock",
-    "stockCount": 6,
+    "stockCount": 3,
     "images": [
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2F7e573e15-8a20-433f-907c-088f5c271ec6.jpg?alt=media",
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Fthumb_280_7e573e15-8a20-433f-907c-088f5c271ec6.jpg?alt=media"
@@ -8000,7 +8000,7 @@ export const products: Product[] = [
     "price": 3300,
     "originalPrice": 3795,
     "rating": 5,
-    "reviewCount": 8,
+    "reviewCount": 4,
     "shortDescription": "Cabinet 2 Drawers 2 Shelves available at Koekeloer Gift & Décor Shop in Gansbaai.",
     "description": "Authentic Cabinet 2 Drawers 2 Shelves from Koekeloer Geskenkwinkel & Décor, Shop 2, Great White Junction, Gansbaai. Curated with care for beautiful home living.",
     "features": [
@@ -8010,7 +8010,7 @@ export const products: Product[] = [
       "Nationwide courier delivery across South Africa"
     ],
     "stockStatus": "in_stock",
-    "stockCount": 9,
+    "stockCount": 8,
     "images": [
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2F451ad586-0401-49e0-a16b-9287c0c5f847.jpg?alt=media",
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Fthumb_280_451ad586-0401-49e0-a16b-9287c0c5f847.jpg?alt=media"
@@ -8034,7 +8034,7 @@ export const products: Product[] = [
     "price": 25500,
     "originalPrice": 29325,
     "rating": 5,
-    "reviewCount": 7,
+    "reviewCount": 13,
     "shortDescription": "Cabinet 200x100x52cm available at Koekeloer Gift & Décor Shop in Gansbaai.",
     "description": "Authentic Cabinet 200x100x52cm from Koekeloer Geskenkwinkel & Décor, Shop 2, Great White Junction, Gansbaai. Curated with care for beautiful home living.",
     "features": [
@@ -8044,7 +8044,7 @@ export const products: Product[] = [
       "Nationwide courier delivery across South Africa"
     ],
     "stockStatus": "in_stock",
-    "stockCount": 5,
+    "stockCount": 7,
     "images": [
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Fe33ce3ad-f4f7-45e8-a82c-5550674636ef.jpg?alt=media",
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Fthumb_280_e33ce3ad-f4f7-45e8-a82c-5550674636ef.jpg?alt=media"
@@ -8068,7 +8068,7 @@ export const products: Product[] = [
     "price": 15500,
     "originalPrice": 17825,
     "rating": 5,
-    "reviewCount": 9,
+    "reviewCount": 11,
     "shortDescription": "Cabinet 4 door 170x106x96cm available at Koekeloer Gift & Décor Shop in Gansbaai.",
     "description": "Authentic Cabinet 4 door 170x106x96cm from Koekeloer Geskenkwinkel & Décor, Shop 2, Great White Junction, Gansbaai. Curated with care for beautiful home living.",
     "features": [
@@ -8078,7 +8078,7 @@ export const products: Product[] = [
       "Nationwide courier delivery across South Africa"
     ],
     "stockStatus": "in_stock",
-    "stockCount": 6,
+    "stockCount": 9,
     "images": [
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2F7f779c16-8def-4f8f-a91b-e32d857b4ab3.jpg?alt=media",
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Fthumb_280_7f779c16-8def-4f8f-a91b-e32d857b4ab3.jpg?alt=media"
@@ -8102,7 +8102,7 @@ export const products: Product[] = [
     "price": 900,
     "originalPrice": 1035,
     "rating": 5,
-    "reviewCount": 3,
+    "reviewCount": 6,
     "shortDescription": "Cabinet Boat Medium H1450xL45cm available at Koekeloer Gift & Décor Shop in Gansbaai.",
     "description": "Authentic Cabinet Boat Medium H1450xL45cm from Koekeloer Geskenkwinkel & Décor, Shop 2, Great White Junction, Gansbaai. Curated with care for beautiful home living.",
     "features": [
@@ -8112,7 +8112,7 @@ export const products: Product[] = [
       "Nationwide courier delivery across South Africa"
     ],
     "stockStatus": "in_stock",
-    "stockCount": 4,
+    "stockCount": 9,
     "images": [
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Fc7c441da-382c-4ae6-9864-2332009dbcc1.jpg?alt=media",
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Fthumb_280_c7c441da-382c-4ae6-9864-2332009dbcc1.jpg?alt=media"
@@ -8136,7 +8136,7 @@ export const products: Product[] = [
     "price": 14990,
     "originalPrice": 17239,
     "rating": 5,
-    "reviewCount": 15,
+    "reviewCount": 16,
     "shortDescription": "Cabinet Carved available at Koekeloer Gift & Décor Shop in Gansbaai.",
     "description": "Authentic Cabinet Carved from Koekeloer Geskenkwinkel & Décor, Shop 2, Great White Junction, Gansbaai. Curated with care for beautiful home living.",
     "features": [
@@ -8146,7 +8146,7 @@ export const products: Product[] = [
       "Nationwide courier delivery across South Africa"
     ],
     "stockStatus": "in_stock",
-    "stockCount": 8,
+    "stockCount": 6,
     "images": [
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Fcdf006c0-9bcb-4b1e-8d2b-21c235e94521.jpg?alt=media",
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Fthumb_280_cdf006c0-9bcb-4b1e-8d2b-21c235e94521.jpg?alt=media"
@@ -8170,7 +8170,7 @@ export const products: Product[] = [
     "price": 2200,
     "originalPrice": 2530,
     "rating": 5,
-    "reviewCount": 13,
+    "reviewCount": 7,
     "shortDescription": "Carved cabinet 75x45x35cm available at Koekeloer Gift & Décor Shop in Gansbaai.",
     "description": "Authentic Carved cabinet 75x45x35cm from Koekeloer Geskenkwinkel & Décor, Shop 2, Great White Junction, Gansbaai. Curated with care for beautiful home living.",
     "features": [
@@ -8180,7 +8180,7 @@ export const products: Product[] = [
       "Nationwide courier delivery across South Africa"
     ],
     "stockStatus": "in_stock",
-    "stockCount": 3,
+    "stockCount": 4,
     "images": [
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2F5436bb5b-cb7a-4b44-987d-eac0cb85cf66.jpg?alt=media",
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Fthumb_280_5436bb5b-cb7a-4b44-987d-eac0cb85cf66.jpg?alt=media"
@@ -8204,7 +8204,7 @@ export const products: Product[] = [
     "price": 18000,
     "originalPrice": 20700,
     "rating": 5,
-    "reviewCount": 12,
+    "reviewCount": 7,
     "shortDescription": "Carved Wooden Almirah 180cmx93cmx37cm available at Koekeloer Gift & Décor Shop in Gansbaai.",
     "description": "Authentic Carved Wooden Almirah 180cmx93cmx37cm from Koekeloer Geskenkwinkel & Décor, Shop 2, Great White Junction, Gansbaai. Curated with care for beautiful home living.",
     "features": [
@@ -8214,7 +8214,7 @@ export const products: Product[] = [
       "Nationwide courier delivery across South Africa"
     ],
     "stockStatus": "in_stock",
-    "stockCount": 6,
+    "stockCount": 2,
     "images": [
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Fbdc49ad7-6501-49f7-b17b-dc2c1e7ec142.jpg?alt=media",
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Fthumb_280_bdc49ad7-6501-49f7-b17b-dc2c1e7ec142.jpg?alt=media"
@@ -8238,7 +8238,7 @@ export const products: Product[] = [
     "price": 10500,
     "originalPrice": 12075,
     "rating": 5,
-    "reviewCount": 5,
+    "reviewCount": 3,
     "shortDescription": "Chest of drawers available at Koekeloer Gift & Décor Shop in Gansbaai.",
     "description": "Authentic Chest of drawers from Koekeloer Geskenkwinkel & Décor, Shop 2, Great White Junction, Gansbaai. Curated with care for beautiful home living.",
     "features": [
@@ -8248,7 +8248,7 @@ export const products: Product[] = [
       "Nationwide courier delivery across South Africa"
     ],
     "stockStatus": "in_stock",
-    "stockCount": 9,
+    "stockCount": 8,
     "images": [
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Fefbf5d3f-cbc1-4cc3-b064-26461559d75b.jpg?alt=media",
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Fthumb_280_efbf5d3f-cbc1-4cc3-b064-26461559d75b.jpg?alt=media"
@@ -8272,7 +8272,7 @@ export const products: Product[] = [
     "price": 1700,
     "originalPrice": 1955,
     "rating": 5,
-    "reviewCount": 9,
+    "reviewCount": 12,
     "shortDescription": "Cupboard H100xW35xD19cm available at Koekeloer Gift & Décor Shop in Gansbaai.",
     "description": "Authentic Cupboard H100xW35xD19cm from Koekeloer Geskenkwinkel & Décor, Shop 2, Great White Junction, Gansbaai. Curated with care for beautiful home living.",
     "features": [
@@ -8282,7 +8282,7 @@ export const products: Product[] = [
       "Nationwide courier delivery across South Africa"
     ],
     "stockStatus": "in_stock",
-    "stockCount": 3,
+    "stockCount": 5,
     "images": [
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2F9475de05-bb4f-4960-a5a4-c94894be8630.jpg?alt=media",
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Fthumb_280_9475de05-bb4f-4960-a5a4-c94894be8630.jpg?alt=media"
@@ -8306,7 +8306,7 @@ export const products: Product[] = [
     "price": 29000,
     "originalPrice": 33350,
     "rating": 5,
-    "reviewCount": 17,
+    "reviewCount": 8,
     "shortDescription": "Dining Table Teak 250cm x 90cm available at Koekeloer Gift & Décor Shop in Gansbaai.",
     "description": "Authentic Dining Table Teak 250cm x 90cm from Koekeloer Geskenkwinkel & Décor, Shop 2, Great White Junction, Gansbaai. Curated with care for beautiful home living.",
     "features": [
@@ -8316,7 +8316,7 @@ export const products: Product[] = [
       "Nationwide courier delivery across South Africa"
     ],
     "stockStatus": "in_stock",
-    "stockCount": 3,
+    "stockCount": 8,
     "images": [
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2F8c03481f-ec84-44bc-88e3-ad436eebb2de.jpg?alt=media",
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Fthumb_280_8c03481f-ec84-44bc-88e3-ad436eebb2de.jpg?alt=media"
@@ -8340,7 +8340,7 @@ export const products: Product[] = [
     "price": 7800,
     "originalPrice": 8970,
     "rating": 5,
-    "reviewCount": 14,
+    "reviewCount": 9,
     "shortDescription": "Display cabinet available at Koekeloer Gift & Décor Shop in Gansbaai.",
     "description": "Authentic Display cabinet from Koekeloer Geskenkwinkel & Décor, Shop 2, Great White Junction, Gansbaai. Curated with care for beautiful home living.",
     "features": [
@@ -8350,7 +8350,7 @@ export const products: Product[] = [
       "Nationwide courier delivery across South Africa"
     ],
     "stockStatus": "in_stock",
-    "stockCount": 5,
+    "stockCount": 9,
     "images": [
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Fc5b42096-279b-4766-8952-35423dca8cc8.jpg?alt=media",
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Fthumb_280_c5b42096-279b-4766-8952-35423dca8cc8.jpg?alt=media"
@@ -8374,7 +8374,7 @@ export const products: Product[] = [
     "price": 9800,
     "originalPrice": 11270,
     "rating": 5,
-    "reviewCount": 8,
+    "reviewCount": 9,
     "shortDescription": "Drawer 10 available at Koekeloer Gift & Décor Shop in Gansbaai.",
     "description": "Authentic Drawer 10 from Koekeloer Geskenkwinkel & Décor, Shop 2, Great White Junction, Gansbaai. Curated with care for beautiful home living.",
     "features": [
@@ -8384,7 +8384,7 @@ export const products: Product[] = [
       "Nationwide courier delivery across South Africa"
     ],
     "stockStatus": "in_stock",
-    "stockCount": 8,
+    "stockCount": 7,
     "images": [
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Fb53545aa-8186-4222-97ff-d218484c4279.jpg?alt=media",
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Fthumb_280_b53545aa-8186-4222-97ff-d218484c4279.jpg?alt=media"
@@ -8408,7 +8408,7 @@ export const products: Product[] = [
     "price": 4500,
     "originalPrice": 5175,
     "rating": 5,
-    "reviewCount": 11,
+    "reviewCount": 3,
     "shortDescription": "Dressing Table H140xL86xD45cm available at Koekeloer Gift & Décor Shop in Gansbaai.",
     "description": "Authentic Dressing Table H140xL86xD45cm from Koekeloer Geskenkwinkel & Décor, Shop 2, Great White Junction, Gansbaai. Curated with care for beautiful home living.",
     "features": [
@@ -8476,7 +8476,7 @@ export const products: Product[] = [
     "price": 14990,
     "originalPrice": 17239,
     "rating": 5,
-    "reviewCount": 5,
+    "reviewCount": 7,
     "shortDescription": "Glass Cabinet H1800mm x W700mm available at Koekeloer Gift & Décor Shop in Gansbaai.",
     "description": "Authentic Glass Cabinet H1800mm x W700mm from Koekeloer Geskenkwinkel & Décor, Shop 2, Great White Junction, Gansbaai. Curated with care for beautiful home living.",
     "features": [
@@ -8486,7 +8486,7 @@ export const products: Product[] = [
       "Nationwide courier delivery across South Africa"
     ],
     "stockStatus": "in_stock",
-    "stockCount": 2,
+    "stockCount": 9,
     "images": [
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Fffe8ac5a-789b-452f-a66a-05d95258cafc.jpg?alt=media",
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Fthumb_280_ffe8ac5a-789b-452f-a66a-05d95258cafc.jpg?alt=media"
@@ -8510,7 +8510,7 @@ export const products: Product[] = [
     "price": 14000,
     "originalPrice": 16100,
     "rating": 5,
-    "reviewCount": 14,
+    "reviewCount": 16,
     "shortDescription": "Indian Cabinet three available at Koekeloer Gift & Décor Shop in Gansbaai.",
     "description": "Authentic Indian Cabinet three from Koekeloer Geskenkwinkel & Décor, Shop 2, Great White Junction, Gansbaai. Curated with care for beautiful home living.",
     "features": [
@@ -8520,7 +8520,7 @@ export const products: Product[] = [
       "Nationwide courier delivery across South Africa"
     ],
     "stockStatus": "in_stock",
-    "stockCount": 7,
+    "stockCount": 3,
     "images": [
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2F8fb20ecc-3441-4a09-b662-cddeb2ebee65.jpg?alt=media",
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Fthumb_280_8fb20ecc-3441-4a09-b662-cddeb2ebee65.jpg?alt=media"
@@ -8544,7 +8544,7 @@ export const products: Product[] = [
     "price": 14800,
     "originalPrice": 17020,
     "rating": 5,
-    "reviewCount": 10,
+    "reviewCount": 17,
     "shortDescription": "Plasma cabinet available at Koekeloer Gift & Décor Shop in Gansbaai.",
     "description": "Authentic Plasma cabinet from Koekeloer Geskenkwinkel & Décor, Shop 2, Great White Junction, Gansbaai. Curated with care for beautiful home living.",
     "features": [
@@ -8554,7 +8554,7 @@ export const products: Product[] = [
       "Nationwide courier delivery across South Africa"
     ],
     "stockStatus": "in_stock",
-    "stockCount": 2,
+    "stockCount": 3,
     "images": [
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2F1b8bbcff-65b9-4f85-9898-2a7299af109e.jpg?alt=media",
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Fthumb_280_1b8bbcff-65b9-4f85-9898-2a7299af109e.jpg?alt=media"
@@ -8578,7 +8578,7 @@ export const products: Product[] = [
     "price": 17500,
     "originalPrice": 20125,
     "rating": 5,
-    "reviewCount": 9,
+    "reviewCount": 16,
     "shortDescription": "Rattan brown 2 chairs and 1 table available at Koekeloer Gift & Décor Shop in Gansbaai.",
     "description": "Authentic Rattan brown 2 chairs and 1 table from Koekeloer Geskenkwinkel & Décor, Shop 2, Great White Junction, Gansbaai. Curated with care for beautiful home living.",
     "features": [
@@ -8612,7 +8612,7 @@ export const products: Product[] = [
     "price": 2900,
     "originalPrice": 3335,
     "rating": 5,
-    "reviewCount": 12,
+    "reviewCount": 3,
     "shortDescription": "Rattan Chair 60x60x92 available at Koekeloer Gift & Décor Shop in Gansbaai.",
     "description": "Authentic Rattan Chair 60x60x92 from Koekeloer Geskenkwinkel & Décor, Shop 2, Great White Junction, Gansbaai. Curated with care for beautiful home living.",
     "features": [
@@ -8646,7 +8646,7 @@ export const products: Product[] = [
     "price": 2400,
     "originalPrice": 2760,
     "rating": 5,
-    "reviewCount": 12,
+    "reviewCount": 10,
     "shortDescription": "Stool H50 x Dia 40cm available at Koekeloer Gift & Décor Shop in Gansbaai.",
     "description": "Authentic Stool H50 x Dia 40cm from Koekeloer Geskenkwinkel & Décor, Shop 2, Great White Junction, Gansbaai. Curated with care for beautiful home living.",
     "features": [
@@ -8680,7 +8680,7 @@ export const products: Product[] = [
     "price": 1900,
     "originalPrice": 2185,
     "rating": 5,
-    "reviewCount": 9,
+    "reviewCount": 14,
     "shortDescription": "Stool H50xDia 35cm available at Koekeloer Gift & Décor Shop in Gansbaai.",
     "description": "Authentic Stool H50xDia 35cm from Koekeloer Geskenkwinkel & Décor, Shop 2, Great White Junction, Gansbaai. Curated with care for beautiful home living.",
     "features": [
@@ -8690,7 +8690,7 @@ export const products: Product[] = [
       "Nationwide courier delivery across South Africa"
     ],
     "stockStatus": "in_stock",
-    "stockCount": 4,
+    "stockCount": 6,
     "images": [
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Fc786d4e8-5def-41fd-911e-4f81e3281db7.jpg?alt=media",
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Fthumb_280_c786d4e8-5def-41fd-911e-4f81e3281db7.jpg?alt=media"
@@ -8714,7 +8714,7 @@ export const products: Product[] = [
     "price": 1995,
     "originalPrice": 2294,
     "rating": 5,
-    "reviewCount": 10,
+    "reviewCount": 4,
     "shortDescription": "Umbrella 2 Tier Cream available at Koekeloer Gift & Décor Shop in Gansbaai.",
     "description": "Authentic Umbrella 2 Tier Cream from Koekeloer Geskenkwinkel & Décor, Shop 2, Great White Junction, Gansbaai. Curated with care for beautiful home living.",
     "features": [
@@ -8748,7 +8748,7 @@ export const products: Product[] = [
     "price": 1995,
     "originalPrice": 2294,
     "rating": 5,
-    "reviewCount": 15,
+    "reviewCount": 4,
     "shortDescription": "Umbrella 3 Tier available at Koekeloer Gift & Décor Shop in Gansbaai.",
     "description": "Authentic Umbrella 3 Tier from Koekeloer Geskenkwinkel & Décor, Shop 2, Great White Junction, Gansbaai. Curated with care for beautiful home living.",
     "features": [
@@ -8758,7 +8758,7 @@ export const products: Product[] = [
       "Nationwide courier delivery across South Africa"
     ],
     "stockStatus": "in_stock",
-    "stockCount": 5,
+    "stockCount": 7,
     "images": [
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Ffc606d54-4fba-4028-940c-323e7fbc188b.jpg?alt=media",
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Fthumb_280_fc606d54-4fba-4028-940c-323e7fbc188b.jpg?alt=media"
@@ -8782,7 +8782,7 @@ export const products: Product[] = [
     "price": 3995,
     "originalPrice": 4594,
     "rating": 5,
-    "reviewCount": 6,
+    "reviewCount": 14,
     "shortDescription": "Umbrella Waterproof available at Koekeloer Gift & Décor Shop in Gansbaai.",
     "description": "Authentic Umbrella Waterproof from Koekeloer Geskenkwinkel & Décor, Shop 2, Great White Junction, Gansbaai. Curated with care for beautiful home living.",
     "features": [
@@ -8792,7 +8792,7 @@ export const products: Product[] = [
       "Nationwide courier delivery across South Africa"
     ],
     "stockStatus": "in_stock",
-    "stockCount": 7,
+    "stockCount": 9,
     "images": [
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2F8395060a-0b15-48a8-a20b-6fa058e5ff5b.jpg?alt=media",
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Fthumb_280_8395060a-0b15-48a8-a20b-6fa058e5ff5b.jpg?alt=media"
@@ -8816,7 +8816,7 @@ export const products: Product[] = [
     "price": 3995,
     "originalPrice": 4594,
     "rating": 5,
-    "reviewCount": 16,
+    "reviewCount": 13,
     "shortDescription": "Umbrella with Crochet Fringe available at Koekeloer Gift & Décor Shop in Gansbaai.",
     "description": "Authentic Umbrella with Crochet Fringe from Koekeloer Geskenkwinkel & Décor, Shop 2, Great White Junction, Gansbaai. Curated with care for beautiful home living.",
     "features": [
@@ -8826,7 +8826,7 @@ export const products: Product[] = [
       "Nationwide courier delivery across South Africa"
     ],
     "stockStatus": "in_stock",
-    "stockCount": 6,
+    "stockCount": 2,
     "images": [
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Ffce5b63e-59a7-4c79-9219-187152060233.jpg?alt=media",
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Fthumb_280_fce5b63e-59a7-4c79-9219-187152060233.jpg?alt=media"
@@ -8850,7 +8850,7 @@ export const products: Product[] = [
     "price": 9900,
     "originalPrice": 11385,
     "rating": 5,
-    "reviewCount": 16,
+    "reviewCount": 7,
     "shortDescription": "Wdn 4 Panel Screen 200x3x182 available at Koekeloer Gift & Décor Shop in Gansbaai.",
     "description": "Authentic Wdn 4 Panel Screen 200x3x182 from Koekeloer Geskenkwinkel & Décor, Shop 2, Great White Junction, Gansbaai. Curated with care for beautiful home living.",
     "features": [
@@ -8860,7 +8860,7 @@ export const products: Product[] = [
       "Nationwide courier delivery across South Africa"
     ],
     "stockStatus": "in_stock",
-    "stockCount": 4,
+    "stockCount": 7,
     "images": [
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Fab6f557b-dfe7-4faf-8e80-b06808e13f4b.jpg?alt=media",
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Fthumb_280_ab6f557b-dfe7-4faf-8e80-b06808e13f4b.jpg?alt=media"
@@ -8884,7 +8884,7 @@ export const products: Product[] = [
     "price": 17900,
     "originalPrice": 20585,
     "rating": 5,
-    "reviewCount": 14,
+    "reviewCount": 12,
     "shortDescription": "Wdn Almirah 90x40x180 available at Koekeloer Gift & Décor Shop in Gansbaai.",
     "description": "Authentic Wdn Almirah 90x40x180 from Koekeloer Geskenkwinkel & Décor, Shop 2, Great White Junction, Gansbaai. Curated with care for beautiful home living.",
     "features": [
@@ -8894,7 +8894,7 @@ export const products: Product[] = [
       "Nationwide courier delivery across South Africa"
     ],
     "stockStatus": "in_stock",
-    "stockCount": 8,
+    "stockCount": 7,
     "images": [
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2F945bf26e-cc21-46fb-9406-427fd7422890.jpg?alt=media",
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Fthumb_280_945bf26e-cc21-46fb-9406-427fd7422890.jpg?alt=media"
@@ -8918,7 +8918,7 @@ export const products: Product[] = [
     "price": 18000,
     "originalPrice": 20700,
     "rating": 5,
-    "reviewCount": 10,
+    "reviewCount": 12,
     "shortDescription": "Wdn Almirah Painted 90x40x180 available at Koekeloer Gift & Décor Shop in Gansbaai.",
     "description": "Authentic Wdn Almirah Painted 90x40x180 from Koekeloer Geskenkwinkel & Décor, Shop 2, Great White Junction, Gansbaai. Curated with care for beautiful home living.",
     "features": [
@@ -8928,7 +8928,7 @@ export const products: Product[] = [
       "Nationwide courier delivery across South Africa"
     ],
     "stockStatus": "in_stock",
-    "stockCount": 4,
+    "stockCount": 6,
     "images": [
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2F5ac3f711-6d03-43c1-bd17-efb38d9f9e4e.jpg?alt=media",
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Fthumb_280_5ac3f711-6d03-43c1-bd17-efb38d9f9e4e.jpg?alt=media"
@@ -8952,7 +8952,7 @@ export const products: Product[] = [
     "price": 14995,
     "originalPrice": 17244,
     "rating": 5,
-    "reviewCount": 8,
+    "reviewCount": 4,
     "shortDescription": "Wdn Almirah Painted 90x43x150 available at Koekeloer Gift & Décor Shop in Gansbaai.",
     "description": "Authentic Wdn Almirah Painted 90x43x150 from Koekeloer Geskenkwinkel & Décor, Shop 2, Great White Junction, Gansbaai. Curated with care for beautiful home living.",
     "features": [
@@ -8962,7 +8962,7 @@ export const products: Product[] = [
       "Nationwide courier delivery across South Africa"
     ],
     "stockStatus": "in_stock",
-    "stockCount": 3,
+    "stockCount": 9,
     "images": [
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2F48e0c5dc-4f2c-4f1a-8e0f-12936a80f673.jpg?alt=media",
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Fthumb_280_48e0c5dc-4f2c-4f1a-8e0f-12936a80f673.jpg?alt=media"
@@ -8986,7 +8986,7 @@ export const products: Product[] = [
     "price": 15995,
     "originalPrice": 18394,
     "rating": 5,
-    "reviewCount": 8,
+    "reviewCount": 9,
     "shortDescription": "Wdn Almirah with Rattan 80x40x148 available at Koekeloer Gift & Décor Shop in Gansbaai.",
     "description": "Authentic Wdn Almirah with Rattan 80x40x148 from Koekeloer Geskenkwinkel & Décor, Shop 2, Great White Junction, Gansbaai. Curated with care for beautiful home living.",
     "features": [
@@ -8996,7 +8996,7 @@ export const products: Product[] = [
       "Nationwide courier delivery across South Africa"
     ],
     "stockStatus": "in_stock",
-    "stockCount": 6,
+    "stockCount": 5,
     "images": [
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Fb32f5ba6-3abd-47a2-ac1c-a3be34e88d52.jpg?alt=media",
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Fthumb_280_b32f5ba6-3abd-47a2-ac1c-a3be34e88d52.jpg?alt=media"
@@ -9020,7 +9020,7 @@ export const products: Product[] = [
     "price": 9500,
     "originalPrice": 10925,
     "rating": 5,
-    "reviewCount": 4,
+    "reviewCount": 12,
     "shortDescription": "WDN BALI COUCH available at Koekeloer Gift & Décor Shop in Gansbaai.",
     "description": "Authentic WDN BALI COUCH from Koekeloer Geskenkwinkel & Décor, Shop 2, Great White Junction, Gansbaai. Curated with care for beautiful home living.",
     "features": [
@@ -9030,7 +9030,7 @@ export const products: Product[] = [
       "Nationwide courier delivery across South Africa"
     ],
     "stockStatus": "in_stock",
-    "stockCount": 6,
+    "stockCount": 2,
     "images": [
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Fae4aadc2-249e-4bb8-a38a-db31519fbbbe.jpg?alt=media",
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Fthumb_280_ae4aadc2-249e-4bb8-a38a-db31519fbbbe.jpg?alt=media"
@@ -9054,7 +9054,7 @@ export const products: Product[] = [
     "price": 1200,
     "originalPrice": 1380,
     "rating": 5,
-    "reviewCount": 6,
+    "reviewCount": 5,
     "shortDescription": "Wdn Bedside Cabinet H60XW41XD38 available at Koekeloer Gift & Décor Shop in Gansbaai.",
     "description": "Authentic Wdn Bedside Cabinet H60XW41XD38 from Koekeloer Geskenkwinkel & Décor, Shop 2, Great White Junction, Gansbaai. Curated with care for beautiful home living.",
     "features": [
@@ -9064,7 +9064,7 @@ export const products: Product[] = [
       "Nationwide courier delivery across South Africa"
     ],
     "stockStatus": "in_stock",
-    "stockCount": 6,
+    "stockCount": 9,
     "images": [
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Fba6c8b17-7d71-42ec-8d70-fdd033ce6455.jpg?alt=media",
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Fthumb_280_ba6c8b17-7d71-42ec-8d70-fdd033ce6455.jpg?alt=media"
@@ -9088,7 +9088,7 @@ export const products: Product[] = [
     "price": 4500,
     "originalPrice": 5175,
     "rating": 5,
-    "reviewCount": 9,
+    "reviewCount": 10,
     "shortDescription": "Wdn Bedside Cupboard 56x35x76 available at Koekeloer Gift & Décor Shop in Gansbaai.",
     "description": "Authentic Wdn Bedside Cupboard 56x35x76 from Koekeloer Geskenkwinkel & Décor, Shop 2, Great White Junction, Gansbaai. Curated with care for beautiful home living.",
     "features": [
@@ -9098,7 +9098,7 @@ export const products: Product[] = [
       "Nationwide courier delivery across South Africa"
     ],
     "stockStatus": "in_stock",
-    "stockCount": 4,
+    "stockCount": 6,
     "images": [
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2F9a577297-af37-4848-97d2-385c6699a656.jpg?alt=media",
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Fthumb_280_9a577297-af37-4848-97d2-385c6699a656.jpg?alt=media"
@@ -9122,7 +9122,7 @@ export const products: Product[] = [
     "price": 4995,
     "originalPrice": 5744,
     "rating": 5,
-    "reviewCount": 4,
+    "reviewCount": 7,
     "shortDescription": "Wdn Bedside Cupboard 57x36x75 available at Koekeloer Gift & Décor Shop in Gansbaai.",
     "description": "Authentic Wdn Bedside Cupboard 57x36x75 from Koekeloer Geskenkwinkel & Décor, Shop 2, Great White Junction, Gansbaai. Curated with care for beautiful home living.",
     "features": [
@@ -9132,7 +9132,7 @@ export const products: Product[] = [
       "Nationwide courier delivery across South Africa"
     ],
     "stockStatus": "in_stock",
-    "stockCount": 6,
+    "stockCount": 5,
     "images": [
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2F4328876c-a5dd-4921-9166-25f15e289881.jpg?alt=media",
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Fthumb_280_4328876c-a5dd-4921-9166-25f15e289881.jpg?alt=media"
@@ -9156,7 +9156,7 @@ export const products: Product[] = [
     "price": 4500,
     "originalPrice": 5175,
     "rating": 5,
-    "reviewCount": 3,
+    "reviewCount": 16,
     "shortDescription": "Wdn Bedside Cupboard 57x36x76 available at Koekeloer Gift & Décor Shop in Gansbaai.",
     "description": "Authentic Wdn Bedside Cupboard 57x36x76 from Koekeloer Geskenkwinkel & Décor, Shop 2, Great White Junction, Gansbaai. Curated with care for beautiful home living.",
     "features": [
@@ -9166,7 +9166,7 @@ export const products: Product[] = [
       "Nationwide courier delivery across South Africa"
     ],
     "stockStatus": "in_stock",
-    "stockCount": 6,
+    "stockCount": 5,
     "images": [
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2F36a843d0-5ac4-44ed-8397-6c7e7e598e66.jpg?alt=media",
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Fthumb_280_36a843d0-5ac4-44ed-8397-6c7e7e598e66.jpg?alt=media"
@@ -9190,7 +9190,7 @@ export const products: Product[] = [
     "price": 4500,
     "originalPrice": 5175,
     "rating": 5,
-    "reviewCount": 8,
+    "reviewCount": 11,
     "shortDescription": "Wdn Bedside Cupboard Carved 46x40x66 available at Koekeloer Gift & Décor Shop in Gansbaai.",
     "description": "Authentic Wdn Bedside Cupboard Carved 46x40x66 from Koekeloer Geskenkwinkel & Décor, Shop 2, Great White Junction, Gansbaai. Curated with care for beautiful home living.",
     "features": [
@@ -9200,7 +9200,7 @@ export const products: Product[] = [
       "Nationwide courier delivery across South Africa"
     ],
     "stockStatus": "in_stock",
-    "stockCount": 4,
+    "stockCount": 7,
     "images": [
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2F57739fd2-7dfb-4f17-9881-2ebdc2e515fc.jpg?alt=media",
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Fthumb_280_57739fd2-7dfb-4f17-9881-2ebdc2e515fc.jpg?alt=media"
@@ -9224,7 +9224,7 @@ export const products: Product[] = [
     "price": 4995,
     "originalPrice": 5744,
     "rating": 5,
-    "reviewCount": 9,
+    "reviewCount": 16,
     "shortDescription": "Wdn Bedside Table available at Koekeloer Gift & Décor Shop in Gansbaai.",
     "description": "Authentic Wdn Bedside Table from Koekeloer Geskenkwinkel & Décor, Shop 2, Great White Junction, Gansbaai. Curated with care for beautiful home living.",
     "features": [
@@ -9234,7 +9234,7 @@ export const products: Product[] = [
       "Nationwide courier delivery across South Africa"
     ],
     "stockStatus": "in_stock",
-    "stockCount": 7,
+    "stockCount": 3,
     "images": [
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2F09d604e7-b9e3-4ca5-9acc-fbe740d1d7c7.jpg?alt=media",
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Fthumb_280_09d604e7-b9e3-4ca5-9acc-fbe740d1d7c7.jpg?alt=media"
@@ -9258,7 +9258,7 @@ export const products: Product[] = [
     "price": 1400,
     "originalPrice": 1610,
     "rating": 5,
-    "reviewCount": 16,
+    "reviewCount": 8,
     "shortDescription": "Wdn Bedside Table H70XW45XD32cm available at Koekeloer Gift & Décor Shop in Gansbaai.",
     "description": "Authentic Wdn Bedside Table H70XW45XD32cm from Koekeloer Geskenkwinkel & Décor, Shop 2, Great White Junction, Gansbaai. Curated with care for beautiful home living.",
     "features": [
@@ -9268,7 +9268,7 @@ export const products: Product[] = [
       "Nationwide courier delivery across South Africa"
     ],
     "stockStatus": "in_stock",
-    "stockCount": 9,
+    "stockCount": 7,
     "images": [
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Fac219b29-2e88-425b-ba71-62e8bcac8048.jpg?alt=media",
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Fthumb_280_ac219b29-2e88-425b-ba71-62e8bcac8048.jpg?alt=media"
@@ -9292,7 +9292,7 @@ export const products: Product[] = [
     "price": 4700,
     "originalPrice": 5405,
     "rating": 5,
-    "reviewCount": 5,
+    "reviewCount": 15,
     "shortDescription": "Wdn Bedside Table w/drwr 45x45x70 available at Koekeloer Gift & Décor Shop in Gansbaai.",
     "description": "Authentic Wdn Bedside Table w/drwr 45x45x70 from Koekeloer Geskenkwinkel & Décor, Shop 2, Great White Junction, Gansbaai. Curated with care for beautiful home living.",
     "features": [
@@ -9302,7 +9302,7 @@ export const products: Product[] = [
       "Nationwide courier delivery across South Africa"
     ],
     "stockStatus": "in_stock",
-    "stockCount": 6,
+    "stockCount": 3,
     "images": [
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2F87caea33-1cc5-4068-b05d-3cb0cedb3045.jpg?alt=media",
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Fthumb_280_87caea33-1cc5-4068-b05d-3cb0cedb3045.jpg?alt=media"
@@ -9326,7 +9326,7 @@ export const products: Product[] = [
     "price": 5900,
     "originalPrice": 6785,
     "rating": 5,
-    "reviewCount": 14,
+    "reviewCount": 11,
     "shortDescription": "Wdn Bench 150x40x45 available at Koekeloer Gift & Décor Shop in Gansbaai.",
     "description": "Authentic Wdn Bench 150x40x45 from Koekeloer Geskenkwinkel & Décor, Shop 2, Great White Junction, Gansbaai. Curated with care for beautiful home living.",
     "features": [
@@ -9336,7 +9336,7 @@ export const products: Product[] = [
       "Nationwide courier delivery across South Africa"
     ],
     "stockStatus": "in_stock",
-    "stockCount": 7,
+    "stockCount": 2,
     "images": [
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2F0853bf66-c7fa-4465-943c-2f5b5300765d.jpg?alt=media",
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Fthumb_280_0853bf66-c7fa-4465-943c-2f5b5300765d.jpg?alt=media"
@@ -9360,7 +9360,7 @@ export const products: Product[] = [
     "price": 5700,
     "originalPrice": 6555,
     "rating": 5,
-    "reviewCount": 7,
+    "reviewCount": 4,
     "shortDescription": "Wdn Bench 150x45x20 available at Koekeloer Gift & Décor Shop in Gansbaai.",
     "description": "Authentic Wdn Bench 150x45x20 from Koekeloer Geskenkwinkel & Décor, Shop 2, Great White Junction, Gansbaai. Curated with care for beautiful home living.",
     "features": [
@@ -9370,7 +9370,7 @@ export const products: Product[] = [
       "Nationwide courier delivery across South Africa"
     ],
     "stockStatus": "in_stock",
-    "stockCount": 5,
+    "stockCount": 2,
     "images": [
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Fee15d623-f795-4762-8584-9c517120bc90.jpg?alt=media",
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Fthumb_280_ee15d623-f795-4762-8584-9c517120bc90.jpg?alt=media"
@@ -9394,7 +9394,7 @@ export const products: Product[] = [
     "price": 8995,
     "originalPrice": 10344,
     "rating": 5,
-    "reviewCount": 17,
+    "reviewCount": 11,
     "shortDescription": "Wdn Bench 160x44x30 available at Koekeloer Gift & Décor Shop in Gansbaai.",
     "description": "Authentic Wdn Bench 160x44x30 from Koekeloer Geskenkwinkel & Décor, Shop 2, Great White Junction, Gansbaai. Curated with care for beautiful home living.",
     "features": [
@@ -9428,7 +9428,7 @@ export const products: Product[] = [
     "price": 8995,
     "originalPrice": 10344,
     "rating": 5,
-    "reviewCount": 17,
+    "reviewCount": 13,
     "shortDescription": "Wdn Bench 160x55x40 available at Koekeloer Gift & Décor Shop in Gansbaai.",
     "description": "Authentic Wdn Bench 160x55x40 from Koekeloer Geskenkwinkel & Décor, Shop 2, Great White Junction, Gansbaai. Curated with care for beautiful home living.",
     "features": [
@@ -9438,7 +9438,7 @@ export const products: Product[] = [
       "Nationwide courier delivery across South Africa"
     ],
     "stockStatus": "in_stock",
-    "stockCount": 4,
+    "stockCount": 7,
     "images": [
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2F4171d3cc-6999-4095-bbeb-c9c5f404090c.jpg?alt=media",
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Fthumb_280_4171d3cc-6999-4095-bbeb-c9c5f404090c.jpg?alt=media"
@@ -9462,7 +9462,7 @@ export const products: Product[] = [
     "price": 6300,
     "originalPrice": 7245,
     "rating": 5,
-    "reviewCount": 8,
+    "reviewCount": 6,
     "shortDescription": "Wdn Bench 180x45x48 available at Koekeloer Gift & Décor Shop in Gansbaai.",
     "description": "Authentic Wdn Bench 180x45x48 from Koekeloer Geskenkwinkel & Décor, Shop 2, Great White Junction, Gansbaai. Curated with care for beautiful home living.",
     "features": [
@@ -9472,7 +9472,7 @@ export const products: Product[] = [
       "Nationwide courier delivery across South Africa"
     ],
     "stockStatus": "in_stock",
-    "stockCount": 5,
+    "stockCount": 7,
     "images": [
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Fc3567ce7-1274-4f75-bb7f-deeae94725d8.jpg?alt=media",
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Fthumb_280_c3567ce7-1274-4f75-bb7f-deeae94725d8.jpg?alt=media"
@@ -9496,7 +9496,7 @@ export const products: Product[] = [
     "price": 6300,
     "originalPrice": 7245,
     "rating": 5,
-    "reviewCount": 8,
+    "reviewCount": 10,
     "shortDescription": "Wdn Bench 180x45x48 available at Koekeloer Gift & Décor Shop in Gansbaai.",
     "description": "Authentic Wdn Bench 180x45x48 from Koekeloer Geskenkwinkel & Décor, Shop 2, Great White Junction, Gansbaai. Curated with care for beautiful home living.",
     "features": [
@@ -9506,7 +9506,7 @@ export const products: Product[] = [
       "Nationwide courier delivery across South Africa"
     ],
     "stockStatus": "in_stock",
-    "stockCount": 8,
+    "stockCount": 2,
     "images": [
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2F6f7b08d9-d848-45f8-94f2-9b61f8821262.jpg?alt=media",
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Fthumb_280_6f7b08d9-d848-45f8-94f2-9b61f8821262.jpg?alt=media"
@@ -9530,7 +9530,7 @@ export const products: Product[] = [
     "price": 17500,
     "originalPrice": 20125,
     "rating": 5,
-    "reviewCount": 10,
+    "reviewCount": 11,
     "shortDescription": "Wdn Bench with Rattan 180x50x92 available at Koekeloer Gift & Décor Shop in Gansbaai.",
     "description": "Authentic Wdn Bench with Rattan 180x50x92 from Koekeloer Geskenkwinkel & Décor, Shop 2, Great White Junction, Gansbaai. Curated with care for beautiful home living.",
     "features": [
@@ -9564,7 +9564,7 @@ export const products: Product[] = [
     "price": 6000,
     "originalPrice": 6900,
     "rating": 5,
-    "reviewCount": 4,
+    "reviewCount": 8,
     "shortDescription": "Wdn Cabinet 2 Doors Carved H100XW91XD40cm available at Koekeloer Gift & Décor Shop in Gansbaai.",
     "description": "Authentic Wdn Cabinet 2 Doors Carved H100XW91XD40cm from Koekeloer Geskenkwinkel & Décor, Shop 2, Great White Junction, Gansbaai. Curated with care for beautiful home living.",
     "features": [
@@ -9574,7 +9574,7 @@ export const products: Product[] = [
       "Nationwide courier delivery across South Africa"
     ],
     "stockStatus": "in_stock",
-    "stockCount": 4,
+    "stockCount": 9,
     "images": [
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2F39f2de67-5c54-41f0-8fde-7ac033209965.jpg?alt=media",
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Fthumb_280_39f2de67-5c54-41f0-8fde-7ac033209965.jpg?alt=media"
@@ -9598,7 +9598,7 @@ export const products: Product[] = [
     "price": 12500,
     "originalPrice": 14375,
     "rating": 5,
-    "reviewCount": 7,
+    "reviewCount": 13,
     "shortDescription": "Wdn Cabinet 2 Dr 90x40x100cm available at Koekeloer Gift & Décor Shop in Gansbaai.",
     "description": "Authentic Wdn Cabinet 2 Dr 90x40x100cm from Koekeloer Geskenkwinkel & Décor, Shop 2, Great White Junction, Gansbaai. Curated with care for beautiful home living.",
     "features": [
@@ -9608,7 +9608,7 @@ export const products: Product[] = [
       "Nationwide courier delivery across South Africa"
     ],
     "stockStatus": "in_stock",
-    "stockCount": 3,
+    "stockCount": 4,
     "images": [
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Fdad075d3-a749-4c8c-a310-715cd6a6726a.jpg?alt=media",
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Fthumb_280_dad075d3-a749-4c8c-a310-715cd6a6726a.jpg?alt=media"
@@ -9632,7 +9632,7 @@ export const products: Product[] = [
     "price": 16500,
     "originalPrice": 18975,
     "rating": 5,
-    "reviewCount": 4,
+    "reviewCount": 11,
     "shortDescription": "Wdn Cabinet 4dr 4drawer 40x180x90 available at Koekeloer Gift & Décor Shop in Gansbaai.",
     "description": "Authentic Wdn Cabinet 4dr 4drawer 40x180x90 from Koekeloer Geskenkwinkel & Décor, Shop 2, Great White Junction, Gansbaai. Curated with care for beautiful home living.",
     "features": [
@@ -9642,7 +9642,7 @@ export const products: Product[] = [
       "Nationwide courier delivery across South Africa"
     ],
     "stockStatus": "in_stock",
-    "stockCount": 6,
+    "stockCount": 3,
     "images": [
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Fc24d72b3-c225-45c3-b486-251a92738eb1.jpg?alt=media",
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Fthumb_280_c24d72b3-c225-45c3-b486-251a92738eb1.jpg?alt=media"
@@ -9666,7 +9666,7 @@ export const products: Product[] = [
     "price": 3800,
     "originalPrice": 4370,
     "rating": 5,
-    "reviewCount": 11,
+    "reviewCount": 6,
     "shortDescription": "Wdn Cabinet carved H70xW42xD33cm available at Koekeloer Gift & Décor Shop in Gansbaai.",
     "description": "Authentic Wdn Cabinet carved H70xW42xD33cm from Koekeloer Geskenkwinkel & Décor, Shop 2, Great White Junction, Gansbaai. Curated with care for beautiful home living.",
     "features": [
@@ -9676,7 +9676,7 @@ export const products: Product[] = [
       "Nationwide courier delivery across South Africa"
     ],
     "stockStatus": "in_stock",
-    "stockCount": 2,
+    "stockCount": 5,
     "images": [
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2F625ccedb-fe13-4dbb-a561-50a3691cc5d5.jpg?alt=media",
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Fthumb_280_625ccedb-fe13-4dbb-a561-50a3691cc5d5.jpg?alt=media"
@@ -9700,7 +9700,7 @@ export const products: Product[] = [
     "price": 799,
     "originalPrice": 919,
     "rating": 5,
-    "reviewCount": 5,
+    "reviewCount": 10,
     "shortDescription": "Wdn Cabinet Corner available at Koekeloer Gift & Décor Shop in Gansbaai.",
     "description": "Authentic Wdn Cabinet Corner from Koekeloer Geskenkwinkel & Décor, Shop 2, Great White Junction, Gansbaai. Curated with care for beautiful home living.",
     "features": [
@@ -9710,7 +9710,7 @@ export const products: Product[] = [
       "Nationwide courier delivery across South Africa"
     ],
     "stockStatus": "in_stock",
-    "stockCount": 8,
+    "stockCount": 4,
     "images": [
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2F9eb18112-6183-45db-80e7-248dd68d0400.jpg?alt=media",
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Fthumb_280_9eb18112-6183-45db-80e7-248dd68d0400.jpg?alt=media"
@@ -9734,7 +9734,7 @@ export const products: Product[] = [
     "price": 15995,
     "originalPrice": 18394,
     "rating": 5,
-    "reviewCount": 5,
+    "reviewCount": 6,
     "shortDescription": "Wdn Carved Almirah 180cmx100cmx39cm available at Koekeloer Gift & Décor Shop in Gansbaai.",
     "description": "Authentic Wdn Carved Almirah 180cmx100cmx39cm from Koekeloer Geskenkwinkel & Décor, Shop 2, Great White Junction, Gansbaai. Curated with care for beautiful home living.",
     "features": [
@@ -9744,7 +9744,7 @@ export const products: Product[] = [
       "Nationwide courier delivery across South Africa"
     ],
     "stockStatus": "in_stock",
-    "stockCount": 4,
+    "stockCount": 9,
     "images": [
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Fc7ec73d2-2e67-4c7d-b8f8-fcfae508a5d3.jpg?alt=media",
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Fthumb_280_c7ec73d2-2e67-4c7d-b8f8-fcfae508a5d3.jpg?alt=media"
@@ -9768,7 +9768,7 @@ export const products: Product[] = [
     "price": 4995,
     "originalPrice": 5744,
     "rating": 5,
-    "reviewCount": 9,
+    "reviewCount": 5,
     "shortDescription": "Wdn Carved Bedside cupboards with mirror inlay available at Koekeloer Gift & Décor Shop in Gansbaai.",
     "description": "Authentic Wdn Carved Bedside cupboards with mirror inlay from Koekeloer Geskenkwinkel & Décor, Shop 2, Great White Junction, Gansbaai. Curated with care for beautiful home living.",
     "features": [
@@ -9778,7 +9778,7 @@ export const products: Product[] = [
       "Nationwide courier delivery across South Africa"
     ],
     "stockStatus": "in_stock",
-    "stockCount": 6,
+    "stockCount": 8,
     "images": [
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2F624c9a1a-6f2e-4d57-83f3-5577c428ffb3.jpg?alt=media",
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Fthumb_280_624c9a1a-6f2e-4d57-83f3-5577c428ffb3.jpg?alt=media"
@@ -9802,7 +9802,7 @@ export const products: Product[] = [
     "price": 14500,
     "originalPrice": 16675,
     "rating": 5,
-    "reviewCount": 17,
+    "reviewCount": 15,
     "shortDescription": "Wdn Carved Cupboard 150x40x92 available at Koekeloer Gift & Décor Shop in Gansbaai.",
     "description": "Authentic Wdn Carved Cupboard 150x40x92 from Koekeloer Geskenkwinkel & Décor, Shop 2, Great White Junction, Gansbaai. Curated with care for beautiful home living.",
     "features": [
@@ -9812,7 +9812,7 @@ export const products: Product[] = [
       "Nationwide courier delivery across South Africa"
     ],
     "stockStatus": "in_stock",
-    "stockCount": 6,
+    "stockCount": 3,
     "images": [
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Fdc5abee9-d3c4-474f-b7d2-d19e7bd4033d.jpg?alt=media",
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Fthumb_280_dc5abee9-d3c4-474f-b7d2-d19e7bd4033d.jpg?alt=media"
@@ -9836,7 +9836,7 @@ export const products: Product[] = [
     "price": 3600,
     "originalPrice": 4140,
     "rating": 5,
-    "reviewCount": 5,
+    "reviewCount": 8,
     "shortDescription": "Wdn Carved Cupboard 1door x 1 draw H70xW50xD40cm available at Koekeloer Gift & Décor Shop in Gansbaai.",
     "description": "Authentic Wdn Carved Cupboard 1door x 1 draw H70xW50xD40cm from Koekeloer Geskenkwinkel & Décor, Shop 2, Great White Junction, Gansbaai. Curated with care for beautiful home living.",
     "features": [
@@ -9870,7 +9870,7 @@ export const products: Product[] = [
     "price": 15995,
     "originalPrice": 18394,
     "rating": 5,
-    "reviewCount": 3,
+    "reviewCount": 14,
     "shortDescription": "Wdn Carved cupboard with Rattan inlay 148cmx80cmx39cm available at Koekeloer Gift & Décor Shop in Gansbaai.",
     "description": "Authentic Wdn Carved cupboard with Rattan inlay 148cmx80cmx39cm from Koekeloer Geskenkwinkel & Décor, Shop 2, Great White Junction, Gansbaai. Curated with care for beautiful home living.",
     "features": [
@@ -9880,7 +9880,7 @@ export const products: Product[] = [
       "Nationwide courier delivery across South Africa"
     ],
     "stockStatus": "in_stock",
-    "stockCount": 9,
+    "stockCount": 5,
     "images": [
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Fece12eb0-8118-4e60-91e3-6d92274f2f70.jpg?alt=media",
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Fthumb_280_ece12eb0-8118-4e60-91e3-6d92274f2f70.jpg?alt=media"
@@ -9904,7 +9904,7 @@ export const products: Product[] = [
     "price": 14300,
     "originalPrice": 16445,
     "rating": 5,
-    "reviewCount": 3,
+    "reviewCount": 13,
     "shortDescription": "Wdn Carved Plasma 180cmx61cmx41cm available at Koekeloer Gift & Décor Shop in Gansbaai.",
     "description": "Authentic Wdn Carved Plasma 180cmx61cmx41cm from Koekeloer Geskenkwinkel & Décor, Shop 2, Great White Junction, Gansbaai. Curated with care for beautiful home living.",
     "features": [
@@ -9914,7 +9914,7 @@ export const products: Product[] = [
       "Nationwide courier delivery across South Africa"
     ],
     "stockStatus": "in_stock",
-    "stockCount": 8,
+    "stockCount": 4,
     "images": [
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Ffe291fc3-4754-4375-aace-c2eb5dda56f5.jpg?alt=media",
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Fthumb_280_fe291fc3-4754-4375-aace-c2eb5dda56f5.jpg?alt=media"
@@ -9938,7 +9938,7 @@ export const products: Product[] = [
     "price": 10500,
     "originalPrice": 12075,
     "rating": 5,
-    "reviewCount": 8,
+    "reviewCount": 15,
     "shortDescription": "Wdn Carved Sideboard 2dr 100cmx102cmx44cm available at Koekeloer Gift & Décor Shop in Gansbaai.",
     "description": "Authentic Wdn Carved Sideboard 2dr 100cmx102cmx44cm from Koekeloer Geskenkwinkel & Décor, Shop 2, Great White Junction, Gansbaai. Curated with care for beautiful home living.",
     "features": [
@@ -9948,7 +9948,7 @@ export const products: Product[] = [
       "Nationwide courier delivery across South Africa"
     ],
     "stockStatus": "in_stock",
-    "stockCount": 7,
+    "stockCount": 6,
     "images": [
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2F6b013852-1b33-4220-89e9-579d28f25f05.jpg?alt=media",
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Fthumb_280_6b013852-1b33-4220-89e9-579d28f25f05.jpg?alt=media"
@@ -9972,7 +9972,7 @@ export const products: Product[] = [
     "price": 9995,
     "originalPrice": 11494,
     "rating": 5,
-    "reviewCount": 8,
+    "reviewCount": 16,
     "shortDescription": "Wdn Carved Sideboard 90cmx90cmx40 available at Koekeloer Gift & Décor Shop in Gansbaai.",
     "description": "Authentic Wdn Carved Sideboard 90cmx90cmx40 from Koekeloer Geskenkwinkel & Décor, Shop 2, Great White Junction, Gansbaai. Curated with care for beautiful home living.",
     "features": [
@@ -9982,7 +9982,7 @@ export const products: Product[] = [
       "Nationwide courier delivery across South Africa"
     ],
     "stockStatus": "in_stock",
-    "stockCount": 9,
+    "stockCount": 8,
     "images": [
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2F8f65d096-a163-4869-a5f2-2217f58a58f6.jpg?alt=media",
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Fthumb_280_8f65d096-a163-4869-a5f2-2217f58a58f6.jpg?alt=media"
@@ -10006,7 +10006,7 @@ export const products: Product[] = [
     "price": 12500,
     "originalPrice": 14375,
     "rating": 5,
-    "reviewCount": 17,
+    "reviewCount": 9,
     "shortDescription": "Wdn Carved Sideboard with mirror inlay 98cmx100cmx36cm available at Koekeloer Gift & Décor Shop in Gansbaai.",
     "description": "Authentic Wdn Carved Sideboard with mirror inlay 98cmx100cmx36cm from Koekeloer Geskenkwinkel & Décor, Shop 2, Great White Junction, Gansbaai. Curated with care for beautiful home living.",
     "features": [
@@ -10016,7 +10016,7 @@ export const products: Product[] = [
       "Nationwide courier delivery across South Africa"
     ],
     "stockStatus": "in_stock",
-    "stockCount": 8,
+    "stockCount": 3,
     "images": [
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2F77599984-5f8d-41d9-a828-116aea4a413b.jpg?alt=media",
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Fthumb_280_77599984-5f8d-41d9-a828-116aea4a413b.jpg?alt=media"
@@ -10040,7 +10040,7 @@ export const products: Product[] = [
     "price": 3600,
     "originalPrice": 4140,
     "rating": 5,
-    "reviewCount": 4,
+    "reviewCount": 10,
     "shortDescription": "Wdn Carved Table H78xW112xD41cm available at Koekeloer Gift & Décor Shop in Gansbaai.",
     "description": "Authentic Wdn Carved Table H78xW112xD41cm from Koekeloer Geskenkwinkel & Décor, Shop 2, Great White Junction, Gansbaai. Curated with care for beautiful home living.",
     "features": [
@@ -10050,7 +10050,7 @@ export const products: Product[] = [
       "Nationwide courier delivery across South Africa"
     ],
     "stockStatus": "in_stock",
-    "stockCount": 7,
+    "stockCount": 9,
     "images": [
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2F930f1a09-157a-44e4-acad-3ffae9ae50c5.jpg?alt=media",
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Fthumb_280_930f1a09-157a-44e4-acad-3ffae9ae50c5.jpg?alt=media"
@@ -10074,7 +10074,7 @@ export const products: Product[] = [
     "price": 1700,
     "originalPrice": 1955,
     "rating": 5,
-    "reviewCount": 10,
+    "reviewCount": 14,
     "shortDescription": "Wdn Chair 31x31x55 available at Koekeloer Gift & Décor Shop in Gansbaai.",
     "description": "Authentic Wdn Chair 31x31x55 from Koekeloer Geskenkwinkel & Décor, Shop 2, Great White Junction, Gansbaai. Curated with care for beautiful home living.",
     "features": [
@@ -10084,7 +10084,7 @@ export const products: Product[] = [
       "Nationwide courier delivery across South Africa"
     ],
     "stockStatus": "in_stock",
-    "stockCount": 7,
+    "stockCount": 6,
     "images": [
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Ff7f2f40f-8858-41f2-a45e-7b9f8c5e1b7d.jpg?alt=media",
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Fthumb_280_f7f2f40f-8858-41f2-a45e-7b9f8c5e1b7d.jpg?alt=media"
@@ -10108,7 +10108,7 @@ export const products: Product[] = [
     "price": 2600,
     "originalPrice": 2990,
     "rating": 5,
-    "reviewCount": 10,
+    "reviewCount": 13,
     "shortDescription": "Wdn Chair 45x45x20 available at Koekeloer Gift & Décor Shop in Gansbaai.",
     "description": "Authentic Wdn Chair 45x45x20 from Koekeloer Geskenkwinkel & Décor, Shop 2, Great White Junction, Gansbaai. Curated with care for beautiful home living.",
     "features": [
@@ -10118,7 +10118,7 @@ export const products: Product[] = [
       "Nationwide courier delivery across South Africa"
     ],
     "stockStatus": "in_stock",
-    "stockCount": 3,
+    "stockCount": 7,
     "images": [
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Fc716cc2e-2eb7-4443-953b-f26869c525ec.jpg?alt=media",
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Fthumb_280_c716cc2e-2eb7-4443-953b-f26869c525ec.jpg?alt=media"
@@ -10142,7 +10142,7 @@ export const products: Product[] = [
     "price": 4500,
     "originalPrice": 5175,
     "rating": 5,
-    "reviewCount": 12,
+    "reviewCount": 10,
     "shortDescription": "Wdn Chair 60x67x85 available at Koekeloer Gift & Décor Shop in Gansbaai.",
     "description": "Authentic Wdn Chair 60x67x85 from Koekeloer Geskenkwinkel & Décor, Shop 2, Great White Junction, Gansbaai. Curated with care for beautiful home living.",
     "features": [
@@ -10152,7 +10152,7 @@ export const products: Product[] = [
       "Nationwide courier delivery across South Africa"
     ],
     "stockStatus": "in_stock",
-    "stockCount": 6,
+    "stockCount": 3,
     "images": [
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Fec38de73-6a27-4bf9-8c39-e52fc88246db.jpg?alt=media",
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Fthumb_280_ec38de73-6a27-4bf9-8c39-e52fc88246db.jpg?alt=media"
@@ -10176,7 +10176,7 @@ export const products: Product[] = [
     "price": 4500,
     "originalPrice": 5175,
     "rating": 5,
-    "reviewCount": 13,
+    "reviewCount": 16,
     "shortDescription": "Wdn Chair Bar available at Koekeloer Gift & Décor Shop in Gansbaai.",
     "description": "Authentic Wdn Chair Bar from Koekeloer Geskenkwinkel & Décor, Shop 2, Great White Junction, Gansbaai. Curated with care for beautiful home living.",
     "features": [
@@ -10186,7 +10186,7 @@ export const products: Product[] = [
       "Nationwide courier delivery across South Africa"
     ],
     "stockStatus": "in_stock",
-    "stockCount": 9,
+    "stockCount": 5,
     "images": [
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Fe4332a71-9da3-4385-a93f-7756845e002f.jpg?alt=media",
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Fthumb_280_e4332a71-9da3-4385-a93f-7756845e002f.jpg?alt=media"
@@ -10210,7 +10210,7 @@ export const products: Product[] = [
     "price": 1995,
     "originalPrice": 2294,
     "rating": 5,
-    "reviewCount": 8,
+    "reviewCount": 3,
     "shortDescription": "Wdn Chair Elephant Carved Painted 35x48x35 available at Koekeloer Gift & Décor Shop in Gansbaai.",
     "description": "Authentic Wdn Chair Elephant Carved Painted 35x48x35 from Koekeloer Geskenkwinkel & Décor, Shop 2, Great White Junction, Gansbaai. Curated with care for beautiful home living.",
     "features": [
@@ -10220,7 +10220,7 @@ export const products: Product[] = [
       "Nationwide courier delivery across South Africa"
     ],
     "stockStatus": "in_stock",
-    "stockCount": 6,
+    "stockCount": 9,
     "images": [
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Fc8b22a07-f1cb-462d-8a26-9eb8347a2b3f.jpg?alt=media",
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Fthumb_280_c8b22a07-f1cb-462d-8a26-9eb8347a2b3f.jpg?alt=media"
@@ -10244,7 +10244,7 @@ export const products: Product[] = [
     "price": 7500,
     "originalPrice": 8625,
     "rating": 5,
-    "reviewCount": 3,
+    "reviewCount": 16,
     "shortDescription": "Wdn Chest Carved available at Koekeloer Gift & Décor Shop in Gansbaai.",
     "description": "Authentic Wdn Chest Carved from Koekeloer Geskenkwinkel & Décor, Shop 2, Great White Junction, Gansbaai. Curated with care for beautiful home living.",
     "features": [
@@ -10254,7 +10254,7 @@ export const products: Product[] = [
       "Nationwide courier delivery across South Africa"
     ],
     "stockStatus": "in_stock",
-    "stockCount": 4,
+    "stockCount": 2,
     "images": [
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Ffda9cce9-1ed2-4320-8a33-6ffc3da373cd.jpg?alt=media",
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Fthumb_280_fda9cce9-1ed2-4320-8a33-6ffc3da373cd.jpg?alt=media"
@@ -10278,7 +10278,7 @@ export const products: Product[] = [
     "price": 7300,
     "originalPrice": 8395,
     "rating": 5,
-    "reviewCount": 14,
+    "reviewCount": 10,
     "shortDescription": "Wdn Chest Carved 110x40x46 available at Koekeloer Gift & Décor Shop in Gansbaai.",
     "description": "Authentic Wdn Chest Carved 110x40x46 from Koekeloer Geskenkwinkel & Décor, Shop 2, Great White Junction, Gansbaai. Curated with care for beautiful home living.",
     "features": [
@@ -10312,7 +10312,7 @@ export const products: Product[] = [
     "price": 7500,
     "originalPrice": 8625,
     "rating": 5,
-    "reviewCount": 8,
+    "reviewCount": 6,
     "shortDescription": "Wdn Chest Carved 120x40x46 available at Koekeloer Gift & Décor Shop in Gansbaai.",
     "description": "Authentic Wdn Chest Carved 120x40x46 from Koekeloer Geskenkwinkel & Décor, Shop 2, Great White Junction, Gansbaai. Curated with care for beautiful home living.",
     "features": [
@@ -10322,7 +10322,7 @@ export const products: Product[] = [
       "Nationwide courier delivery across South Africa"
     ],
     "stockStatus": "in_stock",
-    "stockCount": 2,
+    "stockCount": 5,
     "images": [
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Fa501592c-74ef-4fe6-b17d-ce27f81f32b9.jpg?alt=media",
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Fthumb_280_a501592c-74ef-4fe6-b17d-ce27f81f32b9.jpg?alt=media"
@@ -10346,7 +10346,7 @@ export const products: Product[] = [
     "price": 7995,
     "originalPrice": 9194,
     "rating": 5,
-    "reviewCount": 6,
+    "reviewCount": 12,
     "shortDescription": "Wdn Chest Painted 120x40x46 available at Koekeloer Gift & Décor Shop in Gansbaai.",
     "description": "Authentic Wdn Chest Painted 120x40x46 from Koekeloer Geskenkwinkel & Décor, Shop 2, Great White Junction, Gansbaai. Curated with care for beautiful home living.",
     "features": [
@@ -10356,7 +10356,7 @@ export const products: Product[] = [
       "Nationwide courier delivery across South Africa"
     ],
     "stockStatus": "in_stock",
-    "stockCount": 2,
+    "stockCount": 5,
     "images": [
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Ff6ef77b3-551b-4b5b-ad7b-86469d35ad4c.jpg?alt=media",
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Fthumb_280_f6ef77b3-551b-4b5b-ad7b-86469d35ad4c.jpg?alt=media"
@@ -10380,7 +10380,7 @@ export const products: Product[] = [
     "price": 8999,
     "originalPrice": 10349,
     "rating": 5,
-    "reviewCount": 7,
+    "reviewCount": 15,
     "shortDescription": "Wdn Coffee Table 120x65cm available at Koekeloer Gift & Décor Shop in Gansbaai.",
     "description": "Authentic Wdn Coffee Table 120x65cm from Koekeloer Geskenkwinkel & Décor, Shop 2, Great White Junction, Gansbaai. Curated with care for beautiful home living.",
     "features": [
@@ -10390,7 +10390,7 @@ export const products: Product[] = [
       "Nationwide courier delivery across South Africa"
     ],
     "stockStatus": "in_stock",
-    "stockCount": 2,
+    "stockCount": 6,
     "images": [
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2F245843df-0be8-4f26-a283-ef675f38006a.jpg?alt=media",
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Fthumb_280_245843df-0be8-4f26-a283-ef675f38006a.jpg?alt=media"
@@ -10424,7 +10424,7 @@ export const products: Product[] = [
       "Nationwide courier delivery across South Africa"
     ],
     "stockStatus": "in_stock",
-    "stockCount": 3,
+    "stockCount": 5,
     "images": [
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2F2bb311ee-81c2-4228-990e-dd3eb2999e30.jpg?alt=media",
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Fthumb_280_2bb311ee-81c2-4228-990e-dd3eb2999e30.jpg?alt=media"
@@ -10448,7 +10448,7 @@ export const products: Product[] = [
     "price": 5995,
     "originalPrice": 6894,
     "rating": 5,
-    "reviewCount": 10,
+    "reviewCount": 4,
     "shortDescription": "Wdn Coffee Table Painted 80x80x44 available at Koekeloer Gift & Décor Shop in Gansbaai.",
     "description": "Authentic Wdn Coffee Table Painted 80x80x44 from Koekeloer Geskenkwinkel & Décor, Shop 2, Great White Junction, Gansbaai. Curated with care for beautiful home living.",
     "features": [
@@ -10458,7 +10458,7 @@ export const products: Product[] = [
       "Nationwide courier delivery across South Africa"
     ],
     "stockStatus": "in_stock",
-    "stockCount": 2,
+    "stockCount": 4,
     "images": [
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2F2a0a84e2-c24d-4309-9430-c1af6bc6925c.jpg?alt=media",
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Fthumb_280_2a0a84e2-c24d-4309-9430-c1af6bc6925c.jpg?alt=media"
@@ -10482,7 +10482,7 @@ export const products: Product[] = [
     "price": 5995,
     "originalPrice": 6894,
     "rating": 5,
-    "reviewCount": 4,
+    "reviewCount": 5,
     "shortDescription": "Wdn Coffee Table Rnd Painted 80x80x44 available at Koekeloer Gift & Décor Shop in Gansbaai.",
     "description": "Authentic Wdn Coffee Table Rnd Painted 80x80x44 from Koekeloer Geskenkwinkel & Décor, Shop 2, Great White Junction, Gansbaai. Curated with care for beautiful home living.",
     "features": [
@@ -10516,7 +10516,7 @@ export const products: Product[] = [
     "price": 12500,
     "originalPrice": 14375,
     "rating": 5,
-    "reviewCount": 9,
+    "reviewCount": 5,
     "shortDescription": "Wdn Console Table 164x40x92 available at Koekeloer Gift & Décor Shop in Gansbaai.",
     "description": "Authentic Wdn Console Table 164x40x92 from Koekeloer Geskenkwinkel & Décor, Shop 2, Great White Junction, Gansbaai. Curated with care for beautiful home living.",
     "features": [
@@ -10526,7 +10526,7 @@ export const products: Product[] = [
       "Nationwide courier delivery across South Africa"
     ],
     "stockStatus": "in_stock",
-    "stockCount": 7,
+    "stockCount": 5,
     "images": [
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Fd24d86e9-60eb-496c-9e60-eed231e4a12b.jpg?alt=media",
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Fthumb_280_d24d86e9-60eb-496c-9e60-eed231e4a12b.jpg?alt=media"
@@ -10550,7 +10550,7 @@ export const products: Product[] = [
     "price": 8800,
     "originalPrice": 10120,
     "rating": 5,
-    "reviewCount": 15,
+    "reviewCount": 12,
     "shortDescription": "Wdn Console Table Carved 150x38x85 available at Koekeloer Gift & Décor Shop in Gansbaai.",
     "description": "Authentic Wdn Console Table Carved 150x38x85 from Koekeloer Geskenkwinkel & Décor, Shop 2, Great White Junction, Gansbaai. Curated with care for beautiful home living.",
     "features": [
@@ -10560,7 +10560,7 @@ export const products: Product[] = [
       "Nationwide courier delivery across South Africa"
     ],
     "stockStatus": "in_stock",
-    "stockCount": 2,
+    "stockCount": 8,
     "images": [
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2F079581d8-3e35-427f-9324-839633e46c00.jpg?alt=media",
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Fthumb_280_079581d8-3e35-427f-9324-839633e46c00.jpg?alt=media"
@@ -10584,7 +10584,7 @@ export const products: Product[] = [
     "price": 7900,
     "originalPrice": 9085,
     "rating": 5,
-    "reviewCount": 11,
+    "reviewCount": 16,
     "shortDescription": "Wdn Console Table Carved available at Koekeloer Gift & Décor Shop in Gansbaai.",
     "description": "Authentic Wdn Console Table Carved from Koekeloer Geskenkwinkel & Décor, Shop 2, Great White Junction, Gansbaai. Curated with care for beautiful home living.",
     "features": [
@@ -10594,7 +10594,7 @@ export const products: Product[] = [
       "Nationwide courier delivery across South Africa"
     ],
     "stockStatus": "in_stock",
-    "stockCount": 9,
+    "stockCount": 8,
     "images": [
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2F3b3062dd-5c2f-4cec-ae60-fb78da06f21d.jpg?alt=media",
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Fthumb_280_3b3062dd-5c2f-4cec-ae60-fb78da06f21d.jpg?alt=media"
@@ -10618,7 +10618,7 @@ export const products: Product[] = [
     "price": 9200,
     "originalPrice": 10580,
     "rating": 5,
-    "reviewCount": 8,
+    "reviewCount": 6,
     "shortDescription": "Wdn Console Table Painted 120x40x81 available at Koekeloer Gift & Décor Shop in Gansbaai.",
     "description": "Authentic Wdn Console Table Painted 120x40x81 from Koekeloer Geskenkwinkel & Décor, Shop 2, Great White Junction, Gansbaai. Curated with care for beautiful home living.",
     "features": [
@@ -10628,7 +10628,7 @@ export const products: Product[] = [
       "Nationwide courier delivery across South Africa"
     ],
     "stockStatus": "in_stock",
-    "stockCount": 2,
+    "stockCount": 3,
     "images": [
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Fb2100553-0989-4714-8859-59c9d26ddaaa.jpg?alt=media",
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Fthumb_280_b2100553-0989-4714-8859-59c9d26ddaaa.jpg?alt=media"
@@ -10652,7 +10652,7 @@ export const products: Product[] = [
     "price": 2400,
     "originalPrice": 2760,
     "rating": 5,
-    "reviewCount": 12,
+    "reviewCount": 3,
     "shortDescription": "Wdn Cupboard 2 Doors 1 shelf H100xW90xD40cm available at Koekeloer Gift & Décor Shop in Gansbaai.",
     "description": "Authentic Wdn Cupboard 2 Doors 1 shelf H100xW90xD40cm from Koekeloer Geskenkwinkel & Décor, Shop 2, Great White Junction, Gansbaai. Curated with care for beautiful home living.",
     "features": [
@@ -10662,7 +10662,7 @@ export const products: Product[] = [
       "Nationwide courier delivery across South Africa"
     ],
     "stockStatus": "in_stock",
-    "stockCount": 5,
+    "stockCount": 8,
     "images": [
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2F3fea1649-2666-40a5-95f5-c915fea50c5a.jpg?alt=media",
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Fthumb_280_3fea1649-2666-40a5-95f5-c915fea50c5a.jpg?alt=media"
@@ -10686,7 +10686,7 @@ export const products: Product[] = [
     "price": 1950,
     "originalPrice": 2243,
     "rating": 5,
-    "reviewCount": 5,
+    "reviewCount": 15,
     "shortDescription": "Wdn Cupboard 2drawers 2shelves H99XW45XD34cm available at Koekeloer Gift & Décor Shop in Gansbaai.",
     "description": "Authentic Wdn Cupboard 2drawers 2shelves H99XW45XD34cm from Koekeloer Geskenkwinkel & Décor, Shop 2, Great White Junction, Gansbaai. Curated with care for beautiful home living.",
     "features": [
@@ -10696,7 +10696,7 @@ export const products: Product[] = [
       "Nationwide courier delivery across South Africa"
     ],
     "stockStatus": "in_stock",
-    "stockCount": 2,
+    "stockCount": 5,
     "images": [
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2F97798639-60b8-4e6f-9486-ba91d0a3daf6.jpg?alt=media",
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Fthumb_280_97798639-60b8-4e6f-9486-ba91d0a3daf6.jpg?alt=media"
@@ -10720,7 +10720,7 @@ export const products: Product[] = [
     "price": 4995,
     "originalPrice": 5744,
     "rating": 5,
-    "reviewCount": 8,
+    "reviewCount": 14,
     "shortDescription": "Wdn Cupboard 45x35x70 available at Koekeloer Gift & Décor Shop in Gansbaai.",
     "description": "Authentic Wdn Cupboard 45x35x70 from Koekeloer Geskenkwinkel & Décor, Shop 2, Great White Junction, Gansbaai. Curated with care for beautiful home living.",
     "features": [
@@ -10730,7 +10730,7 @@ export const products: Product[] = [
       "Nationwide courier delivery across South Africa"
     ],
     "stockStatus": "in_stock",
-    "stockCount": 5,
+    "stockCount": 2,
     "images": [
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2F48f1eba1-3f5c-4e4d-b252-86b10defb722.jpg?alt=media",
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Fthumb_280_48f1eba1-3f5c-4e4d-b252-86b10defb722.jpg?alt=media"
@@ -10754,7 +10754,7 @@ export const products: Product[] = [
     "price": 4995,
     "originalPrice": 5744,
     "rating": 5,
-    "reviewCount": 10,
+    "reviewCount": 5,
     "shortDescription": "Wdn Cupboard 45x35x70 available at Koekeloer Gift & Décor Shop in Gansbaai.",
     "description": "Authentic Wdn Cupboard 45x35x70 from Koekeloer Geskenkwinkel & Décor, Shop 2, Great White Junction, Gansbaai. Curated with care for beautiful home living.",
     "features": [
@@ -10764,7 +10764,7 @@ export const products: Product[] = [
       "Nationwide courier delivery across South Africa"
     ],
     "stockStatus": "in_stock",
-    "stockCount": 6,
+    "stockCount": 7,
     "images": [
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2F34da88f2-8a5d-4083-a626-93e6b2042995.jpg?alt=media",
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Fthumb_280_34da88f2-8a5d-4083-a626-93e6b2042995.jpg?alt=media"
@@ -10788,7 +10788,7 @@ export const products: Product[] = [
     "price": 4995,
     "originalPrice": 5744,
     "rating": 5,
-    "reviewCount": 16,
+    "reviewCount": 5,
     "shortDescription": "Wdn Cupboard 45x35x70 available at Koekeloer Gift & Décor Shop in Gansbaai.",
     "description": "Authentic Wdn Cupboard 45x35x70 from Koekeloer Geskenkwinkel & Décor, Shop 2, Great White Junction, Gansbaai. Curated with care for beautiful home living.",
     "features": [
@@ -10798,7 +10798,7 @@ export const products: Product[] = [
       "Nationwide courier delivery across South Africa"
     ],
     "stockStatus": "in_stock",
-    "stockCount": 8,
+    "stockCount": 3,
     "images": [
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2F10701d15-5c82-4a2f-b529-14bd67c21a50.jpg?alt=media",
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Fthumb_280_10701d15-5c82-4a2f-b529-14bd67c21a50.jpg?alt=media"
@@ -10822,7 +10822,7 @@ export const products: Product[] = [
     "price": 12500,
     "originalPrice": 14375,
     "rating": 5,
-    "reviewCount": 4,
+    "reviewCount": 12,
     "shortDescription": "Wdn Cupboard Carved 107x40x100 available at Koekeloer Gift & Décor Shop in Gansbaai.",
     "description": "Authentic Wdn Cupboard Carved 107x40x100 from Koekeloer Geskenkwinkel & Décor, Shop 2, Great White Junction, Gansbaai. Curated with care for beautiful home living.",
     "features": [
@@ -10856,7 +10856,7 @@ export const products: Product[] = [
     "price": 14500,
     "originalPrice": 16675,
     "rating": 5,
-    "reviewCount": 5,
+    "reviewCount": 13,
     "shortDescription": "Wdn Cupboard Carved 150x40x90 available at Koekeloer Gift & Décor Shop in Gansbaai.",
     "description": "Authentic Wdn Cupboard Carved 150x40x90 from Koekeloer Geskenkwinkel & Décor, Shop 2, Great White Junction, Gansbaai. Curated with care for beautiful home living.",
     "features": [
@@ -10890,7 +10890,7 @@ export const products: Product[] = [
     "price": 16900,
     "originalPrice": 19435,
     "rating": 5,
-    "reviewCount": 11,
+    "reviewCount": 13,
     "shortDescription": "Wdn Cupboard Carved 180x40x92 available at Koekeloer Gift & Décor Shop in Gansbaai.",
     "description": "Authentic Wdn Cupboard Carved 180x40x92 from Koekeloer Geskenkwinkel & Décor, Shop 2, Great White Junction, Gansbaai. Curated with care for beautiful home living.",
     "features": [
@@ -10924,7 +10924,7 @@ export const products: Product[] = [
     "price": 12400,
     "originalPrice": 14260,
     "rating": 5,
-    "reviewCount": 16,
+    "reviewCount": 10,
     "shortDescription": "Wdn Cupboard Carved 90x38x100 available at Koekeloer Gift & Décor Shop in Gansbaai.",
     "description": "Authentic Wdn Cupboard Carved 90x38x100 from Koekeloer Geskenkwinkel & Décor, Shop 2, Great White Junction, Gansbaai. Curated with care for beautiful home living.",
     "features": [
@@ -10934,7 +10934,7 @@ export const products: Product[] = [
       "Nationwide courier delivery across South Africa"
     ],
     "stockStatus": "in_stock",
-    "stockCount": 9,
+    "stockCount": 8,
     "images": [
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Fa2b25eef-04df-4d2c-98db-fc8f49cfe903.jpg?alt=media",
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Fthumb_280_a2b25eef-04df-4d2c-98db-fc8f49cfe903.jpg?alt=media"
@@ -10958,7 +10958,7 @@ export const products: Product[] = [
     "price": 10500,
     "originalPrice": 12075,
     "rating": 5,
-    "reviewCount": 9,
+    "reviewCount": 17,
     "shortDescription": "Wdn Cupboard Carved 92x41x92 available at Koekeloer Gift & Décor Shop in Gansbaai.",
     "description": "Authentic Wdn Cupboard Carved 92x41x92 from Koekeloer Geskenkwinkel & Décor, Shop 2, Great White Junction, Gansbaai. Curated with care for beautiful home living.",
     "features": [
@@ -10968,7 +10968,7 @@ export const products: Product[] = [
       "Nationwide courier delivery across South Africa"
     ],
     "stockStatus": "in_stock",
-    "stockCount": 6,
+    "stockCount": 4,
     "images": [
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Ff4ae7117-1cef-4fc2-ae6e-06984be83427.jpg?alt=media",
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Fthumb_280_f4ae7117-1cef-4fc2-ae6e-06984be83427.jpg?alt=media"
@@ -10992,7 +10992,7 @@ export const products: Product[] = [
     "price": 3800,
     "originalPrice": 4370,
     "rating": 5,
-    "reviewCount": 3,
+    "reviewCount": 12,
     "shortDescription": "Wdn Cupboard Carved H70xW50xD32cm available at Koekeloer Gift & Décor Shop in Gansbaai.",
     "description": "Authentic Wdn Cupboard Carved H70xW50xD32cm from Koekeloer Geskenkwinkel & Décor, Shop 2, Great White Junction, Gansbaai. Curated with care for beautiful home living.",
     "features": [
@@ -11002,7 +11002,7 @@ export const products: Product[] = [
       "Nationwide courier delivery across South Africa"
     ],
     "stockStatus": "in_stock",
-    "stockCount": 5,
+    "stockCount": 8,
     "images": [
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Fd8058231-a488-45bb-94fd-aa08693360de.jpg?alt=media",
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Fthumb_280_d8058231-a488-45bb-94fd-aa08693360de.jpg?alt=media"
@@ -11026,7 +11026,7 @@ export const products: Product[] = [
     "price": 10500,
     "originalPrice": 12075,
     "rating": 5,
-    "reviewCount": 11,
+    "reviewCount": 9,
     "shortDescription": "Wdn Cupboard Carved with Rattan Inlay 80x40x104 available at Koekeloer Gift & Décor Shop in Gansbaai.",
     "description": "Authentic Wdn Cupboard Carved with Rattan Inlay 80x40x104 from Koekeloer Geskenkwinkel & Décor, Shop 2, Great White Junction, Gansbaai. Curated with care for beautiful home living.",
     "features": [
@@ -11036,7 +11036,7 @@ export const products: Product[] = [
       "Nationwide courier delivery across South Africa"
     ],
     "stockStatus": "in_stock",
-    "stockCount": 9,
+    "stockCount": 3,
     "images": [
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Fda49214b-a291-44ca-bc93-62d57de45c80.jpg?alt=media",
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Fthumb_280_da49214b-a291-44ca-bc93-62d57de45c80.jpg?alt=media"
@@ -11060,7 +11060,7 @@ export const products: Product[] = [
     "price": 14900,
     "originalPrice": 17135,
     "rating": 5,
-    "reviewCount": 8,
+    "reviewCount": 16,
     "shortDescription": "Wdn Cupboard Painted 150x40x100 available at Koekeloer Gift & Décor Shop in Gansbaai.",
     "description": "Authentic Wdn Cupboard Painted 150x40x100 from Koekeloer Geskenkwinkel & Décor, Shop 2, Great White Junction, Gansbaai. Curated with care for beautiful home living.",
     "features": [
@@ -11070,7 +11070,7 @@ export const products: Product[] = [
       "Nationwide courier delivery across South Africa"
     ],
     "stockStatus": "in_stock",
-    "stockCount": 3,
+    "stockCount": 7,
     "images": [
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Fe70c7151-3266-48df-8973-8602aa347277.jpg?alt=media",
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Fthumb_280_e70c7151-3266-48df-8973-8602aa347277.jpg?alt=media"
@@ -11094,7 +11094,7 @@ export const products: Product[] = [
     "price": 4995,
     "originalPrice": 5744,
     "rating": 5,
-    "reviewCount": 6,
+    "reviewCount": 4,
     "shortDescription": "Wdn Cupboard Painted 45x35x70 available at Koekeloer Gift & Décor Shop in Gansbaai.",
     "description": "Authentic Wdn Cupboard Painted 45x35x70 from Koekeloer Geskenkwinkel & Décor, Shop 2, Great White Junction, Gansbaai. Curated with care for beautiful home living.",
     "features": [
@@ -11104,7 +11104,7 @@ export const products: Product[] = [
       "Nationwide courier delivery across South Africa"
     ],
     "stockStatus": "in_stock",
-    "stockCount": 8,
+    "stockCount": 3,
     "images": [
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2F54f50a31-1c4a-44c2-924c-7c92fa272f33.jpg?alt=media",
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Fthumb_280_54f50a31-1c4a-44c2-924c-7c92fa272f33.jpg?alt=media"
@@ -11128,7 +11128,7 @@ export const products: Product[] = [
     "price": 10800,
     "originalPrice": 12420,
     "rating": 5,
-    "reviewCount": 11,
+    "reviewCount": 10,
     "shortDescription": "Wdn Cupboard Painted 90x40x90 available at Koekeloer Gift & Décor Shop in Gansbaai.",
     "description": "Authentic Wdn Cupboard Painted 90x40x90 from Koekeloer Geskenkwinkel & Décor, Shop 2, Great White Junction, Gansbaai. Curated with care for beautiful home living.",
     "features": [
@@ -11138,7 +11138,7 @@ export const products: Product[] = [
       "Nationwide courier delivery across South Africa"
     ],
     "stockStatus": "in_stock",
-    "stockCount": 6,
+    "stockCount": 2,
     "images": [
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2F188f3c3f-ab96-4f35-8166-366d0fd3231a.jpg?alt=media",
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Fthumb_280_188f3c3f-ab96-4f35-8166-366d0fd3231a.jpg?alt=media"
@@ -11162,7 +11162,7 @@ export const products: Product[] = [
     "price": 10800,
     "originalPrice": 12420,
     "rating": 5,
-    "reviewCount": 5,
+    "reviewCount": 6,
     "shortDescription": "Wdn Cupboard Painted 90x40x90 available at Koekeloer Gift & Décor Shop in Gansbaai.",
     "description": "Authentic Wdn Cupboard Painted 90x40x90 from Koekeloer Geskenkwinkel & Décor, Shop 2, Great White Junction, Gansbaai. Curated with care for beautiful home living.",
     "features": [
@@ -11172,7 +11172,7 @@ export const products: Product[] = [
       "Nationwide courier delivery across South Africa"
     ],
     "stockStatus": "in_stock",
-    "stockCount": 5,
+    "stockCount": 6,
     "images": [
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Fb77d010e-07e6-46fb-a230-2e4a31a74067.jpg?alt=media",
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Fthumb_280_b77d010e-07e6-46fb-a230-2e4a31a74067.jpg?alt=media"
@@ -11196,7 +11196,7 @@ export const products: Product[] = [
     "price": 12000,
     "originalPrice": 13800,
     "rating": 5,
-    "reviewCount": 9,
+    "reviewCount": 16,
     "shortDescription": "Wdn Cupboard Painted/Carved 90x50x90 available at Koekeloer Gift & Décor Shop in Gansbaai.",
     "description": "Authentic Wdn Cupboard Painted/Carved 90x50x90 from Koekeloer Geskenkwinkel & Décor, Shop 2, Great White Junction, Gansbaai. Curated with care for beautiful home living.",
     "features": [
@@ -11206,7 +11206,7 @@ export const products: Product[] = [
       "Nationwide courier delivery across South Africa"
     ],
     "stockStatus": "in_stock",
-    "stockCount": 5,
+    "stockCount": 6,
     "images": [
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2F131df24d-d856-4a5a-b8ec-3fcf6714587c.jpg?alt=media",
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Fthumb_280_131df24d-d856-4a5a-b8ec-3fcf6714587c.jpg?alt=media"
@@ -11230,7 +11230,7 @@ export const products: Product[] = [
     "price": 9800,
     "originalPrice": 11270,
     "rating": 5,
-    "reviewCount": 15,
+    "reviewCount": 14,
     "shortDescription": "WDN Cupboard Server 125cm wx50cm dx110cm h available at Koekeloer Gift & Décor Shop in Gansbaai.",
     "description": "Authentic WDN Cupboard Server 125cm wx50cm dx110cm h from Koekeloer Geskenkwinkel & Décor, Shop 2, Great White Junction, Gansbaai. Curated with care for beautiful home living.",
     "features": [
@@ -11264,7 +11264,7 @@ export const products: Product[] = [
     "price": 10500,
     "originalPrice": 12075,
     "rating": 5,
-    "reviewCount": 6,
+    "reviewCount": 16,
     "shortDescription": "Wdn Cupboard w/iron 90x40x90 available at Koekeloer Gift & Décor Shop in Gansbaai.",
     "description": "Authentic Wdn Cupboard w/iron 90x40x90 from Koekeloer Geskenkwinkel & Décor, Shop 2, Great White Junction, Gansbaai. Curated with care for beautiful home living.",
     "features": [
@@ -11274,7 +11274,7 @@ export const products: Product[] = [
       "Nationwide courier delivery across South Africa"
     ],
     "stockStatus": "in_stock",
-    "stockCount": 7,
+    "stockCount": 9,
     "images": [
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2F69773b3c-eb76-4a42-8035-3c1290b2251a.jpg?alt=media",
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Fthumb_280_69773b3c-eb76-4a42-8035-3c1290b2251a.jpg?alt=media"
@@ -11298,7 +11298,7 @@ export const products: Product[] = [
     "price": 6700,
     "originalPrice": 7705,
     "rating": 5,
-    "reviewCount": 7,
+    "reviewCount": 17,
     "shortDescription": "Wdn Day Bed 175x95x53 available at Koekeloer Gift & Décor Shop in Gansbaai.",
     "description": "Authentic Wdn Day Bed 175x95x53 from Koekeloer Geskenkwinkel & Décor, Shop 2, Great White Junction, Gansbaai. Curated with care for beautiful home living.",
     "features": [
@@ -11308,7 +11308,7 @@ export const products: Product[] = [
       "Nationwide courier delivery across South Africa"
     ],
     "stockStatus": "in_stock",
-    "stockCount": 3,
+    "stockCount": 6,
     "images": [
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2F5d84fdf4-f54c-4273-807b-8306e18b2247.jpg?alt=media",
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Fthumb_280_5d84fdf4-f54c-4273-807b-8306e18b2247.jpg?alt=media"
@@ -11332,7 +11332,7 @@ export const products: Product[] = [
     "price": 12300,
     "originalPrice": 14145,
     "rating": 5,
-    "reviewCount": 6,
+    "reviewCount": 16,
     "shortDescription": "Wdn Dumschiya Carved 110x110x40x108 available at Koekeloer Gift & Décor Shop in Gansbaai.",
     "description": "Authentic Wdn Dumschiya Carved 110x110x40x108 from Koekeloer Geskenkwinkel & Décor, Shop 2, Great White Junction, Gansbaai. Curated with care for beautiful home living.",
     "features": [
@@ -11342,7 +11342,7 @@ export const products: Product[] = [
       "Nationwide courier delivery across South Africa"
     ],
     "stockStatus": "in_stock",
-    "stockCount": 9,
+    "stockCount": 2,
     "images": [
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2F3002d145-a3b5-4a50-84a9-51acb6cc412d.jpg?alt=media",
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Fthumb_280_3002d145-a3b5-4a50-84a9-51acb6cc412d.jpg?alt=media"
@@ -11376,7 +11376,7 @@ export const products: Product[] = [
       "Nationwide courier delivery across South Africa"
     ],
     "stockStatus": "in_stock",
-    "stockCount": 8,
+    "stockCount": 9,
     "images": [
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Faa0d3ae1-0590-48f2-af38-726de4388f5f.jpg?alt=media",
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Fthumb_280_aa0d3ae1-0590-48f2-af38-726de4388f5f.jpg?alt=media"
@@ -11400,7 +11400,7 @@ export const products: Product[] = [
     "price": 18000,
     "originalPrice": 20700,
     "rating": 5,
-    "reviewCount": 7,
+    "reviewCount": 4,
     "shortDescription": "Wdn Painted Almirah available at Koekeloer Gift & Décor Shop in Gansbaai.",
     "description": "Authentic Wdn Painted Almirah from Koekeloer Geskenkwinkel & Décor, Shop 2, Great White Junction, Gansbaai. Curated with care for beautiful home living.",
     "features": [
@@ -11410,7 +11410,7 @@ export const products: Product[] = [
       "Nationwide courier delivery across South Africa"
     ],
     "stockStatus": "in_stock",
-    "stockCount": 8,
+    "stockCount": 7,
     "images": [
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2F3d76cf0e-8d5c-443b-91d1-ca7d86b0ae4f.jpg?alt=media",
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Fthumb_280_3d76cf0e-8d5c-443b-91d1-ca7d86b0ae4f.jpg?alt=media"
@@ -11434,7 +11434,7 @@ export const products: Product[] = [
     "price": 4995,
     "originalPrice": 5744,
     "rating": 5,
-    "reviewCount": 8,
+    "reviewCount": 5,
     "shortDescription": "Wdn Painted Bedside Table available at Koekeloer Gift & Décor Shop in Gansbaai.",
     "description": "Authentic Wdn Painted Bedside Table from Koekeloer Geskenkwinkel & Décor, Shop 2, Great White Junction, Gansbaai. Curated with care for beautiful home living.",
     "features": [
@@ -11444,7 +11444,7 @@ export const products: Product[] = [
       "Nationwide courier delivery across South Africa"
     ],
     "stockStatus": "in_stock",
-    "stockCount": 3,
+    "stockCount": 7,
     "images": [
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2F6b3025b9-f1da-4f3e-9534-efa2c5c43bbf.jpg?alt=media",
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Fthumb_280_6b3025b9-f1da-4f3e-9534-efa2c5c43bbf.jpg?alt=media"
@@ -11468,7 +11468,7 @@ export const products: Product[] = [
     "price": 9900,
     "originalPrice": 11385,
     "rating": 5,
-    "reviewCount": 7,
+    "reviewCount": 9,
     "shortDescription": "Wdn Room Div Carved 200x30x180 available at Koekeloer Gift & Décor Shop in Gansbaai.",
     "description": "Authentic Wdn Room Div Carved 200x30x180 from Koekeloer Geskenkwinkel & Décor, Shop 2, Great White Junction, Gansbaai. Curated with care for beautiful home living.",
     "features": [
@@ -11478,7 +11478,7 @@ export const products: Product[] = [
       "Nationwide courier delivery across South Africa"
     ],
     "stockStatus": "in_stock",
-    "stockCount": 3,
+    "stockCount": 2,
     "images": [
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2F99383d0d-108d-4297-a902-eafa7d331ee2.jpg?alt=media",
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Fthumb_280_99383d0d-108d-4297-a902-eafa7d331ee2.jpg?alt=media"
@@ -11502,7 +11502,7 @@ export const products: Product[] = [
     "price": 9900,
     "originalPrice": 11385,
     "rating": 5,
-    "reviewCount": 11,
+    "reviewCount": 9,
     "shortDescription": "Wdn Room Div Carved 200x3x180 available at Koekeloer Gift & Décor Shop in Gansbaai.",
     "description": "Authentic Wdn Room Div Carved 200x3x180 from Koekeloer Geskenkwinkel & Décor, Shop 2, Great White Junction, Gansbaai. Curated with care for beautiful home living.",
     "features": [
@@ -11512,7 +11512,7 @@ export const products: Product[] = [
       "Nationwide courier delivery across South Africa"
     ],
     "stockStatus": "in_stock",
-    "stockCount": 6,
+    "stockCount": 8,
     "images": [
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2F84065a9e-7a7a-4a1f-8ee3-4be6ae4e438b.jpg?alt=media",
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Fthumb_280_84065a9e-7a7a-4a1f-8ee3-4be6ae4e438b.jpg?alt=media"
@@ -11536,7 +11536,7 @@ export const products: Product[] = [
     "price": 10995,
     "originalPrice": 12644,
     "rating": 5,
-    "reviewCount": 7,
+    "reviewCount": 16,
     "shortDescription": "Wdn Sideboard Painted 92x42x103 available at Koekeloer Gift & Décor Shop in Gansbaai.",
     "description": "Authentic Wdn Sideboard Painted 92x42x103 from Koekeloer Geskenkwinkel & Décor, Shop 2, Great White Junction, Gansbaai. Curated with care for beautiful home living.",
     "features": [
@@ -11546,7 +11546,7 @@ export const products: Product[] = [
       "Nationwide courier delivery across South Africa"
     ],
     "stockStatus": "in_stock",
-    "stockCount": 3,
+    "stockCount": 8,
     "images": [
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2F9d042776-83d0-44c5-82bb-4a5d9a12b9f9.jpg?alt=media",
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Fthumb_280_9d042776-83d0-44c5-82bb-4a5d9a12b9f9.jpg?alt=media"
@@ -11570,7 +11570,7 @@ export const products: Product[] = [
     "price": 2200,
     "originalPrice": 2530,
     "rating": 5,
-    "reviewCount": 5,
+    "reviewCount": 8,
     "shortDescription": "Wdn Table 2drawer carved H70XW48XD34cm available at Koekeloer Gift & Décor Shop in Gansbaai.",
     "description": "Authentic Wdn Table 2drawer carved H70XW48XD34cm from Koekeloer Geskenkwinkel & Décor, Shop 2, Great White Junction, Gansbaai. Curated with care for beautiful home living.",
     "features": [
@@ -11580,7 +11580,7 @@ export const products: Product[] = [
       "Nationwide courier delivery across South Africa"
     ],
     "stockStatus": "in_stock",
-    "stockCount": 2,
+    "stockCount": 9,
     "images": [
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2F8b7d46b4-9bc0-4493-8ba5-3a907f5a66fb.jpg?alt=media",
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Fthumb_280_8b7d46b4-9bc0-4493-8ba5-3a907f5a66fb.jpg?alt=media"
@@ -11604,7 +11604,7 @@ export const products: Product[] = [
     "price": 6700,
     "originalPrice": 7705,
     "rating": 5,
-    "reviewCount": 6,
+    "reviewCount": 14,
     "shortDescription": "Wdn Table Carved available at Koekeloer Gift & Décor Shop in Gansbaai.",
     "description": "Authentic Wdn Table Carved from Koekeloer Geskenkwinkel & Décor, Shop 2, Great White Junction, Gansbaai. Curated with care for beautiful home living.",
     "features": [
@@ -11638,7 +11638,7 @@ export const products: Product[] = [
     "price": 12900,
     "originalPrice": 14835,
     "rating": 5,
-    "reviewCount": 11,
+    "reviewCount": 10,
     "shortDescription": "Wdn TV Cabinet Carved 150x40x63 available at Koekeloer Gift & Décor Shop in Gansbaai.",
     "description": "Authentic Wdn TV Cabinet Carved 150x40x63 from Koekeloer Geskenkwinkel & Décor, Shop 2, Great White Junction, Gansbaai. Curated with care for beautiful home living.",
     "features": [
@@ -11648,7 +11648,7 @@ export const products: Product[] = [
       "Nationwide courier delivery across South Africa"
     ],
     "stockStatus": "in_stock",
-    "stockCount": 2,
+    "stockCount": 4,
     "images": [
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Ff4500c0e-582f-4f6c-9a2b-743e2761c536.jpg?alt=media",
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Fthumb_280_f4500c0e-582f-4f6c-9a2b-743e2761c536.jpg?alt=media"
@@ -11672,7 +11672,7 @@ export const products: Product[] = [
     "price": 14300,
     "originalPrice": 16445,
     "rating": 5,
-    "reviewCount": 10,
+    "reviewCount": 3,
     "shortDescription": "Wdn TV Cabinet Carved 180x40x60 available at Koekeloer Gift & Décor Shop in Gansbaai.",
     "description": "Authentic Wdn TV Cabinet Carved 180x40x60 from Koekeloer Geskenkwinkel & Décor, Shop 2, Great White Junction, Gansbaai. Curated with care for beautiful home living.",
     "features": [
@@ -11682,7 +11682,7 @@ export const products: Product[] = [
       "Nationwide courier delivery across South Africa"
     ],
     "stockStatus": "in_stock",
-    "stockCount": 4,
+    "stockCount": 3,
     "images": [
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Fdc186812-897d-4154-8bf8-bac2938be04e.jpg?alt=media",
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Fthumb_280_dc186812-897d-4154-8bf8-bac2938be04e.jpg?alt=media"
@@ -11706,7 +11706,7 @@ export const products: Product[] = [
     "price": 13500,
     "originalPrice": 15525,
     "rating": 5,
-    "reviewCount": 3,
+    "reviewCount": 13,
     "shortDescription": "Wdn TV Cabinet Carved Tree of Life available at Koekeloer Gift & Décor Shop in Gansbaai.",
     "description": "Authentic Wdn TV Cabinet Carved Tree of Life from Koekeloer Geskenkwinkel & Décor, Shop 2, Great White Junction, Gansbaai. Curated with care for beautiful home living.",
     "features": [
@@ -11716,7 +11716,7 @@ export const products: Product[] = [
       "Nationwide courier delivery across South Africa"
     ],
     "stockStatus": "in_stock",
-    "stockCount": 2,
+    "stockCount": 3,
     "images": [
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2F7155a2d0-e2f0-44c6-968a-9e9f8b9c3573.jpg?alt=media",
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Fthumb_280_7155a2d0-e2f0-44c6-968a-9e9f8b9c3573.jpg?alt=media"
@@ -11740,7 +11740,7 @@ export const products: Product[] = [
     "price": 4950,
     "originalPrice": 5693,
     "rating": 5,
-    "reviewCount": 15,
+    "reviewCount": 9,
     "shortDescription": "Wdn Wine Bottle Stand H153xW34cm available at Koekeloer Gift & Décor Shop in Gansbaai.",
     "description": "Authentic Wdn Wine Bottle Stand H153xW34cm from Koekeloer Geskenkwinkel & Décor, Shop 2, Great White Junction, Gansbaai. Curated with care for beautiful home living.",
     "features": [
@@ -11774,7 +11774,7 @@ export const products: Product[] = [
     "price": 2600,
     "originalPrice": 2990,
     "rating": 5,
-    "reviewCount": 17,
+    "reviewCount": 14,
     "shortDescription": "Wdn Woven Stool available at Koekeloer Gift & Décor Shop in Gansbaai.",
     "description": "Authentic Wdn Woven Stool from Koekeloer Geskenkwinkel & Décor, Shop 2, Great White Junction, Gansbaai. Curated with care for beautiful home living.",
     "features": [
@@ -11784,7 +11784,7 @@ export const products: Product[] = [
       "Nationwide courier delivery across South Africa"
     ],
     "stockStatus": "in_stock",
-    "stockCount": 7,
+    "stockCount": 6,
     "images": [
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2F04ec5895-7dfd-4f87-9442-4c4b93d5dec2.jpg?alt=media",
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Fthumb_280_04ec5895-7dfd-4f87-9442-4c4b93d5dec2.jpg?alt=media"
@@ -11808,7 +11808,7 @@ export const products: Product[] = [
     "price": 2200,
     "originalPrice": 2530,
     "rating": 5,
-    "reviewCount": 15,
+    "reviewCount": 4,
     "shortDescription": "Wine Cabinet Boat Wooden H1930xL52cm available at Koekeloer Gift & Décor Shop in Gansbaai.",
     "description": "Authentic Wine Cabinet Boat Wooden H1930xL52cm from Koekeloer Geskenkwinkel & Décor, Shop 2, Great White Junction, Gansbaai. Curated with care for beautiful home living.",
     "features": [
@@ -11818,7 +11818,7 @@ export const products: Product[] = [
       "Nationwide courier delivery across South Africa"
     ],
     "stockStatus": "in_stock",
-    "stockCount": 6,
+    "stockCount": 9,
     "images": [
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Fa0825bea-4b18-41de-bf3b-b93636aa13b5.jpg?alt=media",
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Fthumb_280_a0825bea-4b18-41de-bf3b-b93636aa13b5.jpg?alt=media"
@@ -11842,7 +11842,7 @@ export const products: Product[] = [
     "price": 4950,
     "originalPrice": 5693,
     "rating": 5,
-    "reviewCount": 15,
+    "reviewCount": 13,
     "shortDescription": "Wine Rack 1.5m available at Koekeloer Gift & Décor Shop in Gansbaai.",
     "description": "Authentic Wine Rack 1.5m from Koekeloer Geskenkwinkel & Décor, Shop 2, Great White Junction, Gansbaai. Curated with care for beautiful home living.",
     "features": [
@@ -11852,7 +11852,7 @@ export const products: Product[] = [
       "Nationwide courier delivery across South Africa"
     ],
     "stockStatus": "in_stock",
-    "stockCount": 9,
+    "stockCount": 3,
     "images": [
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2F7e8dbb26-d82e-4a9a-b566-5d6ad521a846.jpg?alt=media",
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Fthumb_280_7e8dbb26-d82e-4a9a-b566-5d6ad521a846.jpg?alt=media"
@@ -11876,7 +11876,7 @@ export const products: Product[] = [
     "price": 3400,
     "originalPrice": 3910,
     "rating": 5,
-    "reviewCount": 14,
+    "reviewCount": 3,
     "shortDescription": "Wine Rack 1m available at Koekeloer Gift & Décor Shop in Gansbaai.",
     "description": "Authentic Wine Rack 1m from Koekeloer Geskenkwinkel & Décor, Shop 2, Great White Junction, Gansbaai. Curated with care for beautiful home living.",
     "features": [
@@ -11886,7 +11886,7 @@ export const products: Product[] = [
       "Nationwide courier delivery across South Africa"
     ],
     "stockStatus": "in_stock",
-    "stockCount": 3,
+    "stockCount": 8,
     "images": [
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Fd0dee769-0407-4955-ae68-cde9be2d277b.jpg?alt=media",
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Fthumb_280_d0dee769-0407-4955-ae68-cde9be2d277b.jpg?alt=media"
@@ -11910,7 +11910,7 @@ export const products: Product[] = [
     "price": 1990,
     "originalPrice": 2289,
     "rating": 5,
-    "reviewCount": 14,
+    "reviewCount": 15,
     "shortDescription": "Wine Rack 50cm available at Koekeloer Gift & Décor Shop in Gansbaai.",
     "description": "Authentic Wine Rack 50cm from Koekeloer Geskenkwinkel & Décor, Shop 2, Great White Junction, Gansbaai. Curated with care for beautiful home living.",
     "features": [
@@ -11920,7 +11920,7 @@ export const products: Product[] = [
       "Nationwide courier delivery across South Africa"
     ],
     "stockStatus": "in_stock",
-    "stockCount": 8,
+    "stockCount": 3,
     "images": [
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2F8ffdc14c-d7da-4366-be31-2b5814917677.jpg?alt=media",
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Fthumb_280_8ffdc14c-d7da-4366-be31-2b5814917677.jpg?alt=media"
@@ -11944,7 +11944,7 @@ export const products: Product[] = [
     "price": 3600,
     "originalPrice": 4140,
     "rating": 5,
-    "reviewCount": 6,
+    "reviewCount": 4,
     "shortDescription": "Wooden bedside cabinet W70XH75XD45cm available at Koekeloer Gift & Décor Shop in Gansbaai.",
     "description": "Authentic Wooden bedside cabinet W70XH75XD45cm from Koekeloer Geskenkwinkel & Décor, Shop 2, Great White Junction, Gansbaai. Curated with care for beautiful home living.",
     "features": [
@@ -11954,7 +11954,7 @@ export const products: Product[] = [
       "Nationwide courier delivery across South Africa"
     ],
     "stockStatus": "in_stock",
-    "stockCount": 7,
+    "stockCount": 2,
     "images": [
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2F91aba63c-ad31-46c2-8588-ad2cddc3639a.jpg?alt=media",
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Fthumb_280_91aba63c-ad31-46c2-8588-ad2cddc3639a.jpg?alt=media"
@@ -11978,7 +11978,7 @@ export const products: Product[] = [
     "price": 6000,
     "originalPrice": 6900,
     "rating": 5,
-    "reviewCount": 5,
+    "reviewCount": 17,
     "shortDescription": "Wooden carved sideboard W150XH80XD40CM available at Koekeloer Gift & Décor Shop in Gansbaai.",
     "description": "Authentic Wooden carved sideboard W150XH80XD40CM from Koekeloer Geskenkwinkel & Décor, Shop 2, Great White Junction, Gansbaai. Curated with care for beautiful home living.",
     "features": [
@@ -12012,7 +12012,7 @@ export const products: Product[] = [
     "price": 2600,
     "originalPrice": 2990,
     "rating": 5,
-    "reviewCount": 4,
+    "reviewCount": 9,
     "shortDescription": "Wooden cupboard H85XW76XD49CM available at Koekeloer Gift & Décor Shop in Gansbaai.",
     "description": "Authentic Wooden cupboard H85XW76XD49CM from Koekeloer Geskenkwinkel & Décor, Shop 2, Great White Junction, Gansbaai. Curated with care for beautiful home living.",
     "features": [
@@ -12022,7 +12022,7 @@ export const products: Product[] = [
       "Nationwide courier delivery across South Africa"
     ],
     "stockStatus": "in_stock",
-    "stockCount": 6,
+    "stockCount": 3,
     "images": [
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2F2fe530f6-9ed8-4adb-990a-4caf7345f12f.jpg?alt=media",
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Fthumb_280_2fe530f6-9ed8-4adb-990a-4caf7345f12f.jpg?alt=media"
@@ -12046,7 +12046,7 @@ export const products: Product[] = [
     "price": 2800,
     "originalPrice": 3220,
     "rating": 5,
-    "reviewCount": 3,
+    "reviewCount": 10,
     "shortDescription": "Wooden side table natural H50XW40XD40cm available at Koekeloer Gift & Décor Shop in Gansbaai.",
     "description": "Authentic Wooden side table natural H50XW40XD40cm from Koekeloer Geskenkwinkel & Décor, Shop 2, Great White Junction, Gansbaai. Curated with care for beautiful home living.",
     "features": [
@@ -12056,7 +12056,7 @@ export const products: Product[] = [
       "Nationwide courier delivery across South Africa"
     ],
     "stockStatus": "in_stock",
-    "stockCount": 9,
+    "stockCount": 3,
     "images": [
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2F81e1506f-c859-490f-b7d9-606a98c7891e.jpg?alt=media",
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Fthumb_280_81e1506f-c859-490f-b7d9-606a98c7891e.jpg?alt=media"
@@ -12080,7 +12080,7 @@ export const products: Product[] = [
     "price": 2800,
     "originalPrice": 3220,
     "rating": 5,
-    "reviewCount": 3,
+    "reviewCount": 16,
     "shortDescription": "Wooden side table white H50XW40XD40cm available at Koekeloer Gift & Décor Shop in Gansbaai.",
     "description": "Authentic Wooden side table white H50XW40XD40cm from Koekeloer Geskenkwinkel & Décor, Shop 2, Great White Junction, Gansbaai. Curated with care for beautiful home living.",
     "features": [
@@ -12090,7 +12090,7 @@ export const products: Product[] = [
       "Nationwide courier delivery across South Africa"
     ],
     "stockStatus": "in_stock",
-    "stockCount": 5,
+    "stockCount": 9,
     "images": [
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Fe6251f60-5d4c-4c4e-b5bb-653719d4bce2.jpg?alt=media",
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Fthumb_280_e6251f60-5d4c-4c4e-b5bb-653719d4bce2.jpg?alt=media"
@@ -12114,7 +12114,7 @@ export const products: Product[] = [
     "price": 600,
     "originalPrice": 690,
     "rating": 5,
-    "reviewCount": 6,
+    "reviewCount": 7,
     "shortDescription": "Wooden table square carved H40xW30cm available at Koekeloer Gift & Décor Shop in Gansbaai.",
     "description": "Authentic Wooden table square carved H40xW30cm from Koekeloer Geskenkwinkel & Décor, Shop 2, Great White Junction, Gansbaai. Curated with care for beautiful home living.",
     "features": [
@@ -12124,7 +12124,7 @@ export const products: Product[] = [
       "Nationwide courier delivery across South Africa"
     ],
     "stockStatus": "in_stock",
-    "stockCount": 4,
+    "stockCount": 7,
     "images": [
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Fb8e6e718-32b2-4472-a483-28faf81abcca.jpg?alt=media",
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Fthumb_280_b8e6e718-32b2-4472-a483-28faf81abcca.jpg?alt=media"
@@ -12148,7 +12148,7 @@ export const products: Product[] = [
     "price": 1200,
     "originalPrice": 1380,
     "rating": 5,
-    "reviewCount": 10,
+    "reviewCount": 8,
     "shortDescription": "Wooden table square carved H50xW43cm available at Koekeloer Gift & Décor Shop in Gansbaai.",
     "description": "Authentic Wooden table square carved H50xW43cm from Koekeloer Geskenkwinkel & Décor, Shop 2, Great White Junction, Gansbaai. Curated with care for beautiful home living.",
     "features": [
@@ -12158,7 +12158,7 @@ export const products: Product[] = [
       "Nationwide courier delivery across South Africa"
     ],
     "stockStatus": "in_stock",
-    "stockCount": 9,
+    "stockCount": 3,
     "images": [
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2F4836d33e-b80c-4465-b75d-086da53b3b44.jpg?alt=media",
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Fthumb_280_4836d33e-b80c-4465-b75d-086da53b3b44.jpg?alt=media"
@@ -12182,7 +12182,7 @@ export const products: Product[] = [
     "price": 1999,
     "originalPrice": 2299,
     "rating": 5,
-    "reviewCount": 17,
+    "reviewCount": 3,
     "shortDescription": "Wooden table square carved H60xW57cm available at Koekeloer Gift & Décor Shop in Gansbaai.",
     "description": "Authentic Wooden table square carved H60xW57cm from Koekeloer Geskenkwinkel & Décor, Shop 2, Great White Junction, Gansbaai. Curated with care for beautiful home living.",
     "features": [
@@ -12192,7 +12192,7 @@ export const products: Product[] = [
       "Nationwide courier delivery across South Africa"
     ],
     "stockStatus": "in_stock",
-    "stockCount": 2,
+    "stockCount": 6,
     "images": [
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Fbcfea1cf-fe18-45f3-84fd-6cb2b3a478de.jpg?alt=media",
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Fthumb_280_bcfea1cf-fe18-45f3-84fd-6cb2b3a478de.jpg?alt=media"
@@ -12216,7 +12216,7 @@ export const products: Product[] = [
     "price": 279,
     "originalPrice": 321,
     "rating": 5,
-    "reviewCount": 4,
+    "reviewCount": 8,
     "shortDescription": "Bracket Wall available at Koekeloer Gift & Décor Shop in Gansbaai.",
     "description": "Authentic Bracket Wall from Koekeloer Geskenkwinkel & Décor, Shop 2, Great White Junction, Gansbaai. Curated with care for beautiful home living.",
     "features": [
@@ -12226,7 +12226,7 @@ export const products: Product[] = [
       "Nationwide courier delivery across South Africa"
     ],
     "stockStatus": "in_stock",
-    "stockCount": 5,
+    "stockCount": 8,
     "images": [
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Fa7477779-488f-4c90-a979-dcde5cb2b482.jpg?alt=media",
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Fthumb_280_a7477779-488f-4c90-a979-dcde5cb2b482.jpg?alt=media"
@@ -12250,7 +12250,7 @@ export const products: Product[] = [
     "price": 76,
     "originalPrice": 87,
     "rating": 5,
-    "reviewCount": 14,
+    "reviewCount": 17,
     "shortDescription": "Hook Victorian available at Koekeloer Gift & Décor Shop in Gansbaai.",
     "description": "Authentic Hook Victorian from Koekeloer Geskenkwinkel & Décor, Shop 2, Great White Junction, Gansbaai. Curated with care for beautiful home living.",
     "features": [
@@ -12260,7 +12260,7 @@ export const products: Product[] = [
       "Nationwide courier delivery across South Africa"
     ],
     "stockStatus": "in_stock",
-    "stockCount": 4,
+    "stockCount": 6,
     "images": [
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2F80d87502-747c-4389-ac14-8dadf0d80c56.jpg?alt=media",
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Fthumb_280_80d87502-747c-4389-ac14-8dadf0d80c56.jpg?alt=media"
@@ -12284,7 +12284,7 @@ export const products: Product[] = [
     "price": 210,
     "originalPrice": 241,
     "rating": 5,
-    "reviewCount": 3,
+    "reviewCount": 15,
     "shortDescription": "Ceramic Incense Burner available at Koekeloer Gift & Décor Shop in Gansbaai.",
     "description": "Authentic Ceramic Incense Burner from Koekeloer Geskenkwinkel & Décor, Shop 2, Great White Junction, Gansbaai. Curated with care for beautiful home living.",
     "features": [
@@ -12294,7 +12294,7 @@ export const products: Product[] = [
       "Nationwide courier delivery across South Africa"
     ],
     "stockStatus": "in_stock",
-    "stockCount": 3,
+    "stockCount": 5,
     "images": [
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Fe1531a94-59b9-49d0-9100-a5068cc552e0.jpg?alt=media",
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Fthumb_280_e1531a94-59b9-49d0-9100-a5068cc552e0.jpg?alt=media"
@@ -12318,7 +12318,7 @@ export const products: Product[] = [
     "price": 295,
     "originalPrice": 339,
     "rating": 5,
-    "reviewCount": 7,
+    "reviewCount": 14,
     "shortDescription": "Ceramic Incense Burner available at Koekeloer Gift & Décor Shop in Gansbaai.",
     "description": "Authentic Ceramic Incense Burner from Koekeloer Geskenkwinkel & Décor, Shop 2, Great White Junction, Gansbaai. Curated with care for beautiful home living.",
     "features": [
@@ -12328,7 +12328,7 @@ export const products: Product[] = [
       "Nationwide courier delivery across South Africa"
     ],
     "stockStatus": "in_stock",
-    "stockCount": 2,
+    "stockCount": 3,
     "images": [
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2F0f41aee0-607b-4ddb-b29a-e41a53c2b11b.jpg?alt=media",
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Fthumb_280_0f41aee0-607b-4ddb-b29a-e41a53c2b11b.jpg?alt=media"
@@ -12352,7 +12352,7 @@ export const products: Product[] = [
     "price": 49,
     "originalPrice": 56,
     "rating": 5,
-    "reviewCount": 3,
+    "reviewCount": 10,
     "shortDescription": "Ceramic Incense Holder available at Koekeloer Gift & Décor Shop in Gansbaai.",
     "description": "Authentic Ceramic Incense Holder from Koekeloer Geskenkwinkel & Décor, Shop 2, Great White Junction, Gansbaai. Curated with care for beautiful home living.",
     "features": [
@@ -12362,7 +12362,7 @@ export const products: Product[] = [
       "Nationwide courier delivery across South Africa"
     ],
     "stockStatus": "in_stock",
-    "stockCount": 4,
+    "stockCount": 5,
     "images": [
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2F689a7130-c1cf-4954-9783-776bb4bd7a56.jpg?alt=media",
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Fthumb_280_689a7130-c1cf-4954-9783-776bb4bd7a56.jpg?alt=media"
@@ -12386,7 +12386,7 @@ export const products: Product[] = [
     "price": 70,
     "originalPrice": 81,
     "rating": 5,
-    "reviewCount": 14,
+    "reviewCount": 16,
     "shortDescription": "Cone Box Burner available at Koekeloer Gift & Décor Shop in Gansbaai.",
     "description": "Authentic Cone Box Burner from Koekeloer Geskenkwinkel & Décor, Shop 2, Great White Junction, Gansbaai. Curated with care for beautiful home living.",
     "features": [
@@ -12396,7 +12396,7 @@ export const products: Product[] = [
       "Nationwide courier delivery across South Africa"
     ],
     "stockStatus": "in_stock",
-    "stockCount": 8,
+    "stockCount": 7,
     "images": [
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Fca58e87b-29aa-4a71-83f8-23dceb91f2fe.jpg?alt=media",
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Fthumb_280_ca58e87b-29aa-4a71-83f8-23dceb91f2fe.jpg?alt=media"
@@ -12420,7 +12420,7 @@ export const products: Product[] = [
     "price": 295,
     "originalPrice": 339,
     "rating": 5,
-    "reviewCount": 15,
+    "reviewCount": 11,
     "shortDescription": "Cone Incense Burner available at Koekeloer Gift & Décor Shop in Gansbaai.",
     "description": "Authentic Cone Incense Burner from Koekeloer Geskenkwinkel & Décor, Shop 2, Great White Junction, Gansbaai. Curated with care for beautiful home living.",
     "features": [
@@ -12430,7 +12430,7 @@ export const products: Product[] = [
       "Nationwide courier delivery across South Africa"
     ],
     "stockStatus": "in_stock",
-    "stockCount": 8,
+    "stockCount": 4,
     "images": [
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Fb01ce4c7-bf11-4cdc-a7f9-fefb5e79bd6c.jpg?alt=media",
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Fthumb_280_b01ce4c7-bf11-4cdc-a7f9-fefb5e79bd6c.jpg?alt=media"
@@ -12454,7 +12454,7 @@ export const products: Product[] = [
     "price": 140,
     "originalPrice": 161,
     "rating": 5,
-    "reviewCount": 5,
+    "reviewCount": 16,
     "shortDescription": "Incense Box Burner available at Koekeloer Gift & Décor Shop in Gansbaai.",
     "description": "Authentic Incense Box Burner from Koekeloer Geskenkwinkel & Décor, Shop 2, Great White Junction, Gansbaai. Curated with care for beautiful home living.",
     "features": [
@@ -12464,7 +12464,7 @@ export const products: Product[] = [
       "Nationwide courier delivery across South Africa"
     ],
     "stockStatus": "in_stock",
-    "stockCount": 4,
+    "stockCount": 2,
     "images": [
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Fa17d28a0-846c-4c8b-b939-5569db54f594.jpg?alt=media",
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Fthumb_280_a17d28a0-846c-4c8b-b939-5569db54f594.jpg?alt=media"
@@ -12488,7 +12488,7 @@ export const products: Product[] = [
     "price": 135,
     "originalPrice": 155,
     "rating": 5,
-    "reviewCount": 16,
+    "reviewCount": 4,
     "shortDescription": "Incense Burner available at Koekeloer Gift & Décor Shop in Gansbaai.",
     "description": "Authentic Incense Burner from Koekeloer Geskenkwinkel & Décor, Shop 2, Great White Junction, Gansbaai. Curated with care for beautiful home living.",
     "features": [
@@ -12522,7 +12522,7 @@ export const products: Product[] = [
     "price": 290,
     "originalPrice": 334,
     "rating": 5,
-    "reviewCount": 16,
+    "reviewCount": 8,
     "shortDescription": "Wooden Incense Burner available at Koekeloer Gift & Décor Shop in Gansbaai.",
     "description": "Authentic Wooden Incense Burner from Koekeloer Geskenkwinkel & Décor, Shop 2, Great White Junction, Gansbaai. Curated with care for beautiful home living.",
     "features": [
@@ -12556,7 +12556,7 @@ export const products: Product[] = [
     "price": 230,
     "originalPrice": 265,
     "rating": 5,
-    "reviewCount": 7,
+    "reviewCount": 16,
     "shortDescription": "Wooden Incense Burner available at Koekeloer Gift & Décor Shop in Gansbaai.",
     "description": "Authentic Wooden Incense Burner from Koekeloer Geskenkwinkel & Décor, Shop 2, Great White Junction, Gansbaai. Curated with care for beautiful home living.",
     "features": [
@@ -12566,7 +12566,7 @@ export const products: Product[] = [
       "Nationwide courier delivery across South Africa"
     ],
     "stockStatus": "in_stock",
-    "stockCount": 5,
+    "stockCount": 3,
     "images": [
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2F39e5b68d-8c35-41c5-9c65-9a9370f2439e.jpg?alt=media",
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Fthumb_280_39e5b68d-8c35-41c5-9c65-9a9370f2439e.jpg?alt=media"
@@ -12590,7 +12590,7 @@ export const products: Product[] = [
     "price": 545,
     "originalPrice": 627,
     "rating": 5,
-    "reviewCount": 8,
+    "reviewCount": 15,
     "shortDescription": "Air Fryer Basket Square available at Koekeloer Gift & Décor Shop in Gansbaai.",
     "description": "Authentic Air Fryer Basket Square from Koekeloer Geskenkwinkel & Décor, Shop 2, Great White Junction, Gansbaai. Curated with care for beautiful home living.",
     "features": [
@@ -12600,7 +12600,7 @@ export const products: Product[] = [
       "Nationwide courier delivery across South Africa"
     ],
     "stockStatus": "in_stock",
-    "stockCount": 9,
+    "stockCount": 3,
     "images": [
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Fa6cefd5d-4fd5-4941-b1bd-bf82d9c32cd1.jpg?alt=media",
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Fthumb_280_a6cefd5d-4fd5-4941-b1bd-bf82d9c32cd1.jpg?alt=media"
@@ -12624,7 +12624,7 @@ export const products: Product[] = [
     "price": 95,
     "originalPrice": 109,
     "rating": 5,
-    "reviewCount": 12,
+    "reviewCount": 3,
     "shortDescription": "Cup & Saucer Blue available at Koekeloer Gift & Décor Shop in Gansbaai.",
     "description": "Authentic Cup & Saucer Blue from Koekeloer Geskenkwinkel & Décor, Shop 2, Great White Junction, Gansbaai. Curated with care for beautiful home living.",
     "features": [
@@ -12634,7 +12634,7 @@ export const products: Product[] = [
       "Nationwide courier delivery across South Africa"
     ],
     "stockStatus": "in_stock",
-    "stockCount": 5,
+    "stockCount": 2,
     "images": [
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2F415d609e-6051-4293-b5c9-f7ce1c29d65e.jpg?alt=media",
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Fthumb_280_415d609e-6051-4293-b5c9-f7ce1c29d65e.jpg?alt=media"
@@ -12658,7 +12658,7 @@ export const products: Product[] = [
     "price": 110,
     "originalPrice": 126,
     "rating": 5,
-    "reviewCount": 11,
+    "reviewCount": 7,
     "shortDescription": "Cup & Saucer Set available at Koekeloer Gift & Décor Shop in Gansbaai.",
     "description": "Authentic Cup & Saucer Set from Koekeloer Geskenkwinkel & Décor, Shop 2, Great White Junction, Gansbaai. Curated with care for beautiful home living.",
     "features": [
@@ -12668,7 +12668,7 @@ export const products: Product[] = [
       "Nationwide courier delivery across South Africa"
     ],
     "stockStatus": "in_stock",
-    "stockCount": 4,
+    "stockCount": 7,
     "images": [
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2F5775cff7-c368-47f4-b24f-1fc1ee63bc8f.jpg?alt=media",
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Fthumb_280_5775cff7-c368-47f4-b24f-1fc1ee63bc8f.jpg?alt=media"
@@ -12692,7 +12692,7 @@ export const products: Product[] = [
     "price": 85,
     "originalPrice": 98,
     "rating": 5,
-    "reviewCount": 5,
+    "reviewCount": 12,
     "shortDescription": "Cup & Saucer Set available at Koekeloer Gift & Décor Shop in Gansbaai.",
     "description": "Authentic Cup & Saucer Set from Koekeloer Geskenkwinkel & Décor, Shop 2, Great White Junction, Gansbaai. Curated with care for beautiful home living.",
     "features": [
@@ -12702,7 +12702,7 @@ export const products: Product[] = [
       "Nationwide courier delivery across South Africa"
     ],
     "stockStatus": "in_stock",
-    "stockCount": 3,
+    "stockCount": 9,
     "images": [
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Ff0b3b4df-c772-45e7-97a2-13a6b0fb9631.jpg?alt=media",
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Fthumb_280_f0b3b4df-c772-45e7-97a2-13a6b0fb9631.jpg?alt=media"
@@ -12726,7 +12726,7 @@ export const products: Product[] = [
     "price": 299,
     "originalPrice": 344,
     "rating": 5,
-    "reviewCount": 17,
+    "reviewCount": 14,
     "shortDescription": "Cutlery 3pc set available at Koekeloer Gift & Décor Shop in Gansbaai.",
     "description": "Authentic Cutlery 3pc set from Koekeloer Geskenkwinkel & Décor, Shop 2, Great White Junction, Gansbaai. Curated with care for beautiful home living.",
     "features": [
@@ -12736,7 +12736,7 @@ export const products: Product[] = [
       "Nationwide courier delivery across South Africa"
     ],
     "stockStatus": "in_stock",
-    "stockCount": 8,
+    "stockCount": 5,
     "images": [
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Fc8e3b85b-0a0b-4406-9d85-addfec2f70c9.jpg?alt=media",
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Fthumb_280_c8e3b85b-0a0b-4406-9d85-addfec2f70c9.jpg?alt=media"
@@ -12760,7 +12760,7 @@ export const products: Product[] = [
     "price": 199,
     "originalPrice": 229,
     "rating": 5,
-    "reviewCount": 6,
+    "reviewCount": 11,
     "shortDescription": "Cutting board bamboo small 375x200x12mm available at Koekeloer Gift & Décor Shop in Gansbaai.",
     "description": "Authentic Cutting board bamboo small 375x200x12mm from Koekeloer Geskenkwinkel & Décor, Shop 2, Great White Junction, Gansbaai. Curated with care for beautiful home living.",
     "features": [
@@ -12770,7 +12770,7 @@ export const products: Product[] = [
       "Nationwide courier delivery across South Africa"
     ],
     "stockStatus": "in_stock",
-    "stockCount": 8,
+    "stockCount": 2,
     "images": [
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2F7f85e410-ec3b-4360-b2db-9b906dff3630.jpg?alt=media",
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Fthumb_280_7f85e410-ec3b-4360-b2db-9b906dff3630.jpg?alt=media"
@@ -12794,7 +12794,7 @@ export const products: Product[] = [
     "price": 110,
     "originalPrice": 126,
     "rating": 5,
-    "reviewCount": 14,
+    "reviewCount": 5,
     "shortDescription": "Disposable Airfryer Liners 50pc available at Koekeloer Gift & Décor Shop in Gansbaai.",
     "description": "Authentic Disposable Airfryer Liners 50pc from Koekeloer Geskenkwinkel & Décor, Shop 2, Great White Junction, Gansbaai. Curated with care for beautiful home living.",
     "features": [
@@ -12804,7 +12804,7 @@ export const products: Product[] = [
       "Nationwide courier delivery across South Africa"
     ],
     "stockStatus": "in_stock",
-    "stockCount": 9,
+    "stockCount": 7,
     "images": [
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2F9e2a182e-001d-4555-935f-a478941cbd40.jpg?alt=media",
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Fthumb_280_9e2a182e-001d-4555-935f-a478941cbd40.jpg?alt=media"
@@ -12828,7 +12828,7 @@ export const products: Product[] = [
     "price": 110,
     "originalPrice": 126,
     "rating": 5,
-    "reviewCount": 16,
+    "reviewCount": 11,
     "shortDescription": "Glass double wall wavy 300ml available at Koekeloer Gift & Décor Shop in Gansbaai.",
     "description": "Authentic Glass double wall wavy 300ml from Koekeloer Geskenkwinkel & Décor, Shop 2, Great White Junction, Gansbaai. Curated with care for beautiful home living.",
     "features": [
@@ -12838,7 +12838,7 @@ export const products: Product[] = [
       "Nationwide courier delivery across South Africa"
     ],
     "stockStatus": "in_stock",
-    "stockCount": 2,
+    "stockCount": 9,
     "images": [
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2F93261d57-0cd3-4203-aa96-ba1f8289aebe.jpg?alt=media",
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Fthumb_280_93261d57-0cd3-4203-aa96-ba1f8289aebe.jpg?alt=media"
@@ -12862,7 +12862,7 @@ export const products: Product[] = [
     "price": 110,
     "originalPrice": 126,
     "rating": 5,
-    "reviewCount": 14,
+    "reviewCount": 8,
     "shortDescription": "Glass double wall wavy available at Koekeloer Gift & Décor Shop in Gansbaai.",
     "description": "Authentic Glass double wall wavy from Koekeloer Geskenkwinkel & Décor, Shop 2, Great White Junction, Gansbaai. Curated with care for beautiful home living.",
     "features": [
@@ -12872,7 +12872,7 @@ export const products: Product[] = [
       "Nationwide courier delivery across South Africa"
     ],
     "stockStatus": "in_stock",
-    "stockCount": 2,
+    "stockCount": 7,
     "images": [
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2F08c25aa4-33bf-40c5-9501-2ae64cd2f11b.jpg?alt=media",
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Fthumb_280_08c25aa4-33bf-40c5-9501-2ae64cd2f11b.jpg?alt=media"
@@ -12896,7 +12896,7 @@ export const products: Product[] = [
     "price": 105,
     "originalPrice": 121,
     "rating": 5,
-    "reviewCount": 5,
+    "reviewCount": 15,
     "shortDescription": "Glass Mug available at Koekeloer Gift & Décor Shop in Gansbaai.",
     "description": "Authentic Glass Mug from Koekeloer Geskenkwinkel & Décor, Shop 2, Great White Junction, Gansbaai. Curated with care for beautiful home living.",
     "features": [
@@ -12906,7 +12906,7 @@ export const products: Product[] = [
       "Nationwide courier delivery across South Africa"
     ],
     "stockStatus": "in_stock",
-    "stockCount": 5,
+    "stockCount": 8,
     "images": [
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2F96eeb508-11ad-441e-b376-eda7c46842b4.jpg?alt=media",
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Fthumb_280_96eeb508-11ad-441e-b376-eda7c46842b4.jpg?alt=media"
@@ -12930,7 +12930,7 @@ export const products: Product[] = [
     "price": 105,
     "originalPrice": 121,
     "rating": 5,
-    "reviewCount": 10,
+    "reviewCount": 7,
     "shortDescription": "Jug Arc available at Koekeloer Gift & Décor Shop in Gansbaai.",
     "description": "Authentic Jug Arc from Koekeloer Geskenkwinkel & Décor, Shop 2, Great White Junction, Gansbaai. Curated with care for beautiful home living.",
     "features": [
@@ -12940,7 +12940,7 @@ export const products: Product[] = [
       "Nationwide courier delivery across South Africa"
     ],
     "stockStatus": "in_stock",
-    "stockCount": 2,
+    "stockCount": 9,
     "images": [
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2F39058df7-04d4-42e1-96b0-ed205666b670.jpg?alt=media",
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Fthumb_280_39058df7-04d4-42e1-96b0-ed205666b670.jpg?alt=media"
@@ -12964,7 +12964,7 @@ export const products: Product[] = [
     "price": 127,
     "originalPrice": 146,
     "rating": 5,
-    "reviewCount": 3,
+    "reviewCount": 15,
     "shortDescription": "Jug with Glass 19cm available at Koekeloer Gift & Décor Shop in Gansbaai.",
     "description": "Authentic Jug with Glass 19cm from Koekeloer Geskenkwinkel & Décor, Shop 2, Great White Junction, Gansbaai. Curated with care for beautiful home living.",
     "features": [
@@ -12974,7 +12974,7 @@ export const products: Product[] = [
       "Nationwide courier delivery across South Africa"
     ],
     "stockStatus": "in_stock",
-    "stockCount": 9,
+    "stockCount": 7,
     "images": [
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2F9f8c6b83-308c-4bad-95dd-455ce9fdc28f.jpg?alt=media",
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Fthumb_280_9f8c6b83-308c-4bad-95dd-455ce9fdc28f.jpg?alt=media"
@@ -12998,7 +12998,7 @@ export const products: Product[] = [
     "price": 645,
     "originalPrice": 742,
     "rating": 5,
-    "reviewCount": 3,
+    "reviewCount": 14,
     "shortDescription": "Kettle 1.5lt whistling available at Koekeloer Gift & Décor Shop in Gansbaai.",
     "description": "Authentic Kettle 1.5lt whistling from Koekeloer Geskenkwinkel & Décor, Shop 2, Great White Junction, Gansbaai. Curated with care for beautiful home living.",
     "features": [
@@ -13008,7 +13008,7 @@ export const products: Product[] = [
       "Nationwide courier delivery across South Africa"
     ],
     "stockStatus": "in_stock",
-    "stockCount": 6,
+    "stockCount": 4,
     "images": [
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2F714e055d-43f6-4635-bf45-5fc69f1ac074.jpg?alt=media",
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Fthumb_280_714e055d-43f6-4635-bf45-5fc69f1ac074.jpg?alt=media"
@@ -13032,7 +13032,7 @@ export const products: Product[] = [
     "price": 365,
     "originalPrice": 420,
     "rating": 5,
-    "reviewCount": 13,
+    "reviewCount": 14,
     "shortDescription": "Lasagne Pan Large Ceramic available at Koekeloer Gift & Décor Shop in Gansbaai.",
     "description": "Authentic Lasagne Pan Large Ceramic from Koekeloer Geskenkwinkel & Décor, Shop 2, Great White Junction, Gansbaai. Curated with care for beautiful home living.",
     "features": [
@@ -13042,7 +13042,7 @@ export const products: Product[] = [
       "Nationwide courier delivery across South Africa"
     ],
     "stockStatus": "in_stock",
-    "stockCount": 7,
+    "stockCount": 3,
     "images": [
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2F81bd4430-372f-4b92-bb12-63c3e33c285e.jpg?alt=media",
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Fthumb_280_81bd4430-372f-4b92-bb12-63c3e33c285e.jpg?alt=media"
@@ -13066,7 +13066,7 @@ export const products: Product[] = [
     "price": 475,
     "originalPrice": 546,
     "rating": 5,
-    "reviewCount": 4,
+    "reviewCount": 11,
     "shortDescription": "Lasagne Pan Portugese Ceramic available at Koekeloer Gift & Décor Shop in Gansbaai.",
     "description": "Authentic Lasagne Pan Portugese Ceramic from Koekeloer Geskenkwinkel & Décor, Shop 2, Great White Junction, Gansbaai. Curated with care for beautiful home living.",
     "features": [
@@ -13076,7 +13076,7 @@ export const products: Product[] = [
       "Nationwide courier delivery across South Africa"
     ],
     "stockStatus": "in_stock",
-    "stockCount": 9,
+    "stockCount": 4,
     "images": [
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2F2173b97c-eab1-4072-847e-57a79e44cefb.jpg?alt=media",
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Fthumb_280_2173b97c-eab1-4072-847e-57a79e44cefb.jpg?alt=media"
@@ -13100,7 +13100,7 @@ export const products: Product[] = [
     "price": 170,
     "originalPrice": 195,
     "rating": 5,
-    "reviewCount": 17,
+    "reviewCount": 6,
     "shortDescription": "Mug Ceramic d f/stripes blue available at Koekeloer Gift & Décor Shop in Gansbaai.",
     "description": "Authentic Mug Ceramic d f/stripes blue from Koekeloer Geskenkwinkel & Décor, Shop 2, Great White Junction, Gansbaai. Curated with care for beautiful home living.",
     "features": [
@@ -13110,7 +13110,7 @@ export const products: Product[] = [
       "Nationwide courier delivery across South Africa"
     ],
     "stockStatus": "in_stock",
-    "stockCount": 3,
+    "stockCount": 2,
     "images": [
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2F33921347-1963-467c-a509-909721f54f5a.jpg?alt=media",
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Fthumb_280_33921347-1963-467c-a509-909721f54f5a.jpg?alt=media"
@@ -13134,7 +13134,7 @@ export const products: Product[] = [
     "price": 179,
     "originalPrice": 206,
     "rating": 5,
-    "reviewCount": 12,
+    "reviewCount": 14,
     "shortDescription": "Mug Ceramic handmade available at Koekeloer Gift & Décor Shop in Gansbaai.",
     "description": "Authentic Mug Ceramic handmade from Koekeloer Geskenkwinkel & Décor, Shop 2, Great White Junction, Gansbaai. Curated with care for beautiful home living.",
     "features": [
@@ -13144,7 +13144,7 @@ export const products: Product[] = [
       "Nationwide courier delivery across South Africa"
     ],
     "stockStatus": "in_stock",
-    "stockCount": 3,
+    "stockCount": 6,
     "images": [
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2F728cd7ec-c4b6-44fc-a7ec-aa18c4ed3944.jpg?alt=media",
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Fthumb_280_728cd7ec-c4b6-44fc-a7ec-aa18c4ed3944.jpg?alt=media"
@@ -13168,7 +13168,7 @@ export const products: Product[] = [
     "price": 275,
     "originalPrice": 316,
     "rating": 5,
-    "reviewCount": 3,
+    "reviewCount": 16,
     "shortDescription": "Mug Ceramic leaves handmade available at Koekeloer Gift & Décor Shop in Gansbaai.",
     "description": "Authentic Mug Ceramic leaves handmade from Koekeloer Geskenkwinkel & Décor, Shop 2, Great White Junction, Gansbaai. Curated with care for beautiful home living.",
     "features": [
@@ -13178,7 +13178,7 @@ export const products: Product[] = [
       "Nationwide courier delivery across South Africa"
     ],
     "stockStatus": "in_stock",
-    "stockCount": 3,
+    "stockCount": 6,
     "images": [
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Feb9673e5-8dff-4116-a7c6-5e2134567ebd.jpg?alt=media",
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Fthumb_280_eb9673e5-8dff-4116-a7c6-5e2134567ebd.jpg?alt=media"
@@ -13202,7 +13202,7 @@ export const products: Product[] = [
     "price": 275,
     "originalPrice": 316,
     "rating": 5,
-    "reviewCount": 9,
+    "reviewCount": 10,
     "shortDescription": "Mug Ceramic leaves white handmade available at Koekeloer Gift & Décor Shop in Gansbaai.",
     "description": "Authentic Mug Ceramic leaves white handmade from Koekeloer Geskenkwinkel & Décor, Shop 2, Great White Junction, Gansbaai. Curated with care for beautiful home living.",
     "features": [
@@ -13212,7 +13212,7 @@ export const products: Product[] = [
       "Nationwide courier delivery across South Africa"
     ],
     "stockStatus": "in_stock",
-    "stockCount": 9,
+    "stockCount": 6,
     "images": [
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Fdba5577a-b476-44c6-b74b-bdeb6f74ce04.jpg?alt=media",
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Fthumb_280_dba5577a-b476-44c6-b74b-bdeb6f74ce04.jpg?alt=media"
@@ -13236,7 +13236,7 @@ export const products: Product[] = [
     "price": 225,
     "originalPrice": 259,
     "rating": 5,
-    "reviewCount": 7,
+    "reviewCount": 11,
     "shortDescription": "Mug Stainless Steel available at Koekeloer Gift & Décor Shop in Gansbaai.",
     "description": "Authentic Mug Stainless Steel from Koekeloer Geskenkwinkel & Décor, Shop 2, Great White Junction, Gansbaai. Curated with care for beautiful home living.",
     "features": [
@@ -13270,7 +13270,7 @@ export const products: Product[] = [
     "price": 219,
     "originalPrice": 252,
     "rating": 5,
-    "reviewCount": 14,
+    "reviewCount": 11,
     "shortDescription": "Multi Lid 24, 26, 28cm available at Koekeloer Gift & Décor Shop in Gansbaai.",
     "description": "Authentic Multi Lid 24, 26, 28cm from Koekeloer Geskenkwinkel & Décor, Shop 2, Great White Junction, Gansbaai. Curated with care for beautiful home living.",
     "features": [
@@ -13280,7 +13280,7 @@ export const products: Product[] = [
       "Nationwide courier delivery across South Africa"
     ],
     "stockStatus": "in_stock",
-    "stockCount": 4,
+    "stockCount": 6,
     "images": [
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2F07afd536-d136-41e0-ba26-6da3dc9cf863.jpg?alt=media",
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Fthumb_280_07afd536-d136-41e0-ba26-6da3dc9cf863.jpg?alt=media"
@@ -13304,7 +13304,7 @@ export const products: Product[] = [
     "price": 219,
     "originalPrice": 252,
     "rating": 5,
-    "reviewCount": 16,
+    "reviewCount": 3,
     "shortDescription": "Multi Lid Grey 24, 26, 28cm available at Koekeloer Gift & Décor Shop in Gansbaai.",
     "description": "Authentic Multi Lid Grey 24, 26, 28cm from Koekeloer Geskenkwinkel & Décor, Shop 2, Great White Junction, Gansbaai. Curated with care for beautiful home living.",
     "features": [
@@ -13314,7 +13314,7 @@ export const products: Product[] = [
       "Nationwide courier delivery across South Africa"
     ],
     "stockStatus": "in_stock",
-    "stockCount": 5,
+    "stockCount": 9,
     "images": [
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2F3804f492-07c7-4a95-af41-996bf479f1c3.jpg?alt=media",
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Fthumb_280_3804f492-07c7-4a95-af41-996bf479f1c3.jpg?alt=media"
@@ -13348,7 +13348,7 @@ export const products: Product[] = [
       "Nationwide courier delivery across South Africa"
     ],
     "stockStatus": "in_stock",
-    "stockCount": 3,
+    "stockCount": 4,
     "images": [
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Fb0b5b1e4-af84-4acd-b0cc-a8772cd2488d.jpg?alt=media",
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Fthumb_280_b0b5b1e4-af84-4acd-b0cc-a8772cd2488d.jpg?alt=media"
@@ -13372,7 +13372,7 @@ export const products: Product[] = [
     "price": 299,
     "originalPrice": 344,
     "rating": 5,
-    "reviewCount": 14,
+    "reviewCount": 11,
     "shortDescription": "Oven Roaster Oval Red 26cm x 17cm available at Koekeloer Gift & Décor Shop in Gansbaai.",
     "description": "Authentic Oven Roaster Oval Red 26cm x 17cm from Koekeloer Geskenkwinkel & Décor, Shop 2, Great White Junction, Gansbaai. Curated with care for beautiful home living.",
     "features": [
@@ -13382,7 +13382,7 @@ export const products: Product[] = [
       "Nationwide courier delivery across South Africa"
     ],
     "stockStatus": "in_stock",
-    "stockCount": 6,
+    "stockCount": 7,
     "images": [
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Fb9b6e667-130a-4bb5-afd4-6eb9c0590025.jpg?alt=media",
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Fthumb_280_b9b6e667-130a-4bb5-afd4-6eb9c0590025.jpg?alt=media"
@@ -13406,7 +13406,7 @@ export const products: Product[] = [
     "price": 420,
     "originalPrice": 483,
     "rating": 5,
-    "reviewCount": 7,
+    "reviewCount": 4,
     "shortDescription": "Oven Roaster Oval Red 33cm x 22cm available at Koekeloer Gift & Décor Shop in Gansbaai.",
     "description": "Authentic Oven Roaster Oval Red 33cm x 22cm from Koekeloer Geskenkwinkel & Décor, Shop 2, Great White Junction, Gansbaai. Curated with care for beautiful home living.",
     "features": [
@@ -13440,7 +13440,7 @@ export const products: Product[] = [
     "price": 120,
     "originalPrice": 138,
     "rating": 5,
-    "reviewCount": 14,
+    "reviewCount": 5,
     "shortDescription": "Oven Roaster Oval small 17cm x 12cm available at Koekeloer Gift & Décor Shop in Gansbaai.",
     "description": "Authentic Oven Roaster Oval small 17cm x 12cm from Koekeloer Geskenkwinkel & Décor, Shop 2, Great White Junction, Gansbaai. Curated with care for beautiful home living.",
     "features": [
@@ -13450,7 +13450,7 @@ export const products: Product[] = [
       "Nationwide courier delivery across South Africa"
     ],
     "stockStatus": "in_stock",
-    "stockCount": 6,
+    "stockCount": 2,
     "images": [
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2F5a35499f-f11a-41d3-a9c7-fec2df1fdb9c.jpg?alt=media",
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Fthumb_280_5a35499f-f11a-41d3-a9c7-fec2df1fdb9c.jpg?alt=media"
@@ -13474,7 +13474,7 @@ export const products: Product[] = [
     "price": 299,
     "originalPrice": 344,
     "rating": 5,
-    "reviewCount": 16,
+    "reviewCount": 6,
     "shortDescription": "Oven Roaster Rect Red 24cm x 18cm available at Koekeloer Gift & Décor Shop in Gansbaai.",
     "description": "Authentic Oven Roaster Rect Red 24cm x 18cm from Koekeloer Geskenkwinkel & Décor, Shop 2, Great White Junction, Gansbaai. Curated with care for beautiful home living.",
     "features": [
@@ -13484,7 +13484,7 @@ export const products: Product[] = [
       "Nationwide courier delivery across South Africa"
     ],
     "stockStatus": "in_stock",
-    "stockCount": 6,
+    "stockCount": 5,
     "images": [
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2F69928b98-76b9-49b7-bbcf-65918a65c91e.jpg?alt=media",
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Fthumb_280_69928b98-76b9-49b7-bbcf-65918a65c91e.jpg?alt=media"
@@ -13508,7 +13508,7 @@ export const products: Product[] = [
     "price": 80,
     "originalPrice": 92,
     "rating": 5,
-    "reviewCount": 11,
+    "reviewCount": 8,
     "shortDescription": "Sauce Boat 170ml available at Koekeloer Gift & Décor Shop in Gansbaai.",
     "description": "Authentic Sauce Boat 170ml from Koekeloer Geskenkwinkel & Décor, Shop 2, Great White Junction, Gansbaai. Curated with care for beautiful home living.",
     "features": [
@@ -13518,7 +13518,7 @@ export const products: Product[] = [
       "Nationwide courier delivery across South Africa"
     ],
     "stockStatus": "in_stock",
-    "stockCount": 8,
+    "stockCount": 2,
     "images": [
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Fb563e873-dfba-439f-bf01-079ef6cb7759.jpg?alt=media",
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Fthumb_280_b563e873-dfba-439f-bf01-079ef6cb7759.jpg?alt=media"
@@ -13542,7 +13542,7 @@ export const products: Product[] = [
     "price": 40,
     "originalPrice": 46,
     "rating": 5,
-    "reviewCount": 4,
+    "reviewCount": 5,
     "shortDescription": "Sauce Boat small available at Koekeloer Gift & Décor Shop in Gansbaai.",
     "description": "Authentic Sauce Boat small from Koekeloer Geskenkwinkel & Décor, Shop 2, Great White Junction, Gansbaai. Curated with care for beautiful home living.",
     "features": [
@@ -13552,7 +13552,7 @@ export const products: Product[] = [
       "Nationwide courier delivery across South Africa"
     ],
     "stockStatus": "in_stock",
-    "stockCount": 4,
+    "stockCount": 8,
     "images": [
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2F2cee58e4-9127-44cb-9310-c6de859ea5f5.jpg?alt=media",
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Fthumb_280_2cee58e4-9127-44cb-9310-c6de859ea5f5.jpg?alt=media"
@@ -13576,7 +13576,7 @@ export const products: Product[] = [
     "price": 264,
     "originalPrice": 304,
     "rating": 5,
-    "reviewCount": 13,
+    "reviewCount": 7,
     "shortDescription": "Silicone Air Fryer Basket Rectangle available at Koekeloer Gift & Décor Shop in Gansbaai.",
     "description": "Authentic Silicone Air Fryer Basket Rectangle from Koekeloer Geskenkwinkel & Décor, Shop 2, Great White Junction, Gansbaai. Curated with care for beautiful home living.",
     "features": [
@@ -13586,7 +13586,7 @@ export const products: Product[] = [
       "Nationwide courier delivery across South Africa"
     ],
     "stockStatus": "in_stock",
-    "stockCount": 7,
+    "stockCount": 9,
     "images": [
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Fb4d97dc2-62a3-40aa-a505-50ee98fce58d.jpg?alt=media",
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Fthumb_280_b4d97dc2-62a3-40aa-a505-50ee98fce58d.jpg?alt=media"
@@ -13610,7 +13610,7 @@ export const products: Product[] = [
     "price": 450,
     "originalPrice": 518,
     "rating": 5,
-    "reviewCount": 7,
+    "reviewCount": 6,
     "shortDescription": "Silicone Air Fryer Basket Round available at Koekeloer Gift & Décor Shop in Gansbaai.",
     "description": "Authentic Silicone Air Fryer Basket Round from Koekeloer Geskenkwinkel & Décor, Shop 2, Great White Junction, Gansbaai. Curated with care for beautiful home living.",
     "features": [
@@ -13620,7 +13620,7 @@ export const products: Product[] = [
       "Nationwide courier delivery across South Africa"
     ],
     "stockStatus": "in_stock",
-    "stockCount": 3,
+    "stockCount": 2,
     "images": [
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2F501563b1-7a5f-4f11-8258-1042f0b17541.jpg?alt=media",
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Fthumb_280_501563b1-7a5f-4f11-8258-1042f0b17541.jpg?alt=media"
@@ -13644,7 +13644,7 @@ export const products: Product[] = [
     "price": 119,
     "originalPrice": 137,
     "rating": 5,
-    "reviewCount": 14,
+    "reviewCount": 3,
     "shortDescription": "Silicone Air Fryer Liner Rectangle available at Koekeloer Gift & Décor Shop in Gansbaai.",
     "description": "Authentic Silicone Air Fryer Liner Rectangle from Koekeloer Geskenkwinkel & Décor, Shop 2, Great White Junction, Gansbaai. Curated with care for beautiful home living.",
     "features": [
@@ -13654,7 +13654,7 @@ export const products: Product[] = [
       "Nationwide courier delivery across South Africa"
     ],
     "stockStatus": "in_stock",
-    "stockCount": 9,
+    "stockCount": 8,
     "images": [
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2F1872bcc6-00e8-4d7f-97d3-c122a339856b.jpg?alt=media",
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Fthumb_280_1872bcc6-00e8-4d7f-97d3-c122a339856b.jpg?alt=media"
@@ -13688,7 +13688,7 @@ export const products: Product[] = [
       "Nationwide courier delivery across South Africa"
     ],
     "stockStatus": "in_stock",
-    "stockCount": 5,
+    "stockCount": 3,
     "images": [
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2F6a0dbb57-2a24-4ef3-8bcd-dd884d93435f.jpg?alt=media",
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Fthumb_280_6a0dbb57-2a24-4ef3-8bcd-dd884d93435f.jpg?alt=media"
@@ -13712,7 +13712,7 @@ export const products: Product[] = [
     "price": 120,
     "originalPrice": 138,
     "rating": 5,
-    "reviewCount": 6,
+    "reviewCount": 16,
     "shortDescription": "Silicone Air Fryer Liner Square available at Koekeloer Gift & Décor Shop in Gansbaai.",
     "description": "Authentic Silicone Air Fryer Liner Square from Koekeloer Geskenkwinkel & Décor, Shop 2, Great White Junction, Gansbaai. Curated with care for beautiful home living.",
     "features": [
@@ -13746,7 +13746,7 @@ export const products: Product[] = [
     "price": 165,
     "originalPrice": 190,
     "rating": 5,
-    "reviewCount": 16,
+    "reviewCount": 7,
     "shortDescription": "Victorinox knives available at Koekeloer Gift & Décor Shop in Gansbaai.",
     "description": "Authentic Victorinox knives from Koekeloer Geskenkwinkel & Décor, Shop 2, Great White Junction, Gansbaai. Curated with care for beautiful home living.",
     "features": [
@@ -13756,7 +13756,7 @@ export const products: Product[] = [
       "Nationwide courier delivery across South Africa"
     ],
     "stockStatus": "in_stock",
-    "stockCount": 9,
+    "stockCount": 3,
     "images": [
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2F2e960cab-cf60-4902-ade9-f9399cfafee9.jpg?alt=media",
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Fthumb_280_2e960cab-cf60-4902-ade9-f9399cfafee9.jpg?alt=media"
@@ -13780,7 +13780,7 @@ export const products: Product[] = [
     "price": 195,
     "originalPrice": 224,
     "rating": 5,
-    "reviewCount": 4,
+    "reviewCount": 17,
     "shortDescription": "Wdn Bowl Sq 14cm available at Koekeloer Gift & Décor Shop in Gansbaai.",
     "description": "Authentic Wdn Bowl Sq 14cm from Koekeloer Geskenkwinkel & Décor, Shop 2, Great White Junction, Gansbaai. Curated with care for beautiful home living.",
     "features": [
@@ -13790,7 +13790,7 @@ export const products: Product[] = [
       "Nationwide courier delivery across South Africa"
     ],
     "stockStatus": "in_stock",
-    "stockCount": 6,
+    "stockCount": 9,
     "images": [
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2F1363ae53-53d6-4e61-b873-ccc4687d07a8.jpg?alt=media",
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Fthumb_280_1363ae53-53d6-4e61-b873-ccc4687d07a8.jpg?alt=media"
@@ -13814,7 +13814,7 @@ export const products: Product[] = [
     "price": 540,
     "originalPrice": 621,
     "rating": 5,
-    "reviewCount": 7,
+    "reviewCount": 5,
     "shortDescription": "Wdn Bowl Tortoise 20cm available at Koekeloer Gift & Décor Shop in Gansbaai.",
     "description": "Authentic Wdn Bowl Tortoise 20cm from Koekeloer Geskenkwinkel & Décor, Shop 2, Great White Junction, Gansbaai. Curated with care for beautiful home living.",
     "features": [
@@ -13824,7 +13824,7 @@ export const products: Product[] = [
       "Nationwide courier delivery across South Africa"
     ],
     "stockStatus": "in_stock",
-    "stockCount": 2,
+    "stockCount": 3,
     "images": [
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Fe35c26af-4f72-42a8-87c1-d804374aa5b3.jpg?alt=media",
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Fthumb_280_e35c26af-4f72-42a8-87c1-d804374aa5b3.jpg?alt=media"
@@ -13848,7 +13848,7 @@ export const products: Product[] = [
     "price": 4500,
     "originalPrice": 5175,
     "rating": 5,
-    "reviewCount": 10,
+    "reviewCount": 11,
     "shortDescription": "Floor Lamp 150cm Mosaic available at Koekeloer Gift & Décor Shop in Gansbaai.",
     "description": "Authentic Floor Lamp 150cm Mosaic from Koekeloer Geskenkwinkel & Décor, Shop 2, Great White Junction, Gansbaai. Curated with care for beautiful home living.",
     "features": [
@@ -13858,7 +13858,7 @@ export const products: Product[] = [
       "Nationwide courier delivery across South Africa"
     ],
     "stockStatus": "in_stock",
-    "stockCount": 8,
+    "stockCount": 9,
     "images": [
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Fb2cf7638-6000-4da9-b7ca-8de50613299a.jpg?alt=media",
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Fthumb_280_b2cf7638-6000-4da9-b7ca-8de50613299a.jpg?alt=media"
@@ -13882,7 +13882,7 @@ export const products: Product[] = [
     "price": 730,
     "originalPrice": 839,
     "rating": 5,
-    "reviewCount": 11,
+    "reviewCount": 4,
     "shortDescription": "Lamp 30cm Mosaic available at Koekeloer Gift & Décor Shop in Gansbaai.",
     "description": "Authentic Lamp 30cm Mosaic from Koekeloer Geskenkwinkel & Décor, Shop 2, Great White Junction, Gansbaai. Curated with care for beautiful home living.",
     "features": [
@@ -13892,7 +13892,7 @@ export const products: Product[] = [
       "Nationwide courier delivery across South Africa"
     ],
     "stockStatus": "in_stock",
-    "stockCount": 6,
+    "stockCount": 2,
     "images": [
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2F63652bf5-6010-4885-b358-57700fff6391.jpg?alt=media",
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Fthumb_280_63652bf5-6010-4885-b358-57700fff6391.jpg?alt=media"
@@ -13916,7 +13916,7 @@ export const products: Product[] = [
     "price": 1500,
     "originalPrice": 1725,
     "rating": 5,
-    "reviewCount": 17,
+    "reviewCount": 13,
     "shortDescription": "Lamp 35cm Mosaic available at Koekeloer Gift & Décor Shop in Gansbaai.",
     "description": "Authentic Lamp 35cm Mosaic from Koekeloer Geskenkwinkel & Décor, Shop 2, Great White Junction, Gansbaai. Curated with care for beautiful home living.",
     "features": [
@@ -13926,7 +13926,7 @@ export const products: Product[] = [
       "Nationwide courier delivery across South Africa"
     ],
     "stockStatus": "in_stock",
-    "stockCount": 7,
+    "stockCount": 6,
     "images": [
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Fc682c058-40b8-42e8-83d6-a81dd8a73996.jpg?alt=media",
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Fthumb_280_c682c058-40b8-42e8-83d6-a81dd8a73996.jpg?alt=media"
@@ -13950,7 +13950,7 @@ export const products: Product[] = [
     "price": 2800,
     "originalPrice": 3220,
     "rating": 5,
-    "reviewCount": 8,
+    "reviewCount": 4,
     "shortDescription": "Lamp 45cm Mosaic available at Koekeloer Gift & Décor Shop in Gansbaai.",
     "description": "Authentic Lamp 45cm Mosaic from Koekeloer Geskenkwinkel & Décor, Shop 2, Great White Junction, Gansbaai. Curated with care for beautiful home living.",
     "features": [
@@ -13960,7 +13960,7 @@ export const products: Product[] = [
       "Nationwide courier delivery across South Africa"
     ],
     "stockStatus": "in_stock",
-    "stockCount": 4,
+    "stockCount": 8,
     "images": [
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2F1e07ff23-b61a-486c-8dde-4eec413531ca.jpg?alt=media",
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Fthumb_280_1e07ff23-b61a-486c-8dde-4eec413531ca.jpg?alt=media"
@@ -13984,7 +13984,7 @@ export const products: Product[] = [
     "price": 640,
     "originalPrice": 736,
     "rating": 5,
-    "reviewCount": 9,
+    "reviewCount": 4,
     "shortDescription": "Lamp Bamboo 25cm available at Koekeloer Gift & Décor Shop in Gansbaai.",
     "description": "Authentic Lamp Bamboo 25cm from Koekeloer Geskenkwinkel & Décor, Shop 2, Great White Junction, Gansbaai. Curated with care for beautiful home living.",
     "features": [
@@ -13994,7 +13994,7 @@ export const products: Product[] = [
       "Nationwide courier delivery across South Africa"
     ],
     "stockStatus": "in_stock",
-    "stockCount": 4,
+    "stockCount": 9,
     "images": [
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2F73d41dbd-633c-477d-9983-a28e1f681a1c.jpg?alt=media",
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Fthumb_280_73d41dbd-633c-477d-9983-a28e1f681a1c.jpg?alt=media"
@@ -14018,7 +14018,7 @@ export const products: Product[] = [
     "price": 790,
     "originalPrice": 908,
     "rating": 5,
-    "reviewCount": 13,
+    "reviewCount": 6,
     "shortDescription": "Lamp Bamboo 35cm available at Koekeloer Gift & Décor Shop in Gansbaai.",
     "description": "Authentic Lamp Bamboo 35cm from Koekeloer Geskenkwinkel & Décor, Shop 2, Great White Junction, Gansbaai. Curated with care for beautiful home living.",
     "features": [
@@ -14028,7 +14028,7 @@ export const products: Product[] = [
       "Nationwide courier delivery across South Africa"
     ],
     "stockStatus": "in_stock",
-    "stockCount": 4,
+    "stockCount": 8,
     "images": [
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Fa66f9919-8709-4f51-9086-572535502fb0.jpg?alt=media",
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Fthumb_280_a66f9919-8709-4f51-9086-572535502fb0.jpg?alt=media"
@@ -14062,7 +14062,7 @@ export const products: Product[] = [
       "Nationwide courier delivery across South Africa"
     ],
     "stockStatus": "in_stock",
-    "stockCount": 6,
+    "stockCount": 2,
     "images": [
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2F59476259-ebb1-4207-b99c-0dca02681d54.jpg?alt=media",
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Fthumb_280_59476259-ebb1-4207-b99c-0dca02681d54.jpg?alt=media"
@@ -14086,7 +14086,7 @@ export const products: Product[] = [
     "price": 2300,
     "originalPrice": 2645,
     "rating": 5,
-    "reviewCount": 15,
+    "reviewCount": 17,
     "shortDescription": "Lamp Bamboo 55cm available at Koekeloer Gift & Décor Shop in Gansbaai.",
     "description": "Authentic Lamp Bamboo 55cm from Koekeloer Geskenkwinkel & Décor, Shop 2, Great White Junction, Gansbaai. Curated with care for beautiful home living.",
     "features": [
@@ -14096,7 +14096,7 @@ export const products: Product[] = [
       "Nationwide courier delivery across South Africa"
     ],
     "stockStatus": "in_stock",
-    "stockCount": 9,
+    "stockCount": 3,
     "images": [
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2F7cae25f4-e6fa-4547-9878-a3392202e26d.jpg?alt=media",
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Fthumb_280_7cae25f4-e6fa-4547-9878-a3392202e26d.jpg?alt=media"
@@ -14120,7 +14120,7 @@ export const products: Product[] = [
     "price": 960,
     "originalPrice": 1104,
     "rating": 5,
-    "reviewCount": 8,
+    "reviewCount": 14,
     "shortDescription": "Lamp Hanging Grey Iron with Mango Wood Finish 30cm available at Koekeloer Gift & Décor Shop in Gansbaai.",
     "description": "Authentic Lamp Hanging Grey Iron with Mango Wood Finish 30cm from Koekeloer Geskenkwinkel & Décor, Shop 2, Great White Junction, Gansbaai. Curated with care for beautiful home living.",
     "features": [
@@ -14130,7 +14130,7 @@ export const products: Product[] = [
       "Nationwide courier delivery across South Africa"
     ],
     "stockStatus": "in_stock",
-    "stockCount": 6,
+    "stockCount": 7,
     "images": [
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2F20d2997a-ef1f-4c6f-94d1-df83ddb5a387.jpg?alt=media",
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2F20d2997a-ef1f-4c6f-94d1-df83ddb5a387.jpg?alt=media"
@@ -14154,7 +14154,7 @@ export const products: Product[] = [
     "price": 1800,
     "originalPrice": 2070,
     "rating": 5,
-    "reviewCount": 17,
+    "reviewCount": 13,
     "shortDescription": "Lamp Hanging Grey Powder Coated Iron 41cm available at Koekeloer Gift & Décor Shop in Gansbaai.",
     "description": "Authentic Lamp Hanging Grey Powder Coated Iron 41cm from Koekeloer Geskenkwinkel & Décor, Shop 2, Great White Junction, Gansbaai. Curated with care for beautiful home living.",
     "features": [
@@ -14164,7 +14164,7 @@ export const products: Product[] = [
       "Nationwide courier delivery across South Africa"
     ],
     "stockStatus": "in_stock",
-    "stockCount": 2,
+    "stockCount": 9,
     "images": [
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Fd645bf13-50f9-4aa9-9a6f-1032e5a29665.jpg?alt=media",
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Fd645bf13-50f9-4aa9-9a6f-1032e5a29665.jpg?alt=media"
@@ -14188,7 +14188,7 @@ export const products: Product[] = [
     "price": 960,
     "originalPrice": 1104,
     "rating": 5,
-    "reviewCount": 13,
+    "reviewCount": 15,
     "shortDescription": "Lamp Hanging White Iron with Mango Wood Finish 30cm available at Koekeloer Gift & Décor Shop in Gansbaai.",
     "description": "Authentic Lamp Hanging White Iron with Mango Wood Finish 30cm from Koekeloer Geskenkwinkel & Décor, Shop 2, Great White Junction, Gansbaai. Curated with care for beautiful home living.",
     "features": [
@@ -14198,7 +14198,7 @@ export const products: Product[] = [
       "Nationwide courier delivery across South Africa"
     ],
     "stockStatus": "in_stock",
-    "stockCount": 9,
+    "stockCount": 7,
     "images": [
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Fa3b3bd79-9cca-4443-9d45-227fb4c248fa.jpg?alt=media",
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Fa3b3bd79-9cca-4443-9d45-227fb4c248fa.jpg?alt=media"
@@ -14222,7 +14222,7 @@ export const products: Product[] = [
     "price": 830,
     "originalPrice": 954,
     "rating": 5,
-    "reviewCount": 5,
+    "reviewCount": 7,
     "shortDescription": "Lamp Rattan available at Koekeloer Gift & Décor Shop in Gansbaai.",
     "description": "Authentic Lamp Rattan from Koekeloer Geskenkwinkel & Décor, Shop 2, Great White Junction, Gansbaai. Curated with care for beautiful home living.",
     "features": [
@@ -14232,7 +14232,7 @@ export const products: Product[] = [
       "Nationwide courier delivery across South Africa"
     ],
     "stockStatus": "in_stock",
-    "stockCount": 9,
+    "stockCount": 2,
     "images": [
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2F1c2a0624-7a05-47b2-9998-a2f8836825df.jpg?alt=media",
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Fthumb_280_1c2a0624-7a05-47b2-9998-a2f8836825df.jpg?alt=media"
@@ -14256,7 +14256,7 @@ export const products: Product[] = [
     "price": 2900,
     "originalPrice": 3335,
     "rating": 5,
-    "reviewCount": 7,
+    "reviewCount": 16,
     "shortDescription": "Lamp Resin 2 Ball 74cm available at Koekeloer Gift & Décor Shop in Gansbaai.",
     "description": "Authentic Lamp Resin 2 Ball 74cm from Koekeloer Geskenkwinkel & Décor, Shop 2, Great White Junction, Gansbaai. Curated with care for beautiful home living.",
     "features": [
@@ -14266,7 +14266,7 @@ export const products: Product[] = [
       "Nationwide courier delivery across South Africa"
     ],
     "stockStatus": "in_stock",
-    "stockCount": 6,
+    "stockCount": 4,
     "images": [
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2F2a554315-32ae-4731-a6be-e7810ce8c281.jpg?alt=media",
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Fthumb_280_2a554315-32ae-4731-a6be-e7810ce8c281.jpg?alt=media"
@@ -14290,7 +14290,7 @@ export const products: Product[] = [
     "price": 920,
     "originalPrice": 1058,
     "rating": 5,
-    "reviewCount": 5,
+    "reviewCount": 9,
     "shortDescription": "Lamp Resin 45cm available at Koekeloer Gift & Décor Shop in Gansbaai.",
     "description": "Authentic Lamp Resin 45cm from Koekeloer Geskenkwinkel & Décor, Shop 2, Great White Junction, Gansbaai. Curated with care for beautiful home living.",
     "features": [
@@ -14300,7 +14300,7 @@ export const products: Product[] = [
       "Nationwide courier delivery across South Africa"
     ],
     "stockStatus": "in_stock",
-    "stockCount": 7,
+    "stockCount": 8,
     "images": [
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2F7c47d149-e598-41b9-a810-8279e0fd98fb.jpg?alt=media",
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Fthumb_280_7c47d149-e598-41b9-a810-8279e0fd98fb.jpg?alt=media"
@@ -14324,7 +14324,7 @@ export const products: Product[] = [
     "price": 1900,
     "originalPrice": 2185,
     "rating": 5,
-    "reviewCount": 17,
+    "reviewCount": 8,
     "shortDescription": "Lamp Resin 80cm available at Koekeloer Gift & Décor Shop in Gansbaai.",
     "description": "Authentic Lamp Resin 80cm from Koekeloer Geskenkwinkel & Décor, Shop 2, Great White Junction, Gansbaai. Curated with care for beautiful home living.",
     "features": [
@@ -14334,7 +14334,7 @@ export const products: Product[] = [
       "Nationwide courier delivery across South Africa"
     ],
     "stockStatus": "in_stock",
-    "stockCount": 2,
+    "stockCount": 7,
     "images": [
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Ffc26e157-4cbe-4d2f-a917-9a9bc2d2b318.jpg?alt=media",
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Fthumb_280_fc26e157-4cbe-4d2f-a917-9a9bc2d2b318.jpg?alt=media"
@@ -14358,7 +14358,7 @@ export const products: Product[] = [
     "price": 2500,
     "originalPrice": 2875,
     "rating": 5,
-    "reviewCount": 6,
+    "reviewCount": 9,
     "shortDescription": "Lamp Resin 80cm available at Koekeloer Gift & Décor Shop in Gansbaai.",
     "description": "Authentic Lamp Resin 80cm from Koekeloer Geskenkwinkel & Décor, Shop 2, Great White Junction, Gansbaai. Curated with care for beautiful home living.",
     "features": [
@@ -14368,7 +14368,7 @@ export const products: Product[] = [
       "Nationwide courier delivery across South Africa"
     ],
     "stockStatus": "in_stock",
-    "stockCount": 6,
+    "stockCount": 7,
     "images": [
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Ffe2acfbd-8870-4738-9bba-934e46640aa7.jpg?alt=media",
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Fthumb_280_fe2acfbd-8870-4738-9bba-934e46640aa7.jpg?alt=media"
@@ -14392,7 +14392,7 @@ export const products: Product[] = [
     "price": 2200,
     "originalPrice": 2530,
     "rating": 5,
-    "reviewCount": 17,
+    "reviewCount": 10,
     "shortDescription": "Lamp Resin Oval 55cm available at Koekeloer Gift & Décor Shop in Gansbaai.",
     "description": "Authentic Lamp Resin Oval 55cm from Koekeloer Geskenkwinkel & Décor, Shop 2, Great White Junction, Gansbaai. Curated with care for beautiful home living.",
     "features": [
@@ -14402,7 +14402,7 @@ export const products: Product[] = [
       "Nationwide courier delivery across South Africa"
     ],
     "stockStatus": "in_stock",
-    "stockCount": 3,
+    "stockCount": 8,
     "images": [
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2F901c8d07-071d-452d-b567-72b3fd8cdfbf.jpg?alt=media",
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Fthumb_280_901c8d07-071d-452d-b567-72b3fd8cdfbf.jpg?alt=media"
@@ -14436,7 +14436,7 @@ export const products: Product[] = [
       "Nationwide courier delivery across South Africa"
     ],
     "stockStatus": "in_stock",
-    "stockCount": 6,
+    "stockCount": 2,
     "images": [
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2F89b592da-a3db-4ceb-b399-6309d49a0a26.jpg?alt=media",
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Fthumb_280_89b592da-a3db-4ceb-b399-6309d49a0a26.jpg?alt=media"
@@ -14460,7 +14460,7 @@ export const products: Product[] = [
     "price": 600,
     "originalPrice": 690,
     "rating": 5,
-    "reviewCount": 8,
+    "reviewCount": 12,
     "shortDescription": "Lamp Resin Sml available at Koekeloer Gift & Décor Shop in Gansbaai.",
     "description": "Authentic Lamp Resin Sml from Koekeloer Geskenkwinkel & Décor, Shop 2, Great White Junction, Gansbaai. Curated with care for beautiful home living.",
     "features": [
@@ -14470,7 +14470,7 @@ export const products: Product[] = [
       "Nationwide courier delivery across South Africa"
     ],
     "stockStatus": "in_stock",
-    "stockCount": 6,
+    "stockCount": 4,
     "images": [
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2F9e2a15bc-ec8e-4b5e-8302-8d1990db5b70.jpg?alt=media",
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Fthumb_280_9e2a15bc-ec8e-4b5e-8302-8d1990db5b70.jpg?alt=media"
@@ -14494,7 +14494,7 @@ export const products: Product[] = [
     "price": 520,
     "originalPrice": 598,
     "rating": 5,
-    "reviewCount": 17,
+    "reviewCount": 8,
     "shortDescription": "Lamp Shade Ceiling (LIMITED STOCK) available at Koekeloer Gift & Décor Shop in Gansbaai.",
     "description": "Authentic Lamp Shade Ceiling (LIMITED STOCK) from Koekeloer Geskenkwinkel & Décor, Shop 2, Great White Junction, Gansbaai. Curated with care for beautiful home living.",
     "features": [
@@ -14504,7 +14504,7 @@ export const products: Product[] = [
       "Nationwide courier delivery across South Africa"
     ],
     "stockStatus": "in_stock",
-    "stockCount": 8,
+    "stockCount": 9,
     "images": [
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2F83b843c5-3e04-40a1-a5e4-9c2ca1df51e2.jpg?alt=media",
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Fthumb_280_83b843c5-3e04-40a1-a5e4-9c2ca1df51e2.jpg?alt=media"
@@ -14528,7 +14528,7 @@ export const products: Product[] = [
     "price": 1100,
     "originalPrice": 1265,
     "rating": 5,
-    "reviewCount": 9,
+    "reviewCount": 7,
     "shortDescription": "Lamp Shade Rattan Natural available at Koekeloer Gift & Décor Shop in Gansbaai.",
     "description": "Authentic Lamp Shade Rattan Natural from Koekeloer Geskenkwinkel & Décor, Shop 2, Great White Junction, Gansbaai. Curated with care for beautiful home living.",
     "features": [
@@ -14538,7 +14538,7 @@ export const products: Product[] = [
       "Nationwide courier delivery across South Africa"
     ],
     "stockStatus": "in_stock",
-    "stockCount": 2,
+    "stockCount": 7,
     "images": [
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Fd01b9cf9-c6d6-4b17-bbb2-ac43e3d37448.jpg?alt=media",
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Fthumb_280_d01b9cf9-c6d6-4b17-bbb2-ac43e3d37448.jpg?alt=media"
@@ -14562,7 +14562,7 @@ export const products: Product[] = [
     "price": 2500,
     "originalPrice": 2875,
     "rating": 5,
-    "reviewCount": 13,
+    "reviewCount": 8,
     "shortDescription": "Lamp Turin Pendant available at Koekeloer Gift & Décor Shop in Gansbaai.",
     "description": "Authentic Lamp Turin Pendant from Koekeloer Geskenkwinkel & Décor, Shop 2, Great White Junction, Gansbaai. Curated with care for beautiful home living.",
     "features": [
@@ -14572,7 +14572,7 @@ export const products: Product[] = [
       "Nationwide courier delivery across South Africa"
     ],
     "stockStatus": "in_stock",
-    "stockCount": 3,
+    "stockCount": 9,
     "images": [
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2F826314b7-f00d-4cb2-a902-3c2ed4cabd63.jpg?alt=media",
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Fthumb_280_826314b7-f00d-4cb2-a902-3c2ed4cabd63.jpg?alt=media"
@@ -14596,7 +14596,7 @@ export const products: Product[] = [
     "price": 615,
     "originalPrice": 707,
     "rating": 5,
-    "reviewCount": 15,
+    "reviewCount": 13,
     "shortDescription": "Lampshade 25x20x30cm available at Koekeloer Gift & Décor Shop in Gansbaai.",
     "description": "Authentic Lampshade 25x20x30cm from Koekeloer Geskenkwinkel & Décor, Shop 2, Great White Junction, Gansbaai. Curated with care for beautiful home living.",
     "features": [
@@ -14606,7 +14606,7 @@ export const products: Product[] = [
       "Nationwide courier delivery across South Africa"
     ],
     "stockStatus": "in_stock",
-    "stockCount": 7,
+    "stockCount": 4,
     "images": [
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2F9e23abfb-8578-4e92-a699-09d4af679ed9.jpg?alt=media",
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Fthumb_280_9e23abfb-8578-4e92-a699-09d4af679ed9.jpg?alt=media"
@@ -14640,7 +14640,7 @@ export const products: Product[] = [
       "Nationwide courier delivery across South Africa"
     ],
     "stockStatus": "in_stock",
-    "stockCount": 2,
+    "stockCount": 8,
     "images": [
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2F1e841e0b-9567-4552-a5c1-7c900855ef9e.jpg?alt=media",
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Fthumb_280_1e841e0b-9567-4552-a5c1-7c900855ef9e.jpg?alt=media"
@@ -14664,7 +14664,7 @@ export const products: Product[] = [
     "price": 615,
     "originalPrice": 707,
     "rating": 5,
-    "reviewCount": 6,
+    "reviewCount": 14,
     "shortDescription": "Lampshade 25x30x20cm available at Koekeloer Gift & Décor Shop in Gansbaai.",
     "description": "Authentic Lampshade 25x30x20cm from Koekeloer Geskenkwinkel & Décor, Shop 2, Great White Junction, Gansbaai. Curated with care for beautiful home living.",
     "features": [
@@ -14674,7 +14674,7 @@ export const products: Product[] = [
       "Nationwide courier delivery across South Africa"
     ],
     "stockStatus": "in_stock",
-    "stockCount": 8,
+    "stockCount": 3,
     "images": [
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Fdb007441-4b67-4718-9825-4911162dbe5f.jpg?alt=media",
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Fthumb_280_db007441-4b67-4718-9825-4911162dbe5f.jpg?alt=media"
@@ -14698,7 +14698,7 @@ export const products: Product[] = [
     "price": 750,
     "originalPrice": 862,
     "rating": 5,
-    "reviewCount": 5,
+    "reviewCount": 15,
     "shortDescription": "Lampshade 30x30cm available at Koekeloer Gift & Décor Shop in Gansbaai.",
     "description": "Authentic Lampshade 30x30cm from Koekeloer Geskenkwinkel & Décor, Shop 2, Great White Junction, Gansbaai. Curated with care for beautiful home living.",
     "features": [
@@ -14708,7 +14708,7 @@ export const products: Product[] = [
       "Nationwide courier delivery across South Africa"
     ],
     "stockStatus": "in_stock",
-    "stockCount": 4,
+    "stockCount": 7,
     "images": [
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2F0ddf318e-e6b7-4b8f-9919-029b3782ff22.jpg?alt=media",
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Fthumb_280_0ddf318e-e6b7-4b8f-9919-029b3782ff22.jpg?alt=media"
@@ -14732,7 +14732,7 @@ export const products: Product[] = [
     "price": 425,
     "originalPrice": 489,
     "rating": 5,
-    "reviewCount": 3,
+    "reviewCount": 11,
     "shortDescription": "Lampshade 35cm beige available at Koekeloer Gift & Décor Shop in Gansbaai.",
     "description": "Authentic Lampshade 35cm beige from Koekeloer Geskenkwinkel & Décor, Shop 2, Great White Junction, Gansbaai. Curated with care for beautiful home living.",
     "features": [
@@ -14742,7 +14742,7 @@ export const products: Product[] = [
       "Nationwide courier delivery across South Africa"
     ],
     "stockStatus": "in_stock",
-    "stockCount": 6,
+    "stockCount": 5,
     "images": [
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2F3404a133-78c4-4a94-ae1d-8ce09b8f1364.jpg?alt=media",
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Fthumb_280_3404a133-78c4-4a94-ae1d-8ce09b8f1364.jpg?alt=media"
@@ -14766,7 +14766,7 @@ export const products: Product[] = [
     "price": 859,
     "originalPrice": 988,
     "rating": 5,
-    "reviewCount": 17,
+    "reviewCount": 8,
     "shortDescription": "Lampshade 40x24x35cm available at Koekeloer Gift & Décor Shop in Gansbaai.",
     "description": "Authentic Lampshade 40x24x35cm from Koekeloer Geskenkwinkel & Décor, Shop 2, Great White Junction, Gansbaai. Curated with care for beautiful home living.",
     "features": [
@@ -14776,7 +14776,7 @@ export const products: Product[] = [
       "Nationwide courier delivery across South Africa"
     ],
     "stockStatus": "in_stock",
-    "stockCount": 8,
+    "stockCount": 4,
     "images": [
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Fa86b1463-a9a6-4bad-bec0-e637186fd5ff.jpg?alt=media",
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Fthumb_280_a86b1463-a9a6-4bad-bec0-e637186fd5ff.jpg?alt=media"
@@ -14800,7 +14800,7 @@ export const products: Product[] = [
     "price": 1800,
     "originalPrice": 2070,
     "rating": 5,
-    "reviewCount": 12,
+    "reviewCount": 7,
     "shortDescription": "Lampshade 45x23x30cm available at Koekeloer Gift & Décor Shop in Gansbaai.",
     "description": "Authentic Lampshade 45x23x30cm from Koekeloer Geskenkwinkel & Décor, Shop 2, Great White Junction, Gansbaai. Curated with care for beautiful home living.",
     "features": [
@@ -14834,7 +14834,7 @@ export const products: Product[] = [
     "price": 299,
     "originalPrice": 344,
     "rating": 5,
-    "reviewCount": 4,
+    "reviewCount": 11,
     "shortDescription": "Lampshade Black T17xH24xB34cm available at Koekeloer Gift & Décor Shop in Gansbaai.",
     "description": "Authentic Lampshade Black T17xH24xB34cm from Koekeloer Geskenkwinkel & Décor, Shop 2, Great White Junction, Gansbaai. Curated with care for beautiful home living.",
     "features": [
@@ -14844,7 +14844,7 @@ export const products: Product[] = [
       "Nationwide courier delivery across South Africa"
     ],
     "stockStatus": "in_stock",
-    "stockCount": 2,
+    "stockCount": 5,
     "images": [
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Fba349ad6-6f9b-4d50-8d37-f7f501487007.jpg?alt=media",
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Fthumb_280_ba349ad6-6f9b-4d50-8d37-f7f501487007.jpg?alt=media"
@@ -14868,7 +14868,7 @@ export const products: Product[] = [
     "price": 1200,
     "originalPrice": 1380,
     "rating": 5,
-    "reviewCount": 8,
+    "reviewCount": 7,
     "shortDescription": "Lampshade Cone 50cm available at Koekeloer Gift & Décor Shop in Gansbaai.",
     "description": "Authentic Lampshade Cone 50cm from Koekeloer Geskenkwinkel & Décor, Shop 2, Great White Junction, Gansbaai. Curated with care for beautiful home living.",
     "features": [
@@ -14878,7 +14878,7 @@ export const products: Product[] = [
       "Nationwide courier delivery across South Africa"
     ],
     "stockStatus": "in_stock",
-    "stockCount": 3,
+    "stockCount": 2,
     "images": [
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2F225004df-3e6f-4f41-9ba8-eb8c82df9754.jpg?alt=media",
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Fthumb_280_225004df-3e6f-4f41-9ba8-eb8c82df9754.jpg?alt=media"
@@ -14902,7 +14902,7 @@ export const products: Product[] = [
     "price": 299,
     "originalPrice": 344,
     "rating": 5,
-    "reviewCount": 13,
+    "reviewCount": 16,
     "shortDescription": "Lampshade Cream T17xH24xB34cm available at Koekeloer Gift & Décor Shop in Gansbaai.",
     "description": "Authentic Lampshade Cream T17xH24xB34cm from Koekeloer Geskenkwinkel & Décor, Shop 2, Great White Junction, Gansbaai. Curated with care for beautiful home living.",
     "features": [
@@ -14936,7 +14936,7 @@ export const products: Product[] = [
     "price": 530,
     "originalPrice": 610,
     "rating": 5,
-    "reviewCount": 4,
+    "reviewCount": 16,
     "shortDescription": "Lampshade dark Grey 40cm available at Koekeloer Gift & Décor Shop in Gansbaai.",
     "description": "Authentic Lampshade dark Grey 40cm from Koekeloer Geskenkwinkel & Décor, Shop 2, Great White Junction, Gansbaai. Curated with care for beautiful home living.",
     "features": [
@@ -14946,7 +14946,7 @@ export const products: Product[] = [
       "Nationwide courier delivery across South Africa"
     ],
     "stockStatus": "in_stock",
-    "stockCount": 6,
+    "stockCount": 7,
     "images": [
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2F06507580-77ac-4891-aa97-dbe84b2e80f3.jpg?alt=media",
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Fthumb_280_06507580-77ac-4891-aa97-dbe84b2e80f3.jpg?alt=media"
@@ -14970,7 +14970,7 @@ export const products: Product[] = [
     "price": 990,
     "originalPrice": 1139,
     "rating": 5,
-    "reviewCount": 14,
+    "reviewCount": 4,
     "shortDescription": "Lampshade L40cm available at Koekeloer Gift & Décor Shop in Gansbaai.",
     "description": "Authentic Lampshade L40cm from Koekeloer Geskenkwinkel & Décor, Shop 2, Great White Junction, Gansbaai. Curated with care for beautiful home living.",
     "features": [
@@ -14980,7 +14980,7 @@ export const products: Product[] = [
       "Nationwide courier delivery across South Africa"
     ],
     "stockStatus": "in_stock",
-    "stockCount": 5,
+    "stockCount": 6,
     "images": [
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Ffe27d947-668f-4e05-a132-18e61fe0e860.jpg?alt=media",
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Fthumb_280_fe27d947-668f-4e05-a132-18e61fe0e860.jpg?alt=media"
@@ -15004,7 +15004,7 @@ export const products: Product[] = [
     "price": 1999,
     "originalPrice": 2299,
     "rating": 5,
-    "reviewCount": 7,
+    "reviewCount": 10,
     "shortDescription": "Lampshade Oval Vogue 30x45x30cm available at Koekeloer Gift & Décor Shop in Gansbaai.",
     "description": "Authentic Lampshade Oval Vogue 30x45x30cm from Koekeloer Geskenkwinkel & Décor, Shop 2, Great White Junction, Gansbaai. Curated with care for beautiful home living.",
     "features": [
@@ -15038,7 +15038,7 @@ export const products: Product[] = [
     "price": 440,
     "originalPrice": 506,
     "rating": 5,
-    "reviewCount": 6,
+    "reviewCount": 8,
     "shortDescription": "Lampshade Rattan 30cm available at Koekeloer Gift & Décor Shop in Gansbaai.",
     "description": "Authentic Lampshade Rattan 30cm from Koekeloer Geskenkwinkel & Décor, Shop 2, Great White Junction, Gansbaai. Curated with care for beautiful home living.",
     "features": [
@@ -15048,7 +15048,7 @@ export const products: Product[] = [
       "Nationwide courier delivery across South Africa"
     ],
     "stockStatus": "in_stock",
-    "stockCount": 8,
+    "stockCount": 2,
     "images": [
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2F3f2c4d3d-469d-4b0a-94bc-faa0f0b5201a.jpg?alt=media",
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Fthumb_280_3f2c4d3d-469d-4b0a-94bc-faa0f0b5201a.jpg?alt=media"
@@ -15072,7 +15072,7 @@ export const products: Product[] = [
     "price": 999,
     "originalPrice": 1149,
     "rating": 5,
-    "reviewCount": 6,
+    "reviewCount": 13,
     "shortDescription": "Lampshade Rattan 33cm available at Koekeloer Gift & Décor Shop in Gansbaai.",
     "description": "Authentic Lampshade Rattan 33cm from Koekeloer Geskenkwinkel & Décor, Shop 2, Great White Junction, Gansbaai. Curated with care for beautiful home living.",
     "features": [
@@ -15082,7 +15082,7 @@ export const products: Product[] = [
       "Nationwide courier delivery across South Africa"
     ],
     "stockStatus": "in_stock",
-    "stockCount": 9,
+    "stockCount": 3,
     "images": [
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2F7c6e258b-58ed-43e5-adff-bac447faf4b0.jpg?alt=media",
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Fthumb_280_7c6e258b-58ed-43e5-adff-bac447faf4b0.jpg?alt=media"
@@ -15106,7 +15106,7 @@ export const products: Product[] = [
     "price": 1360,
     "originalPrice": 1564,
     "rating": 5,
-    "reviewCount": 17,
+    "reviewCount": 11,
     "shortDescription": "Lampshade Rattan 35cm black available at Koekeloer Gift & Décor Shop in Gansbaai.",
     "description": "Authentic Lampshade Rattan 35cm black from Koekeloer Geskenkwinkel & Décor, Shop 2, Great White Junction, Gansbaai. Curated with care for beautiful home living.",
     "features": [
@@ -15116,7 +15116,7 @@ export const products: Product[] = [
       "Nationwide courier delivery across South Africa"
     ],
     "stockStatus": "in_stock",
-    "stockCount": 8,
+    "stockCount": 3,
     "images": [
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2F244cbd59-3bcc-4aef-b9fc-503e48a524fb.jpg?alt=media",
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Fthumb_280_244cbd59-3bcc-4aef-b9fc-503e48a524fb.jpg?alt=media"
@@ -15140,7 +15140,7 @@ export const products: Product[] = [
     "price": 1300,
     "originalPrice": 1495,
     "rating": 5,
-    "reviewCount": 3,
+    "reviewCount": 8,
     "shortDescription": "Lampshade Rattan 50cm available at Koekeloer Gift & Décor Shop in Gansbaai.",
     "description": "Authentic Lampshade Rattan 50cm from Koekeloer Geskenkwinkel & Décor, Shop 2, Great White Junction, Gansbaai. Curated with care for beautiful home living.",
     "features": [
@@ -15150,7 +15150,7 @@ export const products: Product[] = [
       "Nationwide courier delivery across South Africa"
     ],
     "stockStatus": "in_stock",
-    "stockCount": 7,
+    "stockCount": 3,
     "images": [
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2F9841dc2a-55ce-4bc4-8fa0-f0860ab73f17.jpg?alt=media",
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Fthumb_280_9841dc2a-55ce-4bc4-8fa0-f0860ab73f17.jpg?alt=media"
@@ -15174,7 +15174,7 @@ export const products: Product[] = [
     "price": 1490,
     "originalPrice": 1713,
     "rating": 5,
-    "reviewCount": 6,
+    "reviewCount": 11,
     "shortDescription": "Lampshade Rattan 70cm available at Koekeloer Gift & Décor Shop in Gansbaai.",
     "description": "Authentic Lampshade Rattan 70cm from Koekeloer Geskenkwinkel & Décor, Shop 2, Great White Junction, Gansbaai. Curated with care for beautiful home living.",
     "features": [
@@ -15184,7 +15184,7 @@ export const products: Product[] = [
       "Nationwide courier delivery across South Africa"
     ],
     "stockStatus": "in_stock",
-    "stockCount": 6,
+    "stockCount": 5,
     "images": [
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2F24546f9a-8b99-4bc5-95e4-0fdd401361db.jpg?alt=media",
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Fthumb_280_24546f9a-8b99-4bc5-95e4-0fdd401361db.jpg?alt=media"
@@ -15208,7 +15208,7 @@ export const products: Product[] = [
     "price": 1300,
     "originalPrice": 1495,
     "rating": 5,
-    "reviewCount": 10,
+    "reviewCount": 12,
     "shortDescription": "Lampshade Rattan 70cm available at Koekeloer Gift & Décor Shop in Gansbaai.",
     "description": "Authentic Lampshade Rattan 70cm from Koekeloer Geskenkwinkel & Décor, Shop 2, Great White Junction, Gansbaai. Curated with care for beautiful home living.",
     "features": [
@@ -15218,7 +15218,7 @@ export const products: Product[] = [
       "Nationwide courier delivery across South Africa"
     ],
     "stockStatus": "in_stock",
-    "stockCount": 3,
+    "stockCount": 5,
     "images": [
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2F35a164b7-6732-4e52-9d51-326435bec2cc.jpg?alt=media",
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Fthumb_280_35a164b7-6732-4e52-9d51-326435bec2cc.jpg?alt=media"
@@ -15242,7 +15242,7 @@ export const products: Product[] = [
     "price": 2900,
     "originalPrice": 3335,
     "rating": 5,
-    "reviewCount": 8,
+    "reviewCount": 10,
     "shortDescription": "Lampshade Rattan 75cm available at Koekeloer Gift & Décor Shop in Gansbaai.",
     "description": "Authentic Lampshade Rattan 75cm from Koekeloer Geskenkwinkel & Décor, Shop 2, Great White Junction, Gansbaai. Curated with care for beautiful home living.",
     "features": [
@@ -15252,7 +15252,7 @@ export const products: Product[] = [
       "Nationwide courier delivery across South Africa"
     ],
     "stockStatus": "in_stock",
-    "stockCount": 9,
+    "stockCount": 8,
     "images": [
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2F9b0edfea-8cc3-4d0d-930c-510fbe311233.jpg?alt=media",
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Fthumb_280_9b0edfea-8cc3-4d0d-930c-510fbe311233.jpg?alt=media"
@@ -15276,7 +15276,7 @@ export const products: Product[] = [
     "price": 1300,
     "originalPrice": 1495,
     "rating": 5,
-    "reviewCount": 8,
+    "reviewCount": 14,
     "shortDescription": "Lampshade Rattan H40cm available at Koekeloer Gift & Décor Shop in Gansbaai.",
     "description": "Authentic Lampshade Rattan H40cm from Koekeloer Geskenkwinkel & Décor, Shop 2, Great White Junction, Gansbaai. Curated with care for beautiful home living.",
     "features": [
@@ -15286,7 +15286,7 @@ export const products: Product[] = [
       "Nationwide courier delivery across South Africa"
     ],
     "stockStatus": "in_stock",
-    "stockCount": 9,
+    "stockCount": 2,
     "images": [
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2F64f5cd60-c99c-49fe-952c-a736336dc5a3.jpg?alt=media",
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Fthumb_280_64f5cd60-c99c-49fe-952c-a736336dc5a3.jpg?alt=media"
@@ -15310,7 +15310,7 @@ export const products: Product[] = [
     "price": 1300,
     "originalPrice": 1495,
     "rating": 5,
-    "reviewCount": 6,
+    "reviewCount": 10,
     "shortDescription": "Lampshade Rattan H40xDia50cm available at Koekeloer Gift & Décor Shop in Gansbaai.",
     "description": "Authentic Lampshade Rattan H40xDia50cm from Koekeloer Geskenkwinkel & Décor, Shop 2, Great White Junction, Gansbaai. Curated with care for beautiful home living.",
     "features": [
@@ -15320,7 +15320,7 @@ export const products: Product[] = [
       "Nationwide courier delivery across South Africa"
     ],
     "stockStatus": "in_stock",
-    "stockCount": 7,
+    "stockCount": 6,
     "images": [
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2F0462353a-db40-4984-a6db-20d19abe2af2.jpg?alt=media",
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Fthumb_280_0462353a-db40-4984-a6db-20d19abe2af2.jpg?alt=media"
@@ -15344,7 +15344,7 @@ export const products: Product[] = [
     "price": 1800,
     "originalPrice": 2070,
     "rating": 5,
-    "reviewCount": 14,
+    "reviewCount": 16,
     "shortDescription": "Lampshade Rattan H46xDia60cm available at Koekeloer Gift & Décor Shop in Gansbaai.",
     "description": "Authentic Lampshade Rattan H46xDia60cm from Koekeloer Geskenkwinkel & Décor, Shop 2, Great White Junction, Gansbaai. Curated with care for beautiful home living.",
     "features": [
@@ -15354,7 +15354,7 @@ export const products: Product[] = [
       "Nationwide courier delivery across South Africa"
     ],
     "stockStatus": "in_stock",
-    "stockCount": 9,
+    "stockCount": 8,
     "images": [
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Fbf6ff684-8761-4a83-8d40-081d7a3f4150.jpg?alt=media",
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Fthumb_280_bf6ff684-8761-4a83-8d40-081d7a3f4150.jpg?alt=media"
@@ -15378,7 +15378,7 @@ export const products: Product[] = [
     "price": 1300,
     "originalPrice": 1495,
     "rating": 5,
-    "reviewCount": 9,
+    "reviewCount": 4,
     "shortDescription": "Lampshade Rattan H50xDia42cm available at Koekeloer Gift & Décor Shop in Gansbaai.",
     "description": "Authentic Lampshade Rattan H50xDia42cm from Koekeloer Geskenkwinkel & Décor, Shop 2, Great White Junction, Gansbaai. Curated with care for beautiful home living.",
     "features": [
@@ -15388,7 +15388,7 @@ export const products: Product[] = [
       "Nationwide courier delivery across South Africa"
     ],
     "stockStatus": "in_stock",
-    "stockCount": 7,
+    "stockCount": 8,
     "images": [
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2F3bc16402-0ecf-4c0a-ab06-09bbf96e88f4.jpg?alt=media",
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Fthumb_280_3bc16402-0ecf-4c0a-ab06-09bbf96e88f4.jpg?alt=media"
@@ -15412,7 +15412,7 @@ export const products: Product[] = [
     "price": 1200,
     "originalPrice": 1380,
     "rating": 5,
-    "reviewCount": 12,
+    "reviewCount": 9,
     "shortDescription": "Lampshade Rattan H50xDia46cm available at Koekeloer Gift & Décor Shop in Gansbaai.",
     "description": "Authentic Lampshade Rattan H50xDia46cm from Koekeloer Geskenkwinkel & Décor, Shop 2, Great White Junction, Gansbaai. Curated with care for beautiful home living.",
     "features": [
@@ -15422,7 +15422,7 @@ export const products: Product[] = [
       "Nationwide courier delivery across South Africa"
     ],
     "stockStatus": "in_stock",
-    "stockCount": 2,
+    "stockCount": 5,
     "images": [
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2F71cf1259-f5fa-4b47-84f9-afbc12bc0fc1.jpg?alt=media",
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Fthumb_280_71cf1259-f5fa-4b47-84f9-afbc12bc0fc1.jpg?alt=media"
@@ -15446,7 +15446,7 @@ export const products: Product[] = [
     "price": 1200,
     "originalPrice": 1380,
     "rating": 5,
-    "reviewCount": 5,
+    "reviewCount": 7,
     "shortDescription": "Lampshade Rattan L65cm black available at Koekeloer Gift & Décor Shop in Gansbaai.",
     "description": "Authentic Lampshade Rattan L65cm black from Koekeloer Geskenkwinkel & Décor, Shop 2, Great White Junction, Gansbaai. Curated with care for beautiful home living.",
     "features": [
@@ -15456,7 +15456,7 @@ export const products: Product[] = [
       "Nationwide courier delivery across South Africa"
     ],
     "stockStatus": "in_stock",
-    "stockCount": 7,
+    "stockCount": 9,
     "images": [
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2F54b0786d-0ffb-41db-84bd-32a73618f659.jpg?alt=media",
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Fthumb_280_54b0786d-0ffb-41db-84bd-32a73618f659.jpg?alt=media"
@@ -15480,7 +15480,7 @@ export const products: Product[] = [
     "price": 1200,
     "originalPrice": 1380,
     "rating": 5,
-    "reviewCount": 5,
+    "reviewCount": 8,
     "shortDescription": "Lampshade Rattan L65cm white available at Koekeloer Gift & Décor Shop in Gansbaai.",
     "description": "Authentic Lampshade Rattan L65cm white from Koekeloer Geskenkwinkel & Décor, Shop 2, Great White Junction, Gansbaai. Curated with care for beautiful home living.",
     "features": [
@@ -15490,7 +15490,7 @@ export const products: Product[] = [
       "Nationwide courier delivery across South Africa"
     ],
     "stockStatus": "in_stock",
-    "stockCount": 2,
+    "stockCount": 5,
     "images": [
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2F83f0b4ca-7609-47bb-b925-d1e390457e74.jpg?alt=media",
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Fthumb_280_83f0b4ca-7609-47bb-b925-d1e390457e74.jpg?alt=media"
@@ -15514,7 +15514,7 @@ export const products: Product[] = [
     "price": 1760,
     "originalPrice": 2024,
     "rating": 5,
-    "reviewCount": 14,
+    "reviewCount": 5,
     "shortDescription": "Lampshade Rattan W60cm Black available at Koekeloer Gift & Décor Shop in Gansbaai.",
     "description": "Authentic Lampshade Rattan W60cm Black from Koekeloer Geskenkwinkel & Décor, Shop 2, Great White Junction, Gansbaai. Curated with care for beautiful home living.",
     "features": [
@@ -15548,7 +15548,7 @@ export const products: Product[] = [
     "price": 1760,
     "originalPrice": 2024,
     "rating": 5,
-    "reviewCount": 3,
+    "reviewCount": 10,
     "shortDescription": "Lampshade Rattan W60cm White available at Koekeloer Gift & Décor Shop in Gansbaai.",
     "description": "Authentic Lampshade Rattan W60cm White from Koekeloer Geskenkwinkel & Décor, Shop 2, Great White Junction, Gansbaai. Curated with care for beautiful home living.",
     "features": [
@@ -15558,7 +15558,7 @@ export const products: Product[] = [
       "Nationwide courier delivery across South Africa"
     ],
     "stockStatus": "in_stock",
-    "stockCount": 5,
+    "stockCount": 7,
     "images": [
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2F8de661a8-bc3f-439a-91fb-781c08e227a1.jpg?alt=media",
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Fthumb_280_8de661a8-bc3f-439a-91fb-781c08e227a1.jpg?alt=media"
@@ -15592,7 +15592,7 @@ export const products: Product[] = [
       "Nationwide courier delivery across South Africa"
     ],
     "stockStatus": "in_stock",
-    "stockCount": 4,
+    "stockCount": 5,
     "images": [
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2F8a699c2f-4dd5-4fb7-b889-54a3b113d495.jpg?alt=media",
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Fthumb_280_8a699c2f-4dd5-4fb7-b889-54a3b113d495.jpg?alt=media"
@@ -15616,7 +15616,7 @@ export const products: Product[] = [
     "price": 530,
     "originalPrice": 610,
     "rating": 5,
-    "reviewCount": 14,
+    "reviewCount": 13,
     "shortDescription": "Lampshade white 40cm available at Koekeloer Gift & Décor Shop in Gansbaai.",
     "description": "Authentic Lampshade white 40cm from Koekeloer Geskenkwinkel & Décor, Shop 2, Great White Junction, Gansbaai. Curated with care for beautiful home living.",
     "features": [
@@ -15626,7 +15626,7 @@ export const products: Product[] = [
       "Nationwide courier delivery across South Africa"
     ],
     "stockStatus": "in_stock",
-    "stockCount": 2,
+    "stockCount": 4,
     "images": [
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2F4169adde-a6f5-419e-985a-622cb1d71728.jpg?alt=media",
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Fthumb_280_4169adde-a6f5-419e-985a-622cb1d71728.jpg?alt=media"
@@ -15650,7 +15650,7 @@ export const products: Product[] = [
     "price": 280,
     "originalPrice": 322,
     "rating": 5,
-    "reviewCount": 17,
+    "reviewCount": 7,
     "shortDescription": "Lampstand 30cm available at Koekeloer Gift & Décor Shop in Gansbaai.",
     "description": "Authentic Lampstand 30cm from Koekeloer Geskenkwinkel & Décor, Shop 2, Great White Junction, Gansbaai. Curated with care for beautiful home living.",
     "features": [
@@ -15660,7 +15660,7 @@ export const products: Product[] = [
       "Nationwide courier delivery across South Africa"
     ],
     "stockStatus": "in_stock",
-    "stockCount": 5,
+    "stockCount": 7,
     "images": [
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Fb30c9940-f7db-478e-8d70-e9f898f49d48.jpg?alt=media",
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Fthumb_280_b30c9940-f7db-478e-8d70-e9f898f49d48.jpg?alt=media"
@@ -15694,7 +15694,7 @@ export const products: Product[] = [
       "Nationwide courier delivery across South Africa"
     ],
     "stockStatus": "in_stock",
-    "stockCount": 3,
+    "stockCount": 5,
     "images": [
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Fe1e2ebe2-d925-4848-a6d5-1441dacf75b4.jpg?alt=media",
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Fthumb_280_e1e2ebe2-d925-4848-a6d5-1441dacf75b4.jpg?alt=media"
@@ -15718,7 +15718,7 @@ export const products: Product[] = [
     "price": 1200,
     "originalPrice": 1380,
     "rating": 5,
-    "reviewCount": 11,
+    "reviewCount": 8,
     "shortDescription": "Lampstand Cliffon Aged Duck available at Koekeloer Gift & Décor Shop in Gansbaai.",
     "description": "Authentic Lampstand Cliffon Aged Duck from Koekeloer Geskenkwinkel & Décor, Shop 2, Great White Junction, Gansbaai. Curated with care for beautiful home living.",
     "features": [
@@ -15728,7 +15728,7 @@ export const products: Product[] = [
       "Nationwide courier delivery across South Africa"
     ],
     "stockStatus": "in_stock",
-    "stockCount": 2,
+    "stockCount": 6,
     "images": [
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2F28f8e664-db3b-4e93-84f2-5a974f17f953.jpg?alt=media",
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Fthumb_280_28f8e664-db3b-4e93-84f2-5a974f17f953.jpg?alt=media"
@@ -15752,7 +15752,7 @@ export const products: Product[] = [
     "price": 1679,
     "originalPrice": 1931,
     "rating": 5,
-    "reviewCount": 11,
+    "reviewCount": 5,
     "shortDescription": "Lampstand Designer Aged Gold available at Koekeloer Gift & Décor Shop in Gansbaai.",
     "description": "Authentic Lampstand Designer Aged Gold from Koekeloer Geskenkwinkel & Décor, Shop 2, Great White Junction, Gansbaai. Curated with care for beautiful home living.",
     "features": [
@@ -15762,7 +15762,7 @@ export const products: Product[] = [
       "Nationwide courier delivery across South Africa"
     ],
     "stockStatus": "in_stock",
-    "stockCount": 7,
+    "stockCount": 9,
     "images": [
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2F859f79d9-a519-412e-bd37-d0d6041886d0.jpg?alt=media",
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Fthumb_280_859f79d9-a519-412e-bd37-d0d6041886d0.jpg?alt=media"
@@ -15786,7 +15786,7 @@ export const products: Product[] = [
     "price": 795,
     "originalPrice": 914,
     "rating": 5,
-    "reviewCount": 7,
+    "reviewCount": 15,
     "shortDescription": "Lampstand Duck Egg available at Koekeloer Gift & Décor Shop in Gansbaai.",
     "description": "Authentic Lampstand Duck Egg from Koekeloer Geskenkwinkel & Décor, Shop 2, Great White Junction, Gansbaai. Curated with care for beautiful home living.",
     "features": [
@@ -15820,7 +15820,7 @@ export const products: Product[] = [
     "price": 2780,
     "originalPrice": 3197,
     "rating": 5,
-    "reviewCount": 13,
+    "reviewCount": 11,
     "shortDescription": "Lampstand floor available at Koekeloer Gift & Décor Shop in Gansbaai.",
     "description": "Authentic Lampstand floor from Koekeloer Geskenkwinkel & Décor, Shop 2, Great White Junction, Gansbaai. Curated with care for beautiful home living.",
     "features": [
@@ -15830,7 +15830,7 @@ export const products: Product[] = [
       "Nationwide courier delivery across South Africa"
     ],
     "stockStatus": "in_stock",
-    "stockCount": 8,
+    "stockCount": 7,
     "images": [
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2F317e6666-a095-46ee-9469-2c751e32bc93.jpg?alt=media",
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Fthumb_280_317e6666-a095-46ee-9469-2c751e32bc93.jpg?alt=media"
@@ -15854,7 +15854,7 @@ export const products: Product[] = [
     "price": 2989,
     "originalPrice": 3437,
     "rating": 5,
-    "reviewCount": 13,
+    "reviewCount": 12,
     "shortDescription": "Lampstand floor available at Koekeloer Gift & Décor Shop in Gansbaai.",
     "description": "Authentic Lampstand floor from Koekeloer Geskenkwinkel & Décor, Shop 2, Great White Junction, Gansbaai. Curated with care for beautiful home living.",
     "features": [
@@ -15864,7 +15864,7 @@ export const products: Product[] = [
       "Nationwide courier delivery across South Africa"
     ],
     "stockStatus": "in_stock",
-    "stockCount": 4,
+    "stockCount": 9,
     "images": [
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Fcc794e36-2242-4996-88fa-6f6afaf90e3a.jpg?alt=media",
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Fthumb_280_cc794e36-2242-4996-88fa-6f6afaf90e3a.jpg?alt=media"
@@ -15888,7 +15888,7 @@ export const products: Product[] = [
     "price": 2400,
     "originalPrice": 2760,
     "rating": 5,
-    "reviewCount": 17,
+    "reviewCount": 10,
     "shortDescription": "Lampstand floor Duck Egg available at Koekeloer Gift & Décor Shop in Gansbaai.",
     "description": "Authentic Lampstand floor Duck Egg from Koekeloer Geskenkwinkel & Décor, Shop 2, Great White Junction, Gansbaai. Curated with care for beautiful home living.",
     "features": [
@@ -15922,7 +15922,7 @@ export const products: Product[] = [
     "price": 950,
     "originalPrice": 1093,
     "rating": 5,
-    "reviewCount": 16,
+    "reviewCount": 10,
     "shortDescription": "Lampstand Gift Cafe 50cm available at Koekeloer Gift & Décor Shop in Gansbaai.",
     "description": "Authentic Lampstand Gift Cafe 50cm from Koekeloer Geskenkwinkel & Décor, Shop 2, Great White Junction, Gansbaai. Curated with care for beautiful home living.",
     "features": [
@@ -15956,7 +15956,7 @@ export const products: Product[] = [
     "price": 830,
     "originalPrice": 954,
     "rating": 5,
-    "reviewCount": 14,
+    "reviewCount": 7,
     "shortDescription": "Lampstand Java l/Grey 46cm available at Koekeloer Gift & Décor Shop in Gansbaai.",
     "description": "Authentic Lampstand Java l/Grey 46cm from Koekeloer Geskenkwinkel & Décor, Shop 2, Great White Junction, Gansbaai. Curated with care for beautiful home living.",
     "features": [
@@ -15990,7 +15990,7 @@ export const products: Product[] = [
     "price": 899,
     "originalPrice": 1034,
     "rating": 5,
-    "reviewCount": 15,
+    "reviewCount": 3,
     "shortDescription": "Lampstand Pumpkin 37cm available at Koekeloer Gift & Décor Shop in Gansbaai.",
     "description": "Authentic Lampstand Pumpkin 37cm from Koekeloer Geskenkwinkel & Décor, Shop 2, Great White Junction, Gansbaai. Curated with care for beautiful home living.",
     "features": [
@@ -16000,7 +16000,7 @@ export const products: Product[] = [
       "Nationwide courier delivery across South Africa"
     ],
     "stockStatus": "in_stock",
-    "stockCount": 3,
+    "stockCount": 4,
     "images": [
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Fbf9e03f0-9df7-4832-b224-731bc2258940.jpg?alt=media",
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Fthumb_280_bf9e03f0-9df7-4832-b224-731bc2258940.jpg?alt=media"
@@ -16024,7 +16024,7 @@ export const products: Product[] = [
     "price": 859,
     "originalPrice": 988,
     "rating": 5,
-    "reviewCount": 11,
+    "reviewCount": 10,
     "shortDescription": "Lampstand Tuscany 40cm available at Koekeloer Gift & Décor Shop in Gansbaai.",
     "description": "Authentic Lampstand Tuscany 40cm from Koekeloer Geskenkwinkel & Décor, Shop 2, Great White Junction, Gansbaai. Curated with care for beautiful home living.",
     "features": [
@@ -16034,7 +16034,7 @@ export const products: Product[] = [
       "Nationwide courier delivery across South Africa"
     ],
     "stockStatus": "in_stock",
-    "stockCount": 7,
+    "stockCount": 8,
     "images": [
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2F2f7b44f8-1a7f-4032-a326-2bbe77f8b484.jpg?alt=media",
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Fthumb_280_2f7b44f8-1a7f-4032-a326-2bbe77f8b484.jpg?alt=media"
@@ -16058,7 +16058,7 @@ export const products: Product[] = [
     "price": 3995,
     "originalPrice": 4594,
     "rating": 5,
-    "reviewCount": 14,
+    "reviewCount": 17,
     "shortDescription": "Oval Shell Chandelier available at Koekeloer Gift & Décor Shop in Gansbaai.",
     "description": "Authentic Oval Shell Chandelier from Koekeloer Geskenkwinkel & Décor, Shop 2, Great White Junction, Gansbaai. Curated with care for beautiful home living.",
     "features": [
@@ -16092,7 +16092,7 @@ export const products: Product[] = [
     "price": 2600,
     "originalPrice": 2990,
     "rating": 5,
-    "reviewCount": 6,
+    "reviewCount": 10,
     "shortDescription": "Pendant Resin 60cm available at Koekeloer Gift & Décor Shop in Gansbaai.",
     "description": "Authentic Pendant Resin 60cm from Koekeloer Geskenkwinkel & Décor, Shop 2, Great White Junction, Gansbaai. Curated with care for beautiful home living.",
     "features": [
@@ -16102,7 +16102,7 @@ export const products: Product[] = [
       "Nationwide courier delivery across South Africa"
     ],
     "stockStatus": "in_stock",
-    "stockCount": 5,
+    "stockCount": 3,
     "images": [
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2F7b89b5ce-e444-41ba-8835-d2072d344a16.jpg?alt=media",
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Fthumb_280_7b89b5ce-e444-41ba-8835-d2072d344a16.jpg?alt=media"
@@ -16126,7 +16126,7 @@ export const products: Product[] = [
     "price": 4100,
     "originalPrice": 4715,
     "rating": 5,
-    "reviewCount": 8,
+    "reviewCount": 10,
     "shortDescription": "Pendant Resin 80cm available at Koekeloer Gift & Décor Shop in Gansbaai.",
     "description": "Authentic Pendant Resin 80cm from Koekeloer Geskenkwinkel & Décor, Shop 2, Great White Junction, Gansbaai. Curated with care for beautiful home living.",
     "features": [
@@ -16160,7 +16160,7 @@ export const products: Product[] = [
     "price": 4900,
     "originalPrice": 5635,
     "rating": 5,
-    "reviewCount": 14,
+    "reviewCount": 11,
     "shortDescription": "Pendant Resin 95cm available at Koekeloer Gift & Décor Shop in Gansbaai.",
     "description": "Authentic Pendant Resin 95cm from Koekeloer Geskenkwinkel & Décor, Shop 2, Great White Junction, Gansbaai. Curated with care for beautiful home living.",
     "features": [
@@ -16170,7 +16170,7 @@ export const products: Product[] = [
       "Nationwide courier delivery across South Africa"
     ],
     "stockStatus": "in_stock",
-    "stockCount": 7,
+    "stockCount": 9,
     "images": [
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2F9c8805b7-a33c-4716-a234-017bbebf510c.jpg?alt=media",
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Fthumb_280_9c8805b7-a33c-4716-a234-017bbebf510c.jpg?alt=media"
@@ -16194,7 +16194,7 @@ export const products: Product[] = [
     "price": 2500,
     "originalPrice": 2875,
     "rating": 5,
-    "reviewCount": 3,
+    "reviewCount": 5,
     "shortDescription": "Rattan lampshade black 80cm available at Koekeloer Gift & Décor Shop in Gansbaai.",
     "description": "Authentic Rattan lampshade black 80cm from Koekeloer Geskenkwinkel & Décor, Shop 2, Great White Junction, Gansbaai. Curated with care for beautiful home living.",
     "features": [
@@ -16204,7 +16204,7 @@ export const products: Product[] = [
       "Nationwide courier delivery across South Africa"
     ],
     "stockStatus": "in_stock",
-    "stockCount": 3,
+    "stockCount": 8,
     "images": [
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2F936e1544-1d99-42dd-a9d1-c6bd8623fdba.jpg?alt=media",
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Fthumb_280_936e1544-1d99-42dd-a9d1-c6bd8623fdba.jpg?alt=media"
@@ -16228,7 +16228,7 @@ export const products: Product[] = [
     "price": 3900,
     "originalPrice": 4485,
     "rating": 5,
-    "reviewCount": 5,
+    "reviewCount": 15,
     "shortDescription": "Rattan Pendant available at Koekeloer Gift & Décor Shop in Gansbaai.",
     "description": "Authentic Rattan Pendant from Koekeloer Geskenkwinkel & Décor, Shop 2, Great White Junction, Gansbaai. Curated with care for beautiful home living.",
     "features": [
@@ -16238,7 +16238,7 @@ export const products: Product[] = [
       "Nationwide courier delivery across South Africa"
     ],
     "stockStatus": "in_stock",
-    "stockCount": 8,
+    "stockCount": 4,
     "images": [
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2F6c24497e-f8e0-4993-b960-2b6e7a12cb5c.jpg?alt=media",
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Fthumb_280_6c24497e-f8e0-4993-b960-2b6e7a12cb5c.jpg?alt=media"
@@ -16262,7 +16262,7 @@ export const products: Product[] = [
     "price": 3300,
     "originalPrice": 3795,
     "rating": 5,
-    "reviewCount": 17,
+    "reviewCount": 14,
     "shortDescription": "Rattan Pendant available at Koekeloer Gift & Décor Shop in Gansbaai.",
     "description": "Authentic Rattan Pendant from Koekeloer Geskenkwinkel & Décor, Shop 2, Great White Junction, Gansbaai. Curated with care for beautiful home living.",
     "features": [
@@ -16272,7 +16272,7 @@ export const products: Product[] = [
       "Nationwide courier delivery across South Africa"
     ],
     "stockStatus": "in_stock",
-    "stockCount": 5,
+    "stockCount": 3,
     "images": [
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Fab7bdbf9-ce14-4b2f-9a1e-d08eef42f4ed.jpg?alt=media",
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Fthumb_280_ab7bdbf9-ce14-4b2f-9a1e-d08eef42f4ed.jpg?alt=media"
@@ -16296,7 +16296,7 @@ export const products: Product[] = [
     "price": 3999,
     "originalPrice": 4599,
     "rating": 5,
-    "reviewCount": 13,
+    "reviewCount": 16,
     "shortDescription": "Rattan Pendant Large available at Koekeloer Gift & Décor Shop in Gansbaai.",
     "description": "Authentic Rattan Pendant Large from Koekeloer Geskenkwinkel & Décor, Shop 2, Great White Junction, Gansbaai. Curated with care for beautiful home living.",
     "features": [
@@ -16306,7 +16306,7 @@ export const products: Product[] = [
       "Nationwide courier delivery across South Africa"
     ],
     "stockStatus": "in_stock",
-    "stockCount": 9,
+    "stockCount": 2,
     "images": [
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2F9019c219-7f28-4e02-ae45-97d21f822006.jpg?alt=media",
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Fthumb_280_9019c219-7f28-4e02-ae45-97d21f822006.jpg?alt=media"
@@ -16330,7 +16330,7 @@ export const products: Product[] = [
     "price": 3200,
     "originalPrice": 3680,
     "rating": 5,
-    "reviewCount": 13,
+    "reviewCount": 3,
     "shortDescription": "Rattan Pendant Medium available at Koekeloer Gift & Décor Shop in Gansbaai.",
     "description": "Authentic Rattan Pendant Medium from Koekeloer Geskenkwinkel & Décor, Shop 2, Great White Junction, Gansbaai. Curated with care for beautiful home living.",
     "features": [
@@ -16340,7 +16340,7 @@ export const products: Product[] = [
       "Nationwide courier delivery across South Africa"
     ],
     "stockStatus": "in_stock",
-    "stockCount": 5,
+    "stockCount": 2,
     "images": [
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Ff601bfb0-961a-4c2d-8459-468bcfddd299.jpg?alt=media",
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Fthumb_280_f601bfb0-961a-4c2d-8459-468bcfddd299.jpg?alt=media"
@@ -16364,7 +16364,7 @@ export const products: Product[] = [
     "price": 350,
     "originalPrice": 402,
     "rating": 5,
-    "reviewCount": 11,
+    "reviewCount": 8,
     "shortDescription": "Rope Light available at Koekeloer Gift & Décor Shop in Gansbaai.",
     "description": "Authentic Rope Light from Koekeloer Geskenkwinkel & Décor, Shop 2, Great White Junction, Gansbaai. Curated with care for beautiful home living.",
     "features": [
@@ -16374,7 +16374,7 @@ export const products: Product[] = [
       "Nationwide courier delivery across South Africa"
     ],
     "stockStatus": "in_stock",
-    "stockCount": 2,
+    "stockCount": 3,
     "images": [
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2F777e5034-c5af-4118-8cb2-58e5fcddee9a.jpg?alt=media",
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Fthumb_280_777e5034-c5af-4118-8cb2-58e5fcddee9a.jpg?alt=media"
@@ -16398,7 +16398,7 @@ export const products: Product[] = [
     "price": 3995,
     "originalPrice": 4594,
     "rating": 5,
-    "reviewCount": 17,
+    "reviewCount": 9,
     "shortDescription": "Round Shell Chandelier available at Koekeloer Gift & Décor Shop in Gansbaai.",
     "description": "Authentic Round Shell Chandelier from Koekeloer Geskenkwinkel & Décor, Shop 2, Great White Junction, Gansbaai. Curated with care for beautiful home living.",
     "features": [
@@ -16408,7 +16408,7 @@ export const products: Product[] = [
       "Nationwide courier delivery across South Africa"
     ],
     "stockStatus": "in_stock",
-    "stockCount": 6,
+    "stockCount": 3,
     "images": [
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2F0d789cc5-a9ad-4263-8e80-d90f2fedd634.jpg?alt=media",
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Fthumb_280_0d789cc5-a9ad-4263-8e80-d90f2fedd634.jpg?alt=media"
@@ -16432,7 +16432,7 @@ export const products: Product[] = [
     "price": 2500,
     "originalPrice": 2875,
     "rating": 5,
-    "reviewCount": 15,
+    "reviewCount": 7,
     "shortDescription": "Shell Chandelier 40cm available at Koekeloer Gift & Décor Shop in Gansbaai.",
     "description": "Authentic Shell Chandelier 40cm from Koekeloer Geskenkwinkel & Décor, Shop 2, Great White Junction, Gansbaai. Curated with care for beautiful home living.",
     "features": [
@@ -16442,7 +16442,7 @@ export const products: Product[] = [
       "Nationwide courier delivery across South Africa"
     ],
     "stockStatus": "in_stock",
-    "stockCount": 6,
+    "stockCount": 3,
     "images": [
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2F2179ac10-fd7a-4d08-843b-9fcb30bb2a23.jpg?alt=media",
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Fthumb_280_2179ac10-fd7a-4d08-843b-9fcb30bb2a23.jpg?alt=media"
@@ -16466,7 +16466,7 @@ export const products: Product[] = [
     "price": 3995,
     "originalPrice": 4594,
     "rating": 5,
-    "reviewCount": 13,
+    "reviewCount": 5,
     "shortDescription": "Shell Chandelier 50cm available at Koekeloer Gift & Décor Shop in Gansbaai.",
     "description": "Authentic Shell Chandelier 50cm from Koekeloer Geskenkwinkel & Décor, Shop 2, Great White Junction, Gansbaai. Curated with care for beautiful home living.",
     "features": [
@@ -16500,7 +16500,7 @@ export const products: Product[] = [
     "price": 580,
     "originalPrice": 667,
     "rating": 5,
-    "reviewCount": 13,
+    "reviewCount": 8,
     "shortDescription": "Lantern available at Koekeloer Gift & Décor Shop in Gansbaai.",
     "description": "Authentic Lantern from Koekeloer Geskenkwinkel & Décor, Shop 2, Great White Junction, Gansbaai. Curated with care for beautiful home living.",
     "features": [
@@ -16510,7 +16510,7 @@ export const products: Product[] = [
       "Nationwide courier delivery across South Africa"
     ],
     "stockStatus": "in_stock",
-    "stockCount": 2,
+    "stockCount": 9,
     "images": [
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Fafc8dca5-34ce-4346-bdc3-36b19e54a7c8.jpg?alt=media",
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Fthumb_280_afc8dca5-34ce-4346-bdc3-36b19e54a7c8.jpg?alt=media"
@@ -16534,7 +16534,7 @@ export const products: Product[] = [
     "price": 620,
     "originalPrice": 713,
     "rating": 5,
-    "reviewCount": 17,
+    "reviewCount": 13,
     "shortDescription": "Lantern available at Koekeloer Gift & Décor Shop in Gansbaai.",
     "description": "Authentic Lantern from Koekeloer Geskenkwinkel & Décor, Shop 2, Great White Junction, Gansbaai. Curated with care for beautiful home living.",
     "features": [
@@ -16544,7 +16544,7 @@ export const products: Product[] = [
       "Nationwide courier delivery across South Africa"
     ],
     "stockStatus": "in_stock",
-    "stockCount": 9,
+    "stockCount": 4,
     "images": [
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Fc6245c98-1a28-4863-a268-e8c8b4827c39.jpg?alt=media",
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Fthumb_280_c6245c98-1a28-4863-a268-e8c8b4827c39.jpg?alt=media"
@@ -16568,7 +16568,7 @@ export const products: Product[] = [
     "price": 550,
     "originalPrice": 633,
     "rating": 5,
-    "reviewCount": 5,
+    "reviewCount": 8,
     "shortDescription": "Lantern Assorted available at Koekeloer Gift & Décor Shop in Gansbaai.",
     "description": "Authentic Lantern Assorted from Koekeloer Geskenkwinkel & Décor, Shop 2, Great White Junction, Gansbaai. Curated with care for beautiful home living.",
     "features": [
@@ -16578,7 +16578,7 @@ export const products: Product[] = [
       "Nationwide courier delivery across South Africa"
     ],
     "stockStatus": "in_stock",
-    "stockCount": 4,
+    "stockCount": 3,
     "images": [
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2F5645bb8e-b3c1-4c2d-a67a-08e36204157e.jpg?alt=media",
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Fthumb_280_5645bb8e-b3c1-4c2d-a67a-08e36204157e.jpg?alt=media"
@@ -16602,7 +16602,7 @@ export const products: Product[] = [
     "price": 550,
     "originalPrice": 633,
     "rating": 5,
-    "reviewCount": 14,
+    "reviewCount": 4,
     "shortDescription": "Lantern Candleholder cut out Ceramic 23cm x 17cm available at Koekeloer Gift & Décor Shop in Gansbaai.",
     "description": "Authentic Lantern Candleholder cut out Ceramic 23cm x 17cm from Koekeloer Geskenkwinkel & Décor, Shop 2, Great White Junction, Gansbaai. Curated with care for beautiful home living.",
     "features": [
@@ -16612,7 +16612,7 @@ export const products: Product[] = [
       "Nationwide courier delivery across South Africa"
     ],
     "stockStatus": "in_stock",
-    "stockCount": 4,
+    "stockCount": 2,
     "images": [
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Fb8a8e6f6-808a-4619-a6b9-ba380998fe7c.jpg?alt=media",
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Fthumb_280_b8a8e6f6-808a-4619-a6b9-ba380998fe7c.jpg?alt=media"
@@ -16636,7 +16636,7 @@ export const products: Product[] = [
     "price": 399,
     "originalPrice": 459,
     "rating": 5,
-    "reviewCount": 8,
+    "reviewCount": 7,
     "shortDescription": "Helmet Camo Medium available at Koekeloer Gift & Décor Shop in Gansbaai.",
     "description": "Authentic Helmet Camo Medium from Koekeloer Geskenkwinkel & Décor, Shop 2, Great White Junction, Gansbaai. Curated with care for beautiful home living.",
     "features": [
@@ -16646,7 +16646,7 @@ export const products: Product[] = [
       "Nationwide courier delivery across South Africa"
     ],
     "stockStatus": "in_stock",
-    "stockCount": 6,
+    "stockCount": 2,
     "images": [
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2F9c552150-a0d1-42eb-8df4-942ed725bc89.jpg?alt=media",
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Fthumb_280_9c552150-a0d1-42eb-8df4-942ed725bc89.jpg?alt=media"
@@ -16670,7 +16670,7 @@ export const products: Product[] = [
     "price": 580,
     "originalPrice": 667,
     "rating": 5,
-    "reviewCount": 14,
+    "reviewCount": 16,
     "shortDescription": "Helmet available at Koekeloer Gift & Décor Shop in Gansbaai.",
     "description": "Authentic Helmet from Koekeloer Geskenkwinkel & Décor, Shop 2, Great White Junction, Gansbaai. Curated with care for beautiful home living.",
     "features": [
@@ -16704,7 +16704,7 @@ export const products: Product[] = [
     "price": 1360,
     "originalPrice": 1564,
     "rating": 5,
-    "reviewCount": 7,
+    "reviewCount": 17,
     "shortDescription": "Leather Wallet available at Koekeloer Gift & Décor Shop in Gansbaai.",
     "description": "Authentic Leather Wallet from Koekeloer Geskenkwinkel & Décor, Shop 2, Great White Junction, Gansbaai. Curated with care for beautiful home living.",
     "features": [
@@ -16738,7 +16738,7 @@ export const products: Product[] = [
     "price": 850,
     "originalPrice": 977,
     "rating": 5,
-    "reviewCount": 10,
+    "reviewCount": 17,
     "shortDescription": "Leather Wallet Boss available at Koekeloer Gift & Décor Shop in Gansbaai.",
     "description": "Authentic Leather Wallet Boss from Koekeloer Geskenkwinkel & Décor, Shop 2, Great White Junction, Gansbaai. Curated with care for beautiful home living.",
     "features": [
@@ -16772,7 +16772,7 @@ export const products: Product[] = [
     "price": 1500,
     "originalPrice": 1725,
     "rating": 5,
-    "reviewCount": 12,
+    "reviewCount": 14,
     "shortDescription": "Leather Wallet Zip available at Koekeloer Gift & Décor Shop in Gansbaai.",
     "description": "Authentic Leather Wallet Zip from Koekeloer Geskenkwinkel & Décor, Shop 2, Great White Junction, Gansbaai. Curated with care for beautiful home living.",
     "features": [
@@ -16782,7 +16782,7 @@ export const products: Product[] = [
       "Nationwide courier delivery across South Africa"
     ],
     "stockStatus": "in_stock",
-    "stockCount": 5,
+    "stockCount": 3,
     "images": [
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Fe6e89f6b-4dbe-429b-8a8b-c3445395fdac.jpg?alt=media",
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Fthumb_280_e6e89f6b-4dbe-429b-8a8b-c3445395fdac.jpg?alt=media"
@@ -16806,7 +16806,7 @@ export const products: Product[] = [
     "price": 450,
     "originalPrice": 518,
     "rating": 5,
-    "reviewCount": 9,
+    "reviewCount": 3,
     "shortDescription": "Mirror 29cm available at Koekeloer Gift & Décor Shop in Gansbaai.",
     "description": "Authentic Mirror 29cm from Koekeloer Geskenkwinkel & Décor, Shop 2, Great White Junction, Gansbaai. Curated with care for beautiful home living.",
     "features": [
@@ -16816,7 +16816,7 @@ export const products: Product[] = [
       "Nationwide courier delivery across South Africa"
     ],
     "stockStatus": "in_stock",
-    "stockCount": 4,
+    "stockCount": 7,
     "images": [
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2F527a5710-77f2-46d4-b420-4647890d7493.jpg?alt=media",
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Fthumb_280_527a5710-77f2-46d4-b420-4647890d7493.jpg?alt=media"
@@ -16840,7 +16840,7 @@ export const products: Product[] = [
     "price": 490,
     "originalPrice": 564,
     "rating": 5,
-    "reviewCount": 8,
+    "reviewCount": 9,
     "shortDescription": "Mirror 34cm available at Koekeloer Gift & Décor Shop in Gansbaai.",
     "description": "Authentic Mirror 34cm from Koekeloer Geskenkwinkel & Décor, Shop 2, Great White Junction, Gansbaai. Curated with care for beautiful home living.",
     "features": [
@@ -16850,7 +16850,7 @@ export const products: Product[] = [
       "Nationwide courier delivery across South Africa"
     ],
     "stockStatus": "in_stock",
-    "stockCount": 2,
+    "stockCount": 4,
     "images": [
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2F25f6cc3e-ce37-41c3-bbf1-b7541b320cfd.jpg?alt=media",
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Fthumb_280_25f6cc3e-ce37-41c3-bbf1-b7541b320cfd.jpg?alt=media"
@@ -16874,7 +16874,7 @@ export const products: Product[] = [
     "price": 1200,
     "originalPrice": 1380,
     "rating": 5,
-    "reviewCount": 4,
+    "reviewCount": 5,
     "shortDescription": "Mirror 35x135cm available at Koekeloer Gift & Décor Shop in Gansbaai.",
     "description": "Authentic Mirror 35x135cm from Koekeloer Geskenkwinkel & Décor, Shop 2, Great White Junction, Gansbaai. Curated with care for beautiful home living.",
     "features": [
@@ -16884,7 +16884,7 @@ export const products: Product[] = [
       "Nationwide courier delivery across South Africa"
     ],
     "stockStatus": "in_stock",
-    "stockCount": 4,
+    "stockCount": 7,
     "images": [
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2F251f2e0a-1000-4b7f-bae4-4acd1bc5f0dd.jpg?alt=media",
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Fthumb_280_251f2e0a-1000-4b7f-bae4-4acd1bc5f0dd.jpg?alt=media"
@@ -16908,7 +16908,7 @@ export const products: Product[] = [
     "price": 600,
     "originalPrice": 690,
     "rating": 5,
-    "reviewCount": 16,
+    "reviewCount": 7,
     "shortDescription": "Mirror 39x49cm available at Koekeloer Gift & Décor Shop in Gansbaai.",
     "description": "Authentic Mirror 39x49cm from Koekeloer Geskenkwinkel & Décor, Shop 2, Great White Junction, Gansbaai. Curated with care for beautiful home living.",
     "features": [
@@ -16918,7 +16918,7 @@ export const products: Product[] = [
       "Nationwide courier delivery across South Africa"
     ],
     "stockStatus": "in_stock",
-    "stockCount": 6,
+    "stockCount": 5,
     "images": [
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2F53b3b437-020a-4593-aa34-6cdd3601a524.jpg?alt=media",
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Fthumb_280_53b3b437-020a-4593-aa34-6cdd3601a524.jpg?alt=media"
@@ -16942,7 +16942,7 @@ export const products: Product[] = [
     "price": 1900,
     "originalPrice": 2185,
     "rating": 5,
-    "reviewCount": 3,
+    "reviewCount": 14,
     "shortDescription": "Mirror 40x180cm available at Koekeloer Gift & Décor Shop in Gansbaai.",
     "description": "Authentic Mirror 40x180cm from Koekeloer Geskenkwinkel & Décor, Shop 2, Great White Junction, Gansbaai. Curated with care for beautiful home living.",
     "features": [
@@ -16952,7 +16952,7 @@ export const products: Product[] = [
       "Nationwide courier delivery across South Africa"
     ],
     "stockStatus": "in_stock",
-    "stockCount": 9,
+    "stockCount": 2,
     "images": [
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Fac425d11-aad3-4d4c-8e4f-d70e9b113c51.jpg?alt=media",
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Fthumb_280_ac425d11-aad3-4d4c-8e4f-d70e9b113c51.jpg?alt=media"
@@ -16976,7 +16976,7 @@ export const products: Product[] = [
     "price": 1400,
     "originalPrice": 1610,
     "rating": 5,
-    "reviewCount": 8,
+    "reviewCount": 11,
     "shortDescription": "Mirror 50x120cm available at Koekeloer Gift & Décor Shop in Gansbaai.",
     "description": "Authentic Mirror 50x120cm from Koekeloer Geskenkwinkel & Décor, Shop 2, Great White Junction, Gansbaai. Curated with care for beautiful home living.",
     "features": [
@@ -16986,7 +16986,7 @@ export const products: Product[] = [
       "Nationwide courier delivery across South Africa"
     ],
     "stockStatus": "in_stock",
-    "stockCount": 9,
+    "stockCount": 3,
     "images": [
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2F68ae5511-34b9-4994-8b66-7d74ecc8eb76.jpg?alt=media",
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Fthumb_280_68ae5511-34b9-4994-8b66-7d74ecc8eb76.jpg?alt=media"
@@ -17020,7 +17020,7 @@ export const products: Product[] = [
       "Nationwide courier delivery across South Africa"
     ],
     "stockStatus": "in_stock",
-    "stockCount": 2,
+    "stockCount": 6,
     "images": [
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2F42b7a640-aff1-4f30-b4a2-80f6a8d1076f.jpg?alt=media",
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Fthumb_280_42b7a640-aff1-4f30-b4a2-80f6a8d1076f.jpg?alt=media"
@@ -17044,7 +17044,7 @@ export const products: Product[] = [
     "price": 1200,
     "originalPrice": 1380,
     "rating": 5,
-    "reviewCount": 12,
+    "reviewCount": 6,
     "shortDescription": "Mirror 60x100cm available at Koekeloer Gift & Décor Shop in Gansbaai.",
     "description": "Authentic Mirror 60x100cm from Koekeloer Geskenkwinkel & Décor, Shop 2, Great White Junction, Gansbaai. Curated with care for beautiful home living.",
     "features": [
@@ -17054,7 +17054,7 @@ export const products: Product[] = [
       "Nationwide courier delivery across South Africa"
     ],
     "stockStatus": "in_stock",
-    "stockCount": 2,
+    "stockCount": 5,
     "images": [
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2F21be373a-a33e-413b-a0c0-fdc648f47e28.jpg?alt=media",
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Fthumb_280_21be373a-a33e-413b-a0c0-fdc648f47e28.jpg?alt=media"
@@ -17078,7 +17078,7 @@ export const products: Product[] = [
     "price": 2995,
     "originalPrice": 3444,
     "rating": 5,
-    "reviewCount": 9,
+    "reviewCount": 14,
     "shortDescription": "Mirror 80x180cm available at Koekeloer Gift & Décor Shop in Gansbaai.",
     "description": "Authentic Mirror 80x180cm from Koekeloer Geskenkwinkel & Décor, Shop 2, Great White Junction, Gansbaai. Curated with care for beautiful home living.",
     "features": [
@@ -17088,7 +17088,7 @@ export const products: Product[] = [
       "Nationwide courier delivery across South Africa"
     ],
     "stockStatus": "in_stock",
-    "stockCount": 7,
+    "stockCount": 4,
     "images": [
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Fd38146d7-a324-4ef4-98d9-92d93b29cca3.jpg?alt=media",
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Fthumb_280_d38146d7-a324-4ef4-98d9-92d93b29cca3.jpg?alt=media"
@@ -17112,7 +17112,7 @@ export const products: Product[] = [
     "price": 1100,
     "originalPrice": 1265,
     "rating": 5,
-    "reviewCount": 8,
+    "reviewCount": 7,
     "shortDescription": "Mirror Bathroom Shutters available at Koekeloer Gift & Décor Shop in Gansbaai.",
     "description": "Authentic Mirror Bathroom Shutters from Koekeloer Geskenkwinkel & Décor, Shop 2, Great White Junction, Gansbaai. Curated with care for beautiful home living.",
     "features": [
@@ -17122,7 +17122,7 @@ export const products: Product[] = [
       "Nationwide courier delivery across South Africa"
     ],
     "stockStatus": "in_stock",
-    "stockCount": 9,
+    "stockCount": 5,
     "images": [
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Fd32c1c4a-f6f8-40f1-96cd-780cf6569987.jpg?alt=media",
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Fthumb_280_d32c1c4a-f6f8-40f1-96cd-780cf6569987.jpg?alt=media"
@@ -17146,7 +17146,7 @@ export const products: Product[] = [
     "price": 690,
     "originalPrice": 793,
     "rating": 5,
-    "reviewCount": 9,
+    "reviewCount": 8,
     "shortDescription": "Mirror carved 35x50cm available at Koekeloer Gift & Décor Shop in Gansbaai.",
     "description": "Authentic Mirror carved 35x50cm from Koekeloer Geskenkwinkel & Décor, Shop 2, Great White Junction, Gansbaai. Curated with care for beautiful home living.",
     "features": [
@@ -17156,7 +17156,7 @@ export const products: Product[] = [
       "Nationwide courier delivery across South Africa"
     ],
     "stockStatus": "in_stock",
-    "stockCount": 8,
+    "stockCount": 3,
     "images": [
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Fc4473f9c-716c-45bd-a627-ef4ca265435f.jpg?alt=media",
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Fthumb_280_c4473f9c-716c-45bd-a627-ef4ca265435f.jpg?alt=media"
@@ -17180,7 +17180,7 @@ export const products: Product[] = [
     "price": 750,
     "originalPrice": 862,
     "rating": 5,
-    "reviewCount": 9,
+    "reviewCount": 12,
     "shortDescription": "Mirror Grass 50x60cm available at Koekeloer Gift & Décor Shop in Gansbaai.",
     "description": "Authentic Mirror Grass 50x60cm from Koekeloer Geskenkwinkel & Décor, Shop 2, Great White Junction, Gansbaai. Curated with care for beautiful home living.",
     "features": [
@@ -17190,7 +17190,7 @@ export const products: Product[] = [
       "Nationwide courier delivery across South Africa"
     ],
     "stockStatus": "in_stock",
-    "stockCount": 2,
+    "stockCount": 9,
     "images": [
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2F2d442208-6a7f-4b6b-ade7-f58f0375c89e.jpg?alt=media",
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Fthumb_280_2d442208-6a7f-4b6b-ade7-f58f0375c89e.jpg?alt=media"
@@ -17214,7 +17214,7 @@ export const products: Product[] = [
     "price": 470,
     "originalPrice": 541,
     "rating": 5,
-    "reviewCount": 7,
+    "reviewCount": 6,
     "shortDescription": "Mirror Oval 40cm x 20cm available at Koekeloer Gift & Décor Shop in Gansbaai.",
     "description": "Authentic Mirror Oval 40cm x 20cm from Koekeloer Geskenkwinkel & Décor, Shop 2, Great White Junction, Gansbaai. Curated with care for beautiful home living.",
     "features": [
@@ -17224,7 +17224,7 @@ export const products: Product[] = [
       "Nationwide courier delivery across South Africa"
     ],
     "stockStatus": "in_stock",
-    "stockCount": 2,
+    "stockCount": 9,
     "images": [
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Fede15843-44fc-40f5-8dcb-7958393c3fc8.jpg?alt=media",
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Fthumb_280_ede15843-44fc-40f5-8dcb-7958393c3fc8.jpg?alt=media"
@@ -17248,7 +17248,7 @@ export const products: Product[] = [
     "price": 660,
     "originalPrice": 759,
     "rating": 5,
-    "reviewCount": 9,
+    "reviewCount": 17,
     "shortDescription": "Mirror Oval 48x26cm available at Koekeloer Gift & Décor Shop in Gansbaai.",
     "description": "Authentic Mirror Oval 48x26cm from Koekeloer Geskenkwinkel & Décor, Shop 2, Great White Junction, Gansbaai. Curated with care for beautiful home living.",
     "features": [
@@ -17258,7 +17258,7 @@ export const products: Product[] = [
       "Nationwide courier delivery across South Africa"
     ],
     "stockStatus": "in_stock",
-    "stockCount": 3,
+    "stockCount": 2,
     "images": [
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2F0c0aedc2-e532-4c0a-a36d-6bceb91414d4.jpg?alt=media",
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Fthumb_280_0c0aedc2-e532-4c0a-a36d-6bceb91414d4.jpg?alt=media"
@@ -17282,7 +17282,7 @@ export const products: Product[] = [
     "price": 750,
     "originalPrice": 862,
     "rating": 5,
-    "reviewCount": 5,
+    "reviewCount": 14,
     "shortDescription": "Mirror Round 50cm available at Koekeloer Gift & Décor Shop in Gansbaai.",
     "description": "Authentic Mirror Round 50cm from Koekeloer Geskenkwinkel & Décor, Shop 2, Great White Junction, Gansbaai. Curated with care for beautiful home living.",
     "features": [
@@ -17292,7 +17292,7 @@ export const products: Product[] = [
       "Nationwide courier delivery across South Africa"
     ],
     "stockStatus": "in_stock",
-    "stockCount": 8,
+    "stockCount": 6,
     "images": [
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Ffa210601-58b0-436b-b471-1d4bf251eb97.jpg?alt=media",
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Fthumb_280_fa210601-58b0-436b-b471-1d4bf251eb97.jpg?alt=media"
@@ -17316,7 +17316,7 @@ export const products: Product[] = [
     "price": 1650,
     "originalPrice": 1897,
     "rating": 5,
-    "reviewCount": 6,
+    "reviewCount": 7,
     "shortDescription": "Mirror Round available at Koekeloer Gift & Décor Shop in Gansbaai.",
     "description": "Authentic Mirror Round from Koekeloer Geskenkwinkel & Décor, Shop 2, Great White Junction, Gansbaai. Curated with care for beautiful home living.",
     "features": [
@@ -17326,7 +17326,7 @@ export const products: Product[] = [
       "Nationwide courier delivery across South Africa"
     ],
     "stockStatus": "in_stock",
-    "stockCount": 7,
+    "stockCount": 8,
     "images": [
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2F34bf3c68-a796-4d73-8915-857868f437de.jpg?alt=media",
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Fthumb_280_34bf3c68-a796-4d73-8915-857868f437de.jpg?alt=media"
@@ -17350,7 +17350,7 @@ export const products: Product[] = [
     "price": 1500,
     "originalPrice": 1725,
     "rating": 5,
-    "reviewCount": 9,
+    "reviewCount": 6,
     "shortDescription": "Mirror Round Rattan 60cm available at Koekeloer Gift & Décor Shop in Gansbaai.",
     "description": "Authentic Mirror Round Rattan 60cm from Koekeloer Geskenkwinkel & Décor, Shop 2, Great White Junction, Gansbaai. Curated with care for beautiful home living.",
     "features": [
@@ -17360,7 +17360,7 @@ export const products: Product[] = [
       "Nationwide courier delivery across South Africa"
     ],
     "stockStatus": "in_stock",
-    "stockCount": 9,
+    "stockCount": 6,
     "images": [
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Fba466626-d46d-41fd-915c-7973522121ef.jpg?alt=media",
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Fthumb_280_ba466626-d46d-41fd-915c-7973522121ef.jpg?alt=media"
@@ -17384,7 +17384,7 @@ export const products: Product[] = [
     "price": 2400,
     "originalPrice": 2760,
     "rating": 5,
-    "reviewCount": 17,
+    "reviewCount": 13,
     "shortDescription": "Mirror Round Rattan 80cm available at Koekeloer Gift & Décor Shop in Gansbaai.",
     "description": "Authentic Mirror Round Rattan 80cm from Koekeloer Geskenkwinkel & Décor, Shop 2, Great White Junction, Gansbaai. Curated with care for beautiful home living.",
     "features": [
@@ -17418,7 +17418,7 @@ export const products: Product[] = [
     "price": 4800,
     "originalPrice": 5520,
     "rating": 5,
-    "reviewCount": 15,
+    "reviewCount": 6,
     "shortDescription": "Mirror with Doors 60cm x 180cm available at Koekeloer Gift & Décor Shop in Gansbaai.",
     "description": "Authentic Mirror with Doors 60cm x 180cm from Koekeloer Geskenkwinkel & Décor, Shop 2, Great White Junction, Gansbaai. Curated with care for beautiful home living.",
     "features": [
@@ -17428,7 +17428,7 @@ export const products: Product[] = [
       "Nationwide courier delivery across South Africa"
     ],
     "stockStatus": "in_stock",
-    "stockCount": 4,
+    "stockCount": 6,
     "images": [
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2F045decaf-ce3e-436d-b291-cfbbb1035e33.jpg?alt=media",
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Fthumb_280_045decaf-ce3e-436d-b291-cfbbb1035e33.jpg?alt=media"
@@ -17452,7 +17452,7 @@ export const products: Product[] = [
     "price": 3200,
     "originalPrice": 3680,
     "rating": 5,
-    "reviewCount": 4,
+    "reviewCount": 14,
     "shortDescription": "Mirror with Doors 80cm x 150cm available at Koekeloer Gift & Décor Shop in Gansbaai.",
     "description": "Authentic Mirror with Doors 80cm x 150cm from Koekeloer Geskenkwinkel & Décor, Shop 2, Great White Junction, Gansbaai. Curated with care for beautiful home living.",
     "features": [
@@ -17462,7 +17462,7 @@ export const products: Product[] = [
       "Nationwide courier delivery across South Africa"
     ],
     "stockStatus": "in_stock",
-    "stockCount": 6,
+    "stockCount": 5,
     "images": [
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2F4ca73c97-8ae8-4aa1-8b8e-6376b5608d98.jpg?alt=media",
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Fthumb_280_4ca73c97-8ae8-4aa1-8b8e-6376b5608d98.jpg?alt=media"
@@ -17486,7 +17486,7 @@ export const products: Product[] = [
     "price": 2800,
     "originalPrice": 3220,
     "rating": 5,
-    "reviewCount": 10,
+    "reviewCount": 3,
     "shortDescription": "Mirror with Doors 90cm x 79cm available at Koekeloer Gift & Décor Shop in Gansbaai.",
     "description": "Authentic Mirror with Doors 90cm x 79cm from Koekeloer Geskenkwinkel & Décor, Shop 2, Great White Junction, Gansbaai. Curated with care for beautiful home living.",
     "features": [
@@ -17496,7 +17496,7 @@ export const products: Product[] = [
       "Nationwide courier delivery across South Africa"
     ],
     "stockStatus": "in_stock",
-    "stockCount": 6,
+    "stockCount": 2,
     "images": [
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2F6f6beb70-a115-4876-b98b-56931122e6eb.jpg?alt=media",
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Fthumb_280_6f6beb70-a115-4876-b98b-56931122e6eb.jpg?alt=media"
@@ -17520,7 +17520,7 @@ export const products: Product[] = [
     "price": 1100,
     "originalPrice": 1265,
     "rating": 5,
-    "reviewCount": 11,
+    "reviewCount": 6,
     "shortDescription": "Mirror Wooden available at Koekeloer Gift & Décor Shop in Gansbaai.",
     "description": "Authentic Mirror Wooden from Koekeloer Geskenkwinkel & Décor, Shop 2, Great White Junction, Gansbaai. Curated with care for beautiful home living.",
     "features": [
@@ -17530,7 +17530,7 @@ export const products: Product[] = [
       "Nationwide courier delivery across South Africa"
     ],
     "stockStatus": "in_stock",
-    "stockCount": 2,
+    "stockCount": 4,
     "images": [
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2F15d5cbd4-e686-4c6f-9460-09003dabaf29.jpg?alt=media",
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Fthumb_280_15d5cbd4-e686-4c6f-9460-09003dabaf29.jpg?alt=media"
@@ -17588,7 +17588,7 @@ export const products: Product[] = [
     "price": 240,
     "originalPrice": 276,
     "rating": 5,
-    "reviewCount": 17,
+    "reviewCount": 4,
     "shortDescription": "Wdn mirror carved 19x35cm available at Koekeloer Gift & Décor Shop in Gansbaai.",
     "description": "Authentic Wdn mirror carved 19x35cm from Koekeloer Geskenkwinkel & Décor, Shop 2, Great White Junction, Gansbaai. Curated with care for beautiful home living.",
     "features": [
@@ -17598,7 +17598,7 @@ export const products: Product[] = [
       "Nationwide courier delivery across South Africa"
     ],
     "stockStatus": "in_stock",
-    "stockCount": 8,
+    "stockCount": 5,
     "images": [
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2F5fd08d32-56ed-40d3-a598-40610ef70248.jpg?alt=media",
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Fthumb_280_5fd08d32-56ed-40d3-a598-40610ef70248.jpg?alt=media"
@@ -17622,7 +17622,7 @@ export const products: Product[] = [
     "price": 210,
     "originalPrice": 241,
     "rating": 5,
-    "reviewCount": 12,
+    "reviewCount": 13,
     "shortDescription": "Wdn mirror carved 23x28cm available at Koekeloer Gift & Décor Shop in Gansbaai.",
     "description": "Authentic Wdn mirror carved 23x28cm from Koekeloer Geskenkwinkel & Décor, Shop 2, Great White Junction, Gansbaai. Curated with care for beautiful home living.",
     "features": [
@@ -17632,7 +17632,7 @@ export const products: Product[] = [
       "Nationwide courier delivery across South Africa"
     ],
     "stockStatus": "in_stock",
-    "stockCount": 2,
+    "stockCount": 5,
     "images": [
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2F9a266647-de84-4beb-97f0-646898d6cea4.jpg?alt=media",
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Fthumb_280_9a266647-de84-4beb-97f0-646898d6cea4.jpg?alt=media"
@@ -17656,7 +17656,7 @@ export const products: Product[] = [
     "price": 510,
     "originalPrice": 587,
     "rating": 5,
-    "reviewCount": 9,
+    "reviewCount": 3,
     "shortDescription": "Wdn mirror carved 32x37cm available at Koekeloer Gift & Décor Shop in Gansbaai.",
     "description": "Authentic Wdn mirror carved 32x37cm from Koekeloer Geskenkwinkel & Décor, Shop 2, Great White Junction, Gansbaai. Curated with care for beautiful home living.",
     "features": [
@@ -17666,7 +17666,7 @@ export const products: Product[] = [
       "Nationwide courier delivery across South Africa"
     ],
     "stockStatus": "in_stock",
-    "stockCount": 5,
+    "stockCount": 6,
     "images": [
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2F399f6d3e-845b-4c1e-a6d0-18fa5c210afd.jpg?alt=media",
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Fthumb_280_399f6d3e-845b-4c1e-a6d0-18fa5c210afd.jpg?alt=media"
@@ -17690,7 +17690,7 @@ export const products: Product[] = [
     "price": 455,
     "originalPrice": 523,
     "rating": 5,
-    "reviewCount": 6,
+    "reviewCount": 12,
     "shortDescription": "Boat Wooden Large available at Koekeloer Gift & Décor Shop in Gansbaai.",
     "description": "Authentic Boat Wooden Large from Koekeloer Geskenkwinkel & Décor, Shop 2, Great White Junction, Gansbaai. Curated with care for beautiful home living.",
     "features": [
@@ -17700,7 +17700,7 @@ export const products: Product[] = [
       "Nationwide courier delivery across South Africa"
     ],
     "stockStatus": "in_stock",
-    "stockCount": 5,
+    "stockCount": 8,
     "images": [
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2F51f70ef7-e54c-4540-9742-eacfcfd18004.jpg?alt=media",
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Fthumb_280_51f70ef7-e54c-4540-9742-eacfcfd18004.jpg?alt=media"
@@ -17724,7 +17724,7 @@ export const products: Product[] = [
     "price": 320,
     "originalPrice": 368,
     "rating": 5,
-    "reviewCount": 8,
+    "reviewCount": 15,
     "shortDescription": "Boat Wooden Medium available at Koekeloer Gift & Décor Shop in Gansbaai.",
     "description": "Authentic Boat Wooden Medium from Koekeloer Geskenkwinkel & Décor, Shop 2, Great White Junction, Gansbaai. Curated with care for beautiful home living.",
     "features": [
@@ -17734,7 +17734,7 @@ export const products: Product[] = [
       "Nationwide courier delivery across South Africa"
     ],
     "stockStatus": "in_stock",
-    "stockCount": 3,
+    "stockCount": 6,
     "images": [
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Fff359836-36fb-4ac8-9325-eb908895913e.jpg?alt=media",
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Fthumb_280_ff359836-36fb-4ac8-9325-eb908895913e.jpg?alt=media"
@@ -17758,7 +17758,7 @@ export const products: Product[] = [
     "price": 200,
     "originalPrice": 230,
     "rating": 5,
-    "reviewCount": 14,
+    "reviewCount": 10,
     "shortDescription": "Boat Wooden Small available at Koekeloer Gift & Décor Shop in Gansbaai.",
     "description": "Authentic Boat Wooden Small from Koekeloer Geskenkwinkel & Décor, Shop 2, Great White Junction, Gansbaai. Curated with care for beautiful home living.",
     "features": [
@@ -17768,7 +17768,7 @@ export const products: Product[] = [
       "Nationwide courier delivery across South Africa"
     ],
     "stockStatus": "in_stock",
-    "stockCount": 4,
+    "stockCount": 2,
     "images": [
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2F0fd95058-0069-4c85-b706-50ba35259593.jpg?alt=media",
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Fthumb_280_0fd95058-0069-4c85-b706-50ba35259593.jpg?alt=media"
@@ -17792,7 +17792,7 @@ export const products: Product[] = [
     "price": 360,
     "originalPrice": 414,
     "rating": 5,
-    "reviewCount": 16,
+    "reviewCount": 11,
     "shortDescription": "Decor Penquin Large Wooden H31cm available at Koekeloer Gift & Décor Shop in Gansbaai.",
     "description": "Authentic Decor Penquin Large Wooden H31cm from Koekeloer Geskenkwinkel & Décor, Shop 2, Great White Junction, Gansbaai. Curated with care for beautiful home living.",
     "features": [
@@ -17802,7 +17802,7 @@ export const products: Product[] = [
       "Nationwide courier delivery across South Africa"
     ],
     "stockStatus": "in_stock",
-    "stockCount": 2,
+    "stockCount": 6,
     "images": [
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2F69af52f9-4945-4160-84ae-bd2bb462b1c2.jpg?alt=media",
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Fthumb_280_69af52f9-4945-4160-84ae-bd2bb462b1c2.jpg?alt=media"
@@ -17826,7 +17826,7 @@ export const products: Product[] = [
     "price": 260,
     "originalPrice": 299,
     "rating": 5,
-    "reviewCount": 13,
+    "reviewCount": 10,
     "shortDescription": "Decor Penquin Medium Wooden H28cm available at Koekeloer Gift & Décor Shop in Gansbaai.",
     "description": "Authentic Decor Penquin Medium Wooden H28cm from Koekeloer Geskenkwinkel & Décor, Shop 2, Great White Junction, Gansbaai. Curated with care for beautiful home living.",
     "features": [
@@ -17836,7 +17836,7 @@ export const products: Product[] = [
       "Nationwide courier delivery across South Africa"
     ],
     "stockStatus": "in_stock",
-    "stockCount": 4,
+    "stockCount": 8,
     "images": [
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Fabfa8d35-e038-46dc-9060-8f665ff94cb8.jpg?alt=media",
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Fthumb_280_abfa8d35-e038-46dc-9060-8f665ff94cb8.jpg?alt=media"
@@ -17870,7 +17870,7 @@ export const products: Product[] = [
       "Nationwide courier delivery across South Africa"
     ],
     "stockStatus": "in_stock",
-    "stockCount": 7,
+    "stockCount": 9,
     "images": [
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2F8cbc4e83-ec51-4a65-b864-eea0e3212c68.jpg?alt=media",
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Fthumb_280_8cbc4e83-ec51-4a65-b864-eea0e3212c68.jpg?alt=media"
@@ -17894,7 +17894,7 @@ export const products: Product[] = [
     "price": 799,
     "originalPrice": 919,
     "rating": 5,
-    "reviewCount": 13,
+    "reviewCount": 6,
     "shortDescription": "Dolphin on Stick Wood  Large L50xH34cm available at Koekeloer Gift & Décor Shop in Gansbaai.",
     "description": "Authentic Dolphin on Stick Wood  Large L50xH34cm from Koekeloer Geskenkwinkel & Décor, Shop 2, Great White Junction, Gansbaai. Curated with care for beautiful home living.",
     "features": [
@@ -17904,7 +17904,7 @@ export const products: Product[] = [
       "Nationwide courier delivery across South Africa"
     ],
     "stockStatus": "in_stock",
-    "stockCount": 5,
+    "stockCount": 9,
     "images": [
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Fc22731c3-68bb-48f4-9943-00a4a1052973.jpg?alt=media",
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Fthumb_280_c22731c3-68bb-48f4-9943-00a4a1052973.jpg?alt=media"
@@ -17928,7 +17928,7 @@ export const products: Product[] = [
     "price": 580,
     "originalPrice": 667,
     "rating": 5,
-    "reviewCount": 11,
+    "reviewCount": 10,
     "shortDescription": "Dolphin on Stick Wood Medium L40xH34cm available at Koekeloer Gift & Décor Shop in Gansbaai.",
     "description": "Authentic Dolphin on Stick Wood Medium L40xH34cm from Koekeloer Geskenkwinkel & Décor, Shop 2, Great White Junction, Gansbaai. Curated with care for beautiful home living.",
     "features": [
@@ -17938,7 +17938,7 @@ export const products: Product[] = [
       "Nationwide courier delivery across South Africa"
     ],
     "stockStatus": "in_stock",
-    "stockCount": 7,
+    "stockCount": 5,
     "images": [
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2F82ac9c99-14f2-4175-976e-afab26b21fcd.jpg?alt=media",
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Fthumb_280_82ac9c99-14f2-4175-976e-afab26b21fcd.jpg?alt=media"
@@ -17962,7 +17962,7 @@ export const products: Product[] = [
     "price": 299,
     "originalPrice": 344,
     "rating": 5,
-    "reviewCount": 5,
+    "reviewCount": 11,
     "shortDescription": "Dolphin wdn on Stand sml available at Koekeloer Gift & Décor Shop in Gansbaai.",
     "description": "Authentic Dolphin wdn on Stand sml from Koekeloer Geskenkwinkel & Décor, Shop 2, Great White Junction, Gansbaai. Curated with care for beautiful home living.",
     "features": [
@@ -17972,7 +17972,7 @@ export const products: Product[] = [
       "Nationwide courier delivery across South Africa"
     ],
     "stockStatus": "in_stock",
-    "stockCount": 2,
+    "stockCount": 5,
     "images": [
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2F1735f639-7721-4ad1-a1b6-28ceb562efe7.jpg?alt=media",
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Fthumb_280_1735f639-7721-4ad1-a1b6-28ceb562efe7.jpg?alt=media"
@@ -17996,7 +17996,7 @@ export const products: Product[] = [
     "price": 560,
     "originalPrice": 644,
     "rating": 5,
-    "reviewCount": 15,
+    "reviewCount": 11,
     "shortDescription": "Fish Large Wooden available at Koekeloer Gift & Décor Shop in Gansbaai.",
     "description": "Authentic Fish Large Wooden from Koekeloer Geskenkwinkel & Décor, Shop 2, Great White Junction, Gansbaai. Curated with care for beautiful home living.",
     "features": [
@@ -18006,7 +18006,7 @@ export const products: Product[] = [
       "Nationwide courier delivery across South Africa"
     ],
     "stockStatus": "in_stock",
-    "stockCount": 5,
+    "stockCount": 2,
     "images": [
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2F10bc9e1e-f99f-4536-a85d-80c6f632472d.jpg?alt=media",
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Fthumb_280_10bc9e1e-f99f-4536-a85d-80c6f632472d.jpg?alt=media"
@@ -18030,7 +18030,7 @@ export const products: Product[] = [
     "price": 355,
     "originalPrice": 408,
     "rating": 5,
-    "reviewCount": 14,
+    "reviewCount": 6,
     "shortDescription": "Fish Medium Wooden available at Koekeloer Gift & Décor Shop in Gansbaai.",
     "description": "Authentic Fish Medium Wooden from Koekeloer Geskenkwinkel & Décor, Shop 2, Great White Junction, Gansbaai. Curated with care for beautiful home living.",
     "features": [
@@ -18040,7 +18040,7 @@ export const products: Product[] = [
       "Nationwide courier delivery across South Africa"
     ],
     "stockStatus": "in_stock",
-    "stockCount": 5,
+    "stockCount": 8,
     "images": [
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2F770c48b5-16bd-410e-9e66-15f02a72d8fe.jpg?alt=media",
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Fthumb_280_770c48b5-16bd-410e-9e66-15f02a72d8fe.jpg?alt=media"
@@ -18074,7 +18074,7 @@ export const products: Product[] = [
       "Nationwide courier delivery across South Africa"
     ],
     "stockStatus": "in_stock",
-    "stockCount": 7,
+    "stockCount": 5,
     "images": [
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2F282cc266-d6e0-4b2f-a6c1-dd6739782e66.jpg?alt=media",
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Fthumb_280_282cc266-d6e0-4b2f-a6c1-dd6739782e66.jpg?alt=media"
@@ -18098,7 +18098,7 @@ export const products: Product[] = [
     "price": 590,
     "originalPrice": 679,
     "rating": 5,
-    "reviewCount": 11,
+    "reviewCount": 14,
     "shortDescription": "Fish Wooden 3pc available at Koekeloer Gift & Décor Shop in Gansbaai.",
     "description": "Authentic Fish Wooden 3pc from Koekeloer Geskenkwinkel & Décor, Shop 2, Great White Junction, Gansbaai. Curated with care for beautiful home living.",
     "features": [
@@ -18108,7 +18108,7 @@ export const products: Product[] = [
       "Nationwide courier delivery across South Africa"
     ],
     "stockStatus": "in_stock",
-    "stockCount": 8,
+    "stockCount": 7,
     "images": [
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Feeea50a3-e8fa-40da-9f89-7d043f85421e.jpg?alt=media",
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Fthumb_280_eeea50a3-e8fa-40da-9f89-7d043f85421e.jpg?alt=media"
@@ -18132,7 +18132,7 @@ export const products: Product[] = [
     "price": 380,
     "originalPrice": 437,
     "rating": 5,
-    "reviewCount": 3,
+    "reviewCount": 15,
     "shortDescription": "Fish Wooden Coral Large available at Koekeloer Gift & Décor Shop in Gansbaai.",
     "description": "Authentic Fish Wooden Coral Large from Koekeloer Geskenkwinkel & Décor, Shop 2, Great White Junction, Gansbaai. Curated with care for beautiful home living.",
     "features": [
@@ -18142,7 +18142,7 @@ export const products: Product[] = [
       "Nationwide courier delivery across South Africa"
     ],
     "stockStatus": "in_stock",
-    "stockCount": 4,
+    "stockCount": 5,
     "images": [
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Fbfac6449-3786-4617-b886-79331926e99c.jpg?alt=media",
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Fthumb_280_bfac6449-3786-4617-b886-79331926e99c.jpg?alt=media"
@@ -18166,7 +18166,7 @@ export const products: Product[] = [
     "price": 260,
     "originalPrice": 299,
     "rating": 5,
-    "reviewCount": 17,
+    "reviewCount": 14,
     "shortDescription": "Fish Wooden Coral Medium available at Koekeloer Gift & Décor Shop in Gansbaai.",
     "description": "Authentic Fish Wooden Coral Medium from Koekeloer Geskenkwinkel & Décor, Shop 2, Great White Junction, Gansbaai. Curated with care for beautiful home living.",
     "features": [
@@ -18176,7 +18176,7 @@ export const products: Product[] = [
       "Nationwide courier delivery across South Africa"
     ],
     "stockStatus": "in_stock",
-    "stockCount": 2,
+    "stockCount": 5,
     "images": [
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2F4fbbd7a4-1f0f-4bc9-b5dd-1104c1d4a29c.jpg?alt=media",
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Fthumb_280_4fbbd7a4-1f0f-4bc9-b5dd-1104c1d4a29c.jpg?alt=media"
@@ -18200,7 +18200,7 @@ export const products: Product[] = [
     "price": 150,
     "originalPrice": 173,
     "rating": 5,
-    "reviewCount": 17,
+    "reviewCount": 10,
     "shortDescription": "Fish Wooden Coral Small available at Koekeloer Gift & Décor Shop in Gansbaai.",
     "description": "Authentic Fish Wooden Coral Small from Koekeloer Geskenkwinkel & Décor, Shop 2, Great White Junction, Gansbaai. Curated with care for beautiful home living.",
     "features": [
@@ -18210,7 +18210,7 @@ export const products: Product[] = [
       "Nationwide courier delivery across South Africa"
     ],
     "stockStatus": "in_stock",
-    "stockCount": 5,
+    "stockCount": 6,
     "images": [
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2F98594943-7d5a-40d0-b6a7-7107f0cbe4eb.jpg?alt=media",
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Fthumb_280_98594943-7d5a-40d0-b6a7-7107f0cbe4eb.jpg?alt=media"
@@ -18234,7 +18234,7 @@ export const products: Product[] = [
     "price": 890,
     "originalPrice": 1023,
     "rating": 5,
-    "reviewCount": 9,
+    "reviewCount": 14,
     "shortDescription": "Fish Wooden L100ccm available at Koekeloer Gift & Décor Shop in Gansbaai.",
     "description": "Authentic Fish Wooden L100ccm from Koekeloer Geskenkwinkel & Décor, Shop 2, Great White Junction, Gansbaai. Curated with care for beautiful home living.",
     "features": [
@@ -18244,7 +18244,7 @@ export const products: Product[] = [
       "Nationwide courier delivery across South Africa"
     ],
     "stockStatus": "in_stock",
-    "stockCount": 9,
+    "stockCount": 3,
     "images": [
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2F933e9a7b-0d93-4324-97d0-0a716547b7f3.jpg?alt=media",
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Fthumb_280_933e9a7b-0d93-4324-97d0-0a716547b7f3.jpg?alt=media"
@@ -18268,7 +18268,7 @@ export const products: Product[] = [
     "price": 890,
     "originalPrice": 1023,
     "rating": 5,
-    "reviewCount": 8,
+    "reviewCount": 13,
     "shortDescription": "Fish Wooden L100cm available at Koekeloer Gift & Décor Shop in Gansbaai.",
     "description": "Authentic Fish Wooden L100cm from Koekeloer Geskenkwinkel & Décor, Shop 2, Great White Junction, Gansbaai. Curated with care for beautiful home living.",
     "features": [
@@ -18278,7 +18278,7 @@ export const products: Product[] = [
       "Nationwide courier delivery across South Africa"
     ],
     "stockStatus": "in_stock",
-    "stockCount": 2,
+    "stockCount": 3,
     "images": [
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Ff387177a-6ab3-4e39-aa11-26c5b51e5a1e.jpg?alt=media",
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Fthumb_280_f387177a-6ab3-4e39-aa11-26c5b51e5a1e.jpg?alt=media"
@@ -18302,7 +18302,7 @@ export const products: Product[] = [
     "price": 560,
     "originalPrice": 644,
     "rating": 5,
-    "reviewCount": 6,
+    "reviewCount": 9,
     "shortDescription": "Fish Wooden Large Blue available at Koekeloer Gift & Décor Shop in Gansbaai.",
     "description": "Authentic Fish Wooden Large Blue from Koekeloer Geskenkwinkel & Décor, Shop 2, Great White Junction, Gansbaai. Curated with care for beautiful home living.",
     "features": [
@@ -18312,7 +18312,7 @@ export const products: Product[] = [
       "Nationwide courier delivery across South Africa"
     ],
     "stockStatus": "in_stock",
-    "stockCount": 2,
+    "stockCount": 3,
     "images": [
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2F03c2b071-c3c8-4e43-90ef-be78e2599ec4.jpg?alt=media",
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Fthumb_280_03c2b071-c3c8-4e43-90ef-be78e2599ec4.jpg?alt=media"
@@ -18336,7 +18336,7 @@ export const products: Product[] = [
     "price": 560,
     "originalPrice": 644,
     "rating": 5,
-    "reviewCount": 12,
+    "reviewCount": 13,
     "shortDescription": "Fish Wooden Large Green available at Koekeloer Gift & Décor Shop in Gansbaai.",
     "description": "Authentic Fish Wooden Large Green from Koekeloer Geskenkwinkel & Décor, Shop 2, Great White Junction, Gansbaai. Curated with care for beautiful home living.",
     "features": [
@@ -18370,7 +18370,7 @@ export const products: Product[] = [
     "price": 460,
     "originalPrice": 529,
     "rating": 5,
-    "reviewCount": 6,
+    "reviewCount": 8,
     "shortDescription": "Funny Fish Large available at Koekeloer Gift & Décor Shop in Gansbaai.",
     "description": "Authentic Funny Fish Large from Koekeloer Geskenkwinkel & Décor, Shop 2, Great White Junction, Gansbaai. Curated with care for beautiful home living.",
     "features": [
@@ -18380,7 +18380,7 @@ export const products: Product[] = [
       "Nationwide courier delivery across South Africa"
     ],
     "stockStatus": "in_stock",
-    "stockCount": 2,
+    "stockCount": 3,
     "images": [
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2F0ef31ea1-609e-47c8-9f7b-3f4e5626729c.jpg?alt=media",
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Fthumb_280_0ef31ea1-609e-47c8-9f7b-3f4e5626729c.jpg?alt=media"
@@ -18404,7 +18404,7 @@ export const products: Product[] = [
     "price": 320,
     "originalPrice": 368,
     "rating": 5,
-    "reviewCount": 5,
+    "reviewCount": 7,
     "shortDescription": "Funny Fish Medium available at Koekeloer Gift & Décor Shop in Gansbaai.",
     "description": "Authentic Funny Fish Medium from Koekeloer Geskenkwinkel & Décor, Shop 2, Great White Junction, Gansbaai. Curated with care for beautiful home living.",
     "features": [
@@ -18414,7 +18414,7 @@ export const products: Product[] = [
       "Nationwide courier delivery across South Africa"
     ],
     "stockStatus": "in_stock",
-    "stockCount": 6,
+    "stockCount": 2,
     "images": [
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2F999de695-71be-4c92-b419-8745a870d5fa.jpg?alt=media",
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Fthumb_280_999de695-71be-4c92-b419-8745a870d5fa.jpg?alt=media"
@@ -18438,7 +18438,7 @@ export const products: Product[] = [
     "price": 170,
     "originalPrice": 195,
     "rating": 5,
-    "reviewCount": 15,
+    "reviewCount": 16,
     "shortDescription": "Funny Fish Small available at Koekeloer Gift & Décor Shop in Gansbaai.",
     "description": "Authentic Funny Fish Small from Koekeloer Geskenkwinkel & Décor, Shop 2, Great White Junction, Gansbaai. Curated with care for beautiful home living.",
     "features": [
@@ -18448,7 +18448,7 @@ export const products: Product[] = [
       "Nationwide courier delivery across South Africa"
     ],
     "stockStatus": "in_stock",
-    "stockCount": 2,
+    "stockCount": 9,
     "images": [
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2F70f325dd-d912-4576-8e58-b60819ff60ce.jpg?alt=media",
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Fthumb_280_70f325dd-d912-4576-8e58-b60819ff60ce.jpg?alt=media"
@@ -18472,7 +18472,7 @@ export const products: Product[] = [
     "price": 680,
     "originalPrice": 782,
     "rating": 5,
-    "reviewCount": 5,
+    "reviewCount": 6,
     "shortDescription": "Mermaid Set of 2 available at Koekeloer Gift & Décor Shop in Gansbaai.",
     "description": "Authentic Mermaid Set of 2 from Koekeloer Geskenkwinkel & Décor, Shop 2, Great White Junction, Gansbaai. Curated with care for beautiful home living.",
     "features": [
@@ -18482,7 +18482,7 @@ export const products: Product[] = [
       "Nationwide courier delivery across South Africa"
     ],
     "stockStatus": "in_stock",
-    "stockCount": 8,
+    "stockCount": 3,
     "images": [
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Ff5228b68-9616-4168-9dee-ebd928c4998c.jpg?alt=media",
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Fthumb_280_f5228b68-9616-4168-9dee-ebd928c4998c.jpg?alt=media"
@@ -18506,7 +18506,7 @@ export const products: Product[] = [
     "price": 420,
     "originalPrice": 483,
     "rating": 5,
-    "reviewCount": 8,
+    "reviewCount": 12,
     "shortDescription": "Mermaid Wooden Large available at Koekeloer Gift & Décor Shop in Gansbaai.",
     "description": "Authentic Mermaid Wooden Large from Koekeloer Geskenkwinkel & Décor, Shop 2, Great White Junction, Gansbaai. Curated with care for beautiful home living.",
     "features": [
@@ -18516,7 +18516,7 @@ export const products: Product[] = [
       "Nationwide courier delivery across South Africa"
     ],
     "stockStatus": "in_stock",
-    "stockCount": 4,
+    "stockCount": 5,
     "images": [
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2F13f9f052-6faf-4143-9d85-c7d5e03350b8.jpg?alt=media",
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Fthumb_280_13f9f052-6faf-4143-9d85-c7d5e03350b8.jpg?alt=media"
@@ -18540,7 +18540,7 @@ export const products: Product[] = [
     "price": 299,
     "originalPrice": 344,
     "rating": 5,
-    "reviewCount": 11,
+    "reviewCount": 5,
     "shortDescription": "Mermaid Wooden Medium available at Koekeloer Gift & Décor Shop in Gansbaai.",
     "description": "Authentic Mermaid Wooden Medium from Koekeloer Geskenkwinkel & Décor, Shop 2, Great White Junction, Gansbaai. Curated with care for beautiful home living.",
     "features": [
@@ -18550,7 +18550,7 @@ export const products: Product[] = [
       "Nationwide courier delivery across South Africa"
     ],
     "stockStatus": "in_stock",
-    "stockCount": 4,
+    "stockCount": 6,
     "images": [
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2F5a7a831a-8758-4811-b708-4580cc18bb1c.jpg?alt=media",
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Fthumb_280_5a7a831a-8758-4811-b708-4580cc18bb1c.jpg?alt=media"
@@ -18574,7 +18574,7 @@ export const products: Product[] = [
     "price": 149,
     "originalPrice": 171,
     "rating": 5,
-    "reviewCount": 12,
+    "reviewCount": 3,
     "shortDescription": "Mermaid Wooden Small available at Koekeloer Gift & Décor Shop in Gansbaai.",
     "description": "Authentic Mermaid Wooden Small from Koekeloer Geskenkwinkel & Décor, Shop 2, Great White Junction, Gansbaai. Curated with care for beautiful home living.",
     "features": [
@@ -18608,7 +18608,7 @@ export const products: Product[] = [
     "price": 550,
     "originalPrice": 633,
     "rating": 5,
-    "reviewCount": 14,
+    "reviewCount": 13,
     "shortDescription": "Sea Ball Wooden available at Koekeloer Gift & Décor Shop in Gansbaai.",
     "description": "Authentic Sea Ball Wooden from Koekeloer Geskenkwinkel & Décor, Shop 2, Great White Junction, Gansbaai. Curated with care for beautiful home living.",
     "features": [
@@ -18618,7 +18618,7 @@ export const products: Product[] = [
       "Nationwide courier delivery across South Africa"
     ],
     "stockStatus": "in_stock",
-    "stockCount": 3,
+    "stockCount": 6,
     "images": [
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2F3bd9ba90-4626-4e25-a4d9-4729bbb368ed.jpg?alt=media",
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Fthumb_280_3bd9ba90-4626-4e25-a4d9-4729bbb368ed.jpg?alt=media"
@@ -18642,7 +18642,7 @@ export const products: Product[] = [
     "price": 180,
     "originalPrice": 207,
     "rating": 5,
-    "reviewCount": 8,
+    "reviewCount": 14,
     "shortDescription": "Ships Wheel Wooden Medium available at Koekeloer Gift & Décor Shop in Gansbaai.",
     "description": "Authentic Ships Wheel Wooden Medium from Koekeloer Geskenkwinkel & Décor, Shop 2, Great White Junction, Gansbaai. Curated with care for beautiful home living.",
     "features": [
@@ -18652,7 +18652,7 @@ export const products: Product[] = [
       "Nationwide courier delivery across South Africa"
     ],
     "stockStatus": "in_stock",
-    "stockCount": 3,
+    "stockCount": 8,
     "images": [
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Fca7bad30-54e1-4bb1-abce-cddffb0e3dee.jpg?alt=media",
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Fthumb_280_ca7bad30-54e1-4bb1-abce-cddffb0e3dee.jpg?alt=media"
@@ -18686,7 +18686,7 @@ export const products: Product[] = [
       "Nationwide courier delivery across South Africa"
     ],
     "stockStatus": "in_stock",
-    "stockCount": 3,
+    "stockCount": 7,
     "images": [
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Fa3fa5a64-71c1-4eb6-a511-fe2c3ae58be2.jpg?alt=media",
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Fthumb_280_a3fa5a64-71c1-4eb6-a511-fe2c3ae58be2.jpg?alt=media"
@@ -18710,7 +18710,7 @@ export const products: Product[] = [
     "price": 330,
     "originalPrice": 379,
     "rating": 5,
-    "reviewCount": 7,
+    "reviewCount": 5,
     "shortDescription": "Stingray on Wood available at Koekeloer Gift & Décor Shop in Gansbaai.",
     "description": "Authentic Stingray on Wood from Koekeloer Geskenkwinkel & Décor, Shop 2, Great White Junction, Gansbaai. Curated with care for beautiful home living.",
     "features": [
@@ -18720,7 +18720,7 @@ export const products: Product[] = [
       "Nationwide courier delivery across South Africa"
     ],
     "stockStatus": "in_stock",
-    "stockCount": 2,
+    "stockCount": 3,
     "images": [
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2F5e294178-01b9-45ee-93ca-94c78f2050e4.jpg?alt=media",
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Fthumb_280_5e294178-01b9-45ee-93ca-94c78f2050e4.jpg?alt=media"
@@ -18744,7 +18744,7 @@ export const products: Product[] = [
     "price": 390,
     "originalPrice": 448,
     "rating": 5,
-    "reviewCount": 10,
+    "reviewCount": 15,
     "shortDescription": "Stringray on wood 25cm available at Koekeloer Gift & Décor Shop in Gansbaai.",
     "description": "Authentic Stringray on wood 25cm from Koekeloer Geskenkwinkel & Décor, Shop 2, Great White Junction, Gansbaai. Curated with care for beautiful home living.",
     "features": [
@@ -18754,7 +18754,7 @@ export const products: Product[] = [
       "Nationwide courier delivery across South Africa"
     ],
     "stockStatus": "in_stock",
-    "stockCount": 8,
+    "stockCount": 6,
     "images": [
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2F31c5ae7d-c5fa-4a48-ac47-7752221b30bd.jpg?alt=media",
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Fthumb_280_31c5ae7d-c5fa-4a48-ac47-7752221b30bd.jpg?alt=media"
@@ -18788,7 +18788,7 @@ export const products: Product[] = [
       "Nationwide courier delivery across South Africa"
     ],
     "stockStatus": "in_stock",
-    "stockCount": 8,
+    "stockCount": 6,
     "images": [
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Fa3578002-5fe4-498d-bbfc-8ccfe31ba376.jpg?alt=media",
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Fthumb_280_a3578002-5fe4-498d-bbfc-8ccfe31ba376.jpg?alt=media"
@@ -18812,7 +18812,7 @@ export const products: Product[] = [
     "price": 620,
     "originalPrice": 713,
     "rating": 5,
-    "reviewCount": 7,
+    "reviewCount": 12,
     "shortDescription": "Tin Boat Copper/Gold available at Koekeloer Gift & Décor Shop in Gansbaai.",
     "description": "Authentic Tin Boat Copper/Gold from Koekeloer Geskenkwinkel & Décor, Shop 2, Great White Junction, Gansbaai. Curated with care for beautiful home living.",
     "features": [
@@ -18822,7 +18822,7 @@ export const products: Product[] = [
       "Nationwide courier delivery across South Africa"
     ],
     "stockStatus": "in_stock",
-    "stockCount": 6,
+    "stockCount": 4,
     "images": [
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2F2491a00b-add0-4e11-b16a-5db2d5b3d453.jpg?alt=media",
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Fthumb_280_2491a00b-add0-4e11-b16a-5db2d5b3d453.jpg?alt=media"
@@ -18846,7 +18846,7 @@ export const products: Product[] = [
     "price": 1600,
     "originalPrice": 1840,
     "rating": 5,
-    "reviewCount": 10,
+    "reviewCount": 11,
     "shortDescription": "Tin Boats (3) Gold/Bronze available at Koekeloer Gift & Décor Shop in Gansbaai.",
     "description": "Authentic Tin Boats (3) Gold/Bronze from Koekeloer Geskenkwinkel & Décor, Shop 2, Great White Junction, Gansbaai. Curated with care for beautiful home living.",
     "features": [
@@ -18856,7 +18856,7 @@ export const products: Product[] = [
       "Nationwide courier delivery across South Africa"
     ],
     "stockStatus": "in_stock",
-    "stockCount": 8,
+    "stockCount": 5,
     "images": [
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2F4985764d-7a17-4fe1-b6ce-1bf22036f6e3.jpg?alt=media",
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Fthumb_280_4985764d-7a17-4fe1-b6ce-1bf22036f6e3.jpg?alt=media"
@@ -18880,7 +18880,7 @@ export const products: Product[] = [
     "price": 580,
     "originalPrice": 667,
     "rating": 5,
-    "reviewCount": 15,
+    "reviewCount": 7,
     "shortDescription": "Turtle Wooden available at Koekeloer Gift & Décor Shop in Gansbaai.",
     "description": "Authentic Turtle Wooden from Koekeloer Geskenkwinkel & Décor, Shop 2, Great White Junction, Gansbaai. Curated with care for beautiful home living.",
     "features": [
@@ -18890,7 +18890,7 @@ export const products: Product[] = [
       "Nationwide courier delivery across South Africa"
     ],
     "stockStatus": "in_stock",
-    "stockCount": 9,
+    "stockCount": 7,
     "images": [
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2F266d0cf3-0310-402f-8f79-5af01647df33.jpg?alt=media",
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Fthumb_280_266d0cf3-0310-402f-8f79-5af01647df33.jpg?alt=media"
@@ -18914,7 +18914,7 @@ export const products: Product[] = [
     "price": 380,
     "originalPrice": 437,
     "rating": 5,
-    "reviewCount": 15,
+    "reviewCount": 14,
     "shortDescription": "Turtle Wooden available at Koekeloer Gift & Décor Shop in Gansbaai.",
     "description": "Authentic Turtle Wooden from Koekeloer Geskenkwinkel & Décor, Shop 2, Great White Junction, Gansbaai. Curated with care for beautiful home living.",
     "features": [
@@ -18924,7 +18924,7 @@ export const products: Product[] = [
       "Nationwide courier delivery across South Africa"
     ],
     "stockStatus": "in_stock",
-    "stockCount": 6,
+    "stockCount": 8,
     "images": [
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2F34faaca0-1c7f-4ee9-84c8-f786d440a996.jpg?alt=media",
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Fthumb_280_34faaca0-1c7f-4ee9-84c8-f786d440a996.jpg?alt=media"
@@ -18948,7 +18948,7 @@ export const products: Product[] = [
     "price": 1300,
     "originalPrice": 1495,
     "rating": 5,
-    "reviewCount": 16,
+    "reviewCount": 11,
     "shortDescription": "Wdn Fish 48cm available at Koekeloer Gift & Décor Shop in Gansbaai.",
     "description": "Authentic Wdn Fish 48cm from Koekeloer Geskenkwinkel & Décor, Shop 2, Great White Junction, Gansbaai. Curated with care for beautiful home living.",
     "features": [
@@ -18958,7 +18958,7 @@ export const products: Product[] = [
       "Nationwide courier delivery across South Africa"
     ],
     "stockStatus": "in_stock",
-    "stockCount": 6,
+    "stockCount": 8,
     "images": [
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Fac20a62e-0985-4de3-be72-db1eabdb0841.jpg?alt=media",
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Fthumb_280_ac20a62e-0985-4de3-be72-db1eabdb0841.jpg?alt=media"
@@ -18982,7 +18982,7 @@ export const products: Product[] = [
     "price": 175,
     "originalPrice": 201,
     "rating": 5,
-    "reviewCount": 3,
+    "reviewCount": 9,
     "shortDescription": "Wdn Fish Lrg 22cm available at Koekeloer Gift & Décor Shop in Gansbaai.",
     "description": "Authentic Wdn Fish Lrg 22cm from Koekeloer Geskenkwinkel & Décor, Shop 2, Great White Junction, Gansbaai. Curated with care for beautiful home living.",
     "features": [
@@ -18992,7 +18992,7 @@ export const products: Product[] = [
       "Nationwide courier delivery across South Africa"
     ],
     "stockStatus": "in_stock",
-    "stockCount": 9,
+    "stockCount": 2,
     "images": [
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2F9931b058-d5e7-482c-a886-896a03ed8c06.jpg?alt=media",
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Fthumb_280_9931b058-d5e7-482c-a886-896a03ed8c06.jpg?alt=media"
@@ -19016,7 +19016,7 @@ export const products: Product[] = [
     "price": 175,
     "originalPrice": 201,
     "rating": 5,
-    "reviewCount": 12,
+    "reviewCount": 5,
     "shortDescription": "Wdn Fish Lrg 26cm available at Koekeloer Gift & Décor Shop in Gansbaai.",
     "description": "Authentic Wdn Fish Lrg 26cm from Koekeloer Geskenkwinkel & Décor, Shop 2, Great White Junction, Gansbaai. Curated with care for beautiful home living.",
     "features": [
@@ -19026,7 +19026,7 @@ export const products: Product[] = [
       "Nationwide courier delivery across South Africa"
     ],
     "stockStatus": "in_stock",
-    "stockCount": 2,
+    "stockCount": 5,
     "images": [
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2F6f1bcd5f-3108-4af7-967a-68ed56777800.jpg?alt=media",
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Fthumb_280_6f1bcd5f-3108-4af7-967a-68ed56777800.jpg?alt=media"
@@ -19050,7 +19050,7 @@ export const products: Product[] = [
     "price": 320,
     "originalPrice": 368,
     "rating": 5,
-    "reviewCount": 10,
+    "reviewCount": 16,
     "shortDescription": "Wdn Fish Lrg 30cm available at Koekeloer Gift & Décor Shop in Gansbaai.",
     "description": "Authentic Wdn Fish Lrg 30cm from Koekeloer Geskenkwinkel & Décor, Shop 2, Great White Junction, Gansbaai. Curated with care for beautiful home living.",
     "features": [
@@ -19060,7 +19060,7 @@ export const products: Product[] = [
       "Nationwide courier delivery across South Africa"
     ],
     "stockStatus": "in_stock",
-    "stockCount": 3,
+    "stockCount": 5,
     "images": [
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2F80815c37-f5b0-4c13-aec2-11664fa55f06.jpg?alt=media",
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Fthumb_280_80815c37-f5b0-4c13-aec2-11664fa55f06.jpg?alt=media"
@@ -19084,7 +19084,7 @@ export const products: Product[] = [
     "price": 125,
     "originalPrice": 144,
     "rating": 5,
-    "reviewCount": 8,
+    "reviewCount": 13,
     "shortDescription": "Wdn Fish Med 19cm available at Koekeloer Gift & Décor Shop in Gansbaai.",
     "description": "Authentic Wdn Fish Med 19cm from Koekeloer Geskenkwinkel & Décor, Shop 2, Great White Junction, Gansbaai. Curated with care for beautiful home living.",
     "features": [
@@ -19094,7 +19094,7 @@ export const products: Product[] = [
       "Nationwide courier delivery across South Africa"
     ],
     "stockStatus": "in_stock",
-    "stockCount": 4,
+    "stockCount": 2,
     "images": [
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2F1d81738e-379a-4324-a27a-1f64bf9456d8.jpg?alt=media",
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Fthumb_280_1d81738e-379a-4324-a27a-1f64bf9456d8.jpg?alt=media"
@@ -19118,7 +19118,7 @@ export const products: Product[] = [
     "price": 125,
     "originalPrice": 144,
     "rating": 5,
-    "reviewCount": 6,
+    "reviewCount": 12,
     "shortDescription": "Wdn Fish Med 22cm available at Koekeloer Gift & Décor Shop in Gansbaai.",
     "description": "Authentic Wdn Fish Med 22cm from Koekeloer Geskenkwinkel & Décor, Shop 2, Great White Junction, Gansbaai. Curated with care for beautiful home living.",
     "features": [
@@ -19128,7 +19128,7 @@ export const products: Product[] = [
       "Nationwide courier delivery across South Africa"
     ],
     "stockStatus": "in_stock",
-    "stockCount": 6,
+    "stockCount": 2,
     "images": [
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2F4e765571-fdb4-4680-9e18-2eaa91f4be75.jpg?alt=media",
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Fthumb_280_4e765571-fdb4-4680-9e18-2eaa91f4be75.jpg?alt=media"
@@ -19152,7 +19152,7 @@ export const products: Product[] = [
     "price": 240,
     "originalPrice": 276,
     "rating": 5,
-    "reviewCount": 8,
+    "reviewCount": 5,
     "shortDescription": "Wdn Fish Med 24cm available at Koekeloer Gift & Décor Shop in Gansbaai.",
     "description": "Authentic Wdn Fish Med 24cm from Koekeloer Geskenkwinkel & Décor, Shop 2, Great White Junction, Gansbaai. Curated with care for beautiful home living.",
     "features": [
@@ -19162,7 +19162,7 @@ export const products: Product[] = [
       "Nationwide courier delivery across South Africa"
     ],
     "stockStatus": "in_stock",
-    "stockCount": 5,
+    "stockCount": 3,
     "images": [
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Fe205f7a5-861c-4f97-9793-56712d0464fd.jpg?alt=media",
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Fthumb_280_e205f7a5-861c-4f97-9793-56712d0464fd.jpg?alt=media"
@@ -19186,7 +19186,7 @@ export const products: Product[] = [
     "price": 299,
     "originalPrice": 344,
     "rating": 5,
-    "reviewCount": 4,
+    "reviewCount": 15,
     "shortDescription": "Wdn Fish on Stand 32cm available at Koekeloer Gift & Décor Shop in Gansbaai.",
     "description": "Authentic Wdn Fish on Stand 32cm from Koekeloer Geskenkwinkel & Décor, Shop 2, Great White Junction, Gansbaai. Curated with care for beautiful home living.",
     "features": [
@@ -19196,7 +19196,7 @@ export const products: Product[] = [
       "Nationwide courier delivery across South Africa"
     ],
     "stockStatus": "in_stock",
-    "stockCount": 5,
+    "stockCount": 2,
     "images": [
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Fcab7f646-cac5-4878-8c45-c367018d5500.jpg?alt=media",
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Fthumb_280_cab7f646-cac5-4878-8c45-c367018d5500.jpg?alt=media"
@@ -19230,7 +19230,7 @@ export const products: Product[] = [
       "Nationwide courier delivery across South Africa"
     ],
     "stockStatus": "in_stock",
-    "stockCount": 6,
+    "stockCount": 3,
     "images": [
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Fb836cac2-6bf2-45a9-aa0d-d5cc48afbc10.jpg?alt=media",
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Fthumb_280_b836cac2-6bf2-45a9-aa0d-d5cc48afbc10.jpg?alt=media"
@@ -19254,7 +19254,7 @@ export const products: Product[] = [
     "price": 999,
     "originalPrice": 1149,
     "rating": 5,
-    "reviewCount": 17,
+    "reviewCount": 7,
     "shortDescription": "Wdn Fish on Stand 80cm available at Koekeloer Gift & Décor Shop in Gansbaai.",
     "description": "Authentic Wdn Fish on Stand 80cm from Koekeloer Geskenkwinkel & Décor, Shop 2, Great White Junction, Gansbaai. Curated with care for beautiful home living.",
     "features": [
@@ -19264,7 +19264,7 @@ export const products: Product[] = [
       "Nationwide courier delivery across South Africa"
     ],
     "stockStatus": "in_stock",
-    "stockCount": 2,
+    "stockCount": 4,
     "images": [
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Fc5bcaaa1-5f59-4443-b611-1a6116661584.jpg?alt=media",
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Fthumb_280_c5bcaaa1-5f59-4443-b611-1a6116661584.jpg?alt=media"
@@ -19288,7 +19288,7 @@ export const products: Product[] = [
     "price": 899,
     "originalPrice": 1034,
     "rating": 5,
-    "reviewCount": 7,
+    "reviewCount": 8,
     "shortDescription": "Wdn Fish on Stand Lrg 50cm available at Koekeloer Gift & Décor Shop in Gansbaai.",
     "description": "Authentic Wdn Fish on Stand Lrg 50cm from Koekeloer Geskenkwinkel & Décor, Shop 2, Great White Junction, Gansbaai. Curated with care for beautiful home living.",
     "features": [
@@ -19298,7 +19298,7 @@ export const products: Product[] = [
       "Nationwide courier delivery across South Africa"
     ],
     "stockStatus": "in_stock",
-    "stockCount": 4,
+    "stockCount": 9,
     "images": [
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2F76070528-a665-4bb3-b2d0-ec09e89a2bb7.jpg?alt=media",
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Fthumb_280_76070528-a665-4bb3-b2d0-ec09e89a2bb7.jpg?alt=media"
@@ -19322,7 +19322,7 @@ export const products: Product[] = [
     "price": 299,
     "originalPrice": 344,
     "rating": 5,
-    "reviewCount": 16,
+    "reviewCount": 10,
     "shortDescription": "Wdn Fish on Stand sml 32cm available at Koekeloer Gift & Décor Shop in Gansbaai.",
     "description": "Authentic Wdn Fish on Stand sml 32cm from Koekeloer Geskenkwinkel & Décor, Shop 2, Great White Junction, Gansbaai. Curated with care for beautiful home living.",
     "features": [
@@ -19332,7 +19332,7 @@ export const products: Product[] = [
       "Nationwide courier delivery across South Africa"
     ],
     "stockStatus": "in_stock",
-    "stockCount": 3,
+    "stockCount": 2,
     "images": [
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2F1c2f7d55-3c94-4339-8457-09b1226e2c69.jpg?alt=media",
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Fthumb_280_1c2f7d55-3c94-4339-8457-09b1226e2c69.jpg?alt=media"
@@ -19356,7 +19356,7 @@ export const products: Product[] = [
     "price": 480,
     "originalPrice": 552,
     "rating": 5,
-    "reviewCount": 14,
+    "reviewCount": 9,
     "shortDescription": "Wdn Fish on Wood available at Koekeloer Gift & Décor Shop in Gansbaai.",
     "description": "Authentic Wdn Fish on Wood from Koekeloer Geskenkwinkel & Décor, Shop 2, Great White Junction, Gansbaai. Curated with care for beautiful home living.",
     "features": [
@@ -19366,7 +19366,7 @@ export const products: Product[] = [
       "Nationwide courier delivery across South Africa"
     ],
     "stockStatus": "in_stock",
-    "stockCount": 6,
+    "stockCount": 8,
     "images": [
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Fbf4cbf7f-b7e8-4c74-afcf-29e54e8fb12f.jpg?alt=media",
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Fthumb_280_bf4cbf7f-b7e8-4c74-afcf-29e54e8fb12f.jpg?alt=media"
@@ -19390,7 +19390,7 @@ export const products: Product[] = [
     "price": 120,
     "originalPrice": 138,
     "rating": 5,
-    "reviewCount": 13,
+    "reviewCount": 8,
     "shortDescription": "Wdn Fish sml 19cm available at Koekeloer Gift & Décor Shop in Gansbaai.",
     "description": "Authentic Wdn Fish sml 19cm from Koekeloer Geskenkwinkel & Décor, Shop 2, Great White Junction, Gansbaai. Curated with care for beautiful home living.",
     "features": [
@@ -19400,7 +19400,7 @@ export const products: Product[] = [
       "Nationwide courier delivery across South Africa"
     ],
     "stockStatus": "in_stock",
-    "stockCount": 3,
+    "stockCount": 4,
     "images": [
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Ff036b1f6-ab21-4ba7-bcb4-06aa272a439c.jpg?alt=media",
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Fthumb_280_f036b1f6-ab21-4ba7-bcb4-06aa272a439c.jpg?alt=media"
@@ -19424,7 +19424,7 @@ export const products: Product[] = [
     "price": 699,
     "originalPrice": 804,
     "rating": 5,
-    "reviewCount": 6,
+    "reviewCount": 9,
     "shortDescription": "Wdn Nautilus on Stand Lrg H38xW18cm available at Koekeloer Gift & Décor Shop in Gansbaai.",
     "description": "Authentic Wdn Nautilus on Stand Lrg H38xW18cm from Koekeloer Geskenkwinkel & Décor, Shop 2, Great White Junction, Gansbaai. Curated with care for beautiful home living.",
     "features": [
@@ -19434,7 +19434,7 @@ export const products: Product[] = [
       "Nationwide courier delivery across South Africa"
     ],
     "stockStatus": "in_stock",
-    "stockCount": 7,
+    "stockCount": 5,
     "images": [
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Ff6c5a853-3159-43e7-bd27-bd11732f0b9b.jpg?alt=media",
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Fthumb_280_f6c5a853-3159-43e7-bd27-bd11732f0b9b.jpg?alt=media"
@@ -19458,7 +19458,7 @@ export const products: Product[] = [
     "price": 499,
     "originalPrice": 574,
     "rating": 5,
-    "reviewCount": 11,
+    "reviewCount": 3,
     "shortDescription": "Wdn Nautilus on Stand Med H34xW16cm available at Koekeloer Gift & Décor Shop in Gansbaai.",
     "description": "Authentic Wdn Nautilus on Stand Med H34xW16cm from Koekeloer Geskenkwinkel & Décor, Shop 2, Great White Junction, Gansbaai. Curated with care for beautiful home living.",
     "features": [
@@ -19468,7 +19468,7 @@ export const products: Product[] = [
       "Nationwide courier delivery across South Africa"
     ],
     "stockStatus": "in_stock",
-    "stockCount": 8,
+    "stockCount": 3,
     "images": [
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2F3c9df585-0c15-47a3-a968-18ca421b3558.jpg?alt=media",
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Fthumb_280_3c9df585-0c15-47a3-a968-18ca421b3558.jpg?alt=media"
@@ -19492,7 +19492,7 @@ export const products: Product[] = [
     "price": 299,
     "originalPrice": 344,
     "rating": 5,
-    "reviewCount": 10,
+    "reviewCount": 9,
     "shortDescription": "Wdn Nautilus on Stand sml H28cmxW14cm available at Koekeloer Gift & Décor Shop in Gansbaai.",
     "description": "Authentic Wdn Nautilus on Stand sml H28cmxW14cm from Koekeloer Geskenkwinkel & Décor, Shop 2, Great White Junction, Gansbaai. Curated with care for beautiful home living.",
     "features": [
@@ -19502,7 +19502,7 @@ export const products: Product[] = [
       "Nationwide courier delivery across South Africa"
     ],
     "stockStatus": "in_stock",
-    "stockCount": 4,
+    "stockCount": 9,
     "images": [
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Fc0b41c94-e8f0-4c8d-abf1-2714be0e61e4.jpg?alt=media",
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Fthumb_280_c0b41c94-e8f0-4c8d-abf1-2714be0e61e4.jpg?alt=media"
@@ -19526,7 +19526,7 @@ export const products: Product[] = [
     "price": 1350,
     "originalPrice": 1552,
     "rating": 5,
-    "reviewCount": 17,
+    "reviewCount": 10,
     "shortDescription": "Wdn Stingray 40cm available at Koekeloer Gift & Décor Shop in Gansbaai.",
     "description": "Authentic Wdn Stingray 40cm from Koekeloer Geskenkwinkel & Décor, Shop 2, Great White Junction, Gansbaai. Curated with care for beautiful home living.",
     "features": [
@@ -19536,7 +19536,7 @@ export const products: Product[] = [
       "Nationwide courier delivery across South Africa"
     ],
     "stockStatus": "in_stock",
-    "stockCount": 4,
+    "stockCount": 9,
     "images": [
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2F5a06f3a3-85b9-4399-bd72-3d679ca4e231.jpg?alt=media",
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Fthumb_280_5a06f3a3-85b9-4399-bd72-3d679ca4e231.jpg?alt=media"
@@ -19560,7 +19560,7 @@ export const products: Product[] = [
     "price": 1650,
     "originalPrice": 1897,
     "rating": 5,
-    "reviewCount": 9,
+    "reviewCount": 3,
     "shortDescription": "Wdn Stingray 50cm available at Koekeloer Gift & Décor Shop in Gansbaai.",
     "description": "Authentic Wdn Stingray 50cm from Koekeloer Geskenkwinkel & Décor, Shop 2, Great White Junction, Gansbaai. Curated with care for beautiful home living.",
     "features": [
@@ -19594,7 +19594,7 @@ export const products: Product[] = [
     "price": 650,
     "originalPrice": 747,
     "rating": 5,
-    "reviewCount": 16,
+    "reviewCount": 10,
     "shortDescription": "Whale Wooden Large available at Koekeloer Gift & Décor Shop in Gansbaai.",
     "description": "Authentic Whale Wooden Large from Koekeloer Geskenkwinkel & Décor, Shop 2, Great White Junction, Gansbaai. Curated with care for beautiful home living.",
     "features": [
@@ -19604,7 +19604,7 @@ export const products: Product[] = [
       "Nationwide courier delivery across South Africa"
     ],
     "stockStatus": "in_stock",
-    "stockCount": 9,
+    "stockCount": 4,
     "images": [
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2F745a90db-d335-4a56-a6e6-d1548356a370.jpg?alt=media",
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Fthumb_280_745a90db-d335-4a56-a6e6-d1548356a370.jpg?alt=media"
@@ -19628,7 +19628,7 @@ export const products: Product[] = [
     "price": 650,
     "originalPrice": 747,
     "rating": 5,
-    "reviewCount": 17,
+    "reviewCount": 13,
     "shortDescription": "Whale Wooden Large L50cm available at Koekeloer Gift & Décor Shop in Gansbaai.",
     "description": "Authentic Whale Wooden Large L50cm from Koekeloer Geskenkwinkel & Décor, Shop 2, Great White Junction, Gansbaai. Curated with care for beautiful home living.",
     "features": [
@@ -19638,7 +19638,7 @@ export const products: Product[] = [
       "Nationwide courier delivery across South Africa"
     ],
     "stockStatus": "in_stock",
-    "stockCount": 8,
+    "stockCount": 7,
     "images": [
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2F10a15440-e5ce-4330-a0f3-43e85469cb33.jpg?alt=media",
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Fthumb_280_10a15440-e5ce-4330-a0f3-43e85469cb33.jpg?alt=media"
@@ -19662,7 +19662,7 @@ export const products: Product[] = [
     "price": 450,
     "originalPrice": 518,
     "rating": 5,
-    "reviewCount": 6,
+    "reviewCount": 17,
     "shortDescription": "Whale Wooden Medium available at Koekeloer Gift & Décor Shop in Gansbaai.",
     "description": "Authentic Whale Wooden Medium from Koekeloer Geskenkwinkel & Décor, Shop 2, Great White Junction, Gansbaai. Curated with care for beautiful home living.",
     "features": [
@@ -19672,7 +19672,7 @@ export const products: Product[] = [
       "Nationwide courier delivery across South Africa"
     ],
     "stockStatus": "in_stock",
-    "stockCount": 6,
+    "stockCount": 8,
     "images": [
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2F4977c4a8-1018-48ed-986d-cba564ffc9f5.jpg?alt=media",
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Fthumb_280_4977c4a8-1018-48ed-986d-cba564ffc9f5.jpg?alt=media"
@@ -19696,7 +19696,7 @@ export const products: Product[] = [
     "price": 390,
     "originalPrice": 448,
     "rating": 5,
-    "reviewCount": 10,
+    "reviewCount": 14,
     "shortDescription": "Whale Wooden Medium L40cm available at Koekeloer Gift & Décor Shop in Gansbaai.",
     "description": "Authentic Whale Wooden Medium L40cm from Koekeloer Geskenkwinkel & Décor, Shop 2, Great White Junction, Gansbaai. Curated with care for beautiful home living.",
     "features": [
@@ -19706,7 +19706,7 @@ export const products: Product[] = [
       "Nationwide courier delivery across South Africa"
     ],
     "stockStatus": "in_stock",
-    "stockCount": 8,
+    "stockCount": 4,
     "images": [
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Feea1a61a-652e-4106-92b7-d89827bc74a8.jpg?alt=media",
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Fthumb_280_eea1a61a-652e-4106-92b7-d89827bc74a8.jpg?alt=media"
@@ -19730,7 +19730,7 @@ export const products: Product[] = [
     "price": 290,
     "originalPrice": 334,
     "rating": 5,
-    "reviewCount": 9,
+    "reviewCount": 16,
     "shortDescription": "Whale Wooden Small available at Koekeloer Gift & Décor Shop in Gansbaai.",
     "description": "Authentic Whale Wooden Small from Koekeloer Geskenkwinkel & Décor, Shop 2, Great White Junction, Gansbaai. Curated with care for beautiful home living.",
     "features": [
@@ -19740,7 +19740,7 @@ export const products: Product[] = [
       "Nationwide courier delivery across South Africa"
     ],
     "stockStatus": "in_stock",
-    "stockCount": 5,
+    "stockCount": 6,
     "images": [
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2F545cf2c5-69d6-469e-9ec7-4128f55e41a5.jpg?alt=media",
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Fthumb_280_545cf2c5-69d6-469e-9ec7-4128f55e41a5.jpg?alt=media"
@@ -19764,7 +19764,7 @@ export const products: Product[] = [
     "price": 250,
     "originalPrice": 288,
     "rating": 5,
-    "reviewCount": 5,
+    "reviewCount": 4,
     "shortDescription": "Whale Wooden Small L30cm available at Koekeloer Gift & Décor Shop in Gansbaai.",
     "description": "Authentic Whale Wooden Small L30cm from Koekeloer Geskenkwinkel & Décor, Shop 2, Great White Junction, Gansbaai. Curated with care for beautiful home living.",
     "features": [
@@ -19774,7 +19774,7 @@ export const products: Product[] = [
       "Nationwide courier delivery across South Africa"
     ],
     "stockStatus": "in_stock",
-    "stockCount": 7,
+    "stockCount": 6,
     "images": [
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2F61eeaa61-2b91-429d-b57e-708c32950a21.jpg?alt=media",
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Fthumb_280_61eeaa61-2b91-429d-b57e-708c32950a21.jpg?alt=media"
@@ -19798,7 +19798,7 @@ export const products: Product[] = [
     "price": 750,
     "originalPrice": 862,
     "rating": 5,
-    "reviewCount": 14,
+    "reviewCount": 10,
     "shortDescription": "Wooden Sailing Boat Large available at Koekeloer Gift & Décor Shop in Gansbaai.",
     "description": "Authentic Wooden Sailing Boat Large from Koekeloer Geskenkwinkel & Décor, Shop 2, Great White Junction, Gansbaai. Curated with care for beautiful home living.",
     "features": [
@@ -19808,7 +19808,7 @@ export const products: Product[] = [
       "Nationwide courier delivery across South Africa"
     ],
     "stockStatus": "in_stock",
-    "stockCount": 6,
+    "stockCount": 3,
     "images": [
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Fb005acb3-a1bb-4ecf-a4aa-8012e48ed7f2.jpg?alt=media",
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Fthumb_280_b005acb3-a1bb-4ecf-a4aa-8012e48ed7f2.jpg?alt=media"
@@ -19832,7 +19832,7 @@ export const products: Product[] = [
     "price": 300,
     "originalPrice": 345,
     "rating": 5,
-    "reviewCount": 9,
+    "reviewCount": 12,
     "shortDescription": "Wooden Sailing Boat Medium available at Koekeloer Gift & Décor Shop in Gansbaai.",
     "description": "Authentic Wooden Sailing Boat Medium from Koekeloer Geskenkwinkel & Décor, Shop 2, Great White Junction, Gansbaai. Curated with care for beautiful home living.",
     "features": [
@@ -19842,7 +19842,7 @@ export const products: Product[] = [
       "Nationwide courier delivery across South Africa"
     ],
     "stockStatus": "in_stock",
-    "stockCount": 4,
+    "stockCount": 9,
     "images": [
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Fdd005345-6f0f-4423-b1e3-0bfb56f7ccb6.jpg?alt=media",
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Fthumb_280_dd005345-6f0f-4423-b1e3-0bfb56f7ccb6.jpg?alt=media"
@@ -19866,7 +19866,7 @@ export const products: Product[] = [
     "price": 850,
     "originalPrice": 977,
     "rating": 5,
-    "reviewCount": 14,
+    "reviewCount": 4,
     "shortDescription": "Decor Pot Planter Large available at Koekeloer Gift & Décor Shop in Gansbaai.",
     "description": "Authentic Decor Pot Planter Large from Koekeloer Geskenkwinkel & Décor, Shop 2, Great White Junction, Gansbaai. Curated with care for beautiful home living.",
     "features": [
@@ -19876,7 +19876,7 @@ export const products: Product[] = [
       "Nationwide courier delivery across South Africa"
     ],
     "stockStatus": "in_stock",
-    "stockCount": 3,
+    "stockCount": 5,
     "images": [
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2F0d15d6e6-8e7a-4585-828d-a91ac0a7449d.jpg?alt=media",
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Fthumb_280_0d15d6e6-8e7a-4585-828d-a91ac0a7449d.jpg?alt=media"
@@ -19900,7 +19900,7 @@ export const products: Product[] = [
     "price": 280,
     "originalPrice": 322,
     "rating": 5,
-    "reviewCount": 13,
+    "reviewCount": 7,
     "shortDescription": "Decor Pot Planter Small available at Koekeloer Gift & Décor Shop in Gansbaai.",
     "description": "Authentic Decor Pot Planter Small from Koekeloer Geskenkwinkel & Décor, Shop 2, Great White Junction, Gansbaai. Curated with care for beautiful home living.",
     "features": [
@@ -19910,7 +19910,7 @@ export const products: Product[] = [
       "Nationwide courier delivery across South Africa"
     ],
     "stockStatus": "in_stock",
-    "stockCount": 7,
+    "stockCount": 3,
     "images": [
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Fcee41dc6-7e57-49f2-b900-96160a7835fe.jpg?alt=media",
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Fthumb_280_cee41dc6-7e57-49f2-b900-96160a7835fe.jpg?alt=media"
@@ -19934,7 +19934,7 @@ export const products: Product[] = [
     "price": 340,
     "originalPrice": 391,
     "rating": 5,
-    "reviewCount": 15,
+    "reviewCount": 12,
     "shortDescription": "Decor Pot/Planter available at Koekeloer Gift & Décor Shop in Gansbaai.",
     "description": "Authentic Decor Pot/Planter from Koekeloer Geskenkwinkel & Décor, Shop 2, Great White Junction, Gansbaai. Curated with care for beautiful home living.",
     "features": [
@@ -19944,7 +19944,7 @@ export const products: Product[] = [
       "Nationwide courier delivery across South Africa"
     ],
     "stockStatus": "in_stock",
-    "stockCount": 2,
+    "stockCount": 6,
     "images": [
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2F0af40bf2-261d-4a9f-afd5-d50e8b19a9b6.jpg?alt=media",
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Fthumb_280_0af40bf2-261d-4a9f-afd5-d50e8b19a9b6.jpg?alt=media"
@@ -19968,7 +19968,7 @@ export const products: Product[] = [
     "price": 340,
     "originalPrice": 391,
     "rating": 5,
-    "reviewCount": 7,
+    "reviewCount": 10,
     "shortDescription": "Decor Pot/Planter med available at Koekeloer Gift & Décor Shop in Gansbaai.",
     "description": "Authentic Decor Pot/Planter med from Koekeloer Geskenkwinkel & Décor, Shop 2, Great White Junction, Gansbaai. Curated with care for beautiful home living.",
     "features": [
@@ -20002,7 +20002,7 @@ export const products: Product[] = [
     "price": 420,
     "originalPrice": 483,
     "rating": 5,
-    "reviewCount": 11,
+    "reviewCount": 4,
     "shortDescription": "Planter Ceramic Large available at Koekeloer Gift & Décor Shop in Gansbaai.",
     "description": "Authentic Planter Ceramic Large from Koekeloer Geskenkwinkel & Décor, Shop 2, Great White Junction, Gansbaai. Curated with care for beautiful home living.",
     "features": [
@@ -20012,7 +20012,7 @@ export const products: Product[] = [
       "Nationwide courier delivery across South Africa"
     ],
     "stockStatus": "in_stock",
-    "stockCount": 2,
+    "stockCount": 8,
     "images": [
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2F2a979d76-846b-4340-a81d-f91a7263b65b.jpg?alt=media",
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Fthumb_280_2a979d76-846b-4340-a81d-f91a7263b65b.jpg?alt=media"
@@ -20036,7 +20036,7 @@ export const products: Product[] = [
     "price": 345,
     "originalPrice": 397,
     "rating": 5,
-    "reviewCount": 11,
+    "reviewCount": 6,
     "shortDescription": "Planter Ceramic Large available at Koekeloer Gift & Décor Shop in Gansbaai.",
     "description": "Authentic Planter Ceramic Large from Koekeloer Geskenkwinkel & Décor, Shop 2, Great White Junction, Gansbaai. Curated with care for beautiful home living.",
     "features": [
@@ -20046,7 +20046,7 @@ export const products: Product[] = [
       "Nationwide courier delivery across South Africa"
     ],
     "stockStatus": "in_stock",
-    "stockCount": 8,
+    "stockCount": 5,
     "images": [
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2F704bfdd9-52f4-4b36-a179-438bae4111ff.jpg?alt=media",
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Fthumb_280_704bfdd9-52f4-4b36-a179-438bae4111ff.jpg?alt=media"
@@ -20070,7 +20070,7 @@ export const products: Product[] = [
     "price": 345,
     "originalPrice": 397,
     "rating": 5,
-    "reviewCount": 3,
+    "reviewCount": 8,
     "shortDescription": "Planter Ceramic Large available at Koekeloer Gift & Décor Shop in Gansbaai.",
     "description": "Authentic Planter Ceramic Large from Koekeloer Geskenkwinkel & Décor, Shop 2, Great White Junction, Gansbaai. Curated with care for beautiful home living.",
     "features": [
@@ -20080,7 +20080,7 @@ export const products: Product[] = [
       "Nationwide courier delivery across South Africa"
     ],
     "stockStatus": "in_stock",
-    "stockCount": 8,
+    "stockCount": 3,
     "images": [
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Fbbbff0b3-8613-4ad1-8fdb-93d055b7a809.jpg?alt=media",
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Fthumb_280_bbbff0b3-8613-4ad1-8fdb-93d055b7a809.jpg?alt=media"
@@ -20104,7 +20104,7 @@ export const products: Product[] = [
     "price": 210,
     "originalPrice": 241,
     "rating": 5,
-    "reviewCount": 12,
+    "reviewCount": 5,
     "shortDescription": "Planter Ceramic Medium available at Koekeloer Gift & Décor Shop in Gansbaai.",
     "description": "Authentic Planter Ceramic Medium from Koekeloer Geskenkwinkel & Décor, Shop 2, Great White Junction, Gansbaai. Curated with care for beautiful home living.",
     "features": [
@@ -20114,7 +20114,7 @@ export const products: Product[] = [
       "Nationwide courier delivery across South Africa"
     ],
     "stockStatus": "in_stock",
-    "stockCount": 4,
+    "stockCount": 7,
     "images": [
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2F9e6924ee-e89c-442f-9525-c7424414f305.jpg?alt=media",
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Fthumb_280_9e6924ee-e89c-442f-9525-c7424414f305.jpg?alt=media"
@@ -20138,7 +20138,7 @@ export const products: Product[] = [
     "price": 280,
     "originalPrice": 322,
     "rating": 5,
-    "reviewCount": 15,
+    "reviewCount": 6,
     "shortDescription": "Planter Ceramic Medium available at Koekeloer Gift & Décor Shop in Gansbaai.",
     "description": "Authentic Planter Ceramic Medium from Koekeloer Geskenkwinkel & Décor, Shop 2, Great White Junction, Gansbaai. Curated with care for beautiful home living.",
     "features": [
@@ -20148,7 +20148,7 @@ export const products: Product[] = [
       "Nationwide courier delivery across South Africa"
     ],
     "stockStatus": "in_stock",
-    "stockCount": 7,
+    "stockCount": 4,
     "images": [
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2F30661587-d64d-4fbf-aa08-8b6902b487ce.jpg?alt=media",
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Fthumb_280_30661587-d64d-4fbf-aa08-8b6902b487ce.jpg?alt=media"
@@ -20172,7 +20172,7 @@ export const products: Product[] = [
     "price": 230,
     "originalPrice": 265,
     "rating": 5,
-    "reviewCount": 7,
+    "reviewCount": 5,
     "shortDescription": "Planter Ceramic Medium available at Koekeloer Gift & Décor Shop in Gansbaai.",
     "description": "Authentic Planter Ceramic Medium from Koekeloer Geskenkwinkel & Décor, Shop 2, Great White Junction, Gansbaai. Curated with care for beautiful home living.",
     "features": [
@@ -20206,7 +20206,7 @@ export const products: Product[] = [
     "price": 230,
     "originalPrice": 265,
     "rating": 5,
-    "reviewCount": 8,
+    "reviewCount": 10,
     "shortDescription": "Planter Ceramic Medium available at Koekeloer Gift & Décor Shop in Gansbaai.",
     "description": "Authentic Planter Ceramic Medium from Koekeloer Geskenkwinkel & Décor, Shop 2, Great White Junction, Gansbaai. Curated with care for beautiful home living.",
     "features": [
@@ -20216,7 +20216,7 @@ export const products: Product[] = [
       "Nationwide courier delivery across South Africa"
     ],
     "stockStatus": "in_stock",
-    "stockCount": 8,
+    "stockCount": 9,
     "images": [
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2F07979eca-46ef-42b9-ad9c-423cc8229a42.jpg?alt=media",
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Fthumb_280_07979eca-46ef-42b9-ad9c-423cc8229a42.jpg?alt=media"
@@ -20240,7 +20240,7 @@ export const products: Product[] = [
     "price": 105,
     "originalPrice": 121,
     "rating": 5,
-    "reviewCount": 5,
+    "reviewCount": 10,
     "shortDescription": "Planter Ceramic Small available at Koekeloer Gift & Décor Shop in Gansbaai.",
     "description": "Authentic Planter Ceramic Small from Koekeloer Geskenkwinkel & Décor, Shop 2, Great White Junction, Gansbaai. Curated with care for beautiful home living.",
     "features": [
@@ -20250,7 +20250,7 @@ export const products: Product[] = [
       "Nationwide courier delivery across South Africa"
     ],
     "stockStatus": "in_stock",
-    "stockCount": 2,
+    "stockCount": 8,
     "images": [
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Fe67670ee-1e96-433b-afc2-1fa4da284d97.jpg?alt=media",
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Fthumb_280_e67670ee-1e96-433b-afc2-1fa4da284d97.jpg?alt=media"
@@ -20274,7 +20274,7 @@ export const products: Product[] = [
     "price": 140,
     "originalPrice": 161,
     "rating": 5,
-    "reviewCount": 7,
+    "reviewCount": 17,
     "shortDescription": "Planter Ceramic Small available at Koekeloer Gift & Décor Shop in Gansbaai.",
     "description": "Authentic Planter Ceramic Small from Koekeloer Geskenkwinkel & Décor, Shop 2, Great White Junction, Gansbaai. Curated with care for beautiful home living.",
     "features": [
@@ -20284,7 +20284,7 @@ export const products: Product[] = [
       "Nationwide courier delivery across South Africa"
     ],
     "stockStatus": "in_stock",
-    "stockCount": 2,
+    "stockCount": 9,
     "images": [
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2F075830ec-2585-4351-99fb-08d81d92a089.jpg?alt=media",
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Fthumb_280_075830ec-2585-4351-99fb-08d81d92a089.jpg?alt=media"
@@ -20308,7 +20308,7 @@ export const products: Product[] = [
     "price": 115,
     "originalPrice": 132,
     "rating": 5,
-    "reviewCount": 3,
+    "reviewCount": 9,
     "shortDescription": "Planter Ceramic Small available at Koekeloer Gift & Décor Shop in Gansbaai.",
     "description": "Authentic Planter Ceramic Small from Koekeloer Geskenkwinkel & Décor, Shop 2, Great White Junction, Gansbaai. Curated with care for beautiful home living.",
     "features": [
@@ -20318,7 +20318,7 @@ export const products: Product[] = [
       "Nationwide courier delivery across South Africa"
     ],
     "stockStatus": "in_stock",
-    "stockCount": 3,
+    "stockCount": 5,
     "images": [
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2F528b98c7-b63b-40fe-a852-9b23d6a7501b.jpg?alt=media",
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Fthumb_280_528b98c7-b63b-40fe-a852-9b23d6a7501b.jpg?alt=media"
@@ -20342,7 +20342,7 @@ export const products: Product[] = [
     "price": 115,
     "originalPrice": 132,
     "rating": 5,
-    "reviewCount": 17,
+    "reviewCount": 8,
     "shortDescription": "Planter Ceramic Small available at Koekeloer Gift & Décor Shop in Gansbaai.",
     "description": "Authentic Planter Ceramic Small from Koekeloer Geskenkwinkel & Décor, Shop 2, Great White Junction, Gansbaai. Curated with care for beautiful home living.",
     "features": [
@@ -20352,7 +20352,7 @@ export const products: Product[] = [
       "Nationwide courier delivery across South Africa"
     ],
     "stockStatus": "in_stock",
-    "stockCount": 5,
+    "stockCount": 7,
     "images": [
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2F45d2c678-5139-425d-874e-bb7d8985e262.jpg?alt=media",
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Fthumb_280_45d2c678-5139-425d-874e-bb7d8985e262.jpg?alt=media"
@@ -20376,7 +20376,7 @@ export const products: Product[] = [
     "price": 849,
     "originalPrice": 976,
     "rating": 5,
-    "reviewCount": 3,
+    "reviewCount": 9,
     "shortDescription": "Planter lady with grapes 35cm available at Koekeloer Gift & Décor Shop in Gansbaai.",
     "description": "Authentic Planter lady with grapes 35cm from Koekeloer Geskenkwinkel & Décor, Shop 2, Great White Junction, Gansbaai. Curated with care for beautiful home living.",
     "features": [
@@ -20410,7 +20410,7 @@ export const products: Product[] = [
     "price": 849,
     "originalPrice": 976,
     "rating": 5,
-    "reviewCount": 7,
+    "reviewCount": 10,
     "shortDescription": "Planter lady with roses 35cm available at Koekeloer Gift & Décor Shop in Gansbaai.",
     "description": "Authentic Planter lady with roses 35cm from Koekeloer Geskenkwinkel & Décor, Shop 2, Great White Junction, Gansbaai. Curated with care for beautiful home living.",
     "features": [
@@ -20420,7 +20420,7 @@ export const products: Product[] = [
       "Nationwide courier delivery across South Africa"
     ],
     "stockStatus": "in_stock",
-    "stockCount": 6,
+    "stockCount": 5,
     "images": [
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2F160e826c-5edb-410a-ba1e-e98b636cda7f.jpg?alt=media",
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Fthumb_280_160e826c-5edb-410a-ba1e-e98b636cda7f.jpg?alt=media"
@@ -20444,7 +20444,7 @@ export const products: Product[] = [
     "price": 570,
     "originalPrice": 656,
     "rating": 5,
-    "reviewCount": 17,
+    "reviewCount": 14,
     "shortDescription": "Pot 40cm w/knobs available at Koekeloer Gift & Décor Shop in Gansbaai.",
     "description": "Authentic Pot 40cm w/knobs from Koekeloer Geskenkwinkel & Décor, Shop 2, Great White Junction, Gansbaai. Curated with care for beautiful home living.",
     "features": [
@@ -20454,7 +20454,7 @@ export const products: Product[] = [
       "Nationwide courier delivery across South Africa"
     ],
     "stockStatus": "in_stock",
-    "stockCount": 4,
+    "stockCount": 7,
     "images": [
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2F43da3703-e0ef-4117-b618-96a76900d3cd.jpg?alt=media",
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Fthumb_280_43da3703-e0ef-4117-b618-96a76900d3cd.jpg?alt=media"
@@ -20478,7 +20478,7 @@ export const products: Product[] = [
     "price": 550,
     "originalPrice": 633,
     "rating": 5,
-    "reviewCount": 11,
+    "reviewCount": 3,
     "shortDescription": "Pot/Vase Concrete available at Koekeloer Gift & Décor Shop in Gansbaai.",
     "description": "Authentic Pot/Vase Concrete from Koekeloer Geskenkwinkel & Décor, Shop 2, Great White Junction, Gansbaai. Curated with care for beautiful home living.",
     "features": [
@@ -20512,7 +20512,7 @@ export const products: Product[] = [
     "price": 445,
     "originalPrice": 512,
     "rating": 5,
-    "reviewCount": 7,
+    "reviewCount": 14,
     "shortDescription": "Pot/Vase Concrete available at Koekeloer Gift & Décor Shop in Gansbaai.",
     "description": "Authentic Pot/Vase Concrete from Koekeloer Geskenkwinkel & Décor, Shop 2, Great White Junction, Gansbaai. Curated with care for beautiful home living.",
     "features": [
@@ -20522,7 +20522,7 @@ export const products: Product[] = [
       "Nationwide courier delivery across South Africa"
     ],
     "stockStatus": "in_stock",
-    "stockCount": 2,
+    "stockCount": 4,
     "images": [
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Ff143a7cb-a868-47f9-9fe1-d72a6a5d2d11.jpg?alt=media",
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Fthumb_280_f143a7cb-a868-47f9-9fe1-d72a6a5d2d11.jpg?alt=media"
@@ -20546,7 +20546,7 @@ export const products: Product[] = [
     "price": 445,
     "originalPrice": 512,
     "rating": 5,
-    "reviewCount": 6,
+    "reviewCount": 9,
     "shortDescription": "Pot/Vase Concrete available at Koekeloer Gift & Décor Shop in Gansbaai.",
     "description": "Authentic Pot/Vase Concrete from Koekeloer Geskenkwinkel & Décor, Shop 2, Great White Junction, Gansbaai. Curated with care for beautiful home living.",
     "features": [
@@ -20556,7 +20556,7 @@ export const products: Product[] = [
       "Nationwide courier delivery across South Africa"
     ],
     "stockStatus": "in_stock",
-    "stockCount": 6,
+    "stockCount": 2,
     "images": [
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2F079d3157-2109-4d6d-bb9c-54146e649568.jpg?alt=media",
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Fthumb_280_079d3157-2109-4d6d-bb9c-54146e649568.jpg?alt=media"
@@ -20580,7 +20580,7 @@ export const products: Product[] = [
     "price": 445,
     "originalPrice": 512,
     "rating": 5,
-    "reviewCount": 6,
+    "reviewCount": 4,
     "shortDescription": "Pot/Vase Concrete available at Koekeloer Gift & Décor Shop in Gansbaai.",
     "description": "Authentic Pot/Vase Concrete from Koekeloer Geskenkwinkel & Décor, Shop 2, Great White Junction, Gansbaai. Curated with care for beautiful home living.",
     "features": [
@@ -20590,7 +20590,7 @@ export const products: Product[] = [
       "Nationwide courier delivery across South Africa"
     ],
     "stockStatus": "in_stock",
-    "stockCount": 5,
+    "stockCount": 6,
     "images": [
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2F8c224aaf-35bb-4c41-90d1-cef1b7128500.jpg?alt=media",
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Fthumb_280_8c224aaf-35bb-4c41-90d1-cef1b7128500.jpg?alt=media"
@@ -20614,7 +20614,7 @@ export const products: Product[] = [
     "price": 5500,
     "originalPrice": 6325,
     "rating": 5,
-    "reviewCount": 10,
+    "reviewCount": 4,
     "shortDescription": "Rock Basin 120x36x15cm available at Koekeloer Gift & Décor Shop in Gansbaai.",
     "description": "Authentic Rock Basin 120x36x15cm from Koekeloer Geskenkwinkel & Décor, Shop 2, Great White Junction, Gansbaai. Curated with care for beautiful home living.",
     "features": [
@@ -20624,7 +20624,7 @@ export const products: Product[] = [
       "Nationwide courier delivery across South Africa"
     ],
     "stockStatus": "in_stock",
-    "stockCount": 8,
+    "stockCount": 5,
     "images": [
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2F59964395-434c-42c8-b7c7-6bdfa146d346.jpg?alt=media",
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Fthumb_280_59964395-434c-42c8-b7c7-6bdfa146d346.jpg?alt=media"
@@ -20648,7 +20648,7 @@ export const products: Product[] = [
     "price": 2900,
     "originalPrice": 3335,
     "rating": 5,
-    "reviewCount": 14,
+    "reviewCount": 3,
     "shortDescription": "Rock Basin 40x15cm available at Koekeloer Gift & Décor Shop in Gansbaai.",
     "description": "Authentic Rock Basin 40x15cm from Koekeloer Geskenkwinkel & Décor, Shop 2, Great White Junction, Gansbaai. Curated with care for beautiful home living.",
     "features": [
@@ -20658,7 +20658,7 @@ export const products: Product[] = [
       "Nationwide courier delivery across South Africa"
     ],
     "stockStatus": "in_stock",
-    "stockCount": 8,
+    "stockCount": 2,
     "images": [
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2F164111ce-9574-4928-873e-75aba6793c4d.jpg?alt=media",
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Fthumb_280_164111ce-9574-4928-873e-75aba6793c4d.jpg?alt=media"
@@ -20682,7 +20682,7 @@ export const products: Product[] = [
     "price": 2900,
     "originalPrice": 3335,
     "rating": 5,
-    "reviewCount": 16,
+    "reviewCount": 10,
     "shortDescription": "Rock Basin 41x16cm available at Koekeloer Gift & Décor Shop in Gansbaai.",
     "description": "Authentic Rock Basin 41x16cm from Koekeloer Geskenkwinkel & Décor, Shop 2, Great White Junction, Gansbaai. Curated with care for beautiful home living.",
     "features": [
@@ -20692,7 +20692,7 @@ export const products: Product[] = [
       "Nationwide courier delivery across South Africa"
     ],
     "stockStatus": "in_stock",
-    "stockCount": 6,
+    "stockCount": 3,
     "images": [
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2F7b5ee603-1a28-4c4f-bb3a-56fef8f2baac.jpg?alt=media",
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Fthumb_280_7b5ee603-1a28-4c4f-bb3a-56fef8f2baac.jpg?alt=media"
@@ -20716,7 +20716,7 @@ export const products: Product[] = [
     "price": 2900,
     "originalPrice": 3335,
     "rating": 5,
-    "reviewCount": 9,
+    "reviewCount": 17,
     "shortDescription": "Rock Basin 42x16cm available at Koekeloer Gift & Décor Shop in Gansbaai.",
     "description": "Authentic Rock Basin 42x16cm from Koekeloer Geskenkwinkel & Décor, Shop 2, Great White Junction, Gansbaai. Curated with care for beautiful home living.",
     "features": [
@@ -20726,7 +20726,7 @@ export const products: Product[] = [
       "Nationwide courier delivery across South Africa"
     ],
     "stockStatus": "in_stock",
-    "stockCount": 6,
+    "stockCount": 9,
     "images": [
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2F3e428c1d-3bcd-4652-9f26-ea11c36a8a5f.jpg?alt=media",
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Fthumb_280_3e428c1d-3bcd-4652-9f26-ea11c36a8a5f.jpg?alt=media"
@@ -20750,7 +20750,7 @@ export const products: Product[] = [
     "price": 2900,
     "originalPrice": 3335,
     "rating": 5,
-    "reviewCount": 17,
+    "reviewCount": 5,
     "shortDescription": "Rock Basin 48x40x16cm available at Koekeloer Gift & Décor Shop in Gansbaai.",
     "description": "Authentic Rock Basin 48x40x16cm from Koekeloer Geskenkwinkel & Décor, Shop 2, Great White Junction, Gansbaai. Curated with care for beautiful home living.",
     "features": [
@@ -20760,7 +20760,7 @@ export const products: Product[] = [
       "Nationwide courier delivery across South Africa"
     ],
     "stockStatus": "in_stock",
-    "stockCount": 9,
+    "stockCount": 8,
     "images": [
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Fc5e03b5c-b53f-4582-b142-a697e3f63cf4.jpg?alt=media",
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Fthumb_280_c5e03b5c-b53f-4582-b142-a697e3f63cf4.jpg?alt=media"
@@ -20784,7 +20784,7 @@ export const products: Product[] = [
     "price": 2900,
     "originalPrice": 3335,
     "rating": 5,
-    "reviewCount": 9,
+    "reviewCount": 17,
     "shortDescription": "Rock Basin 53x40x15cm available at Koekeloer Gift & Décor Shop in Gansbaai.",
     "description": "Authentic Rock Basin 53x40x15cm from Koekeloer Geskenkwinkel & Décor, Shop 2, Great White Junction, Gansbaai. Curated with care for beautiful home living.",
     "features": [
@@ -20794,7 +20794,7 @@ export const products: Product[] = [
       "Nationwide courier delivery across South Africa"
     ],
     "stockStatus": "in_stock",
-    "stockCount": 3,
+    "stockCount": 2,
     "images": [
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2F8f1058ed-38a8-46d5-833f-1a192c28c05b.jpg?alt=media",
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Fthumb_280_8f1058ed-38a8-46d5-833f-1a192c28c05b.jpg?alt=media"
@@ -20818,7 +20818,7 @@ export const products: Product[] = [
     "price": 2900,
     "originalPrice": 3335,
     "rating": 5,
-    "reviewCount": 3,
+    "reviewCount": 11,
     "shortDescription": "Rock Basin available at Koekeloer Gift & Décor Shop in Gansbaai.",
     "description": "Authentic Rock Basin from Koekeloer Geskenkwinkel & Décor, Shop 2, Great White Junction, Gansbaai. Curated with care for beautiful home living.",
     "features": [
@@ -20828,7 +20828,7 @@ export const products: Product[] = [
       "Nationwide courier delivery across South Africa"
     ],
     "stockStatus": "in_stock",
-    "stockCount": 2,
+    "stockCount": 4,
     "images": [
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2F4945f9ae-ea18-4c25-b599-39633beba188.jpg?alt=media",
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Fthumb_280_4945f9ae-ea18-4c25-b599-39633beba188.jpg?alt=media"
@@ -20852,7 +20852,7 @@ export const products: Product[] = [
     "price": 4999,
     "originalPrice": 5749,
     "rating": 5,
-    "reviewCount": 14,
+    "reviewCount": 15,
     "shortDescription": "Wash table & Bath available at Koekeloer Gift & Décor Shop in Gansbaai.",
     "description": "Authentic Wash table & Bath from Koekeloer Geskenkwinkel & Décor, Shop 2, Great White Junction, Gansbaai. Curated with care for beautiful home living.",
     "features": [
@@ -20862,7 +20862,7 @@ export const products: Product[] = [
       "Nationwide courier delivery across South Africa"
     ],
     "stockStatus": "in_stock",
-    "stockCount": 9,
+    "stockCount": 5,
     "images": [
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Fb5c52ac6-d153-467c-94f1-a437bbd5fa5b.jpg?alt=media",
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Fthumb_280_b5c52ac6-d153-467c-94f1-a437bbd5fa5b.jpg?alt=media"
@@ -20886,7 +20886,7 @@ export const products: Product[] = [
     "price": 235,
     "originalPrice": 270,
     "rating": 5,
-    "reviewCount": 15,
+    "reviewCount": 17,
     "shortDescription": "Charlotte Rhys Pillow Spray Keylime & Ginger available at Koekeloer Gift & Décor Shop in Gansbaai.",
     "description": "Authentic Charlotte Rhys Pillow Spray Keylime & Ginger from Koekeloer Geskenkwinkel & Décor, Shop 2, Great White Junction, Gansbaai. Curated with care for beautiful home living.",
     "features": [
@@ -20896,7 +20896,7 @@ export const products: Product[] = [
       "Nationwide courier delivery across South Africa"
     ],
     "stockStatus": "in_stock",
-    "stockCount": 3,
+    "stockCount": 6,
     "images": [
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Fd9c782a3-3844-45ed-b462-ab4d4fc229ff.jpg?alt=media",
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Fthumb_280_d9c782a3-3844-45ed-b462-ab4d4fc229ff.jpg?alt=media"
@@ -20920,7 +20920,7 @@ export const products: Product[] = [
     "price": 235,
     "originalPrice": 270,
     "rating": 5,
-    "reviewCount": 9,
+    "reviewCount": 12,
     "shortDescription": "Charlotte Rhys Pillow Spray No 17 available at Koekeloer Gift & Décor Shop in Gansbaai.",
     "description": "Authentic Charlotte Rhys Pillow Spray No 17 from Koekeloer Geskenkwinkel & Décor, Shop 2, Great White Junction, Gansbaai. Curated with care for beautiful home living.",
     "features": [
@@ -20954,7 +20954,7 @@ export const products: Product[] = [
     "price": 235,
     "originalPrice": 270,
     "rating": 5,
-    "reviewCount": 17,
+    "reviewCount": 6,
     "shortDescription": "Charlotte Rhys Pillow Spray Spring Flower available at Koekeloer Gift & Décor Shop in Gansbaai.",
     "description": "Authentic Charlotte Rhys Pillow Spray Spring Flower from Koekeloer Geskenkwinkel & Décor, Shop 2, Great White Junction, Gansbaai. Curated with care for beautiful home living.",
     "features": [
@@ -20964,7 +20964,7 @@ export const products: Product[] = [
       "Nationwide courier delivery across South Africa"
     ],
     "stockStatus": "in_stock",
-    "stockCount": 6,
+    "stockCount": 8,
     "images": [
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Fd4e79ad5-b11d-49ef-98f6-91570e09b28e.jpg?alt=media",
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Fthumb_280_d4e79ad5-b11d-49ef-98f6-91570e09b28e.jpg?alt=media"
@@ -20998,7 +20998,7 @@ export const products: Product[] = [
       "Nationwide courier delivery across South Africa"
     ],
     "stockStatus": "in_stock",
-    "stockCount": 3,
+    "stockCount": 9,
     "images": [
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2F4c39f3fa-8bb2-464b-8e34-3dc3be1f80b9.jpg?alt=media",
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Fthumb_280_4c39f3fa-8bb2-464b-8e34-3dc3be1f80b9.jpg?alt=media"
@@ -21022,7 +21022,7 @@ export const products: Product[] = [
     "price": 235,
     "originalPrice": 270,
     "rating": 5,
-    "reviewCount": 8,
+    "reviewCount": 3,
     "shortDescription": "Charlotte Rhys Pillow Spray Under the Leaves available at Koekeloer Gift & Décor Shop in Gansbaai.",
     "description": "Authentic Charlotte Rhys Pillow Spray Under the Leaves from Koekeloer Geskenkwinkel & Décor, Shop 2, Great White Junction, Gansbaai. Curated with care for beautiful home living.",
     "features": [
@@ -21032,7 +21032,7 @@ export const products: Product[] = [
       "Nationwide courier delivery across South Africa"
     ],
     "stockStatus": "in_stock",
-    "stockCount": 4,
+    "stockCount": 2,
     "images": [
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2F2389f382-2de1-49c0-afc0-2ebd32606d35.jpg?alt=media",
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Fthumb_280_2389f382-2de1-49c0-afc0-2ebd32606d35.jpg?alt=media"
@@ -21056,7 +21056,7 @@ export const products: Product[] = [
     "price": 235,
     "originalPrice": 270,
     "rating": 5,
-    "reviewCount": 11,
+    "reviewCount": 6,
     "shortDescription": "Charlotte Rhys Pillow Spray Victor available at Koekeloer Gift & Décor Shop in Gansbaai.",
     "description": "Authentic Charlotte Rhys Pillow Spray Victor from Koekeloer Geskenkwinkel & Décor, Shop 2, Great White Junction, Gansbaai. Curated with care for beautiful home living.",
     "features": [
@@ -21066,7 +21066,7 @@ export const products: Product[] = [
       "Nationwide courier delivery across South Africa"
     ],
     "stockStatus": "in_stock",
-    "stockCount": 2,
+    "stockCount": 9,
     "images": [
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2F7b958ecf-2851-4712-a16b-c9bc6077bed2.jpg?alt=media",
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Fthumb_280_7b958ecf-2851-4712-a16b-c9bc6077bed2.jpg?alt=media"
@@ -21090,7 +21090,7 @@ export const products: Product[] = [
     "price": 75,
     "originalPrice": 86,
     "rating": 5,
-    "reviewCount": 8,
+    "reviewCount": 10,
     "shortDescription": "Invest in rest pillow mist available at Koekeloer Gift & Décor Shop in Gansbaai.",
     "description": "Authentic Invest in rest pillow mist from Koekeloer Geskenkwinkel & Décor, Shop 2, Great White Junction, Gansbaai. Curated with care for beautiful home living.",
     "features": [
@@ -21100,7 +21100,7 @@ export const products: Product[] = [
       "Nationwide courier delivery across South Africa"
     ],
     "stockStatus": "in_stock",
-    "stockCount": 4,
+    "stockCount": 9,
     "images": [
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Fbf096016-e919-4983-9951-a478442c0659.jpg?alt=media",
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Fthumb_280_bf096016-e919-4983-9951-a478442c0659.jpg?alt=media"
@@ -21124,7 +21124,7 @@ export const products: Product[] = [
     "price": 1400,
     "originalPrice": 1610,
     "rating": 5,
-    "reviewCount": 11,
+    "reviewCount": 13,
     "shortDescription": "Carpet 70x110cm available at Koekeloer Gift & Décor Shop in Gansbaai.",
     "description": "Authentic Carpet 70x110cm from Koekeloer Geskenkwinkel & Décor, Shop 2, Great White Junction, Gansbaai. Curated with care for beautiful home living.",
     "features": [
@@ -21134,7 +21134,7 @@ export const products: Product[] = [
       "Nationwide courier delivery across South Africa"
     ],
     "stockStatus": "in_stock",
-    "stockCount": 4,
+    "stockCount": 6,
     "images": [
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2F0c658a59-21b8-4206-892e-4a91ee820deb.jpg?alt=media",
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Fthumb_280_0c658a59-21b8-4206-892e-4a91ee820deb.jpg?alt=media"
@@ -21158,7 +21158,7 @@ export const products: Product[] = [
     "price": 2800,
     "originalPrice": 3220,
     "rating": 5,
-    "reviewCount": 7,
+    "reviewCount": 11,
     "shortDescription": "Carpet 80x200cm available at Koekeloer Gift & Décor Shop in Gansbaai.",
     "description": "Authentic Carpet 80x200cm from Koekeloer Geskenkwinkel & Décor, Shop 2, Great White Junction, Gansbaai. Curated with care for beautiful home living.",
     "features": [
@@ -21168,7 +21168,7 @@ export const products: Product[] = [
       "Nationwide courier delivery across South Africa"
     ],
     "stockStatus": "in_stock",
-    "stockCount": 8,
+    "stockCount": 2,
     "images": [
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Fd9c8a03d-7329-4b50-bf98-6328c9c602f6.jpg?alt=media",
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Fthumb_280_d9c8a03d-7329-4b50-bf98-6328c9c602f6.jpg?alt=media"
@@ -21192,7 +21192,7 @@ export const products: Product[] = [
     "price": 2800,
     "originalPrice": 3220,
     "rating": 5,
-    "reviewCount": 6,
+    "reviewCount": 3,
     "shortDescription": "Carpet 90x140cm available at Koekeloer Gift & Décor Shop in Gansbaai.",
     "description": "Authentic Carpet 90x140cm from Koekeloer Geskenkwinkel & Décor, Shop 2, Great White Junction, Gansbaai. Curated with care for beautiful home living.",
     "features": [
@@ -21202,7 +21202,7 @@ export const products: Product[] = [
       "Nationwide courier delivery across South Africa"
     ],
     "stockStatus": "in_stock",
-    "stockCount": 5,
+    "stockCount": 7,
     "images": [
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2F0383d64d-1407-41d8-95e4-966f0da75df4.jpg?alt=media",
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Fthumb_280_0383d64d-1407-41d8-95e4-966f0da75df4.jpg?alt=media"
@@ -21226,7 +21226,7 @@ export const products: Product[] = [
     "price": 2800,
     "originalPrice": 3220,
     "rating": 5,
-    "reviewCount": 9,
+    "reviewCount": 11,
     "shortDescription": "Carpet 90x140cm available at Koekeloer Gift & Décor Shop in Gansbaai.",
     "description": "Authentic Carpet 90x140cm from Koekeloer Geskenkwinkel & Décor, Shop 2, Great White Junction, Gansbaai. Curated with care for beautiful home living.",
     "features": [
@@ -21236,7 +21236,7 @@ export const products: Product[] = [
       "Nationwide courier delivery across South Africa"
     ],
     "stockStatus": "in_stock",
-    "stockCount": 6,
+    "stockCount": 3,
     "images": [
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Fe8905394-1236-4b44-a8b9-77d07e222a8f.jpg?alt=media",
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Fthumb_280_e8905394-1236-4b44-a8b9-77d07e222a8f.jpg?alt=media"
@@ -21260,7 +21260,7 @@ export const products: Product[] = [
     "price": 1900,
     "originalPrice": 2185,
     "rating": 5,
-    "reviewCount": 14,
+    "reviewCount": 15,
     "shortDescription": "Mat 220x160cm available at Koekeloer Gift & Décor Shop in Gansbaai.",
     "description": "Authentic Mat 220x160cm from Koekeloer Geskenkwinkel & Décor, Shop 2, Great White Junction, Gansbaai. Curated with care for beautiful home living.",
     "features": [
@@ -21270,7 +21270,7 @@ export const products: Product[] = [
       "Nationwide courier delivery across South Africa"
     ],
     "stockStatus": "in_stock",
-    "stockCount": 3,
+    "stockCount": 2,
     "images": [
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Fc357608b-3df5-4245-9c03-5884d6e26c43.jpg?alt=media",
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Fthumb_280_c357608b-3df5-4245-9c03-5884d6e26c43.jpg?alt=media"
@@ -21294,7 +21294,7 @@ export const products: Product[] = [
     "price": 999,
     "originalPrice": 1149,
     "rating": 5,
-    "reviewCount": 10,
+    "reviewCount": 11,
     "shortDescription": "Mat Polypropylene 120x180cm available at Koekeloer Gift & Décor Shop in Gansbaai.",
     "description": "Authentic Mat Polypropylene 120x180cm from Koekeloer Geskenkwinkel & Décor, Shop 2, Great White Junction, Gansbaai. Curated with care for beautiful home living.",
     "features": [
@@ -21304,7 +21304,7 @@ export const products: Product[] = [
       "Nationwide courier delivery across South Africa"
     ],
     "stockStatus": "in_stock",
-    "stockCount": 3,
+    "stockCount": 4,
     "images": [
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Fa9edf4c7-aa72-4a35-9f4c-c2e3684520ea.jpg?alt=media",
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Fthumb_280_a9edf4c7-aa72-4a35-9f4c-c2e3684520ea.jpg?alt=media"
@@ -21328,7 +21328,7 @@ export const products: Product[] = [
     "price": 1300,
     "originalPrice": 1495,
     "rating": 5,
-    "reviewCount": 11,
+    "reviewCount": 5,
     "shortDescription": "Mat Polypropylene 150x210cm available at Koekeloer Gift & Décor Shop in Gansbaai.",
     "description": "Authentic Mat Polypropylene 150x210cm from Koekeloer Geskenkwinkel & Décor, Shop 2, Great White Junction, Gansbaai. Curated with care for beautiful home living.",
     "features": [
@@ -21362,7 +21362,7 @@ export const products: Product[] = [
     "price": 1990,
     "originalPrice": 2289,
     "rating": 5,
-    "reviewCount": 8,
+    "reviewCount": 4,
     "shortDescription": "Mat Polypropylene 180x270cm available at Koekeloer Gift & Décor Shop in Gansbaai.",
     "description": "Authentic Mat Polypropylene 180x270cm from Koekeloer Geskenkwinkel & Décor, Shop 2, Great White Junction, Gansbaai. Curated with care for beautiful home living.",
     "features": [
@@ -21372,7 +21372,7 @@ export const products: Product[] = [
       "Nationwide courier delivery across South Africa"
     ],
     "stockStatus": "in_stock",
-    "stockCount": 2,
+    "stockCount": 8,
     "images": [
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2F58d16825-3744-4a7f-bf99-5fe4b66a515f.jpg?alt=media",
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Fthumb_280_58d16825-3744-4a7f-bf99-5fe4b66a515f.jpg?alt=media"
@@ -21396,7 +21396,7 @@ export const products: Product[] = [
     "price": 5100,
     "originalPrice": 5865,
     "rating": 5,
-    "reviewCount": 4,
+    "reviewCount": 7,
     "shortDescription": "Mat Roadblox Shore 160x200cm available at Koekeloer Gift & Décor Shop in Gansbaai.",
     "description": "Authentic Mat Roadblox Shore 160x200cm from Koekeloer Geskenkwinkel & Décor, Shop 2, Great White Junction, Gansbaai. Curated with care for beautiful home living.",
     "features": [
@@ -21406,7 +21406,7 @@ export const products: Product[] = [
       "Nationwide courier delivery across South Africa"
     ],
     "stockStatus": "in_stock",
-    "stockCount": 8,
+    "stockCount": 5,
     "images": [
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Ffee4dd70-866c-42e3-863c-320a221dddd3.jpg?alt=media",
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Fthumb_280_fee4dd70-866c-42e3-863c-320a221dddd3.jpg?alt=media"
@@ -21430,7 +21430,7 @@ export const products: Product[] = [
     "price": 1250,
     "originalPrice": 1438,
     "rating": 5,
-    "reviewCount": 12,
+    "reviewCount": 5,
     "shortDescription": "Mat Runner available at Koekeloer Gift & Décor Shop in Gansbaai.",
     "description": "Authentic Mat Runner from Koekeloer Geskenkwinkel & Décor, Shop 2, Great White Junction, Gansbaai. Curated with care for beautiful home living.",
     "features": [
@@ -21440,7 +21440,7 @@ export const products: Product[] = [
       "Nationwide courier delivery across South Africa"
     ],
     "stockStatus": "in_stock",
-    "stockCount": 7,
+    "stockCount": 2,
     "images": [
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Ff291414f-1c82-483e-82dc-63ef29556737.jpg?alt=media",
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Fthumb_280_f291414f-1c82-483e-82dc-63ef29556737.jpg?alt=media"
@@ -21464,7 +21464,7 @@ export const products: Product[] = [
     "price": 1995,
     "originalPrice": 2294,
     "rating": 5,
-    "reviewCount": 5,
+    "reviewCount": 10,
     "shortDescription": "Rug Polypropylene Melon Azrec available at Koekeloer Gift & Décor Shop in Gansbaai.",
     "description": "Authentic Rug Polypropylene Melon Azrec from Koekeloer Geskenkwinkel & Décor, Shop 2, Great White Junction, Gansbaai. Curated with care for beautiful home living.",
     "features": [
@@ -21474,7 +21474,7 @@ export const products: Product[] = [
       "Nationwide courier delivery across South Africa"
     ],
     "stockStatus": "in_stock",
-    "stockCount": 9,
+    "stockCount": 7,
     "images": [
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2F9a4da60e-e8d7-4a3d-801a-1075c3fba5a1.jpg?alt=media",
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2F9a4da60e-e8d7-4a3d-801a-1075c3fba5a1.jpg?alt=media"
@@ -21498,7 +21498,7 @@ export const products: Product[] = [
     "price": 999,
     "originalPrice": 1149,
     "rating": 5,
-    "reviewCount": 9,
+    "reviewCount": 17,
     "shortDescription": "Rug Polypropylene Morrocan Black available at Koekeloer Gift & Décor Shop in Gansbaai.",
     "description": "Authentic Rug Polypropylene Morrocan Black from Koekeloer Geskenkwinkel & Décor, Shop 2, Great White Junction, Gansbaai. Curated with care for beautiful home living.",
     "features": [
@@ -21508,7 +21508,7 @@ export const products: Product[] = [
       "Nationwide courier delivery across South Africa"
     ],
     "stockStatus": "in_stock",
-    "stockCount": 2,
+    "stockCount": 7,
     "images": [
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2F449873aa-fc62-4f09-b56f-c3f3ed1ef010.jpg?alt=media",
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2F449873aa-fc62-4f09-b56f-c3f3ed1ef010.jpg?alt=media"
@@ -21532,7 +21532,7 @@ export const products: Product[] = [
     "price": 879,
     "originalPrice": 1011,
     "rating": 5,
-    "reviewCount": 10,
+    "reviewCount": 7,
     "shortDescription": "Rug Runner  65x200 available at Koekeloer Gift & Décor Shop in Gansbaai.",
     "description": "Authentic Rug Runner  65x200 from Koekeloer Geskenkwinkel & Décor, Shop 2, Great White Junction, Gansbaai. Curated with care for beautiful home living.",
     "features": [
@@ -21566,7 +21566,7 @@ export const products: Product[] = [
     "price": 1800,
     "originalPrice": 2070,
     "rating": 5,
-    "reviewCount": 17,
+    "reviewCount": 13,
     "shortDescription": "Rug Runner Crete black 80cm x 200cm available at Koekeloer Gift & Décor Shop in Gansbaai.",
     "description": "Authentic Rug Runner Crete black 80cm x 200cm from Koekeloer Geskenkwinkel & Décor, Shop 2, Great White Junction, Gansbaai. Curated with care for beautiful home living.",
     "features": [
@@ -21576,7 +21576,7 @@ export const products: Product[] = [
       "Nationwide courier delivery across South Africa"
     ],
     "stockStatus": "in_stock",
-    "stockCount": 3,
+    "stockCount": 4,
     "images": [
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2F356b7678-ff32-4973-91ff-0c5f71867263.jpg?alt=media",
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Fthumb_280_356b7678-ff32-4973-91ff-0c5f71867263.jpg?alt=media"
@@ -21600,7 +21600,7 @@ export const products: Product[] = [
     "price": 1800,
     "originalPrice": 2070,
     "rating": 5,
-    "reviewCount": 5,
+    "reviewCount": 11,
     "shortDescription": "Rug Runner Mykonos Island 80cm x 200cm available at Koekeloer Gift & Décor Shop in Gansbaai.",
     "description": "Authentic Rug Runner Mykonos Island 80cm x 200cm from Koekeloer Geskenkwinkel & Décor, Shop 2, Great White Junction, Gansbaai. Curated with care for beautiful home living.",
     "features": [
@@ -21610,7 +21610,7 @@ export const products: Product[] = [
       "Nationwide courier delivery across South Africa"
     ],
     "stockStatus": "in_stock",
-    "stockCount": 5,
+    "stockCount": 2,
     "images": [
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Fe02e5ba4-606a-47cc-b96f-51839ddc3d82.jpg?alt=media",
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Fthumb_280_e02e5ba4-606a-47cc-b96f-51839ddc3d82.jpg?alt=media"
@@ -21634,7 +21634,7 @@ export const products: Product[] = [
     "price": 1800,
     "originalPrice": 2070,
     "rating": 5,
-    "reviewCount": 4,
+    "reviewCount": 15,
     "shortDescription": "Rug Runner Paros 80cm x 200cm available at Koekeloer Gift & Décor Shop in Gansbaai.",
     "description": "Authentic Rug Runner Paros 80cm x 200cm from Koekeloer Geskenkwinkel & Décor, Shop 2, Great White Junction, Gansbaai. Curated with care for beautiful home living.",
     "features": [
@@ -21644,7 +21644,7 @@ export const products: Product[] = [
       "Nationwide courier delivery across South Africa"
     ],
     "stockStatus": "in_stock",
-    "stockCount": 4,
+    "stockCount": 7,
     "images": [
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2F0a8d1956-eb7f-41f4-9766-d91ca07bc1df.jpg?alt=media",
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Fthumb_280_0a8d1956-eb7f-41f4-9766-d91ca07bc1df.jpg?alt=media"
@@ -21668,7 +21668,7 @@ export const products: Product[] = [
     "price": 1800,
     "originalPrice": 2070,
     "rating": 5,
-    "reviewCount": 5,
+    "reviewCount": 4,
     "shortDescription": "Rug Runner Rubix 80cm x 200cm available at Koekeloer Gift & Décor Shop in Gansbaai.",
     "description": "Authentic Rug Runner Rubix 80cm x 200cm from Koekeloer Geskenkwinkel & Décor, Shop 2, Great White Junction, Gansbaai. Curated with care for beautiful home living.",
     "features": [
@@ -21678,7 +21678,7 @@ export const products: Product[] = [
       "Nationwide courier delivery across South Africa"
     ],
     "stockStatus": "in_stock",
-    "stockCount": 2,
+    "stockCount": 7,
     "images": [
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Fa767a33e-528a-4589-a38c-1cc77c17dbad.jpg?alt=media",
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Fthumb_280_a767a33e-528a-4589-a38c-1cc77c17dbad.jpg?alt=media"
@@ -21702,7 +21702,7 @@ export const products: Product[] = [
     "price": 999,
     "originalPrice": 1149,
     "rating": 5,
-    "reviewCount": 13,
+    "reviewCount": 4,
     "shortDescription": "Rug Small Polypropolene Black Stripe available at Koekeloer Gift & Décor Shop in Gansbaai.",
     "description": "Authentic Rug Small Polypropolene Black Stripe from Koekeloer Geskenkwinkel & Décor, Shop 2, Great White Junction, Gansbaai. Curated with care for beautiful home living.",
     "features": [
@@ -21712,7 +21712,7 @@ export const products: Product[] = [
       "Nationwide courier delivery across South Africa"
     ],
     "stockStatus": "in_stock",
-    "stockCount": 7,
+    "stockCount": 3,
     "images": [
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Ffcd7a6ed-e009-4b84-aff9-398c70d65101.jpg?alt=media",
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Ffcd7a6ed-e009-4b84-aff9-398c70d65101.jpg?alt=media"
@@ -21736,7 +21736,7 @@ export const products: Product[] = [
     "price": 999,
     "originalPrice": 1149,
     "rating": 5,
-    "reviewCount": 8,
+    "reviewCount": 14,
     "shortDescription": "Rug Small Polypropylene Morrocan Aqua available at Koekeloer Gift & Décor Shop in Gansbaai.",
     "description": "Authentic Rug Small Polypropylene Morrocan Aqua from Koekeloer Geskenkwinkel & Décor, Shop 2, Great White Junction, Gansbaai. Curated with care for beautiful home living.",
     "features": [
@@ -21746,7 +21746,7 @@ export const products: Product[] = [
       "Nationwide courier delivery across South Africa"
     ],
     "stockStatus": "in_stock",
-    "stockCount": 2,
+    "stockCount": 3,
     "images": [
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2F3c4950bc-d41d-4e4b-b81c-51e6ca4a2ddc.jpg?alt=media",
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2F3c4950bc-d41d-4e4b-b81c-51e6ca4a2ddc.jpg?alt=media"
@@ -21770,7 +21770,7 @@ export const products: Product[] = [
     "price": 2300,
     "originalPrice": 2645,
     "rating": 5,
-    "reviewCount": 15,
+    "reviewCount": 8,
     "shortDescription": "Runner Roadblox 80x200cm available at Koekeloer Gift & Décor Shop in Gansbaai.",
     "description": "Authentic Runner Roadblox 80x200cm from Koekeloer Geskenkwinkel & Décor, Shop 2, Great White Junction, Gansbaai. Curated with care for beautiful home living.",
     "features": [
@@ -21780,7 +21780,7 @@ export const products: Product[] = [
       "Nationwide courier delivery across South Africa"
     ],
     "stockStatus": "in_stock",
-    "stockCount": 7,
+    "stockCount": 6,
     "images": [
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Fc6fa4b46-80f5-4942-8cb2-3e9817806141.jpg?alt=media",
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Fthumb_280_c6fa4b46-80f5-4942-8cb2-3e9817806141.jpg?alt=media"
@@ -21804,7 +21804,7 @@ export const products: Product[] = [
     "price": 879,
     "originalPrice": 1011,
     "rating": 5,
-    "reviewCount": 11,
+    "reviewCount": 17,
     "shortDescription": "Runner Rug 65x200cm available at Koekeloer Gift & Décor Shop in Gansbaai.",
     "description": "Authentic Runner Rug 65x200cm from Koekeloer Geskenkwinkel & Décor, Shop 2, Great White Junction, Gansbaai. Curated with care for beautiful home living.",
     "features": [
@@ -21814,7 +21814,7 @@ export const products: Product[] = [
       "Nationwide courier delivery across South Africa"
     ],
     "stockStatus": "in_stock",
-    "stockCount": 7,
+    "stockCount": 5,
     "images": [
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2F5e17c39c-4718-43ef-93b0-94d52b099dff.jpg?alt=media",
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Fthumb_280_5e17c39c-4718-43ef-93b0-94d52b099dff.jpg?alt=media"
@@ -21838,7 +21838,7 @@ export const products: Product[] = [
     "price": 1200,
     "originalPrice": 1380,
     "rating": 5,
-    "reviewCount": 15,
+    "reviewCount": 8,
     "shortDescription": "Runner Tufted 60x150cm available at Koekeloer Gift & Décor Shop in Gansbaai.",
     "description": "Authentic Runner Tufted 60x150cm from Koekeloer Geskenkwinkel & Décor, Shop 2, Great White Junction, Gansbaai. Curated with care for beautiful home living.",
     "features": [
@@ -21848,7 +21848,7 @@ export const products: Product[] = [
       "Nationwide courier delivery across South Africa"
     ],
     "stockStatus": "in_stock",
-    "stockCount": 6,
+    "stockCount": 7,
     "images": [
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2F53347f77-32fe-4f68-902b-7842e4c71ce0.jpg?alt=media",
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Fthumb_280_53347f77-32fe-4f68-902b-7842e4c71ce0.jpg?alt=media"
@@ -21872,7 +21872,7 @@ export const products: Product[] = [
     "price": 1200,
     "originalPrice": 1380,
     "rating": 5,
-    "reviewCount": 15,
+    "reviewCount": 6,
     "shortDescription": "Runner Tufted 60x150cm available at Koekeloer Gift & Décor Shop in Gansbaai.",
     "description": "Authentic Runner Tufted 60x150cm from Koekeloer Geskenkwinkel & Décor, Shop 2, Great White Junction, Gansbaai. Curated with care for beautiful home living.",
     "features": [
@@ -21882,7 +21882,7 @@ export const products: Product[] = [
       "Nationwide courier delivery across South Africa"
     ],
     "stockStatus": "in_stock",
-    "stockCount": 9,
+    "stockCount": 2,
     "images": [
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2F12604a21-1513-4e8d-bc31-294b67be7ef7.jpg?alt=media",
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Fthumb_280_12604a21-1513-4e8d-bc31-294b67be7ef7.jpg?alt=media"
@@ -21906,7 +21906,7 @@ export const products: Product[] = [
     "price": 1200,
     "originalPrice": 1380,
     "rating": 5,
-    "reviewCount": 8,
+    "reviewCount": 7,
     "shortDescription": "Runner Tufted 60x150m available at Koekeloer Gift & Décor Shop in Gansbaai.",
     "description": "Authentic Runner Tufted 60x150m from Koekeloer Geskenkwinkel & Décor, Shop 2, Great White Junction, Gansbaai. Curated with care for beautiful home living.",
     "features": [
@@ -21916,7 +21916,7 @@ export const products: Product[] = [
       "Nationwide courier delivery across South Africa"
     ],
     "stockStatus": "in_stock",
-    "stockCount": 4,
+    "stockCount": 3,
     "images": [
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2F5f6aa062-50cd-4fa4-af81-600d04c349fc.jpg?alt=media",
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Fthumb_280_5f6aa062-50cd-4fa4-af81-600d04c349fc.jpg?alt=media"
@@ -21940,7 +21940,7 @@ export const products: Product[] = [
     "price": 399,
     "originalPrice": 459,
     "rating": 5,
-    "reviewCount": 8,
+    "reviewCount": 17,
     "shortDescription": "Runner 30x1.3cm available at Koekeloer Gift & Décor Shop in Gansbaai.",
     "description": "Authentic Runner 30x1.3cm from Koekeloer Geskenkwinkel & Décor, Shop 2, Great White Junction, Gansbaai. Curated with care for beautiful home living.",
     "features": [
@@ -21950,7 +21950,7 @@ export const products: Product[] = [
       "Nationwide courier delivery across South Africa"
     ],
     "stockStatus": "in_stock",
-    "stockCount": 4,
+    "stockCount": 5,
     "images": [
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2F725c298e-22c6-4f2c-a4ee-0f96755fc504.jpg?alt=media",
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Fthumb_280_725c298e-22c6-4f2c-a4ee-0f96755fc504.jpg?alt=media"
@@ -21974,7 +21974,7 @@ export const products: Product[] = [
     "price": 699,
     "originalPrice": 804,
     "rating": 5,
-    "reviewCount": 8,
+    "reviewCount": 16,
     "shortDescription": "Runner 30x200cm available at Koekeloer Gift & Décor Shop in Gansbaai.",
     "description": "Authentic Runner 30x200cm from Koekeloer Geskenkwinkel & Décor, Shop 2, Great White Junction, Gansbaai. Curated with care for beautiful home living.",
     "features": [
@@ -21984,7 +21984,7 @@ export const products: Product[] = [
       "Nationwide courier delivery across South Africa"
     ],
     "stockStatus": "in_stock",
-    "stockCount": 8,
+    "stockCount": 2,
     "images": [
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2F723965b9-c7b7-4aee-8914-bf640365582d.jpg?alt=media",
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Fthumb_280_723965b9-c7b7-4aee-8914-bf640365582d.jpg?alt=media"
@@ -22018,7 +22018,7 @@ export const products: Product[] = [
       "Nationwide courier delivery across South Africa"
     ],
     "stockStatus": "in_stock",
-    "stockCount": 6,
+    "stockCount": 3,
     "images": [
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2F6c869ac2-c58c-407b-98f3-8af50a66ffc0.jpg?alt=media",
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Fthumb_280_6c869ac2-c58c-407b-98f3-8af50a66ffc0.jpg?alt=media"
@@ -22042,7 +22042,7 @@ export const products: Product[] = [
     "price": 699,
     "originalPrice": 804,
     "rating": 5,
-    "reviewCount": 3,
+    "reviewCount": 9,
     "shortDescription": "Runner 35x280cm available at Koekeloer Gift & Décor Shop in Gansbaai.",
     "description": "Authentic Runner 35x280cm from Koekeloer Geskenkwinkel & Décor, Shop 2, Great White Junction, Gansbaai. Curated with care for beautiful home living.",
     "features": [
@@ -22076,7 +22076,7 @@ export const products: Product[] = [
     "price": 669,
     "originalPrice": 769,
     "rating": 5,
-    "reviewCount": 5,
+    "reviewCount": 12,
     "shortDescription": "Runner available at Koekeloer Gift & Décor Shop in Gansbaai.",
     "description": "Authentic Runner from Koekeloer Geskenkwinkel & Décor, Shop 2, Great White Junction, Gansbaai. Curated with care for beautiful home living.",
     "features": [
@@ -22086,7 +22086,7 @@ export const products: Product[] = [
       "Nationwide courier delivery across South Africa"
     ],
     "stockStatus": "in_stock",
-    "stockCount": 7,
+    "stockCount": 4,
     "images": [
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Ff33d2b8b-7d4c-46ed-908d-56447456a38f.jpg?alt=media",
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Fthumb_280_f33d2b8b-7d4c-46ed-908d-56447456a38f.jpg?alt=media"
@@ -22110,7 +22110,7 @@ export const products: Product[] = [
     "price": 899,
     "originalPrice": 1034,
     "rating": 5,
-    "reviewCount": 4,
+    "reviewCount": 17,
     "shortDescription": "Table Runner 32x180cm available at Koekeloer Gift & Décor Shop in Gansbaai.",
     "description": "Authentic Table Runner 32x180cm from Koekeloer Geskenkwinkel & Décor, Shop 2, Great White Junction, Gansbaai. Curated with care for beautiful home living.",
     "features": [
@@ -22120,7 +22120,7 @@ export const products: Product[] = [
       "Nationwide courier delivery across South Africa"
     ],
     "stockStatus": "in_stock",
-    "stockCount": 5,
+    "stockCount": 4,
     "images": [
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2F6e5861eb-cafb-489c-bb35-9a6ecceab627.jpg?alt=media",
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Fthumb_280_6e5861eb-cafb-489c-bb35-9a6ecceab627.jpg?alt=media"
@@ -22144,7 +22144,7 @@ export const products: Product[] = [
     "price": 589,
     "originalPrice": 677,
     "rating": 5,
-    "reviewCount": 7,
+    "reviewCount": 16,
     "shortDescription": "Table cloth 150cmx220cm available at Koekeloer Gift & Décor Shop in Gansbaai.",
     "description": "Authentic Table cloth 150cmx220cm from Koekeloer Geskenkwinkel & Décor, Shop 2, Great White Junction, Gansbaai. Curated with care for beautiful home living.",
     "features": [
@@ -22154,7 +22154,7 @@ export const products: Product[] = [
       "Nationwide courier delivery across South Africa"
     ],
     "stockStatus": "in_stock",
-    "stockCount": 8,
+    "stockCount": 4,
     "images": [
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2F859dc928-bb58-4440-b416-988ee2cf0bb9.jpg?alt=media",
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Fthumb_280_859dc928-bb58-4440-b416-988ee2cf0bb9.jpg?alt=media"
@@ -22178,7 +22178,7 @@ export const products: Product[] = [
     "price": 590,
     "originalPrice": 679,
     "rating": 5,
-    "reviewCount": 4,
+    "reviewCount": 6,
     "shortDescription": "Table cloth 150cmx220cm available at Koekeloer Gift & Décor Shop in Gansbaai.",
     "description": "Authentic Table cloth 150cmx220cm from Koekeloer Geskenkwinkel & Décor, Shop 2, Great White Junction, Gansbaai. Curated with care for beautiful home living.",
     "features": [
@@ -22188,7 +22188,7 @@ export const products: Product[] = [
       "Nationwide courier delivery across South Africa"
     ],
     "stockStatus": "in_stock",
-    "stockCount": 9,
+    "stockCount": 4,
     "images": [
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2F24f74a78-8faf-4142-9333-114e7b7d9ce0.jpg?alt=media",
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Fthumb_280_24f74a78-8faf-4142-9333-114e7b7d9ce0.jpg?alt=media"
@@ -22212,7 +22212,7 @@ export const products: Product[] = [
     "price": 569,
     "originalPrice": 654,
     "rating": 5,
-    "reviewCount": 14,
+    "reviewCount": 11,
     "shortDescription": "Tablecloth 150cm x 220cm available at Koekeloer Gift & Décor Shop in Gansbaai.",
     "description": "Authentic Tablecloth 150cm x 220cm from Koekeloer Geskenkwinkel & Décor, Shop 2, Great White Junction, Gansbaai. Curated with care for beautiful home living.",
     "features": [
@@ -22222,7 +22222,7 @@ export const products: Product[] = [
       "Nationwide courier delivery across South Africa"
     ],
     "stockStatus": "in_stock",
-    "stockCount": 3,
+    "stockCount": 2,
     "images": [
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2F9838acec-7063-4e3a-8e4f-3428e43309fe.jpg?alt=media",
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Fthumb_280_9838acec-7063-4e3a-8e4f-3428e43309fe.jpg?alt=media"
@@ -22246,7 +22246,7 @@ export const products: Product[] = [
     "price": 530,
     "originalPrice": 610,
     "rating": 5,
-    "reviewCount": 11,
+    "reviewCount": 3,
     "shortDescription": "Tablecloth 150cmx220cm available at Koekeloer Gift & Décor Shop in Gansbaai.",
     "description": "Authentic Tablecloth 150cmx220cm from Koekeloer Geskenkwinkel & Décor, Shop 2, Great White Junction, Gansbaai. Curated with care for beautiful home living.",
     "features": [
@@ -22256,7 +22256,7 @@ export const products: Product[] = [
       "Nationwide courier delivery across South Africa"
     ],
     "stockStatus": "in_stock",
-    "stockCount": 4,
+    "stockCount": 6,
     "images": [
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Fc8d616bd-b0ba-4e5f-9c91-6c818ae35bf9.jpg?alt=media",
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Fthumb_280_c8d616bd-b0ba-4e5f-9c91-6c818ae35bf9.jpg?alt=media"
@@ -22280,7 +22280,7 @@ export const products: Product[] = [
     "price": 560,
     "originalPrice": 644,
     "rating": 5,
-    "reviewCount": 8,
+    "reviewCount": 12,
     "shortDescription": "Tablecloth 150cmx220cm available at Koekeloer Gift & Décor Shop in Gansbaai.",
     "description": "Authentic Tablecloth 150cmx220cm from Koekeloer Geskenkwinkel & Décor, Shop 2, Great White Junction, Gansbaai. Curated with care for beautiful home living.",
     "features": [
@@ -22290,7 +22290,7 @@ export const products: Product[] = [
       "Nationwide courier delivery across South Africa"
     ],
     "stockStatus": "in_stock",
-    "stockCount": 5,
+    "stockCount": 7,
     "images": [
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2F84f26d66-5d57-472e-8d16-1ff30a235514.jpg?alt=media",
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Fthumb_280_84f26d66-5d57-472e-8d16-1ff30a235514.jpg?alt=media"
@@ -22314,7 +22314,7 @@ export const products: Product[] = [
     "price": 539,
     "originalPrice": 620,
     "rating": 5,
-    "reviewCount": 9,
+    "reviewCount": 4,
     "shortDescription": "Tablecloth 150cmx220cm available at Koekeloer Gift & Décor Shop in Gansbaai.",
     "description": "Authentic Tablecloth 150cmx220cm from Koekeloer Geskenkwinkel & Décor, Shop 2, Great White Junction, Gansbaai. Curated with care for beautiful home living.",
     "features": [
@@ -22324,7 +22324,7 @@ export const products: Product[] = [
       "Nationwide courier delivery across South Africa"
     ],
     "stockStatus": "in_stock",
-    "stockCount": 6,
+    "stockCount": 4,
     "images": [
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2F943598d6-aa1c-4edf-b7e9-e0a2fa1aa7b7.jpg?alt=media",
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Fthumb_280_943598d6-aa1c-4edf-b7e9-e0a2fa1aa7b7.jpg?alt=media"
@@ -22348,7 +22348,7 @@ export const products: Product[] = [
     "price": 545,
     "originalPrice": 627,
     "rating": 5,
-    "reviewCount": 14,
+    "reviewCount": 15,
     "shortDescription": "Tablecloth 150cmx220cm available at Koekeloer Gift & Décor Shop in Gansbaai.",
     "description": "Authentic Tablecloth 150cmx220cm from Koekeloer Geskenkwinkel & Décor, Shop 2, Great White Junction, Gansbaai. Curated with care for beautiful home living.",
     "features": [
@@ -22382,7 +22382,7 @@ export const products: Product[] = [
     "price": 675,
     "originalPrice": 776,
     "rating": 5,
-    "reviewCount": 15,
+    "reviewCount": 9,
     "shortDescription": "Tablecloth 150cmx220cm available at Koekeloer Gift & Décor Shop in Gansbaai.",
     "description": "Authentic Tablecloth 150cmx220cm from Koekeloer Geskenkwinkel & Décor, Shop 2, Great White Junction, Gansbaai. Curated with care for beautiful home living.",
     "features": [
@@ -22392,7 +22392,7 @@ export const products: Product[] = [
       "Nationwide courier delivery across South Africa"
     ],
     "stockStatus": "in_stock",
-    "stockCount": 5,
+    "stockCount": 2,
     "images": [
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2F1d7019ea-0dc7-451a-bb8b-86e503990839.jpg?alt=media",
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Fthumb_280_1d7019ea-0dc7-451a-bb8b-86e503990839.jpg?alt=media"
@@ -22416,7 +22416,7 @@ export const products: Product[] = [
     "price": 910,
     "originalPrice": 1047,
     "rating": 5,
-    "reviewCount": 5,
+    "reviewCount": 7,
     "shortDescription": "Tablecloth 220cm Round available at Koekeloer Gift & Décor Shop in Gansbaai.",
     "description": "Authentic Tablecloth 220cm Round from Koekeloer Geskenkwinkel & Décor, Shop 2, Great White Junction, Gansbaai. Curated with care for beautiful home living.",
     "features": [
@@ -22426,7 +22426,7 @@ export const products: Product[] = [
       "Nationwide courier delivery across South Africa"
     ],
     "stockStatus": "in_stock",
-    "stockCount": 2,
+    "stockCount": 5,
     "images": [
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Fd7075470-08a8-492c-8462-cfc2b38d9718.jpg?alt=media",
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Fthumb_280_d7075470-08a8-492c-8462-cfc2b38d9718.jpg?alt=media"
@@ -22450,7 +22450,7 @@ export const products: Product[] = [
     "price": 1140,
     "originalPrice": 1311,
     "rating": 5,
-    "reviewCount": 13,
+    "reviewCount": 10,
     "shortDescription": "Tablecloth 220cm round available at Koekeloer Gift & Décor Shop in Gansbaai.",
     "description": "Authentic Tablecloth 220cm round from Koekeloer Geskenkwinkel & Décor, Shop 2, Great White Junction, Gansbaai. Curated with care for beautiful home living.",
     "features": [
@@ -22460,7 +22460,7 @@ export const products: Product[] = [
       "Nationwide courier delivery across South Africa"
     ],
     "stockStatus": "in_stock",
-    "stockCount": 2,
+    "stockCount": 7,
     "images": [
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Fab74703e-1157-4da5-87b2-b810bad58aea.jpg?alt=media",
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Fthumb_280_ab74703e-1157-4da5-87b2-b810bad58aea.jpg?alt=media"
@@ -22484,7 +22484,7 @@ export const products: Product[] = [
     "price": 999,
     "originalPrice": 1149,
     "rating": 5,
-    "reviewCount": 15,
+    "reviewCount": 4,
     "shortDescription": "Throw 110x160cm available at Koekeloer Gift & Décor Shop in Gansbaai.",
     "description": "Authentic Throw 110x160cm from Koekeloer Geskenkwinkel & Décor, Shop 2, Great White Junction, Gansbaai. Curated with care for beautiful home living.",
     "features": [
@@ -22494,7 +22494,7 @@ export const products: Product[] = [
       "Nationwide courier delivery across South Africa"
     ],
     "stockStatus": "in_stock",
-    "stockCount": 7,
+    "stockCount": 4,
     "images": [
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Fc7355d5f-a83a-4518-95d6-65e805dde341.jpg?alt=media",
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Fthumb_280_c7355d5f-a83a-4518-95d6-65e805dde341.jpg?alt=media"
@@ -22518,7 +22518,7 @@ export const products: Product[] = [
     "price": 1600,
     "originalPrice": 1840,
     "rating": 5,
-    "reviewCount": 6,
+    "reviewCount": 10,
     "shortDescription": "Throw 130x180cm available at Koekeloer Gift & Décor Shop in Gansbaai.",
     "description": "Authentic Throw 130x180cm from Koekeloer Geskenkwinkel & Décor, Shop 2, Great White Junction, Gansbaai. Curated with care for beautiful home living.",
     "features": [
@@ -22528,7 +22528,7 @@ export const products: Product[] = [
       "Nationwide courier delivery across South Africa"
     ],
     "stockStatus": "in_stock",
-    "stockCount": 4,
+    "stockCount": 8,
     "images": [
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2F7867a1ee-7089-4756-91ae-39562efc587d.jpg?alt=media",
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Fthumb_280_7867a1ee-7089-4756-91ae-39562efc587d.jpg?alt=media"
@@ -22552,7 +22552,7 @@ export const products: Product[] = [
     "price": 1600,
     "originalPrice": 1840,
     "rating": 5,
-    "reviewCount": 9,
+    "reviewCount": 14,
     "shortDescription": "Throw 150x200cm available at Koekeloer Gift & Décor Shop in Gansbaai.",
     "description": "Authentic Throw 150x200cm from Koekeloer Geskenkwinkel & Décor, Shop 2, Great White Junction, Gansbaai. Curated with care for beautiful home living.",
     "features": [
@@ -22562,7 +22562,7 @@ export const products: Product[] = [
       "Nationwide courier delivery across South Africa"
     ],
     "stockStatus": "in_stock",
-    "stockCount": 4,
+    "stockCount": 7,
     "images": [
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Fa2b4dc80-5307-45be-9d6d-2ef86b41a472.jpg?alt=media",
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Fthumb_280_a2b4dc80-5307-45be-9d6d-2ef86b41a472.jpg?alt=media"
@@ -22586,7 +22586,7 @@ export const products: Product[] = [
     "price": 1400,
     "originalPrice": 1610,
     "rating": 5,
-    "reviewCount": 11,
+    "reviewCount": 7,
     "shortDescription": "Throw 150x200cm available at Koekeloer Gift & Décor Shop in Gansbaai.",
     "description": "Authentic Throw 150x200cm from Koekeloer Geskenkwinkel & Décor, Shop 2, Great White Junction, Gansbaai. Curated with care for beautiful home living.",
     "features": [
@@ -22620,7 +22620,7 @@ export const products: Product[] = [
     "price": 1600,
     "originalPrice": 1840,
     "rating": 5,
-    "reviewCount": 15,
+    "reviewCount": 9,
     "shortDescription": "Throw 150x200cm available at Koekeloer Gift & Décor Shop in Gansbaai.",
     "description": "Authentic Throw 150x200cm from Koekeloer Geskenkwinkel & Décor, Shop 2, Great White Junction, Gansbaai. Curated with care for beautiful home living.",
     "features": [
@@ -22630,7 +22630,7 @@ export const products: Product[] = [
       "Nationwide courier delivery across South Africa"
     ],
     "stockStatus": "in_stock",
-    "stockCount": 3,
+    "stockCount": 4,
     "images": [
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2F7117b46d-d424-431b-8134-229bb46d773e.jpg?alt=media",
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Fthumb_280_7117b46d-d424-431b-8134-229bb46d773e.jpg?alt=media"
@@ -22654,7 +22654,7 @@ export const products: Product[] = [
     "price": 1200,
     "originalPrice": 1380,
     "rating": 5,
-    "reviewCount": 5,
+    "reviewCount": 6,
     "shortDescription": "Throw 180x300cm available at Koekeloer Gift & Décor Shop in Gansbaai.",
     "description": "Authentic Throw 180x300cm from Koekeloer Geskenkwinkel & Décor, Shop 2, Great White Junction, Gansbaai. Curated with care for beautiful home living.",
     "features": [
@@ -22664,7 +22664,7 @@ export const products: Product[] = [
       "Nationwide courier delivery across South Africa"
     ],
     "stockStatus": "in_stock",
-    "stockCount": 3,
+    "stockCount": 7,
     "images": [
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Faa447d6d-17ad-484e-a7f0-d749e180dca0.jpg?alt=media",
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Fthumb_280_aa447d6d-17ad-484e-a7f0-d749e180dca0.jpg?alt=media"
@@ -22688,7 +22688,7 @@ export const products: Product[] = [
     "price": 1600,
     "originalPrice": 1840,
     "rating": 5,
-    "reviewCount": 14,
+    "reviewCount": 9,
     "shortDescription": "Throw 186x134cm available at Koekeloer Gift & Décor Shop in Gansbaai.",
     "description": "Authentic Throw 186x134cm from Koekeloer Geskenkwinkel & Décor, Shop 2, Great White Junction, Gansbaai. Curated with care for beautiful home living.",
     "features": [
@@ -22698,7 +22698,7 @@ export const products: Product[] = [
       "Nationwide courier delivery across South Africa"
     ],
     "stockStatus": "in_stock",
-    "stockCount": 8,
+    "stockCount": 9,
     "images": [
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Feeac7a0e-01ae-4ec7-b2f3-90e73a3ff9b3.jpg?alt=media",
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Fthumb_280_eeac7a0e-01ae-4ec7-b2f3-90e73a3ff9b3.jpg?alt=media"
@@ -22722,7 +22722,7 @@ export const products: Product[] = [
     "price": 1600,
     "originalPrice": 1840,
     "rating": 5,
-    "reviewCount": 8,
+    "reviewCount": 16,
     "shortDescription": "Throw 200x150cm available at Koekeloer Gift & Décor Shop in Gansbaai.",
     "description": "Authentic Throw 200x150cm from Koekeloer Geskenkwinkel & Décor, Shop 2, Great White Junction, Gansbaai. Curated with care for beautiful home living.",
     "features": [
@@ -22732,7 +22732,7 @@ export const products: Product[] = [
       "Nationwide courier delivery across South Africa"
     ],
     "stockStatus": "in_stock",
-    "stockCount": 4,
+    "stockCount": 6,
     "images": [
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2F129cb375-bb8c-49d3-86cd-a307b49b7ea3.jpg?alt=media",
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Fthumb_280_129cb375-bb8c-49d3-86cd-a307b49b7ea3.jpg?alt=media"
@@ -22756,7 +22756,7 @@ export const products: Product[] = [
     "price": 1400,
     "originalPrice": 1610,
     "rating": 5,
-    "reviewCount": 4,
+    "reviewCount": 8,
     "shortDescription": "Throw 207x136cm available at Koekeloer Gift & Décor Shop in Gansbaai.",
     "description": "Authentic Throw 207x136cm from Koekeloer Geskenkwinkel & Décor, Shop 2, Great White Junction, Gansbaai. Curated with care for beautiful home living.",
     "features": [
@@ -22766,7 +22766,7 @@ export const products: Product[] = [
       "Nationwide courier delivery across South Africa"
     ],
     "stockStatus": "in_stock",
-    "stockCount": 4,
+    "stockCount": 9,
     "images": [
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2F20f56c56-9470-4b7a-a13c-6023b92e8035.jpg?alt=media",
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Fthumb_280_20f56c56-9470-4b7a-a13c-6023b92e8035.jpg?alt=media"
@@ -22790,7 +22790,7 @@ export const products: Product[] = [
     "price": 1600,
     "originalPrice": 1840,
     "rating": 5,
-    "reviewCount": 10,
+    "reviewCount": 15,
     "shortDescription": "Throw 207x136cm available at Koekeloer Gift & Décor Shop in Gansbaai.",
     "description": "Authentic Throw 207x136cm from Koekeloer Geskenkwinkel & Décor, Shop 2, Great White Junction, Gansbaai. Curated with care for beautiful home living.",
     "features": [
@@ -22800,7 +22800,7 @@ export const products: Product[] = [
       "Nationwide courier delivery across South Africa"
     ],
     "stockStatus": "in_stock",
-    "stockCount": 7,
+    "stockCount": 4,
     "images": [
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2F82e422e9-5074-49e3-9130-e45f4f8bb24c.jpg?alt=media",
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Fthumb_280_82e422e9-5074-49e3-9130-e45f4f8bb24c.jpg?alt=media"
@@ -22824,7 +22824,7 @@ export const products: Product[] = [
     "price": 1600,
     "originalPrice": 1840,
     "rating": 5,
-    "reviewCount": 6,
+    "reviewCount": 4,
     "shortDescription": "Throw available at Koekeloer Gift & Décor Shop in Gansbaai.",
     "description": "Authentic Throw from Koekeloer Geskenkwinkel & Décor, Shop 2, Great White Junction, Gansbaai. Curated with care for beautiful home living.",
     "features": [
@@ -22834,7 +22834,7 @@ export const products: Product[] = [
       "Nationwide courier delivery across South Africa"
     ],
     "stockStatus": "in_stock",
-    "stockCount": 4,
+    "stockCount": 8,
     "images": [
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2F70bc99e3-ef0d-4df2-a3f3-be8ba6177b64.jpg?alt=media",
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Fthumb_280_70bc99e3-ef0d-4df2-a3f3-be8ba6177b64.jpg?alt=media"
@@ -22858,7 +22858,7 @@ export const products: Product[] = [
     "price": 2300,
     "originalPrice": 2645,
     "rating": 5,
-    "reviewCount": 17,
+    "reviewCount": 16,
     "shortDescription": "Throw Suzani Embroidered 150x300cm available at Koekeloer Gift & Décor Shop in Gansbaai.",
     "description": "Authentic Throw Suzani Embroidered 150x300cm from Koekeloer Geskenkwinkel & Décor, Shop 2, Great White Junction, Gansbaai. Curated with care for beautiful home living.",
     "features": [
@@ -22868,7 +22868,7 @@ export const products: Product[] = [
       "Nationwide courier delivery across South Africa"
     ],
     "stockStatus": "in_stock",
-    "stockCount": 8,
+    "stockCount": 2,
     "images": [
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2F06a59fe9-1b24-469a-97e8-d37e9b1a56fa.jpg?alt=media",
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Fthumb_280_06a59fe9-1b24-469a-97e8-d37e9b1a56fa.jpg?alt=media"
@@ -22892,7 +22892,7 @@ export const products: Product[] = [
     "price": 2300,
     "originalPrice": 2645,
     "rating": 5,
-    "reviewCount": 17,
+    "reviewCount": 5,
     "shortDescription": "Throw Suzani Embroidered 300x150cm available at Koekeloer Gift & Décor Shop in Gansbaai.",
     "description": "Authentic Throw Suzani Embroidered 300x150cm from Koekeloer Geskenkwinkel & Décor, Shop 2, Great White Junction, Gansbaai. Curated with care for beautiful home living.",
     "features": [
@@ -22902,7 +22902,7 @@ export const products: Product[] = [
       "Nationwide courier delivery across South Africa"
     ],
     "stockStatus": "in_stock",
-    "stockCount": 9,
+    "stockCount": 6,
     "images": [
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2F938186b3-6dbf-4531-9bf4-44998de66ccd.jpg?alt=media",
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Fthumb_280_938186b3-6dbf-4531-9bf4-44998de66ccd.jpg?alt=media"
@@ -22926,7 +22926,7 @@ export const products: Product[] = [
     "price": 1995,
     "originalPrice": 2294,
     "rating": 5,
-    "reviewCount": 4,
+    "reviewCount": 7,
     "shortDescription": "Throw Tufted 150x200cm available at Koekeloer Gift & Décor Shop in Gansbaai.",
     "description": "Authentic Throw Tufted 150x200cm from Koekeloer Geskenkwinkel & Décor, Shop 2, Great White Junction, Gansbaai. Curated with care for beautiful home living.",
     "features": [
@@ -22936,7 +22936,7 @@ export const products: Product[] = [
       "Nationwide courier delivery across South Africa"
     ],
     "stockStatus": "in_stock",
-    "stockCount": 9,
+    "stockCount": 6,
     "images": [
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Fff71e461-24be-4c9e-9e3d-da8806d4aaee.jpg?alt=media",
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Fthumb_280_ff71e461-24be-4c9e-9e3d-da8806d4aaee.jpg?alt=media"
@@ -22960,7 +22960,7 @@ export const products: Product[] = [
     "price": 1995,
     "originalPrice": 2294,
     "rating": 5,
-    "reviewCount": 9,
+    "reviewCount": 17,
     "shortDescription": "Throw Tufted 150x200cm available at Koekeloer Gift & Décor Shop in Gansbaai.",
     "description": "Authentic Throw Tufted 150x200cm from Koekeloer Geskenkwinkel & Décor, Shop 2, Great White Junction, Gansbaai. Curated with care for beautiful home living.",
     "features": [
@@ -22970,7 +22970,7 @@ export const products: Product[] = [
       "Nationwide courier delivery across South Africa"
     ],
     "stockStatus": "in_stock",
-    "stockCount": 7,
+    "stockCount": 4,
     "images": [
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2F16a69f1c-a1aa-4bac-a2db-f7f554cb56f0.jpg?alt=media",
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Fthumb_280_16a69f1c-a1aa-4bac-a2db-f7f554cb56f0.jpg?alt=media"
@@ -22994,7 +22994,7 @@ export const products: Product[] = [
     "price": 1000,
     "originalPrice": 1150,
     "rating": 5,
-    "reviewCount": 12,
+    "reviewCount": 15,
     "shortDescription": "Voucher R1000 available at Koekeloer Gift & Décor Shop in Gansbaai.",
     "description": "Authentic Voucher R1000 from Koekeloer Geskenkwinkel & Décor, Shop 2, Great White Junction, Gansbaai. Curated with care for beautiful home living.",
     "features": [
@@ -23004,7 +23004,7 @@ export const products: Product[] = [
       "Nationwide courier delivery across South Africa"
     ],
     "stockStatus": "in_stock",
-    "stockCount": 6,
+    "stockCount": 4,
     "images": [
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2F7a6d8b64-9cdb-41bf-8573-3d48caef5fd4.jpg?alt=media",
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Fthumb_280_7a6d8b64-9cdb-41bf-8573-3d48caef5fd4.jpg?alt=media"
@@ -23028,7 +23028,7 @@ export const products: Product[] = [
     "price": 150,
     "originalPrice": 173,
     "rating": 5,
-    "reviewCount": 16,
+    "reviewCount": 12,
     "shortDescription": "Voucher R150 available at Koekeloer Gift & Décor Shop in Gansbaai.",
     "description": "Authentic Voucher R150 from Koekeloer Geskenkwinkel & Décor, Shop 2, Great White Junction, Gansbaai. Curated with care for beautiful home living.",
     "features": [
@@ -23038,7 +23038,7 @@ export const products: Product[] = [
       "Nationwide courier delivery across South Africa"
     ],
     "stockStatus": "in_stock",
-    "stockCount": 4,
+    "stockCount": 9,
     "images": [
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2F85f71b62-64f1-41ad-a40f-3f5b11f344fb.jpg?alt=media",
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Fthumb_280_85f71b62-64f1-41ad-a40f-3f5b11f344fb.jpg?alt=media"
@@ -23072,7 +23072,7 @@ export const products: Product[] = [
       "Nationwide courier delivery across South Africa"
     ],
     "stockStatus": "in_stock",
-    "stockCount": 5,
+    "stockCount": 4,
     "images": [
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Fbc99bba6-5519-4860-825e-42daf6a8b7ff.jpg?alt=media",
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Fthumb_280_bc99bba6-5519-4860-825e-42daf6a8b7ff.jpg?alt=media"
@@ -23096,7 +23096,7 @@ export const products: Product[] = [
     "price": 500,
     "originalPrice": 575,
     "rating": 5,
-    "reviewCount": 8,
+    "reviewCount": 9,
     "shortDescription": "Voucher R500 available at Koekeloer Gift & Décor Shop in Gansbaai.",
     "description": "Authentic Voucher R500 from Koekeloer Geskenkwinkel & Décor, Shop 2, Great White Junction, Gansbaai. Curated with care for beautiful home living.",
     "features": [
@@ -23106,7 +23106,7 @@ export const products: Product[] = [
       "Nationwide courier delivery across South Africa"
     ],
     "stockStatus": "in_stock",
-    "stockCount": 4,
+    "stockCount": 2,
     "images": [
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Ff015868f-0d5c-4188-a6a2-7d3633aa7cea.jpg?alt=media",
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Fthumb_280_f015868f-0d5c-4188-a6a2-7d3633aa7cea.jpg?alt=media"
@@ -23130,7 +23130,7 @@ export const products: Product[] = [
     "price": 1560,
     "originalPrice": 1794,
     "rating": 5,
-    "reviewCount": 11,
+    "reviewCount": 9,
     "shortDescription": "Leather Wallet Carved Large available at Koekeloer Gift & Décor Shop in Gansbaai.",
     "description": "Authentic Leather Wallet Carved Large from Koekeloer Geskenkwinkel & Décor, Shop 2, Great White Junction, Gansbaai. Curated with care for beautiful home living.",
     "features": [
@@ -23140,7 +23140,7 @@ export const products: Product[] = [
       "Nationwide courier delivery across South Africa"
     ],
     "stockStatus": "in_stock",
-    "stockCount": 6,
+    "stockCount": 9,
     "images": [
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2F033df475-cc70-49bf-9435-a76641349159.jpg?alt=media",
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Fthumb_280_033df475-cc70-49bf-9435-a76641349159.jpg?alt=media"
@@ -23164,7 +23164,7 @@ export const products: Product[] = [
     "price": 1250,
     "originalPrice": 1438,
     "rating": 5,
-    "reviewCount": 12,
+    "reviewCount": 7,
     "shortDescription": "Leather Wallet Carved Mandala available at Koekeloer Gift & Décor Shop in Gansbaai.",
     "description": "Authentic Leather Wallet Carved Mandala from Koekeloer Geskenkwinkel & Décor, Shop 2, Great White Junction, Gansbaai. Curated with care for beautiful home living.",
     "features": [
@@ -23174,7 +23174,7 @@ export const products: Product[] = [
       "Nationwide courier delivery across South Africa"
     ],
     "stockStatus": "in_stock",
-    "stockCount": 7,
+    "stockCount": 4,
     "images": [
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2F2edc27a9-5c2b-4173-962a-4185cdafa145.jpg?alt=media",
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Fthumb_280_2edc27a9-5c2b-4173-962a-4185cdafa145.jpg?alt=media"
@@ -23198,7 +23198,7 @@ export const products: Product[] = [
     "price": 1250,
     "originalPrice": 1438,
     "rating": 5,
-    "reviewCount": 7,
+    "reviewCount": 5,
     "shortDescription": "Leather Wallet Flower Carved available at Koekeloer Gift & Décor Shop in Gansbaai.",
     "description": "Authentic Leather Wallet Flower Carved from Koekeloer Geskenkwinkel & Décor, Shop 2, Great White Junction, Gansbaai. Curated with care for beautiful home living.",
     "features": [
@@ -23208,7 +23208,7 @@ export const products: Product[] = [
       "Nationwide courier delivery across South Africa"
     ],
     "stockStatus": "in_stock",
-    "stockCount": 5,
+    "stockCount": 6,
     "images": [
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Fa242c95f-bcd5-49b0-b892-cd42c8a1f71d.jpg?alt=media",
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Fthumb_280_a242c95f-bcd5-49b0-b892-cd42c8a1f71d.jpg?alt=media"
@@ -23232,7 +23232,7 @@ export const products: Product[] = [
     "price": 1250,
     "originalPrice": 1438,
     "rating": 5,
-    "reviewCount": 9,
+    "reviewCount": 6,
     "shortDescription": "Leather Wallet Mandala Carved available at Koekeloer Gift & Décor Shop in Gansbaai.",
     "description": "Authentic Leather Wallet Mandala Carved from Koekeloer Geskenkwinkel & Décor, Shop 2, Great White Junction, Gansbaai. Curated with care for beautiful home living.",
     "features": [
@@ -23266,7 +23266,7 @@ export const products: Product[] = [
     "price": 495,
     "originalPrice": 569,
     "rating": 5,
-    "reviewCount": 16,
+    "reviewCount": 8,
     "shortDescription": "Purse Leather Animal Print available at Koekeloer Gift & Décor Shop in Gansbaai.",
     "description": "Authentic Purse Leather Animal Print from Koekeloer Geskenkwinkel & Décor, Shop 2, Great White Junction, Gansbaai. Curated with care for beautiful home living.",
     "features": [
@@ -23276,7 +23276,7 @@ export const products: Product[] = [
       "Nationwide courier delivery across South Africa"
     ],
     "stockStatus": "in_stock",
-    "stockCount": 9,
+    "stockCount": 3,
     "images": [
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2F7bdae960-94c5-45ea-a1a9-9a93d299e874.jpg?alt=media",
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Fthumb_280_7bdae960-94c5-45ea-a1a9-9a93d299e874.jpg?alt=media"
@@ -23300,7 +23300,7 @@ export const products: Product[] = [
     "price": 495,
     "originalPrice": 569,
     "rating": 5,
-    "reviewCount": 6,
+    "reviewCount": 17,
     "shortDescription": "Purse Leather Leopard available at Koekeloer Gift & Décor Shop in Gansbaai.",
     "description": "Authentic Purse Leather Leopard from Koekeloer Geskenkwinkel & Décor, Shop 2, Great White Junction, Gansbaai. Curated with care for beautiful home living.",
     "features": [
@@ -23310,7 +23310,7 @@ export const products: Product[] = [
       "Nationwide courier delivery across South Africa"
     ],
     "stockStatus": "in_stock",
-    "stockCount": 7,
+    "stockCount": 8,
     "images": [
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2F2a769a02-50ec-42bb-b6ad-cdc9bb1ebe53.jpg?alt=media",
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Fthumb_280_2a769a02-50ec-42bb-b6ad-cdc9bb1ebe53.jpg?alt=media"
@@ -23334,7 +23334,7 @@ export const products: Product[] = [
     "price": 3000,
     "originalPrice": 3450,
     "rating": 5,
-    "reviewCount": 8,
+    "reviewCount": 11,
     "shortDescription": "Canvas Birds Colourful available at Koekeloer Gift & Décor Shop in Gansbaai.",
     "description": "Authentic Canvas Birds Colourful from Koekeloer Geskenkwinkel & Décor, Shop 2, Great White Junction, Gansbaai. Curated with care for beautiful home living.",
     "features": [
@@ -23344,7 +23344,7 @@ export const products: Product[] = [
       "Nationwide courier delivery across South Africa"
     ],
     "stockStatus": "in_stock",
-    "stockCount": 7,
+    "stockCount": 3,
     "images": [
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2F7dfd4e94-979c-42ec-b4e6-4227a94adde6.jpg?alt=media",
       "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Fthumb_280_7dfd4e94-979c-42ec-b4e6-4227a94adde6.jpg?alt=media"
@@ -23388,10 +23388,10 @@ export const defaultHeroSlides: HeroSlide[] = [
   },
   {
     id: 3,
-    title: 'Savoy Footwear, Julz & Leather Bags',
+    title: 'Genuine Leather Bags & Footwear',
     subtitle: 'Gansbaai • Overberg Coast',
     tag: 'Boutique Collection',
-    description: 'Ultra-cushioned Savoy orthopaedic sandals, Julz leather sneakers, hand-tooled mandala leather bags, and breathable linen apparel.',
+    description: 'Hand-tooled mandala leather bags, genuine leather footwear, and breathable boutique linen apparel.',
     image: '/fb-images/548098641_23983512831327547_7475263356052133354_n.jpg',
     ctaText: 'Shop Bags & Shoes',
     ctaLink: '/shop?category=shoes-leather',
@@ -23434,8 +23434,8 @@ export const defaultSiteContent: SiteContent = {
         description: 'Coastal gift & décor emporium at Shop 2, Great White Junction in Gansbaai.',
       },
       {
-        title: 'Savoy & Julz Footwear',
-        description: 'Complete ladies boutique with pure linen resort wear, Julz leather footwear, and cushioned Savoy comfort sandals.',
+        title: 'Boutique Apparel & Footwear',
+        description: 'Complete ladies boutique with pure linen resort wear, leather sandals, and comfortable shoes.',
       },
       {
         title: 'Handcrafted Leather Bags',
@@ -23471,8 +23471,8 @@ export const defaultSiteContent: SiteContent = {
     {
       id: 3,
       image: '/fb-images/548098641_23983512831327547_7475263356052133354_n.jpg',
-      title: 'Savoy Ultra-Comfort Ladies Footwear',
-      tag: '#SavoyShoes',
+      title: 'Comfort Ladies Leather Footwear',
+      tag: '#LeatherShoes',
       link: 'https://www.facebook.com/koekeloer.winkel',
     },
     {
@@ -23497,5 +23497,5 @@ export const defaultSiteContent: SiteContent = {
       link: 'https://www.facebook.com/koekeloer.winkel',
     },
   ],
-  footerBio: 'A unique lifestyle store that takes you on a voyage of discovery through artisanal gifts, coastal decor, handcrafted furniture, carved leather bags, resort wear, Savoy footwear, and kitchenware. Visit our store at Shop 2, Great White Junction in Gansbaai, Western Cape.',
+  footerBio: 'A unique lifestyle store that takes you on a voyage of discovery through artisanal gifts, coastal decor, handcrafted furniture, carved leather bags, resort wear, leather footwear, and kitchenware. Visit our store at Shop 2, Great White Junction in Gansbaai, Western Cape.',
 };

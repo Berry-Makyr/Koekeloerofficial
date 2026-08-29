@@ -159,10 +159,10 @@ export const defaultHeroSlides: HeroSlide[] = [
   },
   {
     id: 3,
-    title: 'Savoy Footwear, Julz & Leather Bags',
+    title: 'Genuine Leather Bags & Footwear',
     subtitle: 'Gansbaai • Overberg Coast',
     tag: 'Boutique Collection',
-    description: 'Ultra-cushioned Savoy orthopaedic sandals, Julz leather sneakers, hand-tooled mandala leather bags, and breathable linen apparel.',
+    description: 'Hand-tooled mandala leather bags, genuine leather footwear, and breathable boutique linen apparel.',
     image: '/fb-images/548098641_23983512831327547_7475263356052133354_n.jpg',
     ctaText: 'Shop Bags & Shoes',
     ctaLink: '/shop?category=shoes-leather',
@@ -205,8 +205,8 @@ export const defaultSiteContent: SiteContent = {
         description: 'Coastal gift & décor emporium at Shop 2, Great White Junction in Gansbaai.',
       },
       {
-        title: 'Savoy & Julz Footwear',
-        description: 'Complete ladies boutique with pure linen resort wear, Julz leather footwear, and cushioned Savoy comfort sandals.',
+        title: 'Boutique Apparel & Footwear',
+        description: 'Complete ladies boutique with pure linen resort wear, leather sandals, and comfortable shoes.',
       },
       {
         title: 'Handcrafted Leather Bags',
@@ -242,8 +242,8 @@ export const defaultSiteContent: SiteContent = {
     {
       id: 3,
       image: '/fb-images/548098641_23983512831327547_7475263356052133354_n.jpg',
-      title: 'Savoy Ultra-Comfort Ladies Footwear',
-      tag: '#SavoyShoes',
+      title: 'Comfort Ladies Leather Footwear',
+      tag: '#LeatherShoes',
       link: 'https://www.facebook.com/koekeloer.winkel',
     },
     {
@@ -268,7 +268,7 @@ export const defaultSiteContent: SiteContent = {
       link: 'https://www.facebook.com/koekeloer.winkel',
     },
   ],
-  footerBio: 'A unique lifestyle store that takes you on a voyage of discovery through artisanal gifts, coastal decor, handcrafted furniture, carved leather bags, resort wear, Savoy footwear, and kitchenware. Visit our store at Shop 2, Great White Junction in Gansbaai, Western Cape.',
+  footerBio: 'A unique lifestyle store that takes you on a voyage of discovery through artisanal gifts, coastal decor, handcrafted furniture, carved leather bags, resort wear, leather footwear, and kitchenware. Visit our store at Shop 2, Great White Junction in Gansbaai, Western Cape.',
 };
 `;
 
