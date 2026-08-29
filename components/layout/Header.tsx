@@ -291,7 +291,7 @@ export default function Header() {
               href="/stores"
               className="block px-3 py-2 rounded-md text-base font-medium text-driftwood-900 hover:bg-sand-100"
             >
-              Store Locations (Gansbaai & Bredasdorp)
+              Our Store (Great White Junction, Gansbaai)
             </Link>
             <Link
               href="/about"

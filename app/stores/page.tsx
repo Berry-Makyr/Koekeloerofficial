@@ -12,8 +12,8 @@ import {
 import { stores } from '@/data/stores';
 
 export const metadata = {
-  title: 'Our Store Locations | Gansbaai, Bredasdorp & Struisbaai | Koekeloer',
-  description: 'Visit Koekeloer Gift Shop & Boutique in Gansbaai (Great White Junction), Bredasdorp, Struisbaai, and Pearly Beach. Trading hours and contact details.',
+  title: 'Our Store Location | Great White Junction, Gansbaai | Koekeloer',
+  description: 'Visit Koekeloer Gift Shop & Boutique in Gansbaai at the Great White Junction. Trading hours, directions, and showroom details.',
 };
 
 export default function StoresPage() {
@@ -24,17 +24,17 @@ export default function StoresPage() {
         {/* Page Header */}
         <div className="text-center max-w-3xl mx-auto mb-16 space-y-3">
           <span className="text-xs uppercase tracking-[0.2em] font-semibold text-sand-600">
-            Western Cape Overberg
+            Gansbaai • Western Cape
           </span>
           <h1 className="font-serif text-3xl sm:text-5xl font-bold text-driftwood-950">
-            Our Store Locations & Showrooms
+            Our Showrooms in Gansbaai
           </h1>
           <p className="text-xs sm:text-sm text-driftwood-600 max-w-2xl mx-auto leading-relaxed">
-            Come browse in person, touch the textures of our hand-carved Bali paras stone bowls, try on our Esthé leather sandals, and meet our warm Overberg team.
+            Come browse in person at Great White Junction, explore our hand-carved Bali teak furniture, try on our Savoy comfort sandals and boutique linen wear, and meet our warm team.
           </p>
         </div>
 
-        {/* 4 Stores Detailed Grid */}
+        {/* Stores Detailed Grid */}
         <div className="space-y-12">
           {stores.map((store, index) => (
             <div

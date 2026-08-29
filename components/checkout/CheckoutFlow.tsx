@@ -68,7 +68,7 @@ export default function CheckoutFlow() {
   });
 
   const shippingCost = (() => {
-    if (formData.shippingMethod === 'pickup-gansbaai' || formData.shippingMethod === 'pickup-bredasdorp') {
+    if (formData.shippingMethod === 'pickup-gansbaai') {
       return 0;
     }
     if (cartSubtotal >= FREE_SHIPPING_THRESHOLD) {
@@ -498,30 +498,6 @@ export default function CheckoutFlow() {
                       <div>
                         <p className="font-bold text-driftwood-950 text-sm">Free Pick-up: Gansbaai Showroom</p>
                         <p className="text-driftwood-500 mt-0.5">Shop 2, Great White Junction, Main Road, Gansbaai</p>
-                      </div>
-                    </div>
-                    <span className="font-bold text-sm text-emerald-700">FREE</span>
-                  </label>
-
-                  {/* Bredasdorp Collection */}
-                  <label className={cn(
-                    "flex items-start justify-between p-4 rounded-2xl border cursor-pointer transition",
-                    formData.shippingMethod === 'pickup-bredasdorp'
-                      ? "border-coastal-700 bg-coastal-50/40 shadow-sm"
-                      : "border-sand-200 hover:bg-sand-50"
-                  )}>
-                    <div className="flex items-start gap-3">
-                      <input
-                        type="radio"
-                        name="shippingMethod"
-                        value="pickup-bredasdorp"
-                        checked={formData.shippingMethod === 'pickup-bredasdorp'}
-                        onChange={handleInputChange}
-                        className="mt-0.5 accent-coastal-700"
-                      />
-                      <div>
-                        <p className="font-bold text-driftwood-950 text-sm">Free Pick-up: Bredasdorp Store</p>
-                        <p className="text-driftwood-500 mt-0.5">24 Dirkie Uys Street, Bredasdorp</p>
                       </div>
                     </div>
                     <span className="font-bold text-sm text-emerald-700">FREE</span>

@@ -709,13 +709,13 @@ export const defaultHeroSlides: HeroSlide[] = [
   {
     id: 1,
     title: 'Welcome to Koekeloer',
-    subtitle: 'Gansbaai • Bredasdorp • Struisbaai',
+    subtitle: 'Great White Junction, Gansbaai',
     tag: 'Fresh Stock Just Arrived',
     description: 'Discover 40 years of passion for artisanal coastal gifts, resort fashion, Savoy comfort shoes, and hand-carved Bali teak furniture.',
     image: '/fb-images/606030198_24884683841210437_5271712182053158002_n.jpg',
     ctaText: 'Explore Collections',
     ctaLink: '/shop',
-    secondaryText: 'Our Stores',
+    secondaryText: 'Our Store',
     secondaryLink: '/stores',
   },
   {
@@ -774,8 +774,8 @@ export const defaultSiteContent: SiteContent = {
         description: 'Solid teak, river stone basins, and handwoven rattan directly from artisan studios.',
       },
       {
-        title: '4 Physical Stores',
-        description: 'Bustling locations across Gansbaai, Bredasdorp, Struisbaai & Pearly Beach.',
+        title: 'Gansbaai Showrooms',
+        description: 'Décor emporium (Shop 2) and clothing boutique (Shop 5) at Great White Junction.',
       },
       {
         title: 'Savoy Footwear & Boutique',
@@ -793,7 +793,7 @@ export const defaultSiteContent: SiteContent = {
       boutique: '/fb-images/615057225_24998643253147828_5505068522394442945_n.jpg',
     },
     ctaText: 'Read Our Full Story',
-    secondaryCtaText: 'Visit Our Stores',
+    secondaryCtaText: 'Visit Our Store',
   },
   lookbookTitle: 'Follow @koekeloer.winkel',
   lookbookSubtitle: 'Join thousands of home decorators and fashion lovers across the Overberg and South Africa.',
@@ -841,7 +841,7 @@ export const defaultSiteContent: SiteContent = {
       link: 'https://www.facebook.com/koekeloer.winkel',
     },
   ],
-  footerBio: 'A unique lifestyle store that takes you on a voyage of discovery through artisanal gifts, coastal decor, hand-carved Bali teak furniture, resort wear, Savoy footwear, and kitchenware. Visit our stores in Gansbaai, Bredasdorp, Struisbaai, and Pearly Beach.',
+  footerBio: 'A unique lifestyle store that takes you on a voyage of discovery through artisanal gifts, coastal decor, hand-carved Bali teak furniture, resort wear, Savoy footwear, and kitchenware. Visit our showrooms at Great White Junction in Gansbaai, Western Cape.',
 };
 
 // Export heroSlides for backwards compatibility

@@ -13,23 +13,23 @@ export default function StoreLocationsPreview() {
         <div className="flex flex-col md:flex-row md:items-end justify-between mb-12 gap-6">
           <div>
             <span className="text-xs uppercase tracking-[0.2em] font-semibold text-sand-600">
-              Western Cape Stores
+              Gansbaai • Great White Junction
             </span>
             <h2 className="font-serif text-3xl sm:text-4xl font-bold text-driftwood-950 mt-1">
-              Shop Online or Visit Us in Person
+              Shop Online or Visit Our Gansbaai Showrooms
             </h2>
           </div>
           <Link
             href="/stores"
             className="text-xs sm:text-sm font-semibold text-coastal-800 hover:text-coastal-950 flex items-center gap-1.5"
           >
-            <span>View All Trading Hours & Maps</span>
+            <span>View Trading Hours & Directions</span>
             <ArrowRight className="w-4 h-4" />
           </Link>
         </div>
 
-        {/* 4 Stores Grid */}
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+        {/* Gansbaai Stores Grid */}
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-5xl mx-auto">
           {stores.map((store) => (
             <div
               key={store.id}

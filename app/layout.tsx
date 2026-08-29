@@ -15,8 +15,8 @@ export const viewport: Viewport = {
 
 export const metadata: Metadata = {
   title: 'Koekeloer | Coastal Décor, Bali Furniture & Boutique Gansbaai',
-  description: 'Gansbaai & Overberg lifestyle emporium. Discover artisan home decor, handcrafted Bali teak furniture, coastal rope mirrors, Esthé leather footwear, and resort fashion.',
-  keywords: ['Koekeloer', 'Gansbaai decor', 'Bredasdorp shop', 'Struisbaai gifts', 'Bali furniture South Africa', 'coastal living decor', 'Esthé leather shoes'],
+  description: 'Gansbaai lifestyle emporium at Great White Junction. Discover artisan home decor, handcrafted Bali teak furniture, coastal rope mirrors, Savoy leather footwear, and resort fashion.',
+  keywords: ['Koekeloer', 'Gansbaai decor', 'Great White Junction Gansbaai', 'Gansbaai gift shop', 'Bali furniture South Africa', 'coastal living decor', 'Savoy shoes Gansbaai'],
   authors: [{ name: 'Koekeloer Gansbaai' }],
   icons: {
     icon: '/favicon.ico',

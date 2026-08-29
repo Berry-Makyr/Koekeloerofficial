@@ -1,6 +1,6 @@
 # Koekeloer E-Commerce Platform
 
-A coastal lifestyle e-commerce web platform for **Koekeloer** (Gansbaai, Bredasdorp, Struisbaai & Pearly Beach, Western Cape, South Africa).
+A coastal lifestyle e-commerce web platform for **Koekeloer** (Great White Junction, Gansbaai, Western Cape, South Africa).
 
 Inspired by the design of [beachsand.co.za](https://beachsand.co.za/), built for showcasing curated home décor, Bali teak furniture, marine rope mirrors, Esthé genuine leather footwear, and resort apparel.
 
@@ -24,10 +24,10 @@ Inspired by the design of [beachsand.co.za](https://beachsand.co.za/), built for
   - Slide-over Cart Drawer with free delivery threshold meter (Free shipping over R1,200).
   - Promo code discounts (`KOEKELOER10` for 10% off, `WINTER20` for 20% off).
   - 3-step checkout simulation with South African provinces and postal codes.
-  - Delivery options: The Courier Guy tracked door-to-door, PostNet, and free in-store collection at Great White Junction Gansbaai or Bredasdorp.
+  - Delivery options: The Courier Guy tracked door-to-door, PostNet, and free in-store collection at Great White Junction Gansbaai.
   - Payment simulations: PayFast (Card), Ozow Instant EFT, SnapScan.
-- **Store Locator**:
-  - Detailed trading hours, Google Maps links, and WhatsApp quick chats for Gansbaai Decor Emporium, Gansbaai Boutique, Bredasdorp, and Struisbaai.
+- **Store Showroom Locator**:
+  - Detailed trading hours, Google Maps links, and WhatsApp quick chats for Gansbaai Decor Emporium (Shop 2) and Gansbaai Boutique (Shop 5).
 - **Social Lookbook & Customer Testimonials**:
   - Direct links to Koekeloer Facebook page photos and community lookbook feed.
 

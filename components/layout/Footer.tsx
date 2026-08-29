@@ -100,12 +100,12 @@ export default function Footer() {
                 KOEKELOER
               </span>
               <span className="block text-[10px] tracking-[0.25em] text-sand-400 uppercase font-medium">
-                Gansbaai • Bredasdorp • Struisbaai
+                Great White Junction, Gansbaai
               </span>
             </Link>
             <p className="text-xs text-sand-400 leading-relaxed max-w-sm">
               {siteContent.footerBio ||
-                'A unique lifestyle store that takes you on a voyage of discovery through artisanal gifts, coastal decor, hand-carved Bali teak furniture, resort wear, Savoy footwear, and kitchenware. Visit our stores in Gansbaai, Bredasdorp, Struisbaai, and Pearly Beach.'}
+                'A unique lifestyle store that takes you on a voyage of discovery through artisanal gifts, coastal decor, hand-carved Bali teak furniture, resort wear, Savoy footwear, and kitchenware. Visit our showrooms at Great White Junction in Gansbaai, Western Cape.'}
             </p>
 
             {/* Newsletter */}
@@ -259,7 +259,7 @@ export default function Footer() {
           <div>
             <p>© {new Date().getFullYear()} Koekeloer Gift & Décor Emporium. All rights reserved.</p>
             <p className="text-[11px] text-sand-600 mt-0.5">
-              Great White Junction, Gansbaai • Bredasdorp • Struisbaai • Pearly Beach
+              Shop 2 & Shop 5, Great White Junction, Main Road, Gansbaai, 7220
             </p>
           </div>
 

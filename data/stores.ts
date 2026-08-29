@@ -49,52 +49,6 @@ export const stores: StoreLocation[] = [
     mapEmbedUrl: 'https://maps.google.com/maps?q=Great%20White%20Junction%20Gansbaai&t=&z=15&ie=UTF8&iwloc=&output=embed',
     image: '/fb-images/546631879_23983512777994219_8454657023277643559_n.jpg',
   },
-  {
-    id: 'bredasdorp',
-    name: 'Koekeloer Bredasdorp',
-    town: 'Bredasdorp',
-    address: '24 Dirkie Uys Street',
-    complex: 'Central Bredasdorp',
-    phone: '+27 (0)28 424 1100',
-    whatsapp: '27787030250',
-    email: 'bredasdorp@koekeloer.co.za',
-    hours: {
-      weekdays: '08:30 – 17:00',
-      saturday: '08:30 – 13:00',
-      sunday: 'Closed',
-      publicHolidays: '09:00 – 13:00',
-    },
-    features: [
-      'Gifts, Kitchenware & Tabletop Settings',
-      'Overberg Country-Style Home Décor',
-      'Soft Furnishings & Wall Art Galleries',
-    ],
-    mapEmbedUrl: 'https://maps.google.com/maps?q=Bredasdorp%20Western%20Cape&t=&z=14&ie=UTF8&iwloc=&output=embed',
-    image: '/fb-images/708512177_26353474417664698_5291974240629621864_n.jpg',
-  },
-  {
-    id: 'struisbaai',
-    name: 'Koekeloer Gifts Struisbaai',
-    town: 'Struisbaai',
-    address: 'Main Road, Struisbaai Beachfront',
-    complex: 'Southernmost Coastal Shops',
-    phone: '+27 (0)78 703 0250',
-    whatsapp: '27787030250',
-    email: 'struisbaai@koekeloer.co.za',
-    hours: {
-      weekdays: '09:00 – 17:00',
-      saturday: '09:00 – 15:00',
-      sunday: '09:30 – 13:30',
-      publicHolidays: '09:00 – 15:00',
-    },
-    features: [
-      'Beachfront & Coastal Holiday Décor',
-      'Seashell Pendants & Nautical Souvenirs',
-      'Summer Resort Wear & Sun Hats',
-    ],
-    mapEmbedUrl: 'https://maps.google.com/maps?q=Struisbaai%20Western%20Cape&t=&z=14&ie=UTF8&iwloc=&output=embed',
-    image: '/fb-images/468944955_8292019254236824_7623446276911688929_n.jpg',
-  },
 ];
 
 export const customerReviews: Review[] = [
@@ -104,8 +58,8 @@ export const customerReviews: Review[] = [
     location: 'Hermanus',
     rating: 5,
     date: '14 August 2026',
-    title: 'An absolute gem of a store in the Overberg!',
-    comment: 'Koekeloer is always our first stop when driving to Gansbaai. The quality of the hand-carved Bali cabinets and teak furniture is exceptional, and the team is so warm and welcoming. Courier delivery to Hermanus was fast and beautifully packaged.',
+    title: 'An absolute gem of a store in Gansbaai!',
+    comment: 'Koekeloer is always our first stop when visiting Gansbaai. The quality of the hand-carved Bali cabinets and teak furniture is exceptional, and the team is so warm and welcoming. Courier delivery to Hermanus was fast and beautifully packaged.',
     verified: true,
   },
   {
@@ -121,11 +75,11 @@ export const customerReviews: Review[] = [
   {
     id: 'rev-03',
     author: 'Johan & Marise du Plessis',
-    location: 'Bredasdorp',
+    location: 'Gansbaai',
     rating: 5,
     date: '02 July 2026',
     title: 'Transformed our coastal beach house',
-    comment: 'Nelia and the Koekeloer team helped us select seashell chandeliers, mirrors, and embroidered mandala cushions for our Pearly Beach retreat. Stunning statement pieces that bring genuine warmth and ocean charm to every room.',
+    comment: 'Nelia and the Koekeloer team helped us select seashell chandeliers, mirrors, and embroidered mandala cushions for our coastal home. Stunning statement pieces that bring genuine warmth and ocean charm to every room.',
     verified: true,
   },
 ];

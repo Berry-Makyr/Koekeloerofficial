@@ -27,7 +27,7 @@ export default function AboutPage() {
             The Story Behind Koekeloer
           </h1>
           <p className="text-sm sm:text-base text-driftwood-700 leading-relaxed">
-            From a humble passion project in Gansbaai to four bustling lifestyle stores across the Overberg coast.
+            From a humble passion project to Gansbaai's favourite coastal décor and lifestyle showroom at Great White Junction.
           </p>
         </div>
 
@@ -50,7 +50,7 @@ export default function AboutPage() {
             </h2>
             
             <p>
-              In <strong>2012</strong>, Koekeloer first opened its welcoming doors in Gansbaai at the <em>Great White Junction</em>. By <strong>2017</strong>, this beloved coastal décor and gift emporium expanded with a sister branch in Bredasdorp, followed by locations in Struisbaai and Pearly Beach.
+              In <strong>2012</strong>, Koekeloer first opened its welcoming doors in Gansbaai at the <em>Great White Junction</em>. Today, it stands as a landmark coastal décor emporium (Shop 2) and ladies fashion boutique (Shop 5) in Gansbaai.
             </p>
 
             <p>

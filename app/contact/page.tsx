@@ -210,7 +210,7 @@ export default function ContactPage() {
                   href="/stores"
                   className="text-xs text-coastal-700 hover:text-coastal-950 font-semibold"
                 >
-                  View Bredasdorp & Struisbaai branch details →
+                  View Gansbaai showroom details & directions →
                 </Link>
               </div>
             </div>
