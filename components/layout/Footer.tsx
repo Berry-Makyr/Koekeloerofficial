@@ -205,8 +205,8 @@ export default function Footer() {
                 </Link>
               </li>
               <li>
-                <Link href="/admin" className="hover:text-white transition text-sand-300 font-medium">
-                  Catalog & Section Admin
+                <Link href="/account" className="hover:text-white transition">
+                  My Account & Orders
                 </Link>
               </li>
               <li>

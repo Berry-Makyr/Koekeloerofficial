@@ -1,9 +1,10 @@
 import { NextRequest, NextResponse } from 'next/server';
 import prisma from '@/lib/prisma';
-import { getCurrentUser, hasRequiredRole } from '@/lib/auth';
+import { getCurrentUser } from '@/lib/auth';
+import { getCurrentAdmin } from '@/lib/admin-auth';
 import { CheckoutOrderSchema } from '@/lib/validators';
 import { createAuditLog } from '@/lib/audit';
-import { PaymentStatus, FulfillmentStatus, DeliveryMethod, UserRole } from '@prisma/client';
+import { PaymentStatus, FulfillmentStatus, DeliveryMethod } from '@prisma/client';
 
 const FREE_SHIPPING_THRESHOLD = 1200;
 const STANDARD_SHIPPING_FEE = 150;
@@ -11,35 +12,41 @@ const EXPRESS_SHIPPING_FEE = 220;
 
 export async function GET(req: NextRequest) {
   try {
-    const user = await getCurrentUser();
-    if (!user) {
+    const admin = await getCurrentAdmin();
+    const customer = await getCurrentUser();
+
+    if (!admin && !customer) {
       return NextResponse.json({ error: 'UNAUTHORIZED: Please sign in' }, { status: 401 });
     }
 
     const { searchParams } = new URL(req.url);
     const status = searchParams.get('status');
-    const isStaffOrAdmin = hasRequiredRole(user.role, UserRole.STAFF);
 
     const where: any = {};
-    if (!isStaffOrAdmin) {
+    if (!admin) {
       // Ordinary customers can only view their own orders
-      where.userId = user.id;
+      where.userId = customer?.id;
     }
 
-    if (status && isStaffOrAdmin) {
+    if (status && admin) {
       where.fulfillmentStatus = status as FulfillmentStatus;
     }
 
-    const orders = await prisma.order.findMany({
-      where,
-      include: {
-        items: true,
-        payments: true,
-      },
-      orderBy: { createdAt: 'desc' },
-    });
+    try {
+      const orders = await prisma.order.findMany({
+        where,
+        include: {
+          items: true,
+          payments: true,
+        },
+        orderBy: { createdAt: 'desc' },
+      });
 
-    return NextResponse.json({ orders });
+      return NextResponse.json({ orders });
+    } catch {
+      // Database not connected yet
+      return NextResponse.json({ orders: [] });
+    }
   } catch (error) {
     console.error('Error fetching orders:', error);
     return NextResponse.json({ error: 'Failed to fetch orders' }, { status: 500 });

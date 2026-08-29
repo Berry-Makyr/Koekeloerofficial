@@ -1,8 +1,7 @@
 import { NextRequest, NextResponse } from 'next/server';
 import prisma from '@/lib/prisma';
-import { requireAuth } from '@/lib/auth';
+import { requireAdminAuth } from '@/lib/admin-auth';
 import { createAuditLog } from '@/lib/audit';
-import { UserRole } from '@prisma/client';
 
 export async function GET() {
   try {
@@ -25,7 +24,7 @@ export async function GET() {
 
 export async function POST(req: NextRequest) {
   try {
-    const user = await requireAuth(UserRole.STAFF);
+    const user = await requireAdminAuth('STAFF');
     const body = await req.json();
 
     if (!body.name || !body.slug) {

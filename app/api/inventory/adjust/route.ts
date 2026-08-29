@@ -1,13 +1,12 @@
 import { NextRequest, NextResponse } from 'next/server';
 import prisma from '@/lib/prisma';
-import { requireAuth } from '@/lib/auth';
+import { requireAdminAuth } from '@/lib/admin-auth';
 import { InventoryAdjustmentSchema } from '@/lib/validators';
 import { createAuditLog } from '@/lib/audit';
-import { UserRole } from '@prisma/client';
 
 export async function POST(req: NextRequest) {
   try {
-    const user = await requireAuth(UserRole.STAFF);
+    const user = await requireAdminAuth('STAFF');
     const body = await req.json();
     const { productId, variantId, newQuantity, reason } = InventoryAdjustmentSchema.parse(body);
 

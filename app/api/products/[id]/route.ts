@@ -1,8 +1,7 @@
 import { NextRequest, NextResponse } from 'next/server';
 import prisma from '@/lib/prisma';
-import { requireAuth } from '@/lib/auth';
+import { requireAdminAuth } from '@/lib/admin-auth';
 import { createAuditLog } from '@/lib/audit';
-import { UserRole } from '@prisma/client';
 
 export async function GET(
   req: NextRequest,
@@ -39,7 +38,7 @@ export async function PUT(
   { params }: { params: Promise<{ id: string }> }
 ) {
   try {
-    const user = await requireAuth(UserRole.STAFF);
+    const user = await requireAdminAuth('STAFF');
     const { id } = await params;
     const body = await req.json();
 
@@ -107,7 +106,7 @@ export async function DELETE(
   { params }: { params: Promise<{ id: string }> }
 ) {
   try {
-    const user = await requireAuth(UserRole.ADMIN);
+    const user = await requireAdminAuth('ADMIN');
     const { id } = await params;
 
     const previousProduct = await prisma.product.findUnique({

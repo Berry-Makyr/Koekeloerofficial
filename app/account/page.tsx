@@ -128,23 +128,12 @@ export default function AccountDashboardPage() {
                 <h1 className="font-serif text-2xl sm:text-3xl font-bold text-driftwood-950">
                   {user?.firstName} {user?.lastName}
                 </h1>
-                <span className="text-[10px] uppercase tracking-wider font-bold bg-sand-200 text-driftwood-800 px-2.5 py-0.5 rounded-full">
-                  {user?.role}
-                </span>
               </div>
               <p className="text-xs text-driftwood-600 mt-0.5">{user?.email}</p>
             </div>
           </div>
 
           <div className="flex items-center gap-2">
-            {(user?.role === 'ADMIN' || user?.role === 'SUPER_ADMIN' || user?.role === 'STAFF') && (
-              <Link
-                href="/admin"
-                className="px-4 py-2.5 bg-coastal-800 hover:bg-coastal-900 text-white text-xs font-semibold rounded-xl transition shadow-sm"
-              >
-                Admin Control Center →
-              </Link>
-            )}
             <button
               onClick={handleLogout}
               className="px-4 py-2.5 bg-sand-100 hover:bg-sand-200 text-driftwood-800 text-xs font-semibold rounded-xl border border-sand-300 transition flex items-center gap-1.5"
@@ -336,8 +325,8 @@ export default function AccountDashboardPage() {
                 <p className="text-driftwood-950 font-semibold">{user?.email}</p>
               </div>
               <div>
-                <span className="font-bold text-driftwood-500 block mb-1">Role & Permissions</span>
-                <p className="text-driftwood-950 font-semibold">{user?.role}</p>
+                <span className="font-bold text-driftwood-500 block mb-1">Account Status</span>
+                <p className="text-emerald-700 font-semibold">Active Customer</p>
               </div>
             </div>
           </div>

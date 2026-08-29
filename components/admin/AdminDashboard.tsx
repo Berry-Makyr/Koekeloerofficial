@@ -321,8 +321,8 @@ export default function AdminDashboard({ currentUser }: { currentUser?: any }) {
 
             <button
               onClick={async () => {
-                await fetch('/api/auth/logout', { method: 'POST' });
-                window.location.href = '/account/login';
+                await fetch('/api/admin/auth/logout', { method: 'POST' });
+                window.location.href = '/admin/login';
               }}
               className="px-4 py-2.5 bg-sand-100 hover:bg-sand-200 text-driftwood-800 text-xs font-semibold rounded-xl border border-sand-300 shadow-sm flex items-center gap-1.5 transition"
               title="Sign Out of Admin"

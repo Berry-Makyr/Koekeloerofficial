@@ -1,22 +1,21 @@
 import { redirect } from 'next/navigation';
-import { getCurrentUser, hasRequiredRole } from '@/lib/auth';
-import { UserRole } from '@prisma/client';
+import { getCurrentAdmin } from '@/lib/admin-auth';
 import AdminDashboard from '@/components/admin/AdminDashboard';
 
 export const metadata = {
-  title: 'Control Center & Secure Admin | Koekeloer Gansbaai',
+  title: 'Control Center | Koekeloer Gansbaai',
   description: 'Manage and update Koekeloer product listings, photo galleries, stock status, orders, and pricing.',
 };
 
 export const dynamic = 'force-dynamic';
 
 export default async function AdminPage() {
-  const user = await getCurrentUser();
+  const currentAdmin = await getCurrentAdmin();
 
-  // Strict Server-Side Authentication & RBAC Check
-  if (!user || !hasRequiredRole(user.role, UserRole.STAFF)) {
-    redirect('/account/login?redirect=/admin&error=admin_auth_required');
+  // Strict Server-Side Verification — Unauthenticated requests redirect to dedicated /admin/login
+  if (!currentAdmin) {
+    redirect('/admin/login?redirect=/admin&error=admin_auth_required');
   }
 
-  return <AdminDashboard currentUser={user} />;
+  return <AdminDashboard currentUser={currentAdmin} />;
 }

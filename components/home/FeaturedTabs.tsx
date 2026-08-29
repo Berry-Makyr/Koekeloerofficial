@@ -80,17 +80,17 @@ export default function FeaturedTabs() {
               <Sparkles className="w-6 h-6" />
             </div>
             <h3 className="font-serif text-lg font-bold text-driftwood-900">
-              New Custom Listings Coming Soon
+              New Coastal Arrivals Coming Soon
             </h3>
             <p className="text-xs text-driftwood-600 leading-relaxed">
-              We are currently updating our showroom catalog. Head to the Admin Panel to add custom product listings, or check back shortly.
+              We are currently updating our online catalog with fresh coastal homeware, Bali teak furniture, and boutique fashion. Visit our showrooms at Great White Junction or browse all collections.
             </p>
             <div className="pt-2 flex items-center justify-center gap-3">
               <Link
-                href="/admin"
+                href="/shop"
                 className="inline-flex items-center gap-1.5 bg-coastal-800 hover:bg-coastal-900 text-white text-xs font-semibold px-5 py-2.5 rounded-xl shadow-sm transition"
               >
-                <span>Add Products in Admin</span>
+                <span>Browse Collections</span>
               </Link>
             </div>
           </div>

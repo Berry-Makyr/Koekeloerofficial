@@ -434,29 +434,20 @@ export default function ShopContent() {
                   <Search className="w-8 h-8" />
                 </div>
                 <h3 className="font-serif text-xl font-bold text-driftwood-900">
-                  {products.length === 0 ? 'No custom products added yet' : 'No matching products found'}
+                  {products.length === 0 ? 'Catalog Updating' : 'No matching products found'}
                 </h3>
                 <p className="text-xs sm:text-sm text-driftwood-500 max-w-md mx-auto">
                   {products.length === 0
-                    ? 'Your catalog is clean and ready. Open the Admin Panel to create your own custom product listings with photos, prices, and departments.'
+                    ? 'Our online catalogue is currently being prepared with artisan coastal decor and boutique items. Please check back soon or visit our Gansbaai showroom.'
                     : 'We couldn’t find any items matching your active filter criteria. Try clearing some filters or searching for another term.'}
                 </p>
                 <div className="flex flex-wrap items-center justify-center gap-3 pt-2">
-                  {products.length === 0 ? (
-                    <Link
-                      href="/admin"
-                      className="bg-coastal-800 hover:bg-coastal-900 text-white text-xs font-semibold px-6 py-3 rounded-xl transition shadow-sm"
-                    >
-                      Open Admin Panel to Add Products
-                    </Link>
-                  ) : (
-                    <button
-                      onClick={handleResetFilters}
-                      className="bg-coastal-800 hover:bg-coastal-900 text-white text-xs font-semibold px-6 py-3 rounded-xl transition"
-                    >
-                      Reset All Filters
-                    </button>
-                  )}
+                  <button
+                    onClick={handleResetFilters}
+                    className="bg-coastal-800 hover:bg-coastal-900 text-white text-xs font-semibold px-6 py-3 rounded-xl transition"
+                  >
+                    Reset All Filters
+                  </button>
                 </div>
               </div>
             ) : (

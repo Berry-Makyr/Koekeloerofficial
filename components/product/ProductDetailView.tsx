@@ -60,7 +60,7 @@ export default function ProductDetailView({
             Product Not Found
           </h1>
           <p className="text-xs sm:text-sm text-driftwood-600 leading-relaxed">
-            This product listing might be newly created, moved, or currently unavailable. Browse our shop or create custom listings in the admin panel.
+            This item might be unavailable or out of stock. Browse our full online catalog or visit our Gansbaai showroom.
           </p>
           <div className="pt-2 flex flex-wrap items-center justify-center gap-3">
             <Link
@@ -70,10 +70,10 @@ export default function ProductDetailView({
               Browse Catalog
             </Link>
             <Link
-              href="/admin"
+              href="/contact"
               className="bg-white hover:bg-sand-100 text-driftwood-900 text-xs font-semibold px-6 py-3 rounded-xl border border-sand-300 shadow-sm transition"
             >
-              Add Custom Listing in Admin
+              Contact Showroom
             </Link>
           </div>
         </div>

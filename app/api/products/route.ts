@@ -1,9 +1,8 @@
 import { NextRequest, NextResponse } from 'next/server';
 import prisma from '@/lib/prisma';
-import { requireAuth } from '@/lib/auth';
+import { requireAdminAuth } from '@/lib/admin-auth';
 import { ProductCreateSchema } from '@/lib/validators';
 import { createAuditLog } from '@/lib/audit';
-import { UserRole } from '@prisma/client';
 
 export async function GET(req: NextRequest) {
   try {
@@ -62,7 +61,7 @@ export async function GET(req: NextRequest) {
 export async function POST(req: NextRequest) {
   try {
     // Only Staff, Admin, or Super Admin can create products
-    const user = await requireAuth(UserRole.STAFF);
+    const user = await requireAdminAuth('STAFF');
 
     const body = await req.json();
     const validatedData = ProductCreateSchema.parse(body);

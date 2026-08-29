@@ -2,30 +2,21 @@
 
 import React, { useState, useEffect, Suspense } from 'react';
 import { useRouter, useSearchParams } from 'next/navigation';
-import Link from 'next/link';
-import { User, Lock, Mail, Phone, ArrowRight, Sparkles, CheckCircle2, ShieldAlert } from 'lucide-react';
+import { Lock, Mail, Phone, ArrowRight, CheckCircle2, AlertCircle } from 'lucide-react';
 import { cn } from '@/lib/utils';
 
-function AuthContent() {
+function CustomerAuthContent() {
   const router = useRouter();
   const searchParams = useSearchParams();
-  const redirectPath = searchParams.get('redirect') || '';
+  const redirectPath = searchParams.get('redirect') || '/account';
   const errorCode = searchParams.get('error') || '';
 
   const [tab, setTab] = useState<'login' | 'register'>('login');
   const [isLoading, setIsLoading] = useState(false);
-  const [error, setError] = useState<string | null>(null);
+  const [error, setError] = useState<string | null>(
+    errorCode === 'session_expired' ? 'Your session has expired. Please sign in again.' : null
+  );
   const [successMsg, setSuccessMsg] = useState<string | null>(null);
-
-  useEffect(() => {
-    if (errorCode === 'admin_auth_required') {
-      setError('Access to the Admin Control Center is restricted. Please sign in with an authorized Staff or Administrator account.');
-    } else if (errorCode === 'session_expired') {
-      setError('Your secure session has expired. Please sign in again.');
-    } else if (errorCode === 'insufficient_permissions') {
-      setError('You do not have staff or administrator privileges to view this area.');
-    }
-  }, [errorCode]);
 
   // Form states
   const [loginEmail, setLoginEmail] = useState('');
@@ -51,22 +42,16 @@ function AuthContent() {
 
       const data = await res.json();
       if (!res.ok) {
-        throw new Error(data.error || 'Failed to sign in');
+        throw new Error(data.error || 'Invalid email or password');
       }
 
       setSuccessMsg('Signed in successfully! Redirecting...');
       setTimeout(() => {
-        if (redirectPath) {
-          router.push(redirectPath);
-        } else if (data.user.role === 'ADMIN' || data.user.role === 'SUPER_ADMIN' || data.user.role === 'STAFF') {
-          router.push('/admin');
-        } else {
-          router.push('/account');
-        }
+        router.push(redirectPath.startsWith('/admin') ? '/account' : redirectPath);
         router.refresh();
       }, 800);
     } catch (err: any) {
-      setError(err.message || 'An error occurred during login');
+      setError(err.message || 'An error occurred during sign in');
     } finally {
       setIsLoading(false);
     }
@@ -95,13 +80,9 @@ function AuthContent() {
         throw new Error(data.error || 'Failed to create account');
       }
 
-      setSuccessMsg('Account registered successfully! Redirecting...');
+      setSuccessMsg('Account registered successfully! Redirecting to your account dashboard...');
       setTimeout(() => {
-        if (redirectPath && (data.user.role === 'ADMIN' || data.user.role === 'SUPER_ADMIN' || data.user.role === 'STAFF')) {
-          router.push(redirectPath);
-        } else {
-          router.push('/account');
-        }
+        router.push(redirectPath.startsWith('/admin') ? '/account' : redirectPath);
         router.refresh();
       }, 800);
     } catch (err: any) {
@@ -121,12 +102,12 @@ function AuthContent() {
             Koekeloer Gansbaai
           </span>
           <h1 className="font-serif text-3xl font-bold text-driftwood-950">
-            {tab === 'login' ? 'Secure Authentication' : 'Create an Account'}
+            {tab === 'login' ? 'Customer Sign In' : 'Create Customer Account'}
           </h1>
           <p className="text-xs text-driftwood-600">
             {tab === 'login'
-              ? 'Sign in to access your verified account, orders, or administrative tools.'
-              : 'Join Koekeloer to enjoy seamless checkout, order tracking, and account features.'}
+              ? 'Sign in to view your orders, track shipments, and manage saved delivery addresses.'
+              : 'Join Koekeloer to enjoy seamless checkout, order tracking, and delivery updates.'}
           </p>
         </div>
 
@@ -155,10 +136,10 @@ function AuthContent() {
             </button>
           </div>
 
-          {/* Security Alert Banner */}
+          {/* Alert */}
           {error && (
             <div className="mb-4 p-3.5 bg-red-50 border border-red-200 text-red-800 rounded-xl text-xs font-medium flex items-start gap-2.5">
-              <ShieldAlert className="w-4 h-4 text-red-600 flex-shrink-0 mt-0.5" />
+              <AlertCircle className="w-4 h-4 text-red-600 flex-shrink-0 mt-0.5" />
               <span>{error}</span>
             </div>
           )}
@@ -217,7 +198,7 @@ function AuthContent() {
                 disabled={isLoading}
                 className="w-full py-3.5 px-4 bg-coastal-800 hover:bg-coastal-900 disabled:opacity-50 text-white font-bold text-xs rounded-xl shadow-sm transition flex items-center justify-center gap-2 mt-6"
               >
-                <span>{isLoading ? 'Authenticating...' : 'Sign In Securely'}</span>
+                <span>{isLoading ? 'Signing In...' : 'Sign In'}</span>
                 <ArrowRight className="w-4 h-4" />
               </button>
             </form>
@@ -310,7 +291,7 @@ function AuthContent() {
                 disabled={isLoading}
                 className="w-full py-3.5 px-4 bg-coastal-800 hover:bg-coastal-900 disabled:opacity-50 text-white font-bold text-xs rounded-xl shadow-sm transition flex items-center justify-center gap-2 mt-6"
               >
-                <span>{isLoading ? 'Creating Account...' : 'Register Securely'}</span>
+                <span>{isLoading ? 'Creating Account...' : 'Register Account'}</span>
                 <ArrowRight className="w-4 h-4" />
               </button>
             </form>
@@ -318,17 +299,12 @@ function AuthContent() {
 
         </div>
 
-        {/* Security badge */}
-        <div className="mt-6 text-center text-[11px] text-driftwood-500">
-          Protected by server-side encryption & secure HTTP-only cookies.
-        </div>
-
       </div>
     </div>
   );
 }
 
-export default function AuthPage() {
+export default function CustomerAuthPage() {
   return (
     <Suspense
       fallback={
@@ -337,7 +313,7 @@ export default function AuthPage() {
         </div>
       }
     >
-      <AuthContent />
+      <CustomerAuthContent />
     </Suspense>
   );
 }
