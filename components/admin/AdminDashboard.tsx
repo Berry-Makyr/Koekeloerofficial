@@ -26,7 +26,9 @@ import {
   Grid,
   ShoppingBag,
   Truck,
-  UserCheck
+  UserCheck,
+  LogOut,
+  ShieldCheck
 } from 'lucide-react';
 import { useShop } from '@/context/ShopContext';
 import { Product, Category, HeroSlide, LookbookItem } from '@/types';
@@ -35,7 +37,7 @@ import { formatZAR, cn } from '@/lib/utils';
 type AdminTab = 'products' | 'categories' | 'sections' | 'orders';
 type SectionSubTab = 'hero' | 'promo' | 'story' | 'lookbook' | 'announcement';
 
-export default function AdminDashboard() {
+export default function AdminDashboard({ currentUser }: { currentUser?: any }) {
   const { 
     products, 
     addProduct, 
@@ -294,6 +296,13 @@ export default function AdminDashboard() {
 
           {/* Top Actions */}
           <div className="flex flex-wrap items-center gap-2 sm:gap-3">
+            {currentUser && (
+              <div className="flex items-center gap-2 bg-emerald-50 border border-emerald-200 px-3 py-2 rounded-xl text-xs text-emerald-950 font-medium">
+                <ShieldCheck className="w-4 h-4 text-emerald-600 flex-shrink-0" />
+                <span>Signed in as <strong>{currentUser.firstName} ({currentUser.role})</strong></span>
+              </div>
+            )}
+
             <Link
               href="/shop"
               className="px-4 py-2.5 bg-white hover:bg-sand-100 text-driftwood-800 text-xs font-semibold rounded-xl border border-sand-300 shadow-sm flex items-center gap-1.5 transition"
@@ -308,6 +317,18 @@ export default function AdminDashboard() {
             >
               {copiedCode ? <Check className="w-3.5 h-3.5 text-emerald-600" /> : <Copy className="w-3.5 h-3.5" />}
               <span>{copiedCode ? 'Copied Full Backup!' : 'Export JSON Backup'}</span>
+            </button>
+
+            <button
+              onClick={async () => {
+                await fetch('/api/auth/logout', { method: 'POST' });
+                window.location.href = '/account/login';
+              }}
+              className="px-4 py-2.5 bg-sand-100 hover:bg-sand-200 text-driftwood-800 text-xs font-semibold rounded-xl border border-sand-300 shadow-sm flex items-center gap-1.5 transition"
+              title="Sign Out of Admin"
+            >
+              <LogOut className="w-3.5 h-3.5" />
+              <span>Sign Out</span>
             </button>
           </div>
         </div>
