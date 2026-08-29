@@ -5,13 +5,11 @@ import Link from 'next/link';
 import { useRouter } from 'next/navigation';
 import { Search, X, ArrowRight, Sparkles } from 'lucide-react';
 import { useShop } from '@/context/ShopContext';
-import { products } from '@/data/products';
-import { categories } from '@/data/categories';
 import { formatZAR } from '@/lib/utils';
 
 export default function SearchDialog() {
   const router = useRouter();
-  const { isSearchOpen, setIsSearchOpen, products } = useShop();
+  const { isSearchOpen, setIsSearchOpen, products, categories } = useShop();
   const [query, setQuery] = useState('');
   const inputRef = useRef<HTMLInputElement>(null);
 

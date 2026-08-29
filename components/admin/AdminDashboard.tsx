@@ -456,7 +456,25 @@ export default function AdminDashboard() {
                     {filteredProducts.length === 0 ? (
                       <tr>
                         <td colSpan={7} className="p-12 text-center text-driftwood-500">
-                          No products found matching your search.
+                          <div className="max-w-md mx-auto space-y-3">
+                            <p className="font-medium text-sm text-driftwood-800">
+                              {products.length === 0 ? 'No custom products added yet.' : 'No products found matching your filter.'}
+                            </p>
+                            <p className="text-xs text-driftwood-500">
+                              {products.length === 0
+                                ? 'Your catalog is clean and ready. Click the button below to add your first custom product listing.'
+                                : 'Try searching for different keywords or clearing your department filter.'}
+                            </p>
+                            {products.length === 0 && (
+                              <button
+                                onClick={handleOpenAddProduct}
+                                className="inline-flex items-center gap-1.5 px-4 py-2 bg-coastal-800 hover:bg-coastal-900 text-white text-xs font-bold rounded-xl shadow-sm transition"
+                              >
+                                <Plus className="w-4 h-4" />
+                                <span>Create First Product Listing</span>
+                              </button>
+                            )}
+                          </div>
                         </td>
                       </tr>
                     ) : (

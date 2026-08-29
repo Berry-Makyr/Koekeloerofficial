@@ -15,21 +15,32 @@ import {
   MapPin, 
   Share2,
   ChevronRight,
-  Info
+  PackageSearch
 } from 'lucide-react';
 import { Product } from '@/types';
 import { useShop } from '@/context/ShopContext';
-import { products } from '@/data/products';
 import ProductCard from '@/components/product/ProductCard';
 import { formatZAR, cn } from '@/lib/utils';
 
-export default function ProductDetailView({ product }: { product: Product }) {
-  const { addToCart, isInWishlist, toggleWishlist } = useShop();
+export default function ProductDetailView({ 
+  product: directProduct,
+  initialProduct,
+  slug 
+}: { 
+  product?: Product;
+  initialProduct?: Product;
+  slug?: string;
+}) {
+  const { addToCart, isInWishlist, toggleWishlist, products } = useShop();
+
+  // Find product either from directProduct / initialProduct or from useShop()
+  const product = directProduct || initialProduct || products.find((p) => p.slug === slug || p.id === slug);
+
   const [selectedImage, setSelectedImage] = useState(0);
   const [quantity, setQuantity] = useState(1);
   const [selectedVariants, setSelectedVariants] = useState<Record<string, string>>(() => {
     const initial: Record<string, string> = {};
-    product.variants?.forEach((v) => {
+    product?.variants?.forEach((v) => {
       if (v.options.length > 0) initial[v.type] = v.options[0];
     });
     return initial;
@@ -37,6 +48,38 @@ export default function ProductDetailView({ product }: { product: Product }) {
   const [activeTab, setActiveTab] = useState<'details' | 'specs' | 'care' | 'shipping'>('details');
   const [addedAnimation, setAddedAnimation] = useState(false);
   const [copiedLink, setCopiedLink] = useState(false);
+
+  if (!product) {
+    return (
+      <div className="bg-sand-50/50 py-16 sm:py-24">
+        <div className="max-w-xl mx-auto px-4 text-center space-y-4">
+          <div className="w-16 h-16 rounded-full bg-sand-200 text-driftwood-600 flex items-center justify-center mx-auto">
+            <PackageSearch className="w-8 h-8" />
+          </div>
+          <h1 className="font-serif text-2xl sm:text-3xl font-bold text-driftwood-950">
+            Product Not Found
+          </h1>
+          <p className="text-xs sm:text-sm text-driftwood-600 leading-relaxed">
+            This product listing might be newly created, moved, or currently unavailable. Browse our shop or create custom listings in the admin panel.
+          </p>
+          <div className="pt-2 flex flex-wrap items-center justify-center gap-3">
+            <Link
+              href="/shop"
+              className="bg-coastal-800 hover:bg-coastal-900 text-white text-xs font-semibold px-6 py-3 rounded-xl shadow-sm transition"
+            >
+              Browse Catalog
+            </Link>
+            <Link
+              href="/admin"
+              className="bg-white hover:bg-sand-100 text-driftwood-900 text-xs font-semibold px-6 py-3 rounded-xl border border-sand-300 shadow-sm transition"
+            >
+              Add Custom Listing in Admin
+            </Link>
+          </div>
+        </div>
+      </div>
+    );
+  }
 
   const isFavorite = isInWishlist(product.id);
 

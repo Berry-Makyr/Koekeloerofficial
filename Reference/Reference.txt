@@ -1,0 +1,1100 @@
+# Koekeloer E-Commerce Website — Development Reference & Remaining Work
+
+## Purpose of This Document
+
+This document is the central reference for the Koekeloer e-commerce website. It defines the systems that still need to be designed and implemented before the website should be considered a fully functional, production-ready online store.
+
+**Important:** This document is not merely a feature wishlist. Every feature must be implemented with production e-commerce security, data integrity, error handling, authorization, logging, and failure scenarios considered.
+
+The current website is hosted on Vercel and should eventually function as a complete online store where customers can:
+
+* Browse products
+* Search and filter products
+* Add products to a cart
+* Create an account and log in
+* Check out securely
+* Pay through an approved payment provider
+* Receive order confirmation
+* Track the progress of their order
+* View their order history
+
+Administrators must be able to:
+
+* Manage products
+* Manage stock
+* Process and manage orders
+* Update order statuses
+* Manage customer-facing listings
+* View sales and operational information
+* Perform these actions through a highly secured admin system
+
+---
+
+# 1. CORE ARCHITECTURE
+
+## Goal
+
+The website must have a reliable separation between:
+
+1. **Public frontend**
+2. **Customer authentication**
+3. **Customer account system**
+4. **Admin system**
+5. **Application backend/server logic**
+6. **Database**
+7. **Payment provider**
+8. **Courier/shipping integration**
+9. **Logging and audit systems**
+
+Critical security and business logic must never depend solely on the frontend.
+
+The frontend must not be trusted to decide:
+
+* Product prices
+* Discounts
+* Stock availability
+* Shipping costs
+* Order totals
+* Payment success
+* User roles
+* Admin permissions
+* Whether an item is in stock
+
+All critical calculations and authorization checks must be performed and verified server-side.
+
+---
+
+# 2. DATABASE AND DATA MODEL
+
+A proper production database must be used for persistent e-commerce data.
+
+The database structure must be designed around at least the following entities.
+
+## Users
+
+Fields should include:
+
+* Unique user ID
+* Email address
+* Name
+* Authentication information
+* Account creation date
+* Last login information where appropriate
+* Account status
+* Email verification status
+* Role
+
+Roles should not simply be represented by a frontend boolean.
+
+At minimum:
+
+* `customer`
+* `staff`
+* `admin`
+* `super_admin` if required
+
+Sensitive roles should be assigned and checked server-side.
+
+---
+
+## Customer Addresses
+
+Customers may have multiple addresses.
+
+Suggested fields:
+
+* Address ID
+* User ID
+* Recipient name
+* Phone number
+* Address lines
+* Suburb
+* City
+* Province
+* Postal code
+* Country
+* Default address status
+
+Customers must only be able to access and modify addresses belonging to their own account.
+
+---
+
+## Products
+
+Each product should have a stable internal database ID.
+
+Suggested fields:
+
+* Product ID
+* Product name
+* Description
+* SKU
+* Price
+* Sale price
+* Category
+* Product images
+* Active/inactive status
+* Product visibility
+* Stock tracking status
+* Creation date
+* Last update date
+
+Product URLs should not be relied upon as database identifiers.
+
+---
+
+## Product Variants
+
+The database must support variants where needed.
+
+Examples:
+
+* Size
+* Colour
+* Material
+* Style
+
+A shoe, for example, must not simply have one stock number if each size has different available quantities.
+
+Each variant may need:
+
+* Variant ID
+* Product ID
+* SKU
+* Price adjustment
+* Variant attributes
+* Stock quantity
+* Active status
+
+Stock should normally be tracked at the **actual purchasable variant level**.
+
+---
+
+## Inventory
+
+Inventory must have a clear source of truth.
+
+The system should track:
+
+* Product or variant
+* Available quantity
+* Reserved quantity
+* Sold quantity where useful
+* Stock adjustments
+* Reason for adjustment
+* Administrator responsible for adjustment
+* Timestamp
+
+The website must prevent the quantity from becoming negative.
+
+---
+
+## Orders
+
+An order must contain a permanent snapshot of the purchase at the time it was placed.
+
+The order should store:
+
+* Internal order ID
+* Human-readable order number
+* Customer ID where applicable
+* Guest customer details where applicable
+* Order date
+* Product snapshot
+* Product name at purchase time
+* SKU/variant
+* Quantity
+* Price at purchase time
+* Discounts at purchase time
+* Shipping amount
+* Total amount
+* Shipping address snapshot
+* Payment status
+* Order status
+* Tracking number
+* Courier information
+* Internal notes
+* Customer notes
+
+Never depend on the current product price when displaying a historical order.
+
+If the price of a product changes tomorrow, yesterday's order must still show the price the customer actually paid.
+
+---
+
+## Payments
+
+The website should store only the payment information genuinely required.
+
+Suggested fields:
+
+* Internal payment ID
+* Order ID
+* Payment provider
+* Provider transaction/reference ID
+* Amount expected
+* Amount confirmed
+* Currency
+* Payment status
+* Provider response status
+* Confirmation timestamps
+
+**Do not store card numbers, CVVs, or other sensitive card authentication data.**
+
+Payment processing should be handled by a professional payment service provider rather than directly processing or storing card details. PCI DSS applies to entities that store, process, or transmit payment account data, so minimizing the website's direct exposure to card data is a major design goal.
+
+---
+
+# 3. CUSTOMER ACCOUNT SYSTEM
+
+The website needs a complete customer account system.
+
+## Required Features
+
+Customers should be able to:
+
+* Register
+* Log in
+* Log out
+* Verify their email
+* Reset their password
+* Change their password
+* Manage personal details
+* Manage saved addresses
+* View order history
+* View individual order details
+
+The system should support secure email verification and password reset flows.
+
+Do not expose whether an email address exists unnecessarily during authentication and recovery flows where avoidable.
+
+Passwords must never be stored in plaintext.
+
+Authentication should use a mature authentication system/library or managed authentication provider rather than custom password handling.
+
+All authentication endpoints and authenticated pages must use secure transport, and sensitive changes should require appropriate re-authentication.
+
+---
+
+# 4. ADMIN PANEL
+
+## Security Goal
+
+The admin panel must be treated as one of the highest-risk areas of the website.
+
+An admin login page by itself is not sufficient.
+
+The system must enforce authorization server-side for every protected action.
+
+A user must never become an administrator because of:
+
+* A URL parameter
+* A local storage value
+* A client-side variable
+* A modified API request
+* A hidden button being revealed
+
+Every admin API route and server action must independently verify:
+
+1. The user is authenticated.
+2. The user has the required role.
+3. The user has permission to perform that specific action.
+
+Authorization must be enforced server-side, not only by hiding admin UI elements.
+
+---
+
+## Admin Panel Features
+
+The admin panel should eventually support:
+
+### Dashboard
+
+* Recent orders
+* Orders requiring action
+* Low-stock products
+* Out-of-stock products
+* Recent payments
+* Sales summaries
+
+### Product Management
+
+* Create products
+* Edit products
+* Archive/deactivate products
+* Manage categories
+* Manage variants
+* Manage prices
+* Manage images
+
+### Inventory Management
+
+* View current stock
+* Add stock
+* Remove stock
+* Correct stock
+* View inventory history
+* Identify low stock
+* Identify out-of-stock products
+
+### Order Management
+
+* View all orders
+* Search orders
+* Filter by status
+* View payment status
+* View customer and shipping information
+* Add internal notes
+* Update fulfillment status
+* Add tracking numbers
+* Record shipment dates
+* Handle cancellations and refunds where supported
+
+### Customer Management
+
+* View customer accounts
+* View customer order history
+* Manage account status where necessary
+
+Sensitive customer information should only be visible to staff who genuinely need access to it.
+
+---
+
+# 5. ADMIN AUTHENTICATION AND SECURITY
+
+The following should be treated as required for production:
+
+* Secure authentication
+* Strong passwords
+* Secure password hashing
+* HTTPS everywhere
+* Server-side session validation
+* Secure session cookies
+* Role-based authorization
+* Rate limiting
+* Login monitoring
+* Protection against brute-force attempts
+* Secure password reset
+* Email verification where applicable
+* Protection against session fixation
+* Protection against CSRF where applicable
+* XSS prevention
+* SQL injection prevention
+* Input validation
+* Secure HTTP headers
+
+For administrator accounts, implement stronger protection than ordinary customer accounts.
+
+Recommended:
+
+* Multi-factor authentication
+* Re-authentication for highly sensitive actions
+* Shorter session lifetime
+* Session revocation
+* Notifications or audit logs for unusual admin activity
+
+Critical admin actions that should require extra care include:
+
+* Changing payment configuration
+* Changing user roles
+* Creating administrators
+* Deleting products
+* Large stock adjustments
+* Changing order financial data
+* Refunds
+* Changing security settings
+
+---
+
+# 6. PAYMENT SYSTEM
+
+## Current Goal
+
+Do not implement custom card processing.
+
+The preferred approach is to use a reputable payment provider and allow the payment provider to handle sensitive payment information.
+
+Possible providers will need to be evaluated later based on:
+
+* South African business availability
+* Supported payment methods
+* Fees
+* Settlement process
+* API quality
+* Webhook support
+* Refund support
+* Fraud protection
+* PCI compliance
+* Reliability
+* Support
+
+Potential payment methods may include:
+
+* Debit/credit card
+* Instant EFT
+* Other suitable South African payment methods
+
+The exact provider is still a future decision.
+
+---
+
+## Payment Flow
+
+The intended architecture should be:
+
+1. Customer proceeds to checkout.
+2. Website sends the cart to the server.
+3. Server validates the entire cart.
+4. Server independently retrieves product prices and availability.
+5. Server calculates the final amount.
+6. Server creates a pending order or checkout session.
+7. Server reserves stock where appropriate.
+8. Server creates the payment request with the payment provider.
+9. Customer completes payment through the secure provider flow.
+10. The payment provider sends a server-to-server webhook.
+11. The webhook signature/authenticity is verified.
+12. The server independently verifies the payment details.
+13. The order becomes paid only after verified confirmation.
+14. Stock is permanently committed.
+15. The customer receives confirmation.
+
+**The browser redirect after payment must not be trusted as proof of payment.**
+
+A customer can manually open or manipulate a success URL.
+
+The authoritative payment result must come from a verified provider callback/webhook or provider-side verification.
+
+OWASP recommends securing the full third-party payment flow, including server-side order initialization and verification, because payment integrations can otherwise be vulnerable to payment spoofing, order manipulation, and business-logic failures.
+
+---
+
+# 7. STOCK MANAGEMENT
+
+## Requirements
+
+The website must correctly track inventory.
+
+When the last unit is purchased:
+
+* The product must no longer be purchasable.
+* The website must display it as out of stock.
+* Customers must not be able to bypass the restriction by modifying frontend requests.
+
+---
+
+## Race Condition Protection
+
+Stock is not just a number displayed on the website.
+
+Example:
+
+Stock available: `1`
+
+Two customers attempt to buy the item simultaneously.
+
+A correct system must not allow both customers to successfully purchase the same final item.
+
+Stock changes must be handled using appropriate server-side transactional or atomic database logic.
+
+The system must not simply:
+
+1. Read stock in one request.
+2. Trust that stock later.
+3. Reduce stock in a separate unsafe operation.
+
+Stock must be checked again during the actual protected checkout/order process.
+
+---
+
+## Stock Reservation
+
+A stock reservation strategy must be chosen before production.
+
+Possible approach:
+
+* Cart alone does not reserve stock.
+* Checkout/payment initiation creates a temporary reservation.
+* Reservation expires after a limited time.
+* Successful payment permanently commits the stock reduction.
+* Failed/expired payments release the reservation.
+
+The final implementation must be safe against:
+
+* Double purchases
+* Payment retries
+* Duplicate webhooks
+* Abandoned checkouts
+* Payment delays
+* Browser refreshes
+* Multiple open checkout tabs
+
+---
+
+# 8. CART AND CHECKOUT
+
+The cart should support:
+
+* Add item
+* Remove item
+* Change quantity
+* Variant selection
+* Stock validation
+* Persistent cart where appropriate
+
+The server must recalculate and validate the cart before payment.
+
+Never trust:
+
+* Prices submitted by the browser
+* Discount totals submitted by the browser
+* Shipping totals submitted by the browser
+* Product IDs without validation
+* Stock quantities submitted by the browser
+
+The client may display calculated totals, but the server must be the authority.
+
+---
+
+# 9. ORDER STATUS SYSTEM
+
+Orders need a defined state machine.
+
+Suggested order statuses:
+
+* `pending_payment`
+* `payment_processing`
+* `paid`
+* `processing`
+* `ready_to_ship`
+* `shipped`
+* `delivered`
+* `cancelled`
+* `refunded`
+* `payment_failed`
+
+Payment status and fulfillment status should preferably be separate concepts.
+
+For example:
+
+**Payment:**
+
+* Pending
+* Paid
+* Failed
+* Refunded
+
+**Fulfillment:**
+
+* Unfulfilled
+* Processing
+* Shipped
+* Delivered
+* Returned
+
+The system must validate status transitions.
+
+An administrator should not accidentally move an unpaid order into a completed financial state.
+
+Every significant status change should record:
+
+* Previous status
+* New status
+* User/system responsible
+* Timestamp
+* Reason where applicable
+
+---
+
+# 10. SHIPPING AND COURIER WORKFLOW
+
+The website needs a clear shipping process.
+
+At minimum, the admin workflow should support:
+
+1. Order is paid.
+2. Order appears in the admin system.
+3. Staff review and process the order.
+4. Order is prepared.
+5. Courier shipment is created or arranged.
+6. Tracking number is added.
+7. Order is marked as shipped.
+8. Customer receives shipping confirmation.
+
+The system may later integrate directly with the courier API if available and suitable.
+
+Possible future integrations:
+
+* Automatic shipment creation
+* Shipping labels
+* Tracking updates
+* Delivery status webhooks
+
+The initial version can support manual courier processing if API integration is not yet practical.
+
+---
+
+# 11. EMAIL AND NOTIFICATIONS
+
+The website will eventually need reliable transactional email.
+
+Required emails should include:
+
+* Account verification
+* Password reset
+* Order received
+* Payment confirmed
+* Order processing
+* Order shipped
+* Cancellation where relevant
+* Refund confirmation where relevant
+
+Emails should be generated from server-side trusted data.
+
+Do not expose secrets or sensitive information in URLs or emails.
+
+Password reset and verification links must:
+
+* Be cryptographically unpredictable
+* Expire
+* Be single-use where appropriate
+* Be invalidated correctly
+
+---
+
+# 12. LOGGING AND AUDIT LOGS
+
+## Separate Two Concepts
+
+The website should have both:
+
+### Application/System Logs
+
+For technical events such as:
+
+* Errors
+* Exceptions
+* Failed database operations
+* API failures
+* Payment webhook failures
+* Authentication failures
+* Security events
+
+### Audit Logs
+
+For important business and administrative actions.
+
+Audit logs should record:
+
+* Timestamp
+* User or system responsible
+* Action performed
+* Object affected
+* Previous value where appropriate
+* New value where appropriate
+* Relevant request metadata where safe and appropriate
+
+Examples:
+
+* Product created
+* Product price changed
+* Stock changed
+* Order status changed
+* Refund initiated
+* Administrator role changed
+* Admin login
+* Failed admin login
+* Payment configuration changed
+
+---
+
+## Sensitive Data Logging Rules
+
+Never log:
+
+* Passwords
+* Password hashes
+* Full payment card numbers
+* CVVs
+* Authentication tokens
+* Session secrets
+* API secrets
+* Raw authorization headers
+
+Logs must be protected from unauthorized access.
+
+---
+
+# 13. WEBHOOK SECURITY
+
+Payment and other external webhooks must be treated as hostile until verified.
+
+For every webhook:
+
+* Verify the provider's signature/authenticity.
+* Validate the request.
+* Prevent replay attacks where supported.
+* Use idempotent processing.
+* Record processing status.
+* Do not process the same successful payment twice.
+* Do not trust customer-submitted webhook URLs.
+
+Example problem:
+
+A payment provider may retry a webhook.
+
+The first webhook marks the order as paid.
+
+The second webhook must not:
+
+* Reduce stock again
+* Send duplicate emails
+* Create duplicate orders
+* Create duplicate refunds
+
+Webhook handling must therefore be idempotent.
+
+---
+
+# 14. API SECURITY
+
+All APIs and server actions must:
+
+* Authenticate users where required
+* Authorize users for the specific action
+* Validate all input
+* Use server-side authorization
+* Rate limit sensitive endpoints
+* Return appropriate errors without exposing secrets
+* Avoid leaking internal database information
+
+Particular attention is required for object ownership.
+
+Examples:
+
+* Customer A must never access Customer B's order by changing an ID.
+* Customer A must never modify Customer B's address.
+* A staff account must not gain super-admin permissions through request manipulation.
+
+Use non-sequential or difficult-to-enumerate public identifiers where appropriate, but do not rely on unguessable IDs as the only authorization control.
+
+---
+
+# 15. IMAGE AND FILE UPLOAD SECURITY
+
+If administrators can upload product images:
+
+* Validate file type server-side.
+* Validate file contents where possible.
+* Enforce file size limits.
+* Generate safe filenames.
+* Do not execute uploaded files.
+* Store files in an appropriate object storage/CDN system.
+* Protect upload credentials.
+* Do not expose permanent secret upload credentials to browsers.
+
+---
+
+# 16. ENVIRONMENT VARIABLES AND SECRETS
+
+All secrets must be kept outside the repository.
+
+This includes:
+
+* Database credentials
+* Payment provider secrets
+* Webhook secrets
+* Authentication secrets
+* Email service credentials
+* API keys
+
+Rules:
+
+* Never hard-code secrets into frontend code.
+* Never commit `.env` secrets to Git.
+* Never expose server-only secrets through `NEXT_PUBLIC` or equivalent public environment variables.
+* Use separate development and production secrets.
+* Rotate secrets when compromise is suspected.
+
+---
+
+# 17. DISCOUNT AND PROMOTION SYSTEM
+
+The website currently displays promotional functionality.
+
+The eventual promotion system must ensure that discount validation happens server-side.
+
+A promotion system should eventually support:
+
+* Fixed discounts
+* Percentage discounts
+* Expiry dates
+* Maximum uses
+* Per-customer limits
+* Minimum order amounts
+* Product/category restrictions
+* Active/inactive state
+
+The browser must never be trusted to apply a discount amount directly.
+
+The server should determine whether a discount is valid and calculate the final reduction.
+
+---
+
+# 18. TESTING REQUIREMENTS
+
+Before production launch, test:
+
+## Authentication
+
+* Registration
+* Duplicate accounts
+* Email verification
+* Login
+* Logout
+* Password reset
+* Session expiration
+* Account access controls
+
+## Authorization
+
+Attempt to access:
+
+* Other customer orders
+* Other customer addresses
+* Admin APIs as a normal customer
+* Super-admin actions as lower-level staff
+
+## Payments
+
+Test:
+
+* Successful payment
+* Failed payment
+* Cancelled payment
+* Duplicate payment webhook
+* Payment amount mismatch
+* Modified frontend order total
+* Expired checkout
+* Webhook retry
+
+## Stock
+
+Test:
+
+* Last item purchase
+* Simultaneous checkout
+* Payment failure after reservation
+* Reservation expiry
+* Duplicate webhook
+* Refund flow
+* Manual stock adjustment
+
+## Orders
+
+Test:
+
+* Every valid status transition
+* Invalid status transitions
+* Duplicate shipment prevention
+* Order history accuracy
+
+## Security
+
+Perform:
+
+* Dependency vulnerability review
+* Secret scanning
+* Access control testing
+* Input validation testing
+* OWASP Top 10 review
+* Payment integration security testing
+* Production environment review
+
+OWASP specifically emphasizes that payment functionality requires business-logic testing because vulnerabilities can enable fraudulent purchases, theft, or payment manipulation.
+
+---
+
+# 19. BACKUPS AND DISASTER RECOVERY
+
+The production system needs a documented backup strategy.
+
+Required:
+
+* Automated database backups
+* Backup retention policy
+* Ability to restore from backup
+* Regular restoration testing
+* Secure storage of backups
+
+A backup that has never been successfully restored should not be assumed to work.
+
+---
+
+# 20. PRIVACY AND CUSTOMER DATA
+
+Before launch, determine exactly what customer data is collected and why.
+
+The system should follow data minimization principles.
+
+Do not collect or retain data without a business reason.
+
+Customer information must have:
+
+* Appropriate access controls
+* Secure storage
+* Limited staff access
+* Defined retention where required
+* A documented privacy policy
+
+The legal/privacy implementation should be reviewed against applicable South African requirements before production launch.
+
+---
+
+# 21. RECOMMENDED IMPLEMENTATION ORDER
+
+## Phase 1 — Foundation
+
+* Choose database
+* Define schema
+* Set up secure server/backend architecture
+* Set up environment variables
+* Set up error monitoring
+* Set up application logging
+
+## Phase 2 — Authentication
+
+* Customer accounts
+* Login/logout
+* Email verification
+* Password reset
+* Customer profile
+* Address management
+
+## Phase 3 — Admin Security
+
+* Admin roles
+* Server-side authorization
+* Secure admin authentication
+* MFA for administrators
+* Audit logging
+
+## Phase 4 — Products and Inventory
+
+* Product management
+* Variants
+* SKU system
+* Inventory tracking
+* Low stock/out-of-stock behaviour
+* Stock adjustment audit history
+
+## Phase 5 — Cart and Checkout
+
+* Persistent cart
+* Server-side validation
+* Pricing calculation
+* Shipping calculation
+* Order creation
+
+## Phase 6 — Payments
+
+* Select payment provider
+* Implement secure checkout
+* Implement payment webhooks
+* Verify signatures
+* Implement idempotency
+* Handle failures and retries
+
+## Phase 7 — Orders and Shipping
+
+* Admin order dashboard
+* Order status workflow
+* Tracking numbers
+* Shipping notifications
+* Courier integration if suitable
+
+## Phase 8 — Production Hardening
+
+* Security review
+* Penetration testing
+* Rate limiting
+* Dependency review
+* Backup testing
+* Disaster recovery plan
+* Final authorization testing
+* Payment testing
+
+---
+
+# 22. DEFINITION OF DONE
+
+The website should **not** be considered a complete production e-commerce website merely because a customer can click “buy”.
+
+The e-commerce system is complete only when:
+
+* Products are securely stored and managed
+* Stock is correctly tracked
+* Overselling is prevented
+* Customer accounts work securely
+* Password recovery works securely
+* Admin access is strongly protected
+* Admin permissions are enforced server-side
+* Orders are permanently recorded
+* Prices cannot be manipulated from the browser
+* Payment success is verified server-side
+* Webhooks are authenticated and idempotent
+* Payment provider integration is production-tested
+* Customers can view their orders
+* Staff can process and ship orders
+* Order status changes are tracked
+* Sensitive information is protected
+* Logs and audit trails exist
+* Backups exist and have been tested
+* Errors are monitored
+* The production environment has undergone a security review
+
+---
+
+# 23. DEVELOPMENT RULES FOR CURSOR
+
+When implementing any future e-commerce feature:
+
+1. First determine whether the feature affects:
+
+   * Security
+   * Authentication
+   * Authorization
+   * Payments
+   * Stock
+   * Orders
+   * Customer data
+   * Logging
+
+2. Do not implement critical business logic only on the frontend.
+
+3. Do not trust values coming from the browser.
+
+4. Recalculate important financial values server-side.
+
+5. Verify authorization server-side on every protected action.
+
+6. Do not write custom cryptography.
+
+7. Do not store payment card details.
+
+8. Use established libraries and managed services where appropriate.
+
+9. Make database operations transactional where financial or inventory consistency requires it.
+
+10. Make payment and webhook processing idempotent.
+
+11. Add audit logs for significant administrative actions.
+
+12. Add appropriate error handling before considering a feature complete.
+
+13. Before changing existing code, inspect how the existing architecture works and avoid breaking currently functioning functionality.
+
+14. Before marking a security-sensitive feature complete, actively test ways that a malicious user could bypass it.
+
+15. If there is uncertainty about an e-commerce security implementation, research the relevant official security or provider documentation before implementing it.
+
+This project must prioritize correctness, security, data integrity, and recoverability over implementing features as quickly as possible.

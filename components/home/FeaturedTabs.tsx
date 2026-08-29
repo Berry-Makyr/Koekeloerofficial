@@ -73,23 +73,47 @@ export default function FeaturedTabs() {
           ))}
         </div>
 
-        {/* Product Grid */}
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
-          {filteredProducts.slice(0, 8).map((product) => (
-            <ProductCard key={product.id} product={product} />
-          ))}
-        </div>
+        {/* Product Grid or Empty State */}
+        {filteredProducts.length === 0 ? (
+          <div className="bg-sand-50 rounded-3xl p-12 text-center border border-sand-200 max-w-xl mx-auto space-y-4">
+            <div className="w-12 h-12 rounded-full bg-sand-200 flex items-center justify-center mx-auto text-driftwood-500">
+              <Sparkles className="w-6 h-6" />
+            </div>
+            <h3 className="font-serif text-lg font-bold text-driftwood-900">
+              New Custom Listings Coming Soon
+            </h3>
+            <p className="text-xs text-driftwood-600 leading-relaxed">
+              We are currently updating our showroom catalog. Head to the Admin Panel to add custom product listings, or check back shortly.
+            </p>
+            <div className="pt-2 flex items-center justify-center gap-3">
+              <Link
+                href="/admin"
+                className="inline-flex items-center gap-1.5 bg-coastal-800 hover:bg-coastal-900 text-white text-xs font-semibold px-5 py-2.5 rounded-xl shadow-sm transition"
+              >
+                <span>Add Products in Admin</span>
+              </Link>
+            </div>
+          </div>
+        ) : (
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+            {filteredProducts.slice(0, 8).map((product) => (
+              <ProductCard key={product.id} product={product} />
+            ))}
+          </div>
+        )}
 
         {/* Bottom CTA */}
-        <div className="text-center mt-12">
-          <Link
-            href="/shop"
-            className="inline-flex items-center gap-2 bg-sand-100 hover:bg-sand-200 text-driftwood-900 font-semibold px-8 py-3.5 rounded-xl text-sm border border-sand-300 transition"
-          >
-            <span>Explore All {products.length} Products</span>
-            <ArrowRight className="w-4 h-4" />
-          </Link>
-        </div>
+        {products.length > 0 && (
+          <div className="text-center mt-12">
+            <Link
+              href="/shop"
+              className="inline-flex items-center gap-2 bg-sand-100 hover:bg-sand-200 text-driftwood-900 font-semibold px-8 py-3.5 rounded-xl text-sm border border-sand-300 transition"
+            >
+              <span>Explore All {products.length} Products</span>
+              <ArrowRight className="w-4 h-4" />
+            </Link>
+          </div>
+        )}
 
       </div>
     </section>
