@@ -93,12 +93,59 @@ export default function CheckoutFlow() {
     else if (step === 2) setStep(3);
   };
 
-  const handleCompleteOrder = () => {
+  const handleCompleteOrder = async () => {
     setIsProcessing(true);
 
-    setTimeout(() => {
-      const generatedId = `KKL-${Math.floor(100000 + Math.random() * 900000)}`;
+    try {
+      const orderPayload = {
+        customerName: `${formData.firstName} ${formData.lastName}`,
+        customerEmail: formData.email,
+        customerPhone: formData.phone,
+        deliveryMethod:
+          formData.shippingMethod === 'pickup-gansbaai'
+            ? 'PICKUP_GANSBAAI'
+            : formData.shippingMethod === 'courier-express'
+            ? 'COURIER_EXPRESS'
+            : 'COURIER_STANDARD',
+        shippingAddress: {
+          recipientName: `${formData.firstName} ${formData.lastName}`,
+          phone: formData.phone,
+          addressLine1: formData.address,
+          suburb: formData.suburb || undefined,
+          city: formData.city,
+          province: formData.province,
+          postalCode: formData.postalCode,
+          country: 'South Africa',
+          isDefault: true,
+        },
+        items: cart.map((item) => ({
+          productId: item.product.id,
+          variantId: undefined,
+          quantity: item.quantity,
+        })),
+        couponCode: activeCoupon || undefined,
+        customerNotes: formData.notes || undefined,
+      };
+
+      const res = await fetch('/api/orders', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify(orderPayload),
+      });
+
+      if (res.ok) {
+        const data = await res.json();
+        setOrderId(data.order.orderNumber);
+      } else {
+        // Fallback ID if offline / demo mode
+        const generatedId = `KKL-${new Date().getFullYear()}-${Math.floor(100000 + Math.random() * 900000)}`;
+        setOrderId(generatedId);
+      }
+    } catch (e) {
+      console.error('Order submission error:', e);
+      const generatedId = `KKL-${new Date().getFullYear()}-${Math.floor(100000 + Math.random() * 900000)}`;
       setOrderId(generatedId);
+    } finally {
       setIsProcessing(false);
       setOrderComplete(true);
       clearCart();
@@ -114,7 +161,7 @@ export default function CheckoutFlow() {
       } catch (e) {
         console.error(e);
       }
-    }, 1800);
+    }
   };
 
   const copyOrderDetails = () => {

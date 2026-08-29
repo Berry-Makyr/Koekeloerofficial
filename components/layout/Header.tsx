@@ -7,6 +7,7 @@ import {
   Search, 
   ShoppingBag, 
   Heart, 
+  User,
   Menu, 
   X, 
   Phone, 
@@ -224,6 +225,16 @@ export default function Header() {
               <span>WhatsApp</span>
             </a>
 
+            {/* User Account Link */}
+            <Link
+              href="/account"
+              className="p-2 text-driftwood-700 hover:text-coastal-800 transition"
+              aria-label="My Account"
+              title="My Account"
+            >
+              <User className="w-5 h-5" />
+            </Link>
+
             {/* Wishlist Link */}
             <Link
               href="/shop?filter=wishlist"
@@ -306,10 +317,16 @@ export default function Header() {
               Contact Us
             </Link>
             <Link
+              href="/account"
+              className="block px-3 py-2 rounded-md text-base font-semibold text-driftwood-900 hover:bg-sand-100"
+            >
+              👤 My Account & Orders
+            </Link>
+            <Link
               href="/admin"
               className="block px-3 py-2 rounded-md text-base font-semibold text-coastal-800 bg-sand-100/70 hover:bg-sand-200"
             >
-              ✨ Manage Listings (Admin)
+              ✨ Control Center (Admin)
             </Link>
           </div>
 

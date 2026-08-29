@@ -23,13 +23,16 @@ import {
   Megaphone,
   BookOpen,
   Camera,
-  Grid
+  Grid,
+  ShoppingBag,
+  Truck,
+  UserCheck
 } from 'lucide-react';
 import { useShop } from '@/context/ShopContext';
 import { Product, Category, HeroSlide, LookbookItem } from '@/types';
 import { formatZAR, cn } from '@/lib/utils';
 
-type AdminTab = 'products' | 'categories' | 'sections';
+type AdminTab = 'products' | 'categories' | 'sections' | 'orders';
 type SectionSubTab = 'hero' | 'promo' | 'story' | 'lookbook' | 'announcement';
 
 export default function AdminDashboard() {
@@ -109,6 +112,29 @@ export default function AdminDashboard() {
     featured: true,
   };
   const [categoryFormData, setCategoryFormData] = useState<Omit<Category, 'id'>>(initialCategoryState);
+
+  // Orders State
+  const [adminOrders, setAdminOrders] = useState<any[]>([]);
+  const [isLoadingOrders, setIsLoadingOrders] = useState(false);
+
+  const fetchOrders = async () => {
+    setIsLoadingOrders(true);
+    try {
+      const res = await fetch('/api/orders');
+      if (res.ok) {
+        const data = await res.json();
+        setAdminOrders(data.orders || []);
+      }
+    } catch (e) {
+      console.error('Error fetching admin orders:', e);
+    } finally {
+      setIsLoadingOrders(false);
+    }
+  };
+
+  React.useEffect(() => {
+    fetchOrders();
+  }, []);
 
   // Section Form Local Edits
   const [localPromo, setLocalPromo] = useState(siteContent.promoBanner);
@@ -320,6 +346,19 @@ export default function AdminDashboard() {
           >
             <Layers className="w-4 h-4" />
             <span>Categories ({categories.length})</span>
+          </button>
+
+          <button
+            onClick={() => { setActiveTab('orders'); fetchOrders(); }}
+            className={cn(
+              "flex-1 py-3 px-4 rounded-xl text-xs sm:text-sm font-bold flex items-center justify-center gap-2 transition duration-200",
+              activeTab === 'orders'
+                ? "bg-coastal-900 text-white shadow-sm"
+                : "text-driftwood-600 hover:text-driftwood-950 hover:bg-sand-50"
+            )}
+          >
+            <ShoppingBag className="w-4 h-4" />
+            <span>Orders & Shipments ({adminOrders.length})</span>
           </button>
 
           <button
@@ -692,6 +731,91 @@ export default function AdminDashboard() {
               ))}
             </div>
 
+          </div>
+        )}
+
+        {/* ========================================================================= */}
+        {/* TAB: ORDERS & SHIPMENTS MANAGEMENT                                       */}
+        {/* ========================================================================= */}
+        {activeTab === 'orders' && (
+          <div className="space-y-6">
+            <div className="bg-white rounded-2xl p-4 shadow-soft border border-sand-200 flex flex-wrap items-center justify-between gap-4">
+              <div>
+                <h3 className="font-serif text-lg font-bold text-driftwood-950">Customer Orders & Fulfillment</h3>
+                <p className="text-xs text-driftwood-500">View real-time customer purchases, tracking numbers, and update fulfillment states.</p>
+              </div>
+
+              <button
+                onClick={fetchOrders}
+                className="px-4 py-2 bg-sand-100 hover:bg-sand-200 text-driftwood-900 text-xs font-semibold rounded-xl border border-sand-300 flex items-center gap-1.5 transition"
+              >
+                <RotateCcw className="w-3.5 h-3.5" />
+                <span>Refresh Orders</span>
+              </button>
+            </div>
+
+            {isLoadingOrders ? (
+              <div className="bg-white rounded-3xl p-12 text-center border border-sand-200">
+                <div className="w-8 h-8 border-2 border-coastal-800 border-t-transparent rounded-full animate-spin mx-auto mb-2" />
+                <p className="text-xs text-driftwood-600">Loading order records...</p>
+              </div>
+            ) : adminOrders.length === 0 ? (
+              <div className="bg-white rounded-3xl p-12 text-center border border-sand-200 shadow-soft space-y-3">
+                <ShoppingBag className="w-8 h-8 text-driftwood-400 mx-auto" />
+                <h4 className="font-serif text-base font-bold text-driftwood-950">No customer orders recorded yet</h4>
+                <p className="text-xs text-driftwood-500 max-w-sm mx-auto">
+                  When customers complete checkout, their order snapshots, customer details, and payment confirmations will appear here.
+                </p>
+              </div>
+            ) : (
+              <div className="space-y-4">
+                {adminOrders.map((order) => (
+                  <div key={order.id} className="bg-white rounded-3xl p-6 border border-sand-200 shadow-soft space-y-4">
+                    <div className="flex flex-col sm:flex-row sm:items-center justify-between pb-3 border-b border-sand-100 gap-2 text-xs">
+                      <div>
+                        <div className="flex items-center gap-2">
+                          <span className="font-mono font-bold text-sm text-driftwood-950">{order.orderNumber}</span>
+                          <span className="px-2.5 py-0.5 rounded-full bg-emerald-50 text-emerald-800 border border-emerald-300 font-bold text-[10px]">
+                            {order.paymentStatus}
+                          </span>
+                          <span className="px-2.5 py-0.5 rounded-full bg-coastal-50 text-coastal-900 border border-coastal-300 font-bold text-[10px]">
+                            {order.fulfillmentStatus}
+                          </span>
+                        </div>
+                        <p className="text-driftwood-500 mt-0.5">
+                          Customer: <strong>{order.customerName}</strong> ({order.customerEmail} • {order.customerPhone})
+                        </p>
+                      </div>
+
+                      <div className="text-right">
+                        <span className="text-[11px] text-driftwood-500 block">Total Amount</span>
+                        <span className="font-serif text-lg font-bold text-coastal-950">{formatZAR(order.totalAmount)}</span>
+                      </div>
+                    </div>
+
+                    {/* Order items */}
+                    <div className="divide-y divide-sand-100 text-xs">
+                      {order.items?.map((item: any) => (
+                        <div key={item.id} className="py-2 flex items-center justify-between">
+                          <div>
+                            <span className="font-semibold text-driftwood-900">{item.productNameSnapshot}</span>
+                            {item.variantTitleSnapshot && <span className="text-driftwood-500 ml-1.5">({item.variantTitleSnapshot})</span>}
+                            <span className="text-driftwood-400 block text-[11px]">Qty: {item.quantity} × {formatZAR(item.unitPriceSnapshot)}</span>
+                          </div>
+                          <span className="font-bold text-driftwood-900">{formatZAR(item.totalPriceSnapshot)}</span>
+                        </div>
+                      ))}
+                    </div>
+
+                    {/* Address Snapshot & Notes */}
+                    <div className="p-3 bg-sand-50 rounded-xl text-xs space-y-1 text-driftwood-700">
+                      <p><strong>Delivery:</strong> {order.deliveryMethod} — {order.shippingAddressSnapshot?.addressLine1}, {order.shippingAddressSnapshot?.city}, {order.shippingAddressSnapshot?.province} ({order.shippingAddressSnapshot?.postalCode})</p>
+                      {order.customerNotes && <p><strong>Customer Notes:</strong> {order.customerNotes}</p>}
+                    </div>
+                  </div>
+                ))}
+              </div>
+            )}
           </div>
         )}
 
