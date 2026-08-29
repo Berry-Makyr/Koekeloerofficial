@@ -10,7 +10,7 @@ function AdminLoginContent() {
   const redirectPath = searchParams.get('redirect') || '/admin';
   const errorCode = searchParams.get('error') || '';
 
-  const [email, setEmail] = useState('admin@koekeloer.co.za');
+  const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');
   const [showPassword, setShowPassword] = useState(false);
   const [isLoading, setIsLoading] = useState(false);
@@ -52,7 +52,7 @@ function AdminLoginContent() {
     <div className="bg-sand-100/80 min-h-[85vh] py-12 sm:py-20 px-4 flex items-center justify-center">
       <div className="max-w-md w-full mx-auto space-y-6">
         
-        {/* Header - High contrast dark driftwood text on light background */}
+        {/* Header */}
         <div className="text-center space-y-2">
           <div className="w-14 h-14 rounded-2xl bg-coastal-900 text-white flex items-center justify-center mx-auto shadow-md">
             <KeyRound className="w-7 h-7 text-sand-300" />
@@ -68,7 +68,7 @@ function AdminLoginContent() {
           </p>
         </div>
 
-        {/* Card - Clean crisp white card with dark text and borders */}
+        {/* Card */}
         <div className="bg-white border border-sand-300 rounded-3xl p-6 sm:p-8 shadow-lift space-y-5">
           
           {error && (
@@ -90,7 +90,7 @@ function AdminLoginContent() {
                   required
                   value={email}
                   onChange={(e) => setEmail(e.target.value)}
-                  placeholder="admin@koekeloer.co.za"
+                  placeholder="name@koekeloer.co.za"
                   className="w-full bg-sand-50 border border-sand-300 rounded-xl pl-10 pr-4 py-3 text-xs text-driftwood-950 placeholder-driftwood-400 focus:outline-none focus:border-coastal-800 focus:bg-white font-medium transition"
                 />
               </div>
@@ -130,18 +130,6 @@ function AdminLoginContent() {
               <ArrowRight className="w-4 h-4" />
             </button>
           </form>
-
-          {/* Quick Helper for Admin Credentials */}
-          <div className="pt-4 border-t border-sand-200 text-center space-y-1.5">
-            <p className="text-[11px] text-driftwood-500 font-medium">
-              Initial Staff Credentials:
-            </p>
-            <div className="bg-sand-50 border border-sand-200 rounded-xl p-2.5 text-[11px] font-mono text-driftwood-800 flex flex-col sm:flex-row items-center justify-center gap-2">
-              <span><strong>Email:</strong> admin@koekeloer.co.za</span>
-              <span className="hidden sm:inline text-sand-400">•</span>
-              <span><strong>Password:</strong> KoekeloerAdmin2026!</span>
-            </div>
-          </div>
 
         </div>
 
