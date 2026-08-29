@@ -94,18 +94,18 @@ export function ShopProvider({ children }: { children: React.ReactNode }) {
   useEffect(() => {
     try {
       // Products
-      const savedProducts = localStorage.getItem('koekeloer_custom_products_v6');
+      const savedProducts = localStorage.getItem('koekeloer_custom_products_v7');
       if (savedProducts) {
         const parsed = JSON.parse(savedProducts);
         if (Array.isArray(parsed) && parsed.length > 0) {
           setProductsList(parsed);
         } else {
           setProductsList(defaultProducts);
-          localStorage.setItem('koekeloer_custom_products_v6', JSON.stringify(defaultProducts));
+          localStorage.setItem('koekeloer_custom_products_v7', JSON.stringify(defaultProducts));
         }
       } else {
         setProductsList(defaultProducts);
-        localStorage.setItem('koekeloer_custom_products_v6', JSON.stringify(defaultProducts));
+        localStorage.setItem('koekeloer_custom_products_v7', JSON.stringify(defaultProducts));
       }
 
       // Categories
@@ -155,7 +155,7 @@ export function ShopProvider({ children }: { children: React.ReactNode }) {
   useEffect(() => {
     if (!isHydrated) return;
     try {
-      localStorage.setItem('koekeloer_custom_products_v6', JSON.stringify(productsList));
+      localStorage.setItem('koekeloer_custom_products_v7', JSON.stringify(productsList));
     } catch (e) {
       console.error('Error saving custom products', e);
     }
@@ -233,7 +233,7 @@ export function ShopProvider({ children }: { children: React.ReactNode }) {
   const resetProducts = () => {
     setProductsList(defaultProducts);
     try {
-      localStorage.setItem('koekeloer_custom_products_v6', JSON.stringify(defaultProducts));
+      localStorage.setItem('koekeloer_custom_products_v7', JSON.stringify(defaultProducts));
     } catch (e) {
       console.error(e);
     }

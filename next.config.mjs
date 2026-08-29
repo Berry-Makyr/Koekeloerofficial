@@ -29,6 +29,14 @@ const nextConfig = {
         protocol: 'https',
         hostname: '**.facebook.com',
       },
+      {
+        protocol: 'https',
+        hostname: 'firebasestorage.googleapis.com',
+      },
+      {
+        protocol: 'https',
+        hostname: 'firebasestorage.stagebeta.kyte.site',
+      },
     ],
   },
   webpack: (config) => {
