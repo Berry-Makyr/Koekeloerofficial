@@ -110,7 +110,7 @@ export default function BrandStorySection() {
                 href="/stores"
                 className="bg-white hover:bg-sand-100 text-driftwood-900 font-semibold text-xs sm:text-sm px-6 py-3.5 rounded-xl border border-sand-300 transition"
               >
-                <span>{story.secondaryCtaText || 'Visit Our Stores'}</span>
+                <span>{story.secondaryCtaText || 'Visit Our Store'}</span>
               </Link>
             </div>
 
