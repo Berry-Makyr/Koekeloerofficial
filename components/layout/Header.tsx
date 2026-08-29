@@ -163,7 +163,7 @@ export default function Header() {
                 pathname === '/stores' && "text-coastal-800 font-semibold after:absolute after:bottom-0 after:left-0 after:right-0 after:h-0.5 after:bg-coastal-600"
               )}
             >
-              Store Locator
+              Our Store
             </Link>
 
             <Link 

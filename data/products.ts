@@ -72,8 +72,8 @@ export const defaultSiteContent: SiteContent = {
         description: 'Solid teak, river stone basins, and handwoven rattan directly from artisan studios.',
       },
       {
-        title: 'Gansbaai Showrooms',
-        description: 'Décor emporium (Shop 2) and clothing boutique (Shop 5) at Great White Junction.',
+        title: 'Gansbaai Showroom',
+        description: 'Coastal gift & décor emporium at Shop 2, Great White Junction.',
       },
       {
         title: 'Savoy Footwear & Boutique',

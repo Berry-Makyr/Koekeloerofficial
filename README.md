@@ -27,7 +27,7 @@ Inspired by the design of [beachsand.co.za](https://beachsand.co.za/), built for
   - Delivery options: The Courier Guy tracked door-to-door, PostNet, and free in-store collection at Great White Junction Gansbaai.
   - Payment simulations: PayFast (Card), Ozow Instant EFT, SnapScan.
 - **Store Showroom Locator**:
-  - Detailed trading hours, Google Maps links, and WhatsApp quick chats for Gansbaai Decor Emporium (Shop 2) and Gansbaai Boutique (Shop 5).
+  - Detailed trading hours, Google Maps links, and WhatsApp quick chats for Koekeloer Geskenkwinkel (Shop 2, Great White Junction, Gansbaai).
 - **Social Lookbook & Customer Testimonials**:
   - Direct links to Koekeloer Facebook page photos and community lookbook feed.
 

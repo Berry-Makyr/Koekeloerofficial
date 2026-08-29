@@ -12,8 +12,8 @@ import {
 import { stores } from '@/data/stores';
 
 export const metadata = {
-  title: 'Our Store Location | Great White Junction, Gansbaai | Koekeloer',
-  description: 'Visit Koekeloer Gift Shop & Boutique in Gansbaai at the Great White Junction. Trading hours, directions, and showroom details.',
+  title: 'Our Store Location | Shop 2, Great White Junction, Gansbaai | Koekeloer',
+  description: 'Visit Koekeloer Geskenkwinkel & Décor in Gansbaai at the Great White Junction. Trading hours, directions, and showroom details.',
 };
 
 export default function StoresPage() {
@@ -27,10 +27,10 @@ export default function StoresPage() {
             Gansbaai • Western Cape
           </span>
           <h1 className="font-serif text-3xl sm:text-5xl font-bold text-driftwood-950">
-            Our Showrooms in Gansbaai
+            Our Store in Gansbaai
           </h1>
           <p className="text-xs sm:text-sm text-driftwood-600 max-w-2xl mx-auto leading-relaxed">
-            Come browse in person at Great White Junction, explore our hand-carved Bali teak furniture, try on our Savoy comfort sandals and boutique linen wear, and meet our warm team.
+            Come browse in person at Great White Junction (Shop 2), explore our hand-carved Bali teak furniture, artisan coastal gifts, Savoy comfort sandals, and meet our warm team.
           </p>
         </div>
 

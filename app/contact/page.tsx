@@ -175,7 +175,7 @@ export default function ContactPage() {
                   <MapPin className="w-4 h-4 text-coastal-700 flex-shrink-0 mt-0.5" />
                   <div>
                     <strong className="text-driftwood-950 block">Address:</strong>
-                    <span>Shop 2 & Shop 5, Great White Junction, Main Road, Gansbaai, 7220</span>
+                    <span>Shop 2, Great White Junction, Main Road, Gansbaai, 7220</span>
                   </div>
                 </div>
 

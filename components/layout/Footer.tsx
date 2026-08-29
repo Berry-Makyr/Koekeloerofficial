@@ -229,7 +229,7 @@ export default function Footer() {
             <div className="space-y-2.5 text-xs text-sand-400">
               <div className="flex items-start gap-2">
                 <MapPin className="w-4 h-4 text-sand-300 flex-shrink-0 mt-0.5" />
-                <span>Shop 2 & 5, Great White Junction, Main Road, Gansbaai, 7220</span>
+                <span>Shop 2, Great White Junction, Main Road, Gansbaai, 7220</span>
               </div>
               <div className="flex items-center gap-2">
                 <Phone className="w-4 h-4 text-sand-300 flex-shrink-0" />
@@ -257,9 +257,9 @@ export default function Footer() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-8 border-t border-driftwood-800">
         <div className="flex flex-col md:flex-row items-center justify-between gap-4 text-xs text-sand-500">
           <div>
-            <p>© {new Date().getFullYear()} Koekeloer Gift & Décor Emporium. All rights reserved.</p>
+            <p>© {new Date().getFullYear()} Koekeloer Geskenkwinkel & Décor. All rights reserved.</p>
             <p className="text-[11px] text-sand-600 mt-0.5">
-              Shop 2 & Shop 5, Great White Junction, Main Road, Gansbaai, 7220
+              Shop 2, Great White Junction, Main Road, Gansbaai, 7220
             </p>
           </div>
 

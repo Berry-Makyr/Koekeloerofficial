@@ -3,7 +3,7 @@ import { StoreLocation, Review } from '@/types';
 export const stores: StoreLocation[] = [
   {
     id: 'gansbaai-main',
-    name: 'Koekeloer Gift Shop & Décor Emporium',
+    name: 'Koekeloer Geskenkwinkel & Décor',
     town: 'Gansbaai',
     address: 'Shop 2, Great White Junction, Main Road',
     complex: 'Great White Junction Shopping Centre',
@@ -11,43 +11,20 @@ export const stores: StoreLocation[] = [
     whatsapp: '27787030250',
     email: 'info@koekeloer.co.za',
     hours: {
-      weekdays: '08:30 – 17:00',
+      weekdays: '09:00 – 17:00',
       saturday: '08:30 – 14:00',
       sunday: '09:00 – 13:00 (In Season)',
       publicHolidays: '09:00 – 13:00',
     },
     features: [
-      'Flagship Home Décor & Bali Teak Showroom',
-      'Artisanal Coastal Gifts & Nautical Keepsakes',
-      'Chalk Paint & Craft Supplies Studio',
-      'Online Order Collection & Customer Pick-up',
+      'Artisanal Coastal Gifts, Décor & Nautical Accents',
+      'Handcrafted Bali Teak Furniture & Statement Mirrors',
+      'Boutique Ladies Apparel & Savoy Comfort Footwear',
+      'Chalk Paint, Craft Supplies & Personal Gifting Advice',
+      'Free In-Store Collection for Online Orders',
     ],
-    mapEmbedUrl: 'https://maps.google.com/maps?q=Great%20White%20Junction%20Gansbaai&t=&z=15&ie=UTF8&iwloc=&output=embed',
+    mapEmbedUrl: 'https://maps.google.com/maps?q=Shop%202,%20Great%20White%20Junction,%20Gansbaai,%207220&t=&z=16&ie=UTF8&iwloc=&output=embed',
     image: '/fb-images/606030198_24884683841210437_5271712182053158002_n.jpg',
-  },
-  {
-    id: 'gansbaai-boutique',
-    name: 'Koekeloer Clothing & Footwear Boutique',
-    town: 'Gansbaai',
-    address: 'Shop 5, Great White Junction, Main Road',
-    complex: 'Great White Junction Shopping Centre',
-    phone: '+27 (0)78 703 0250',
-    whatsapp: '27787030250',
-    email: 'boutique@koekeloer.co.za',
-    hours: {
-      weekdays: '08:30 – 17:00',
-      saturday: '08:30 – 14:00',
-      sunday: '09:00 – 13:00',
-      publicHolidays: '09:00 – 13:00',
-    },
-    features: [
-      'Ladies Boutique Resort Wear & Linen Apparel',
-      'Savoy Ultra-Comfort Orthopaedic Footwear',
-      'Frida Kahlo Totes, Sunhats & Gemstone Jewelry',
-      'Personal Styling Advice & Fitting Rooms',
-    ],
-    mapEmbedUrl: 'https://maps.google.com/maps?q=Great%20White%20Junction%20Gansbaai&t=&z=15&ie=UTF8&iwloc=&output=embed',
-    image: '/fb-images/546631879_23983512777994219_8454657023277643559_n.jpg',
   },
 ];
 
@@ -59,7 +36,7 @@ export const customerReviews: Review[] = [
     rating: 5,
     date: '14 August 2026',
     title: 'An absolute gem of a store in Gansbaai!',
-    comment: 'Koekeloer is always our first stop when visiting Gansbaai. The quality of the hand-carved Bali cabinets and teak furniture is exceptional, and the team is so warm and welcoming. Courier delivery to Hermanus was fast and beautifully packaged.',
+    comment: 'Koekeloer is always our first stop when visiting Gansbaai. The quality of the hand-carved Bali cabinets, coastal decor, and gifts is exceptional, and the team is so warm and welcoming. Delivery was fast and beautifully packaged.',
     verified: true,
   },
   {
@@ -69,7 +46,7 @@ export const customerReviews: Review[] = [
     rating: 5,
     date: '28 July 2026',
     title: 'Savoy comfort shoes feel like walking on clouds',
-    comment: 'I discovered the Savoy comfort footwear at the boutique in Gansbaai. They provide incredible cushioning and all-day arch support! Wonderful service and a gorgeous selection of natural linen clothing.',
+    comment: 'I discovered the Savoy comfort footwear at Koekeloer in Gansbaai. They provide incredible cushioning and all-day arch support! Wonderful service and a gorgeous selection of natural resort clothing and gifts.',
     verified: true,
   },
   {

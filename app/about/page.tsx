@@ -50,7 +50,7 @@ export default function AboutPage() {
             </h2>
             
             <p>
-              In <strong>2012</strong>, Koekeloer first opened its welcoming doors in Gansbaai at the <em>Great White Junction</em>. Today, it stands as a landmark coastal décor emporium (Shop 2) and ladies fashion boutique (Shop 5) in Gansbaai.
+              In <strong>2012</strong>, Koekeloer first opened its welcoming doors in Gansbaai at the <em>Great White Junction</em>. Today, it stands as a landmark coastal gift, décor, and lifestyle store at Shop 2, Great White Junction in Gansbaai.
             </p>
 
             <p>
