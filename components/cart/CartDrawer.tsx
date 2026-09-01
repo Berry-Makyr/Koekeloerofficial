@@ -26,6 +26,8 @@ export default function CartDrawer() {
     cartTotal,
   } = useShop();
 
+  if (!isCartOpen) return null;
+
   return (
     <div className="fixed inset-0 z-50 overflow-hidden">
       {/* Backdrop */}
