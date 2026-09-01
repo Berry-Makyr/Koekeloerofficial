@@ -122,7 +122,7 @@ export default function ShopContent() {
 
           <div className="flex flex-col md:flex-row md:items-end justify-between gap-4">
             <div>
-              <h1 className="font-serif text-3xl sm:text-4xl lg:text-5xl font-bold text-driftwood-950">
+              <h1 className="font-serif text-2xl sm:text-3xl lg:text-5xl font-bold text-driftwood-950 leading-tight">
                 {selectedFilter === 'wishlist' 
                   ? 'Your Saved Wishlist'
                   : selectedCategory !== 'all' 
@@ -144,19 +144,19 @@ export default function ShopContent() {
         </div>
 
         {/* Toolbar Bar */}
-        <div className="bg-white rounded-2xl p-4 mb-8 shadow-soft border border-sand-200 flex flex-wrap items-center justify-between gap-4">
+        <div className="bg-white rounded-2xl p-3 sm:p-4 mb-6 sm:mb-8 shadow-soft border border-sand-200 flex flex-wrap items-center justify-between gap-3 sm:gap-4">
           
           {/* Mobile Filter Trigger */}
           <button
             onClick={() => setMobileFiltersOpen(true)}
-            className="lg:hidden flex items-center gap-2 px-4 py-2 bg-sand-100 hover:bg-sand-200 text-driftwood-900 rounded-xl text-xs font-semibold"
+            className="lg:hidden flex items-center gap-2 px-3 sm:px-4 py-2 bg-sand-100 hover:bg-sand-200 text-driftwood-900 rounded-xl text-xs font-semibold flex-shrink-0"
           >
             <SlidersHorizontal className="w-4 h-4" />
             <span>Filters {activeFiltersCount > 0 && `(${activeFiltersCount})`}</span>
           </button>
 
           {/* Search inside shop */}
-          <div className="relative flex-1 min-w-[200px] max-w-md">
+          <div className="relative flex-1 min-w-0 w-full sm:min-w-[200px] sm:max-w-md order-last sm:order-none basis-full sm:basis-auto">
             <Search className="w-4 h-4 text-driftwood-400 absolute left-3.5 top-1/2 -translate-y-1/2" />
             <input
               type="text"

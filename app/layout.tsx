@@ -38,11 +38,11 @@ export default function RootLayout({
           rel="stylesheet"
         />
       </head>
-      <body className="min-h-screen flex flex-col antialiased selection:bg-coastal-100 selection:text-coastal-900">
+      <body className="min-h-screen w-full max-w-full flex flex-col antialiased overflow-x-hidden selection:bg-coastal-100 selection:text-coastal-900">
         <ShopProvider>
           <AnnouncementBar />
           <Header />
-          <main className="flex-1">
+          <main className="flex-1 w-full min-w-0 overflow-x-hidden">
             {children}
           </main>
           <Footer />

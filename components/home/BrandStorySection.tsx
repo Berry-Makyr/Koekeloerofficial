@@ -57,9 +57,9 @@ export default function BrandStorySection() {
             </div>
 
             {/* Experience badge */}
-            <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 bg-coastal-900 text-sand-100 p-5 rounded-2xl shadow-xl text-center border-4 border-sand-50">
-              <span className="block font-serif text-3xl font-bold text-white">{story.yearsBadge || '40+'}</span>
-              <span className="block text-[11px] uppercase tracking-wider font-semibold text-sand-300">
+            <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 bg-coastal-900 text-sand-100 p-3 sm:p-5 rounded-xl sm:rounded-2xl shadow-xl text-center border-2 sm:border-4 border-sand-50 w-[120px] sm:w-auto">
+              <span className="block font-serif text-xl sm:text-3xl font-bold text-white">{story.yearsBadge || '40+'}</span>
+              <span className="block text-[9px] sm:text-[11px] uppercase tracking-wider font-semibold text-sand-300 leading-tight">
                 {story.yearsText || 'Years of Retail Heritage'}
               </span>
             </div>

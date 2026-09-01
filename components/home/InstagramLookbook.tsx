@@ -25,23 +25,23 @@ export default function InstagramLookbook() {
             {siteContent.lookbookSubtitle || 'Join thousands of home decorators and fashion lovers across the Overberg and South Africa.'}
           </p>
 
-          <div className="flex items-center justify-center gap-3 mt-4">
+          <div className="flex flex-col sm:flex-row items-center justify-center gap-2 sm:gap-3 mt-4 px-2">
             <a
               href="https://www.facebook.com/koekeloer.winkel"
               target="_blank"
               rel="noopener noreferrer"
-              className="inline-flex items-center gap-2 bg-[#1877F2] hover:bg-[#166fe5] text-white text-xs font-semibold px-4 py-2 rounded-full shadow-sm transition"
+              className="inline-flex items-center justify-center gap-2 bg-[#1877F2] hover:bg-[#166fe5] text-white text-xs font-semibold px-4 py-2 rounded-full shadow-sm transition w-full sm:w-auto"
             >
-              <FacebookIcon className="w-3.5 h-3.5" />
+              <FacebookIcon className="w-3.5 h-3.5 flex-shrink-0" />
               <span>Follow on Facebook</span>
             </a>
             <a
               href="https://www.instagram.com/"
               target="_blank"
               rel="noopener noreferrer"
-              className="inline-flex items-center gap-2 bg-gradient-to-r from-[#833ab4] via-[#fd1d1d] to-[#fcb045] text-white text-xs font-semibold px-4 py-2 rounded-full shadow-sm transition"
+              className="inline-flex items-center justify-center gap-2 bg-gradient-to-r from-[#833ab4] via-[#fd1d1d] to-[#fcb045] text-white text-xs font-semibold px-4 py-2 rounded-full shadow-sm transition w-full sm:w-auto"
             >
-              <InstagramIcon className="w-3.5 h-3.5" />
+              <InstagramIcon className="w-3.5 h-3.5 flex-shrink-0" />
               <span>Follow on Instagram</span>
             </a>
           </div>

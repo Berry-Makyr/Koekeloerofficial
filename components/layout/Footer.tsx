@@ -113,18 +113,18 @@ export default function Footer() {
               <p className="text-xs font-semibold text-sand-200 uppercase tracking-wider mb-2">
                 Join the Koekeloer Club
               </p>
-              <form onSubmit={handleSubscribe} className="flex gap-2 max-w-sm">
+              <form onSubmit={handleSubscribe} className="flex flex-col sm:flex-row gap-2 max-w-sm">
                 <input
                   type="email"
                   value={email}
                   onChange={(e) => setEmail(e.target.value)}
                   placeholder="Enter your email address"
                   required
-                  className="bg-driftwood-800 border border-driftwood-700 text-sand-100 placeholder-sand-500 text-xs px-3.5 py-2.5 rounded-lg focus:outline-none focus:border-sand-400 flex-1"
+                  className="bg-driftwood-800 border border-driftwood-700 text-sand-100 placeholder-sand-500 text-xs px-3.5 py-2.5 rounded-lg focus:outline-none focus:border-sand-400 flex-1 min-w-0 w-full"
                 />
                 <button
                   type="submit"
-                  className="bg-coastal-600 hover:bg-coastal-500 text-white px-4 py-2.5 rounded-lg text-xs font-medium transition flex items-center gap-1.5"
+                  className="bg-coastal-600 hover:bg-coastal-500 text-white px-4 py-2.5 rounded-lg text-xs font-medium transition flex items-center justify-center gap-1.5 flex-shrink-0"
                 >
                   <Send className="w-3.5 h-3.5" />
                   <span>Join</span>

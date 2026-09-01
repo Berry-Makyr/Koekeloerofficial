@@ -42,17 +42,17 @@ export default function Header() {
 
   return (
     <header className={cn(
-      "sticky top-0 z-40 bg-sand-50/95 backdrop-blur-md transition-all duration-300 border-b",
-      isScrolled ? "border-sand-200 shadow-soft py-2.5" : "border-sand-200/60 py-4"
+      "sticky top-0 z-40 w-full bg-sand-50/95 backdrop-blur-md transition-all duration-300 border-b",
+      isScrolled ? "border-sand-200 shadow-soft py-2" : "border-sand-200/60 py-3 sm:py-4"
     )}>
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="flex items-center justify-between gap-4">
+      <div className="max-w-7xl mx-auto px-3 sm:px-6 lg:px-8">
+        <div className="flex items-center justify-between gap-2 sm:gap-4 min-w-0">
           
           {/* Mobile menu button */}
-          <div className="flex items-center lg:hidden">
+          <div className="flex items-center lg:hidden flex-shrink-0">
             <button
               onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
-              className="p-2 -ml-2 text-driftwood-800 hover:text-coastal-800 focus:outline-none"
+              className="p-2 -ml-1 text-driftwood-800 hover:text-coastal-800 focus:outline-none"
               aria-label="Toggle Navigation Menu"
             >
               {mobileMenuOpen ? <X className="w-6 h-6" /> : <Menu className="w-6 h-6" />}
@@ -67,12 +67,12 @@ export default function Header() {
           </div>
 
           {/* Brand Logo */}
-          <div className="flex-1 lg:flex-none text-center lg:text-left">
-            <Link href="/" className="inline-block group">
-              <span className="block font-serif text-2xl sm:text-3xl tracking-widest text-coastal-950 uppercase font-semibold group-hover:text-coastal-700 transition">
+          <div className="flex-1 lg:flex-none min-w-0 text-center lg:text-left">
+            <Link href="/" className="inline-block group max-w-full">
+              <span className="block font-serif text-lg sm:text-2xl lg:text-3xl tracking-wide sm:tracking-widest text-coastal-950 uppercase font-semibold group-hover:text-coastal-700 transition truncate">
                 KOEKELOER
               </span>
-              <span className="block text-[9px] sm:text-[10px] tracking-[0.25em] text-sand-600 uppercase font-medium -mt-1">
+              <span className="block text-[8px] sm:text-[10px] tracking-[0.15em] sm:tracking-[0.25em] text-sand-600 uppercase font-medium -mt-0.5 sm:-mt-1 truncate px-1">
                 Gansbaai • Décor & Boutique
               </span>
             </Link>
@@ -192,7 +192,7 @@ export default function Header() {
           </nav>
 
           {/* Right Action Icons */}
-          <div className="flex items-center space-x-1 sm:space-x-3">
+          <div className="flex items-center space-x-0.5 sm:space-x-2 flex-shrink-0">
             {/* Desktop Search Trigger */}
             <button
               onClick={() => setIsSearchOpen(true)}
@@ -219,7 +219,7 @@ export default function Header() {
             {/* User Account Link */}
             <Link
               href="/account"
-              className="p-2 text-driftwood-700 hover:text-coastal-800 transition"
+              className="p-1.5 sm:p-2 text-driftwood-700 hover:text-coastal-800 transition"
               aria-label="My Account"
               title="My Account"
             >
@@ -229,7 +229,7 @@ export default function Header() {
             {/* Wishlist Link */}
             <Link
               href="/shop?filter=wishlist"
-              className="p-2 text-driftwood-700 hover:text-terracotta-600 transition relative"
+              className="p-1.5 sm:p-2 text-driftwood-700 hover:text-terracotta-600 transition relative"
               aria-label={`Wishlist (${wishlist.length} items)`}
               title="View Wishlist"
             >
@@ -244,7 +244,7 @@ export default function Header() {
             {/* Cart Trigger */}
             <button
               onClick={() => setIsCartOpen(true)}
-              className="p-2 text-coastal-900 hover:text-coastal-700 transition relative flex items-center"
+              className="p-1.5 sm:p-2 text-coastal-900 hover:text-coastal-700 transition relative flex items-center"
               aria-label={`Cart (${cartCount} items)`}
             >
               <div className="relative">
@@ -323,7 +323,7 @@ export default function Header() {
               className="w-full flex items-center justify-center gap-2 bg-emerald-600 text-white font-medium py-2.5 rounded-lg text-sm shadow-sm"
             >
               <Phone className="w-4 h-4" />
-              <span>WhatsApp Store Enquiries (+27 78 703 0250)</span>
+              <span>WhatsApp Store Enquiries</span>
             </a>
           </div>
         </div>
