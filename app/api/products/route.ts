@@ -26,9 +26,7 @@ export async function GET(req: NextRequest) {
       ];
     }
 
-    if (filter === 'sale') {
-      where.isSale = true;
-    } else if (filter === 'new') {
+    if (filter === 'new') {
       where.isNewArrival = true;
     } else if (filter === 'featured') {
       where.isFeatured = true;

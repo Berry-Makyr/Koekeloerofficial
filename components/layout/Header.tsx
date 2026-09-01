@@ -73,7 +73,7 @@ export default function Header() {
                 KOEKELOER
               </span>
               <span className="hidden sm:block text-[8px] sm:text-[10px] tracking-[0.15em] sm:tracking-[0.25em] text-sand-600 uppercase font-medium -mt-0.5 sm:-mt-1 truncate">
-                Gansbaai • Décor & Gifts
+                Gansbaai & Struisbaai • Coastal Living
               </span>
             </Link>
           </div>
@@ -113,8 +113,8 @@ export default function Header() {
 
               {/* Mega Dropdown Menu */}
               {dropdownOpen && (
-                <div className="absolute top-full left-1/2 -translate-x-1/2 w-[620px] bg-white rounded-xl shadow-lift border border-sand-200 p-6 grid grid-cols-2 gap-4 mt-2 transition animate-in fade-in duration-150">
-                  <div className="col-span-2 pb-2 border-b border-sand-100 flex items-center justify-between">
+                <div className="absolute top-full left-1/2 -translate-x-1/2 w-[720px] max-h-[70vh] overflow-y-auto bg-white rounded-xl shadow-lift border border-sand-200 p-6 grid grid-cols-2 lg:grid-cols-3 gap-3 mt-2 transition animate-in fade-in duration-150">
+                  <div className="col-span-2 lg:col-span-3 pb-2 border-b border-sand-100 flex items-center justify-between">
                     <span className="text-xs uppercase tracking-wider font-semibold text-sand-700">Browse Departments</span>
                     <Link href="/shop" className="text-xs text-coastal-600 hover:text-coastal-800 font-semibold flex items-center gap-1">
                       View All Products →
@@ -140,10 +140,10 @@ export default function Header() {
                       </div>
                     </Link>
                   ))}
-                  <div className="col-span-2 bg-sand-100/60 p-3 rounded-lg flex items-center text-xs text-driftwood-700">
+                  <div className="col-span-2 lg:col-span-3 bg-sand-100/60 p-3 rounded-lg flex items-center text-xs text-driftwood-700">
                     <div className="flex items-center gap-2">
                       <Sparkles className="w-4 h-4 text-terracotta-500" />
-                      <span>Handpicked artisan home décor & gift collections</span>
+                      <span>Interiors for coastal living — Gansbaai & Struisbaai</span>
                     </div>
                   </div>
                 </div>
@@ -151,10 +151,10 @@ export default function Header() {
             </div>
 
             <Link 
-              href="/shop?category=shoes-leather" 
+              href="/shop?category=boutique-apparel" 
               className="hover:text-coastal-700 transition py-1 text-driftwood-800"
             >
-              Leather Bags
+              Boutique Apparel
             </Link>
 
             <Link 
@@ -164,7 +164,7 @@ export default function Header() {
                 pathname === '/stores' && "text-coastal-800 font-semibold after:absolute after:bottom-0 after:left-0 after:right-0 after:h-0.5 after:bg-coastal-600"
               )}
             >
-              Our Store
+              Our Stores
             </Link>
 
             <Link 
@@ -290,7 +290,7 @@ export default function Header() {
               href="/stores"
               className="block px-3 py-2 rounded-md text-base font-medium text-driftwood-900 hover:bg-sand-100"
             >
-              Our Store (Great White Junction, Gansbaai)
+              Our Stores (Gansbaai & Struisbaai)
             </Link>
             <Link
               href="/about"

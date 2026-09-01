@@ -6,7 +6,7 @@ import { ArrowRight } from 'lucide-react';
 import { useShop } from '@/context/ShopContext';
 
 export default function CategoryGrid() {
-  const { categories } = useShop();
+  const { categories, products } = useShop();
 
   return (
     <section className="py-12 sm:py-16 lg:py-24 bg-sand-50/70 border-b border-sand-200 w-full overflow-hidden">
@@ -18,17 +18,19 @@ export default function CategoryGrid() {
             Curated Departments
           </span>
           <h2 className="font-serif text-2xl sm:text-3xl lg:text-5xl font-bold text-driftwood-950 mt-2 leading-tight">
-            Interiors &amp; Lifestyle Collections
+            Our Collections
           </h2>
           <div className="w-16 h-0.5 bg-coastal-600 mx-auto mt-3 sm:mt-4 mb-3 sm:mb-4" />
           <p className="text-xs sm:text-sm lg:text-base text-driftwood-600 leading-relaxed px-2">
-            From handcrafted wooden furniture and coastal décor to genuine leather bags and curated home accents.
+            Interiors for coastal living — furniture, textiles, nauticals, paintings, mirrors, lamps, décor, and more.
           </p>
         </div>
 
         {/* Category Grid - Clean, High-Contrast Modern Cards */}
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 sm:gap-6">
-          {categories.map((category) => (
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-4 sm:gap-6">
+          {categories.map((category) => {
+            const count = products.filter((p) => p.categorySlug === category.slug).length;
+            return (
             <Link
               key={category.id}
               href={`/shop?category=${category.slug}`}
@@ -43,7 +45,7 @@ export default function CategoryGrid() {
                   className="max-h-full max-w-full object-contain transform group-hover:scale-105 transition-transform duration-500 ease-out"
                 />
                 <span className="absolute top-3 left-3 bg-white/90 backdrop-blur-sm px-2.5 py-1 rounded-full text-[10px] uppercase tracking-wider font-bold text-driftwood-700 border border-sand-200 shadow-sm">
-                  {category.itemCount || 20}+ Items
+                  {count} {count === 1 ? 'Product' : 'Products'}
                 </span>
               </div>
 
@@ -65,7 +67,8 @@ export default function CategoryGrid() {
               </div>
 
             </Link>
-          ))}
+            );
+          })}
         </div>
 
       </div>

@@ -143,7 +143,6 @@ export default function ProductDetailView({
                     key={badge}
                     className={cn(
                       "px-3 py-1 rounded-md text-[11px] font-bold uppercase tracking-wider shadow-sm",
-                      badge === 'Sale' ? 'bg-terracotta-600 text-white' :
                       badge === 'Handmade' ? 'bg-coastal-900 text-sand-100' :
                       badge === 'New' ? 'bg-sage-700 text-white' : 'bg-driftwood-800 text-white'
                     )}
@@ -227,16 +226,6 @@ export default function ProductDetailView({
                 <span className="text-3xl font-bold text-coastal-950">
                   {formatZAR(product.price)}
                 </span>
-                {product.originalPrice && (
-                  <span className="text-lg text-driftwood-400 line-through">
-                    {formatZAR(product.originalPrice)}
-                  </span>
-                )}
-                {product.originalPrice && (
-                  <span className="text-xs font-bold text-terracotta-700 bg-terracotta-50 px-2.5 py-1 rounded-md border border-terracotta-200">
-                    Save {Math.round(((product.originalPrice - product.price) / product.originalPrice) * 100)}%
-                  </span>
-                )}
               </div>
 
               {/* Short Summary */}

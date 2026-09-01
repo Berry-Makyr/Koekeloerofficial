@@ -2,8 +2,8 @@ import { Suspense } from 'react';
 import ShopContent from '@/components/shop/ShopContent';
 
 export const metadata = {
-  title: 'Shop All Collections | Koekeloer Gansbaai',
-  description: 'Explore coastal home decor, handcrafted furniture, artisan lighting, nautical gifts, and boutique ladies fashion at Koekeloer Gansbaai.',
+  title: 'Shop All Collections | Koekeloer',
+  description: 'Explore furniture, textiles, nauticals, paintings, mirrors, lamps, décor, kitchenware, gifts, and boutique apparel from Koekeloer.',
 };
 
 export default function ShopPage() {

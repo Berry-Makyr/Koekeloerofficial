@@ -100,7 +100,7 @@ export default function Footer() {
                 KOEKELOER
               </span>
               <span className="block text-[10px] tracking-[0.25em] text-sand-400 uppercase font-medium">
-                Great White Junction, Gansbaai
+                Gansbaai & Struisbaai
               </span>
             </Link>
             <p className="text-xs text-sand-400 leading-relaxed max-w-sm">
@@ -133,7 +133,7 @@ export default function Footer() {
               {subscribed && (
                 <p className="text-xs text-emerald-400 mt-2 flex items-center gap-1">
                   <CheckCircle2 className="w-3.5 h-3.5" />
-                  <span>Thank you! You are subscribed to new arrivals and exclusive specials.</span>
+                  <span>Thank you! You are subscribed to new arrivals and updates.</span>
                 </p>
               )}
             </div>
@@ -220,27 +220,27 @@ export default function Footer() {
 
           {/* Contact Details */}
           <div className="space-y-3">
-            <h4 className="font-serif text-white font-semibold text-sm tracking-wide">Gansbaai Flagship</h4>
-            <div className="space-y-2.5 text-xs text-sand-400">
-              <div className="flex items-start gap-2">
-                <MapPin className="w-4 h-4 text-sand-300 flex-shrink-0 mt-0.5" />
-                <span>Shop 2, Great White Junction, Main Road, Gansbaai, 7220</span>
+            <h4 className="font-serif text-white font-semibold text-sm tracking-wide">Our Stores</h4>
+            <div className="space-y-4 text-xs text-sand-400">
+              <div>
+                <p className="font-semibold text-sand-200 mb-1">Gansbaai</p>
+                <div className="flex items-start gap-2">
+                  <MapPin className="w-4 h-4 text-sand-300 flex-shrink-0 mt-0.5" />
+                  <span>Shop 2, Great White Junction, Main Road, 7220</span>
+                </div>
+                <p className="ml-6 mt-1">+27 (0)78 703 0250</p>
               </div>
-              <div className="flex items-center gap-2">
-                <Phone className="w-4 h-4 text-sand-300 flex-shrink-0" />
-                <span>+27 (0)78 703 0250</span>
+              <div>
+                <p className="font-semibold text-sand-200 mb-1">Struisbaai</p>
+                <div className="flex items-start gap-2">
+                  <MapPin className="w-4 h-4 text-sand-300 flex-shrink-0 mt-0.5" />
+                  <span>53 Main Road, Struisbaai, 7285</span>
+                </div>
+                <p className="ml-6 mt-1">+27 (0)71 363 9500</p>
               </div>
-              <div className="flex items-center gap-2">
+              <div className="flex items-center gap-2 pt-1 border-t border-driftwood-800">
                 <Mail className="w-4 h-4 text-sand-300 flex-shrink-0" />
                 <span>info@koekeloer.co.za</span>
-              </div>
-              <div className="flex items-start gap-2 pt-1 border-t border-driftwood-800">
-                <Clock className="w-4 h-4 text-sand-300 flex-shrink-0 mt-0.5" />
-                <div>
-                  <p>Mon - Fri: 08:30 – 17:00</p>
-                  <p>Saturday: 08:30 – 14:00</p>
-                  <p>Sunday: 09:00 – 13:00</p>
-                </div>
               </div>
             </div>
           </div>

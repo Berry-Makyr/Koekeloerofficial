@@ -93,7 +93,6 @@ export default function QuickViewModal() {
                     key={b}
                     className={cn(
                       "px-2.5 py-1 rounded-md text-[10px] font-bold uppercase tracking-wider shadow-sm",
-                      b === 'Sale' ? 'bg-terracotta-600 text-white' :
                       b === 'Handmade' ? 'bg-coastal-800 text-sand-100' :
                       b === 'New' ? 'bg-sage-700 text-white' : 'bg-driftwood-800 text-white'
                     )}
@@ -150,16 +149,6 @@ export default function QuickViewModal() {
               <span className="text-2xl font-bold text-coastal-900">
                 {formatZAR(quickViewProduct.price)}
               </span>
-              {quickViewProduct.originalPrice && (
-                <span className="text-base text-driftwood-400 line-through">
-                  {formatZAR(quickViewProduct.originalPrice)}
-                </span>
-              )}
-              {quickViewProduct.originalPrice && (
-                <span className="text-xs font-bold text-terracotta-600 bg-terracotta-50 px-2 py-0.5 rounded">
-                  Save {Math.round(((quickViewProduct.originalPrice - quickViewProduct.price) / quickViewProduct.originalPrice) * 100)}%
-                </span>
-              )}
             </div>
 
             {/* Short Description */}

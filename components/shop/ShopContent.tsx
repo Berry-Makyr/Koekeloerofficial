@@ -17,6 +17,7 @@ import {
 import ProductCard from '@/components/product/ProductCard';
 import { useShop } from '@/context/ShopContext';
 import { formatZAR, cn } from '@/lib/utils';
+import { resolveCategorySlug } from '@/lib/category-aliases';
 
 export default function ShopContent() {
   const router = useRouter();
@@ -24,7 +25,7 @@ export default function ShopContent() {
   const { wishlist, products, categories } = useShop();
 
   // Read initial query params
-  const categoryParam = searchParams.get('category') || 'all';
+  const categoryParam = resolveCategorySlug(searchParams.get('category') || 'all');
   const searchParam = searchParams.get('search') || '';
   const filterParam = searchParams.get('filter') || 'all';
 
@@ -40,7 +41,7 @@ export default function ShopContent() {
 
   // Sync params when URL changes
   useEffect(() => {
-    setSelectedCategory(searchParams.get('category') || 'all');
+    setSelectedCategory(resolveCategorySlug(searchParams.get('category') || 'all'));
     setSearchQuery(searchParams.get('search') || '');
     setSelectedFilter(searchParams.get('filter') || 'all');
   }, [searchParams]);
@@ -373,7 +374,7 @@ export default function ShopContent() {
                 Origin & Specialty
               </h3>
               <div className="space-y-2 text-xs">
-                {['Handmade', 'Best Seller', 'New', 'Sale'].map((badge) => (
+                {['Handmade', 'Best Seller', 'New'].map((badge) => (
                   <label key={badge} className="flex items-center gap-2 cursor-pointer text-driftwood-700 hover:text-driftwood-950">
                     <input
                       type="radio"
@@ -408,7 +409,7 @@ export default function ShopContent() {
                   onChange={(e) => setOnlyInStock(e.target.checked)}
                   className="rounded border-sand-300 text-coastal-700 accent-coastal-700"
                 />
-                <span>In Stock at Gansbaai Showroom</span>
+                <span>In Stock at Our Showrooms</span>
               </label>
             </div>
 

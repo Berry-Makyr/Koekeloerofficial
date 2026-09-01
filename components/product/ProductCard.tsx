@@ -93,7 +93,6 @@ export default function ProductCard({ product }: ProductCardProps) {
               key={badge}
               className={cn(
                 "px-2.5 py-1 rounded-md text-[10px] font-bold uppercase tracking-wider shadow-sm",
-                badge === 'Sale' ? 'bg-terracotta-600 text-white' :
                 badge === 'Handmade' ? 'bg-coastal-900 text-sand-100' :
                 badge === 'New' ? 'bg-sage-700 text-white' :
                 badge === 'Best Seller' ? 'bg-amber-600 text-white' : 'bg-driftwood-800 text-white'
@@ -102,11 +101,6 @@ export default function ProductCard({ product }: ProductCardProps) {
               {badge}
             </span>
           ))}
-          {product.originalPrice && !product.badges?.includes('Sale') && (
-            <span className="px-2 py-0.5 rounded-md text-[10px] font-bold uppercase tracking-wider bg-terracotta-600 text-white shadow-sm">
-              Sale
-            </span>
-          )}
         </div>
 
         {/* Wishlist Button */}
@@ -183,11 +177,6 @@ export default function ProductCard({ product }: ProductCardProps) {
             <span className="text-base sm:text-lg font-bold text-coastal-950">
               {formatZAR(product.price)}
             </span>
-            {product.originalPrice && (
-              <span className="text-xs text-driftwood-400 line-through">
-                {formatZAR(product.originalPrice)}
-              </span>
-            )}
           </div>
 
           {/* Mobile Quick Add / WhatsApp button */}

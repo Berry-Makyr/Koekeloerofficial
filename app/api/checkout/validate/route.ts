@@ -2,7 +2,7 @@ import { NextRequest, NextResponse } from 'next/server';
 import prisma from '@/lib/prisma';
 import { CheckoutCartItemSchema } from '@/lib/validators';
 import { z } from 'zod';
-import { DiscountType, DeliveryMethod } from '@prisma/client';
+import { DeliveryMethod } from '@prisma/client';
 
 const ValidateCartRequestSchema = z.object({
   items: z.array(CheckoutCartItemSchema).min(1, 'Cart is empty'),
@@ -78,41 +78,9 @@ export async function POST(req: NextRequest) {
       return NextResponse.json({ isValid: false, errors }, { status: 400 });
     }
 
-    // Server-side Promo Code Evaluation
+    // Promo codes disabled — no discounts applied
     let discountAmount = 0;
     let appliedCoupon: any = null;
-
-    if (couponCode && couponCode.trim()) {
-      const promo = await prisma.promotion.findUnique({
-        where: { code: couponCode.trim().toUpperCase(), isActive: true },
-      });
-
-      if (!promo) {
-        // Fallback for default built-in promo codes
-        if (couponCode.trim().toUpperCase() === 'KOEKELOER10') {
-          discountAmount = Math.round(subtotal * 0.1);
-          appliedCoupon = { code: 'KOEKELOER10', discountPercent: 10 };
-        } else if (couponCode.trim().toUpperCase() === 'WINTER20') {
-          discountAmount = Math.round(subtotal * 0.2);
-          appliedCoupon = { code: 'WINTER20', discountPercent: 20 };
-        }
-      } else {
-        const now = new Date();
-        const isStarted = !promo.startDate || promo.startDate <= now;
-        const isNotExpired = !promo.endDate || promo.endDate >= now;
-        const hasUsesLeft = promo.maxUses === null || promo.usedCount < promo.maxUses;
-        const meetsMinAmount = subtotal >= promo.minOrderAmount;
-
-        if (isStarted && isNotExpired && hasUsesLeft && meetsMinAmount) {
-          if (promo.type === DiscountType.PERCENTAGE) {
-            discountAmount = Math.round((subtotal * promo.value) / 100);
-          } else {
-            discountAmount = Math.min(subtotal, promo.value);
-          }
-          appliedCoupon = { code: promo.code, value: promo.value, type: promo.type };
-        }
-      }
-    }
 
     // Shipping fee calculation
     let shippingFee = 0;

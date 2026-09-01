@@ -50,7 +50,7 @@ export default function AboutPage() {
             </h2>
             
             <p>
-              In <strong>2012</strong>, Koekeloer first opened its welcoming doors in Gansbaai at the <em>Great White Junction</em>. Today, it stands as a landmark coastal gift, décor, and lifestyle store at Shop 2, Great White Junction in Gansbaai.
+              In <strong>2012</strong>, Koekeloer first opened its welcoming doors in Gansbaai at the <em>Great White Junction</em>. Today we welcome visitors at our Gansbaai flagship and our Struisbaai store on Main Road — both lifestyle emporiums for coastal living.
             </p>
 
             <p>
@@ -113,7 +113,7 @@ export default function AboutPage() {
           <div className="pt-6 flex flex-wrap items-center justify-between gap-4">
             <div>
               <h3 className="font-serif text-lg font-bold text-driftwood-950">Ready to transform your living space?</h3>
-              <p className="text-xs text-driftwood-500">Explore our new season arrivals or visit us in Gansbaai.</p>
+              <p className="text-xs text-driftwood-500">Explore our collections online or visit us in Gansbaai & Struisbaai.</p>
             </div>
             <Link
               href="/shop"

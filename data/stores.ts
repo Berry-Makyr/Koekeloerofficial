@@ -27,6 +27,32 @@ export const stores: StoreLocation[] = [
     mapEmbedUrl: 'https://maps.google.com/maps?q=Shop%202,%20Great%20White%20Junction,%20Gansbaai,%207220&t=&z=16&ie=UTF8&iwloc=&output=embed',
     image: '/fb-images/606030198_24884683841210437_5271712182053158002_n.jpg',
   },
+  {
+    id: 'struisbaai-main',
+    name: 'Koekeloer Gift Shop & Boutique',
+    town: 'Struisbaai',
+    address: '53 Main Road',
+    complex: 'Main Road, Struisbaai',
+    phone: '+27 (0)71 363 9500',
+    whatsapp: '27713639500',
+    email: 'info@koekeloer.co.za',
+    hours: {
+      weekdays: '09:00 – 17:00',
+      saturday: '09:00 – 14:00',
+      sunday: 'Closed',
+      publicHolidays: '09:00 – 13:00',
+    },
+    features: [
+      'Lifestyle Emporium — Gifts, Décor & Furniture',
+      'Boutique Apparel, Shoes, Jewellery & Accessories',
+      'Home Linen, Kitchenware, Ceramics & Lighting',
+      'Art, Mirrors & Coastal Nautical Accents',
+      'Easy Parking on Main Road',
+      'Sister Store to Koekeloer Gansbaai',
+    ],
+    mapEmbedUrl: 'https://maps.google.com/maps?q=53+Main+Road,+Struisbaai,+7285&t=&z=16&ie=UTF8&iwloc=&output=embed',
+    image: 'https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/nEZmozvtjjbthh1ahjDLWQQg4fA2%2Fb0509e53-8a01-4379-b3c4-ba329f84311d.jpg?alt=media',
+  },
 ];
 
 export const customerReviews: Review[] = [

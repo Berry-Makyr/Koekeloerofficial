@@ -94,37 +94,37 @@ export function ShopProvider({ children }: { children: React.ReactNode }) {
   useEffect(() => {
     try {
       // Products
-      const savedProducts = localStorage.getItem('koekeloer_custom_products_v9');
+      const savedProducts = localStorage.getItem('koekeloer_custom_products_v10');
       if (savedProducts) {
         const parsed = JSON.parse(savedProducts);
         if (Array.isArray(parsed) && parsed.length > 0) {
           setProductsList(parsed);
         } else {
           setProductsList(defaultProducts);
-          localStorage.setItem('koekeloer_custom_products_v9', JSON.stringify(defaultProducts));
+          localStorage.setItem('koekeloer_custom_products_v10', JSON.stringify(defaultProducts));
         }
       } else {
         setProductsList(defaultProducts);
-        localStorage.setItem('koekeloer_custom_products_v9', JSON.stringify(defaultProducts));
+        localStorage.setItem('koekeloer_custom_products_v10', JSON.stringify(defaultProducts));
       }
 
       // Categories
-      const savedCategories = localStorage.getItem('koekeloer_custom_categories_v6');
+      const savedCategories = localStorage.getItem('koekeloer_custom_categories_v7');
       if (savedCategories) {
         const parsed = JSON.parse(savedCategories);
         if (Array.isArray(parsed) && parsed.length > 0) {
           setCategoriesList(parsed);
         } else {
           setCategoriesList(defaultCategories);
-          localStorage.setItem('koekeloer_custom_categories_v6', JSON.stringify(defaultCategories));
+          localStorage.setItem('koekeloer_custom_categories_v7', JSON.stringify(defaultCategories));
         }
       } else {
         setCategoriesList(defaultCategories);
-        localStorage.setItem('koekeloer_custom_categories_v6', JSON.stringify(defaultCategories));
+        localStorage.setItem('koekeloer_custom_categories_v7', JSON.stringify(defaultCategories));
       }
 
       // Site Content
-      const savedContent = localStorage.getItem('koekeloer_site_content_v8');
+      const savedContent = localStorage.getItem('koekeloer_site_content_v9');
       if (savedContent) {
         const parsed = JSON.parse(savedContent);
         if (parsed && typeof parsed === 'object') {
@@ -155,7 +155,7 @@ export function ShopProvider({ children }: { children: React.ReactNode }) {
   useEffect(() => {
     if (!isHydrated) return;
     try {
-      localStorage.setItem('koekeloer_custom_products_v9', JSON.stringify(productsList));
+      localStorage.setItem('koekeloer_custom_products_v10', JSON.stringify(productsList));
     } catch (e) {
       console.error('Error saving custom products', e);
     }
@@ -165,7 +165,7 @@ export function ShopProvider({ children }: { children: React.ReactNode }) {
   useEffect(() => {
     if (!isHydrated) return;
     try {
-      localStorage.setItem('koekeloer_custom_categories_v6', JSON.stringify(categoriesList));
+      localStorage.setItem('koekeloer_custom_categories_v7', JSON.stringify(categoriesList));
     } catch (e) {
       console.error('Error saving custom categories', e);
     }
@@ -175,7 +175,7 @@ export function ShopProvider({ children }: { children: React.ReactNode }) {
   useEffect(() => {
     if (!isHydrated) return;
     try {
-      localStorage.setItem('koekeloer_site_content_v8', JSON.stringify(siteContentState));
+      localStorage.setItem('koekeloer_site_content_v9', JSON.stringify(siteContentState));
     } catch (e) {
       console.error('Error saving site content', e);
     }
@@ -233,7 +233,7 @@ export function ShopProvider({ children }: { children: React.ReactNode }) {
   const resetProducts = () => {
     setProductsList(defaultProducts);
     try {
-      localStorage.setItem('koekeloer_custom_products_v9', JSON.stringify(defaultProducts));
+      localStorage.setItem('koekeloer_custom_products_v10', JSON.stringify(defaultProducts));
     } catch (e) {
       console.error(e);
     }
@@ -257,7 +257,7 @@ export function ShopProvider({ children }: { children: React.ReactNode }) {
   const resetCategories = () => {
     setCategoriesList(defaultCategories);
     try {
-      localStorage.setItem('koekeloer_custom_categories_v6', JSON.stringify(defaultCategories));
+      localStorage.setItem('koekeloer_custom_categories_v7', JSON.stringify(defaultCategories));
     } catch (e) {
       console.error(e);
     }
@@ -305,7 +305,7 @@ export function ShopProvider({ children }: { children: React.ReactNode }) {
   const resetSiteContent = () => {
     setSiteContentState(defaultSiteContent);
     try {
-      localStorage.setItem('koekeloer_site_content_v8', JSON.stringify(defaultSiteContent));
+      localStorage.setItem('koekeloer_site_content_v9', JSON.stringify(defaultSiteContent));
     } catch (e) {
       console.error(e);
     }

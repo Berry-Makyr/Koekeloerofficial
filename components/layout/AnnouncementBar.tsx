@@ -26,7 +26,7 @@ export default function AnnouncementBar() {
           <span className="hidden md:inline text-coastal-600">•</span>
           <Link href="/stores" className="hidden md:flex items-center gap-1 hover:text-white transition">
             <MapPin className="w-3.5 h-3.5 text-sand-300" />
-            <span>Showroom at Great White Junction, Gansbaai</span>
+            <span>Showrooms in Gansbaai & Struisbaai</span>
           </Link>
         </div>
 
