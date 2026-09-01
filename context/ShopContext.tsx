@@ -124,7 +124,7 @@ export function ShopProvider({ children }: { children: React.ReactNode }) {
       }
 
       // Site Content
-      const savedContent = localStorage.getItem('koekeloer_site_content_v7');
+      const savedContent = localStorage.getItem('koekeloer_site_content_v8');
       if (savedContent) {
         const parsed = JSON.parse(savedContent);
         if (parsed && typeof parsed === 'object') {
@@ -175,7 +175,7 @@ export function ShopProvider({ children }: { children: React.ReactNode }) {
   useEffect(() => {
     if (!isHydrated) return;
     try {
-      localStorage.setItem('koekeloer_site_content_v7', JSON.stringify(siteContentState));
+      localStorage.setItem('koekeloer_site_content_v8', JSON.stringify(siteContentState));
     } catch (e) {
       console.error('Error saving site content', e);
     }
@@ -305,7 +305,7 @@ export function ShopProvider({ children }: { children: React.ReactNode }) {
   const resetSiteContent = () => {
     setSiteContentState(defaultSiteContent);
     try {
-      localStorage.setItem('koekeloer_site_content_v7', JSON.stringify(defaultSiteContent));
+      localStorage.setItem('koekeloer_site_content_v8', JSON.stringify(defaultSiteContent));
     } catch (e) {
       console.error(e);
     }

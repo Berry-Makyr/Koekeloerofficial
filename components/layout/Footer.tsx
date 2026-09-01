@@ -45,7 +45,7 @@ export default function Footer() {
             <div>
               <h4 className="font-serif text-white font-semibold text-base mb-1">Nationwide Courier</h4>
               <p className="text-xs text-sand-400 leading-relaxed">
-                Tracked door-to-door delivery across South Africa via The Courier Guy. Courier cost at client&apos;s expense.
+                Tracked door-to-door delivery across South Africa via The Courier Guy.
               </p>
             </div>
           </div>

@@ -20,7 +20,7 @@ export default function AnnouncementBar() {
           <div className="flex items-center gap-1.5 min-w-0 justify-center sm:justify-start">
             <Truck className="w-3.5 h-3.5 text-sand-300 flex-shrink-0" />
             <span className="truncate">
-              {announcement.message || 'Nationwide courier available — delivery cost at client\'s expense'}
+              {announcement.message || 'Nationwide courier available'}
             </span>
           </div>
           <span className="hidden md:inline text-coastal-600">•</span>

@@ -23413,7 +23413,7 @@ export const defaultHeroSlides: HeroSlide[] = [
 
 export const defaultSiteContent: SiteContent = {
   announcement: {
-    message: 'Nationwide courier available — delivery cost at client\'s expense',
+    message: 'Nationwide courier available',
     couponPrompt: '',
     couponCode: '',
   },

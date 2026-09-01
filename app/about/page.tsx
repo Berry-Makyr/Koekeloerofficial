@@ -104,7 +104,7 @@ export default function AboutPage() {
                 <span>Nationwide Courier Delivery</span>
               </div>
               <p className="text-xs text-driftwood-600 leading-relaxed">
-                Now bringing the treasures of the Overberg straight to your doorstep across South Africa via tracked couriers. Courier cost at client&apos;s expense.
+                Now bringing the treasures of the Overberg straight to your doorstep across South Africa via tracked couriers.
               </p>
             </div>
           </div>

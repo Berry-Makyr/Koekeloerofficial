@@ -60,7 +60,7 @@ export default function CartDrawer() {
           {/* Courier note */}
           <div className="px-4 py-3 bg-sand-50 border-b border-sand-200 text-[11px] text-driftwood-600 flex items-center gap-2">
             <Truck className="w-4 h-4 text-coastal-600 flex-shrink-0" />
-            <span>Nationwide courier available — delivery cost at client&apos;s expense</span>
+            <span>Nationwide courier available</span>
           </div>
 
           {/* Cart Items List */}

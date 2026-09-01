@@ -510,7 +510,7 @@ export default function CheckoutFlow() {
                       />
                       <div>
                         <p className="font-bold text-driftwood-950 text-sm">The Courier Guy (Door-to-Door)</p>
-                        <p className="text-driftwood-500 mt-0.5">Tracked courier across South Africa (2–4 business days). Cost at client&apos;s expense.</p>
+                        <p className="text-driftwood-500 mt-0.5">Tracked courier across South Africa (2–4 business days).</p>
                       </div>
                     </div>
                     <span className="font-bold text-sm text-driftwood-900">
