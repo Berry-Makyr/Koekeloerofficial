@@ -21,7 +21,7 @@ import {
 } from 'lucide-react';
 import confetti from 'canvas-confetti';
 import { useShop } from '@/context/ShopContext';
-import { formatZAR, FREE_SHIPPING_THRESHOLD, STANDARD_SHIPPING_FEE, cn } from '@/lib/utils';
+import { formatZAR, STANDARD_SHIPPING_FEE, cn } from '@/lib/utils';
 
 const SA_PROVINCES = [
   'Western Cape',
@@ -63,15 +63,12 @@ export default function CheckoutFlow() {
     province: 'Western Cape',
     postalCode: '7220',
     notes: 'Please leave with reception if not home.',
-    shippingMethod: cartSubtotal >= FREE_SHIPPING_THRESHOLD ? 'courier-free' : 'courier-standard',
+    shippingMethod: 'courier-standard',
     paymentMethod: 'payfast',
   });
 
   const shippingCost = (() => {
     if (formData.shippingMethod === 'pickup-gansbaai') {
-      return 0;
-    }
-    if (cartSubtotal >= FREE_SHIPPING_THRESHOLD) {
       return 0;
     }
     if (formData.shippingMethod === 'courier-express') {
@@ -506,23 +503,18 @@ export default function CheckoutFlow() {
                       <input
                         type="radio"
                         name="shippingMethod"
-                        value={cartSubtotal >= FREE_SHIPPING_THRESHOLD ? 'courier-free' : 'courier-standard'}
+                        value="courier-standard"
                         checked={formData.shippingMethod.startsWith('courier')}
                         onChange={handleInputChange}
                         className="mt-0.5 accent-coastal-700"
                       />
                       <div>
                         <p className="font-bold text-driftwood-950 text-sm">The Courier Guy (Door-to-Door)</p>
-                        <p className="text-driftwood-500 mt-0.5">Tracked express road courier across South Africa (2-4 business days)</p>
-                        {cartSubtotal >= FREE_SHIPPING_THRESHOLD && (
-                          <span className="inline-block mt-1 text-[10px] bg-emerald-100 text-emerald-800 font-bold px-2 py-0.5 rounded">
-                            FREE SHIPPING QUALIFIED
-                          </span>
-                        )}
+                        <p className="text-driftwood-500 mt-0.5">Tracked courier across South Africa (2–4 business days). Cost at client&apos;s expense.</p>
                       </div>
                     </div>
                     <span className="font-bold text-sm text-driftwood-900">
-                      {cartSubtotal >= FREE_SHIPPING_THRESHOLD ? 'FREE' : formatZAR(STANDARD_SHIPPING_FEE)}
+                      {formatZAR(STANDARD_SHIPPING_FEE)}
                     </span>
                   </label>
 

@@ -49,15 +49,17 @@ export default function PromoBanner() {
 
             {/* Coupon Box */}
             <div className="flex flex-col sm:flex-row flex-wrap items-stretch sm:items-center gap-3 sm:gap-4 pt-1 sm:pt-2">
-              <div className="flex items-center gap-2 bg-white/10 backdrop-blur-md border border-white/20 px-3 sm:px-4 py-2.5 sm:py-3 rounded-xl min-w-0">
-                <Tag className="w-4 h-4 text-sand-300" />
-                <span className="text-xs text-sand-200 font-medium">Use Coupon:</span>
-                <span className="font-mono font-bold text-base text-white tracking-widest pl-1">
-                  {banner.couponCode}
-                </span>
+              <div className="flex flex-col sm:flex-row flex-wrap items-stretch sm:items-center gap-2 bg-white/10 backdrop-blur-md border border-white/20 px-3 sm:px-4 py-2.5 sm:py-3 rounded-xl min-w-0 w-full sm:w-auto">
+                <div className="flex items-center gap-2 min-w-0 flex-wrap">
+                  <Tag className="w-4 h-4 text-sand-300 flex-shrink-0" />
+                  <span className="text-xs text-sand-200 font-medium whitespace-nowrap">Use Coupon:</span>
+                  <span className="font-mono font-bold text-sm sm:text-base text-white tracking-widest truncate">
+                    {banner.couponCode}
+                  </span>
+                </div>
                 <button
                   onClick={handleApply}
-                  className="ml-2 p-1.5 bg-white/20 hover:bg-white/30 rounded-lg text-white transition flex items-center gap-1 text-xs font-semibold"
+                  className="p-1.5 bg-white/20 hover:bg-white/30 rounded-lg text-white transition flex items-center justify-center gap-1 text-xs font-semibold w-full sm:w-auto"
                   title="Copy and apply code"
                 >
                   {copied ? (

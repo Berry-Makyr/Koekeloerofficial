@@ -139,7 +139,17 @@ export default function AdminDashboard({ currentUser }: { currentUser?: any }) {
   }, []);
 
   // Section Form Local Edits
-  const [localPromo, setLocalPromo] = useState(siteContent.promoBanner);
+  const emptyPromo = {
+    tag: '',
+    title: '',
+    highlightText: '',
+    description: '',
+    couponCode: '',
+    ctaText: '',
+    ctaLink: '',
+    footerNote: '',
+  };
+  const [localPromo, setLocalPromo] = useState(siteContent.promoBanner ?? emptyPromo);
   const [localAnnouncement, setLocalAnnouncement] = useState(siteContent.announcement);
   const [localStory, setLocalStory] = useState(siteContent.brandStory);
   const [localLookbookTitle, setLocalLookbookTitle] = useState(siteContent.lookbookTitle);
@@ -147,7 +157,7 @@ export default function AdminDashboard({ currentUser }: { currentUser?: any }) {
 
   // Keep local section states updated if siteContent changes from reset
   React.useEffect(() => {
-    setLocalPromo(siteContent.promoBanner);
+    setLocalPromo(siteContent.promoBanner ?? emptyPromo);
     setLocalAnnouncement(siteContent.announcement);
     setLocalStory(siteContent.brandStory);
     setLocalLookbookTitle(siteContent.lookbookTitle);

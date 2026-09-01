@@ -1,7 +1,6 @@
 import HeroSlider from '@/components/home/HeroSlider';
 import CategoryGrid from '@/components/home/CategoryGrid';
 import FeaturedTabs from '@/components/home/FeaturedTabs';
-import PromoBanner from '@/components/home/PromoBanner';
 import BrandStorySection from '@/components/home/BrandStorySection';
 import StoreLocationsPreview from '@/components/home/StoreLocationsPreview';
 import InstagramLookbook from '@/components/home/InstagramLookbook';
@@ -9,7 +8,7 @@ import TestimonialsSection from '@/components/home/TestimonialsSection';
 
 export default function HomePage() {
   return (
-    <div>
+    <div className="w-full min-w-0 overflow-x-clip">
       {/* 1. Hero Carousel */}
       <HeroSlider />
 
@@ -18,9 +17,6 @@ export default function HomePage() {
 
       {/* 3. Featured Tabbed Product Showcase */}
       <FeaturedTabs />
-
-      {/* 4. Seasonal Promo Banner */}
-      <PromoBanner />
 
       {/* 5. Our Story & Heritage Section */}
       <BrandStorySection />

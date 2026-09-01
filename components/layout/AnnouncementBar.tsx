@@ -2,33 +2,26 @@
 
 import React, { useState } from 'react';
 import Link from 'next/link';
-import { MapPin, Truck, X, Sparkles } from 'lucide-react';
+import { MapPin, Truck, X } from 'lucide-react';
 import { useShop } from '@/context/ShopContext';
 
 export default function AnnouncementBar() {
   const [isVisible, setIsVisible] = useState(true);
-  const { applyCoupon, siteContent } = useShop();
-  const [copied, setCopied] = useState(false);
+  const { siteContent } = useShop();
 
   const announcement = siteContent.announcement;
 
   if (!isVisible || !announcement) return null;
 
-  const handleCopyCode = () => {
-    applyCoupon(announcement.couponCode || 'KOEKELOER10');
-    navigator.clipboard?.writeText(announcement.couponCode || 'KOEKELOER10');
-    setCopied(true);
-    setTimeout(() => setCopied(false), 2500);
-  };
-
   return (
     <aside aria-label="Announcement" className="bg-coastal-900 text-sand-100 text-[11px] sm:text-xs py-2 px-3 sm:px-4 border-b border-coastal-800 transition-all w-full overflow-hidden">
-      <div className="max-w-7xl mx-auto flex flex-col sm:flex-row items-center justify-between gap-2 text-center sm:text-left">
-        {/* Left: Free shipping & stores */}
-        <div className="flex flex-col sm:flex-row items-center gap-1 sm:gap-4 text-sand-200 min-w-0">
-          <div className="flex items-center gap-1.5 min-w-0">
+      <div className="max-w-7xl mx-auto flex items-center justify-between gap-2 text-center sm:text-left">
+        <div className="flex flex-col sm:flex-row items-center gap-1 sm:gap-4 text-sand-200 min-w-0 flex-1">
+          <div className="flex items-center gap-1.5 min-w-0 justify-center sm:justify-start">
             <Truck className="w-3.5 h-3.5 text-sand-300 flex-shrink-0" />
-            <span className="truncate">{announcement.message || 'Free Nationwide Delivery on orders over R1,200'}</span>
+            <span className="truncate">
+              {announcement.message || 'Nationwide courier available — delivery cost at client\'s expense'}
+            </span>
           </div>
           <span className="hidden md:inline text-coastal-600">•</span>
           <Link href="/stores" className="hidden md:flex items-center gap-1 hover:text-white transition">
@@ -37,30 +30,13 @@ export default function AnnouncementBar() {
           </Link>
         </div>
 
-        {/* Center / Right: Coupon Promo */}
-        <div className="flex items-center gap-2 flex-shrink-0">
-          <div className="inline-flex items-center gap-1 sm:gap-1.5 bg-coastal-800/80 px-2 sm:px-2.5 py-0.5 rounded-full border border-coastal-700 max-w-full">
-            <Sparkles className="w-3 h-3 text-sand-300 flex-shrink-0 hidden sm:block" />
-            <span className="hidden sm:inline">{announcement.couponPrompt || 'Get 10% off with code:'}</span>
-            <span className="sm:hidden text-sand-300">Code:</span>
-            <button
-              onClick={handleCopyCode}
-              className="font-bold tracking-wider text-sand-100 hover:text-white underline underline-offset-2 cursor-pointer"
-              title="Click to copy and apply"
-            >
-              {announcement.couponCode || 'KOEKELOER10'}
-            </button>
-            {copied && <span className="text-[10px] text-green-300 font-semibold">Applied!</span>}
-          </div>
-
-          <button
-            onClick={() => setIsVisible(false)}
-            className="text-sand-400 hover:text-white p-0.5 rounded transition"
-            aria-label="Dismiss banner"
-          >
-            <X className="w-3.5 h-3.5" />
-          </button>
-        </div>
+        <button
+          onClick={() => setIsVisible(false)}
+          className="text-sand-400 hover:text-white p-0.5 rounded transition flex-shrink-0"
+          aria-label="Dismiss banner"
+        >
+          <X className="w-3.5 h-3.5" />
+        </button>
       </div>
     </aside>
   );

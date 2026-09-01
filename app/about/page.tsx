@@ -10,7 +10,7 @@ import {
 
 export const metadata = {
   title: 'Our Story & Heritage | Koekeloer Gansbaai',
-  description: 'Learn how Nelia Koekemoer founded Koekeloer in 2012 in Gansbaai, growing into a beloved Western Cape decor emporium and fashion boutique with 40 years of retail experience.',
+  description: 'Learn how Nelia Koekemoer founded Koekeloer in 2012 in Gansbaai, growing into a beloved Western Cape décor emporium with 40 years of retail experience.',
 };
 
 export default function AboutPage() {
@@ -62,7 +62,7 @@ export default function AboutPage() {
             </blockquote>
 
             <p>
-              Koekeloer is a destination store that invites you on an inspiring journey through artisan gifts, coastal home accents, handcrafted solid wood furniture, nautical statement pieces, boutique linen apparel, genuine leather footwear, organic ceramics, and fine art canvases.
+              Koekeloer is a destination store that invites you on an inspiring journey through artisan gifts, coastal home accents, handcrafted solid wood furniture, nautical statement pieces, statement mirrors, genuine leather bags, organic ceramics, and fine art canvases.
             </p>
           </div>
 
@@ -91,10 +91,10 @@ export default function AboutPage() {
             <div className="p-5 bg-sand-50 rounded-2xl border border-sand-200 space-y-2">
               <div className="flex items-center gap-2 text-coastal-800 font-bold text-sm">
                 <Award className="w-4 h-4 text-amber-600" />
-                <span>Quality Leather &amp; Footwear</span>
+                <span>Handcrafted Leather Bags</span>
               </div>
               <p className="text-xs text-driftwood-600 leading-relaxed">
-                Stocking premium cushioned leather sandals, shoes, and handmade bags, where comfort meets enduring style.
+                Stocking artisan carved mandala laptop bags, business briefcases, and genuine leather sling bags.
               </p>
             </div>
 
@@ -104,7 +104,7 @@ export default function AboutPage() {
                 <span>Nationwide Courier Delivery</span>
               </div>
               <p className="text-xs text-driftwood-600 leading-relaxed">
-                Now bringing the treasures of the Overberg straight to your doorstep across South Africa via tracked couriers.
+                Now bringing the treasures of the Overberg straight to your doorstep across South Africa via tracked couriers. Courier cost at client&apos;s expense.
               </p>
             </div>
           </div>

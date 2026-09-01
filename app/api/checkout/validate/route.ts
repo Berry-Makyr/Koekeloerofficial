@@ -10,7 +10,6 @@ const ValidateCartRequestSchema = z.object({
   deliveryMethod: z.nativeEnum(DeliveryMethod).default(DeliveryMethod.COURIER_STANDARD),
 });
 
-const FREE_SHIPPING_THRESHOLD = 1200;
 const STANDARD_SHIPPING_FEE = 150;
 const EXPRESS_SHIPPING_FEE = 220;
 
@@ -122,8 +121,7 @@ export async function POST(req: NextRequest) {
     } else if (deliveryMethod === DeliveryMethod.COURIER_EXPRESS) {
       shippingFee = EXPRESS_SHIPPING_FEE;
     } else {
-      // Standard Courier
-      shippingFee = subtotal >= FREE_SHIPPING_THRESHOLD ? 0 : STANDARD_SHIPPING_FEE;
+      shippingFee = STANDARD_SHIPPING_FEE;
     }
 
     const totalAmount = Math.max(0, subtotal - discountAmount + shippingFee);
@@ -135,7 +133,6 @@ export async function POST(req: NextRequest) {
       shippingFee,
       totalAmount,
       appliedCoupon,
-      freeShippingQualified: subtotal >= FREE_SHIPPING_THRESHOLD,
       items: validatedItems,
     });
   } catch (error: any) {

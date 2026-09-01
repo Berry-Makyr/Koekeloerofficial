@@ -130,11 +130,11 @@ export interface LookbookItem {
 export interface SiteContent {
   announcement: {
     message: string;
-    couponPrompt: string;
-    couponCode: string;
+    couponPrompt?: string;
+    couponCode?: string;
   };
   heroSlides: HeroSlide[];
-  promoBanner: PromoBannerConfig;
+  promoBanner: PromoBannerConfig | null;
   brandStory: BrandStoryConfig;
   lookbookTitle: string;
   lookbookSubtitle: string;

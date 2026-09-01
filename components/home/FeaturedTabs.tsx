@@ -7,7 +7,7 @@ import { useShop } from '@/context/ShopContext';
 import ProductCard from '@/components/product/ProductCard';
 import { cn } from '@/lib/utils';
 
-type TabType = 'all' | 'best-sellers' | 'new-arrivals' | 'furniture' | 'sale';
+type TabType = 'all' | 'best-sellers' | 'new-arrivals' | 'furniture';
 
 export default function FeaturedTabs() {
   const { products } = useShop();
@@ -18,7 +18,6 @@ export default function FeaturedTabs() {
     if (activeTab === 'best-sellers') return p.badges?.includes('Best Seller') || p.isFeatured;
     if (activeTab === 'new-arrivals') return p.isNewArrival;
     if (activeTab === 'furniture') return p.categorySlug === 'furniture';
-    if (activeTab === 'sale') return p.isSale || (p.originalPrice && p.originalPrice > p.price);
     return true;
   });
 
@@ -27,7 +26,6 @@ export default function FeaturedTabs() {
     { id: 'best-sellers', label: 'Best Sellers' },
     { id: 'new-arrivals', label: 'New Arrivals' },
     { id: 'furniture', label: 'Signature Furniture' },
-    { id: 'sale', label: 'Special Offers' },
   ];
 
   return (
@@ -48,7 +46,7 @@ export default function FeaturedTabs() {
 
           <Link
             href="/shop"
-            className="inline-flex items-center gap-2 text-xs sm:text-sm font-semibold text-coastal-800 hover:text-coastal-950 transition flex-shrink-0"
+            className="hidden sm:inline-flex items-center gap-2 text-xs sm:text-sm font-semibold text-coastal-800 hover:text-coastal-950 transition flex-shrink-0"
           >
             <span className="whitespace-nowrap">View Full Catalog ({products.length}+ items)</span>
             <ArrowRight className="w-4 h-4 flex-shrink-0" />
@@ -83,7 +81,7 @@ export default function FeaturedTabs() {
               New Coastal Arrivals Coming Soon
             </h3>
             <p className="text-xs text-driftwood-600 leading-relaxed">
-              We are currently updating our online catalog with fresh coastal homeware, solid wood furniture, and boutique fashion. Visit our store at Shop 2, Great White Junction or browse all collections.
+              We are currently updating our online catalog with fresh coastal homeware and solid wood furniture. Visit our store at Shop 2, Great White Junction or browse all collections.
             </p>
             <div className="pt-2 flex items-center justify-center gap-3">
               <Link

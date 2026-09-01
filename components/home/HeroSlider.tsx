@@ -31,7 +31,7 @@ export default function HeroSlider() {
   if (slides.length === 0) return null;
 
   return (
-    <div className="relative w-full h-[380px] sm:h-[520px] lg:h-[680px] overflow-hidden bg-driftwood-900">
+    <div className="relative w-full h-[420px] sm:h-[520px] lg:h-[680px] overflow-hidden bg-driftwood-900">
       {/* Slides */}
       {slides.map((slide, index) => {
         const isActive = index === currentSlide;

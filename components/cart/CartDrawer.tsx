@@ -1,6 +1,6 @@
 'use client';
 
-import React, { useState } from 'react';
+import React from 'react';
 import Link from 'next/link';
 import { 
   X, 
@@ -10,12 +10,10 @@ import {
   ShoppingBag, 
   ArrowRight, 
   Truck, 
-  Sparkles, 
-  Check, 
   ShieldCheck 
 } from 'lucide-react';
 import { useShop } from '@/context/ShopContext';
-import { formatZAR, FREE_SHIPPING_THRESHOLD, cn } from '@/lib/utils';
+import { formatZAR, STANDARD_SHIPPING_FEE } from '@/lib/utils';
 
 export default function CartDrawer() {
   const {
@@ -24,29 +22,9 @@ export default function CartDrawer() {
     setIsCartOpen,
     removeFromCart,
     updateQuantity,
-    clearCart,
     cartSubtotal,
     cartTotal,
-    discountAmount,
-    activeCoupon,
-    applyCoupon,
-    removeCoupon,
-    couponError,
-    freeShippingRemaining,
-    freeShippingProgress,
   } = useShop();
-
-  const [couponInput, setCouponInput] = useState('');
-
-  if (!isCartOpen) return null;
-
-  const handleApplyCoupon = (e: React.FormEvent) => {
-    e.preventDefault();
-    if (couponInput.trim()) {
-      applyCoupon(couponInput.trim());
-      setCouponInput('');
-    }
-  };
 
   return (
     <div className="fixed inset-0 z-50 overflow-hidden">
@@ -57,8 +35,8 @@ export default function CartDrawer() {
         aria-hidden="true"
       />
 
-      <div className="fixed inset-y-0 right-0 max-w-full flex pl-10">
-        <div className="w-screen max-w-md bg-white shadow-2xl flex flex-col justify-between animate-in slide-in-from-right duration-300">
+      <div className="fixed inset-y-0 right-0 max-w-full flex">
+        <div className="w-full max-w-md bg-white shadow-2xl flex flex-col justify-between animate-in slide-in-from-right duration-300">
           
           {/* Header */}
           <div className="p-4 sm:p-5 border-b border-sand-200 bg-sand-50/90 flex items-center justify-between">
@@ -77,33 +55,10 @@ export default function CartDrawer() {
             </button>
           </div>
 
-          {/* Free Shipping Progress Indicator */}
-          <div className="p-4 bg-coastal-50/60 border-b border-coastal-100">
-            <div className="flex items-center justify-between text-xs font-semibold text-coastal-950 mb-1.5">
-              <div className="flex items-center gap-1.5">
-                <Truck className="w-4 h-4 text-coastal-600" />
-                {freeShippingRemaining > 0 ? (
-                  <span>
-                    Add <strong>{formatZAR(freeShippingRemaining)}</strong> more for <strong>FREE Delivery</strong>
-                  </span>
-                ) : (
-                  <span className="text-emerald-700 flex items-center gap-1 font-bold">
-                    <Check className="w-3.5 h-3.5 text-emerald-600" /> You qualify for FREE Nationwide Delivery!
-                  </span>
-                )}
-              </div>
-              <span className="text-[11px] text-coastal-700">{freeShippingProgress}%</span>
-            </div>
-
-            <div className="w-full bg-coastal-200 h-2 rounded-full overflow-hidden">
-              <div
-                className={cn(
-                  "h-full transition-all duration-500 rounded-full",
-                  freeShippingProgress >= 100 ? "bg-emerald-500" : "bg-coastal-600"
-                )}
-                style={{ width: `${freeShippingProgress}%` }}
-              />
-            </div>
+          {/* Courier note */}
+          <div className="px-4 py-3 bg-sand-50 border-b border-sand-200 text-[11px] text-driftwood-600 flex items-center gap-2">
+            <Truck className="w-4 h-4 text-coastal-600 flex-shrink-0" />
+            <span>Nationwide courier available — delivery cost at client&apos;s expense</span>
           </div>
 
           {/* Cart Items List */}
@@ -116,7 +71,7 @@ export default function CartDrawer() {
                 <div>
                   <h3 className="font-serif text-lg font-semibold text-driftwood-900">Your cart is empty</h3>
                   <p className="text-xs text-driftwood-500 mt-1 max-w-xs">
-                    Explore our curated collection of coastal home decor, handcrafted furniture, and boutique fashion.
+                    Explore our curated collection of coastal home décor, handcrafted furniture, and artisan gifts.
                   </p>
                 </div>
                 <button
@@ -215,64 +170,19 @@ export default function CartDrawer() {
           {/* Cart Footer / Checkout summary */}
           {cart.length > 0 && (
             <div className="p-4 sm:p-5 border-t border-sand-200 bg-sand-50/80 space-y-3">
-              
-              {/* Coupon Form */}
-              <div>
-                {activeCoupon ? (
-                  <div className="flex items-center justify-between p-2 rounded-lg bg-emerald-50 border border-emerald-200 text-xs">
-                    <div className="flex items-center gap-1.5 text-emerald-800 font-semibold">
-                      <Sparkles className="w-3.5 h-3.5 text-emerald-600" />
-                      <span>Coupon applied: <strong>{activeCoupon}</strong> (-{formatZAR(discountAmount)})</span>
-                    </div>
-                    <button
-                      onClick={removeCoupon}
-                      className="text-xs text-red-600 hover:underline font-semibold"
-                    >
-                      Remove
-                    </button>
-                  </div>
-                ) : (
-                  <form onSubmit={handleApplyCoupon} className="flex gap-2">
-                    <input
-                      type="text"
-                      value={couponInput}
-                      onChange={(e) => setCouponInput(e.target.value)}
-                      placeholder="Promo code (e.g. KOEKELOER10)"
-                      className="text-xs px-3 py-2 bg-white border border-sand-300 rounded-lg flex-1 text-driftwood-900 uppercase focus:outline-none focus:border-coastal-600"
-                    />
-                    <button
-                      type="submit"
-                      className="px-3 py-2 bg-driftwood-800 hover:bg-driftwood-900 text-white rounded-lg text-xs font-semibold transition"
-                    >
-                      Apply
-                    </button>
-                  </form>
-                )}
-                {couponError && (
-                  <p className="text-[11px] text-red-600 mt-1">{couponError}</p>
-                )}
-              </div>
-
-              {/* Price Breakdown */}
-              <div className="space-y-1.5 text-xs text-driftwood-600 pt-2 border-t border-sand-200">
+              <div className="space-y-1.5 text-xs text-driftwood-600 pt-2">
                 <div className="flex justify-between">
                   <span>Subtotal</span>
                   <span className="font-semibold text-driftwood-900">{formatZAR(cartSubtotal)}</span>
                 </div>
-                {discountAmount > 0 && (
-                  <div className="flex justify-between text-emerald-700 font-medium">
-                    <span>Discount</span>
-                    <span>-{formatZAR(discountAmount)}</span>
-                  </div>
-                )}
                 <div className="flex justify-between">
-                  <span>Estimated Shipping</span>
+                  <span>Estimated Courier</span>
                   <span className="font-semibold text-driftwood-900">
-                    {freeShippingRemaining === 0 ? 'FREE' : 'Calculated at checkout'}
+                    From {formatZAR(STANDARD_SHIPPING_FEE)} at checkout
                   </span>
                 </div>
                 <div className="flex justify-between text-base font-bold text-driftwood-950 pt-2 border-t border-sand-200">
-                  <span>Total</span>
+                  <span>Total (excl. courier)</span>
                   <span className="text-coastal-900">{formatZAR(cartTotal)}</span>
                 </div>
               </div>

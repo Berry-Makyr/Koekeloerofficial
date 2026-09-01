@@ -67,13 +67,13 @@ export default function Header() {
           </div>
 
           {/* Brand Logo */}
-          <div className="flex-1 lg:flex-none min-w-0 text-center lg:text-left">
+          <div className="flex-1 lg:flex-none min-w-0 text-center lg:text-left px-1">
             <Link href="/" className="inline-block group max-w-full">
-              <span className="block font-serif text-lg sm:text-2xl lg:text-3xl tracking-wide sm:tracking-widest text-coastal-950 uppercase font-semibold group-hover:text-coastal-700 transition truncate">
+              <span className="block font-serif text-base sm:text-2xl lg:text-3xl tracking-wide sm:tracking-widest text-coastal-950 uppercase font-semibold group-hover:text-coastal-700 transition truncate">
                 KOEKELOER
               </span>
-              <span className="block text-[8px] sm:text-[10px] tracking-[0.15em] sm:tracking-[0.25em] text-sand-600 uppercase font-medium -mt-0.5 sm:-mt-1 truncate px-1">
-                Gansbaai • Décor & Boutique
+              <span className="hidden sm:block text-[8px] sm:text-[10px] tracking-[0.15em] sm:tracking-[0.25em] text-sand-600 uppercase font-medium -mt-0.5 sm:-mt-1 truncate">
+                Gansbaai • Décor & Gifts
               </span>
             </Link>
           </div>
@@ -140,24 +140,21 @@ export default function Header() {
                       </div>
                     </Link>
                   ))}
-                  <div className="col-span-2 bg-sand-100/60 p-3 rounded-lg flex items-center justify-between text-xs text-driftwood-700">
+                  <div className="col-span-2 bg-sand-100/60 p-3 rounded-lg flex items-center text-xs text-driftwood-700">
                     <div className="flex items-center gap-2">
                       <Sparkles className="w-4 h-4 text-terracotta-500" />
-                      <span>Handpicked artisan home & boutique collections</span>
+                      <span>Handpicked artisan home décor & gift collections</span>
                     </div>
-                    <Link href="/shop?filter=sale" className="font-semibold text-terracotta-600 hover:underline">
-                      View Sale Items
-                    </Link>
                   </div>
                 </div>
               )}
             </div>
 
             <Link 
-              href="/shop?category=boutique-fashion" 
+              href="/shop?category=shoes-leather" 
               className="hover:text-coastal-700 transition py-1 text-driftwood-800"
             >
-              Boutique & Shoes
+              Leather Bags
             </Link>
 
             <Link 
@@ -200,7 +197,7 @@ export default function Header() {
               aria-label="Search catalog"
             >
               <Search className="w-3.5 h-3.5 text-driftwood-500" />
-              <span>Search decor, fashion...</span>
+              <span>Search décor, furniture...</span>
               <kbd className="hidden md:inline-block bg-white px-1.5 py-0.5 rounded border border-sand-300 text-[10px] text-driftwood-400">⌘K</kbd>
             </button>
 
@@ -226,10 +223,10 @@ export default function Header() {
               <User className="w-5 h-5" />
             </Link>
 
-            {/* Wishlist Link */}
+            {/* Wishlist Link - hidden on smallest screens to reduce header crowding */}
             <Link
               href="/shop?filter=wishlist"
-              className="p-1.5 sm:p-2 text-driftwood-700 hover:text-terracotta-600 transition relative"
+              className="hidden sm:block p-1.5 sm:p-2 text-driftwood-700 hover:text-terracotta-600 transition relative"
               aria-label={`Wishlist (${wishlist.length} items)`}
               title="View Wishlist"
             >

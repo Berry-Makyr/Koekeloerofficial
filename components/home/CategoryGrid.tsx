@@ -22,7 +22,7 @@ export default function CategoryGrid() {
           </h2>
           <div className="w-16 h-0.5 bg-coastal-600 mx-auto mt-3 sm:mt-4 mb-3 sm:mb-4" />
           <p className="text-xs sm:text-sm lg:text-base text-driftwood-600 leading-relaxed px-2">
-            From handcrafted wooden furniture and coastal décor to genuine leather bags and boutique apparel.
+            From handcrafted wooden furniture and coastal décor to genuine leather bags and curated home accents.
           </p>
         </div>
 

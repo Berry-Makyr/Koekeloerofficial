@@ -12,12 +12,12 @@ export default function BrandStorySection() {
   if (!story) return null;
 
   return (
-    <section className="py-16 sm:py-24 bg-sand-50">
+    <section className="py-12 sm:py-16 lg:py-24 bg-sand-50 overflow-hidden">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-16 items-center">
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 sm:gap-12 lg:gap-16 items-center">
           
           {/* Left: Image Collage */}
-          <div className="grid grid-cols-2 gap-4 relative">
+          <div className="grid grid-cols-2 gap-3 sm:gap-4 relative overflow-hidden">
             <div className="space-y-4">
               <div className="rounded-2xl overflow-hidden shadow-soft aspect-[4/5] bg-sand-200">
                 {/* eslint-disable-next-line @next/next/no-img-element */}
@@ -49,8 +49,8 @@ export default function BrandStorySection() {
               <div className="rounded-2xl overflow-hidden shadow-soft aspect-[4/5] bg-sand-200">
                 {/* eslint-disable-next-line @next/next/no-img-element */}
                 <img
-                  src={story.images?.boutique || '/fb-images/615057225_24998643253147828_5505068522394442945_n.jpg'}
-                  alt="Koekeloer Boutique Linen Resort Wear"
+                  src={story.images?.boutique || story.images?.art}
+                  alt="Statement Mirrors & Wall Art at Koekeloer"
                   className="w-full h-full object-cover hover:scale-105 transition duration-500"
                 />
               </div>

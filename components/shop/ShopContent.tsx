@@ -64,7 +64,6 @@ export default function ShopContent() {
       }
 
       // Special filter
-      if (selectedFilter === 'sale' && !p.isSale && !p.originalPrice) return false;
       if (selectedFilter === 'new' && !p.isNewArrival) return false;
       if (selectedFilter === 'wishlist' && !wishlist.includes(p.id)) return false;
 
@@ -132,7 +131,7 @@ export default function ShopContent() {
               <p className="text-xs sm:text-sm text-driftwood-600 mt-2 max-w-2xl">
                 {selectedCategory !== 'all'
                   ? categories.find(c => c.slug === selectedCategory)?.description
-                  : 'Browse our signature assortment of coastal home accessories, handcrafted furniture, and boutique apparel.'}
+                  : 'Browse our signature assortment of coastal home accessories, handcrafted furniture, and artisan gifts.'}
               </p>
             </div>
 
@@ -177,17 +176,6 @@ export default function ShopContent() {
 
           {/* Quick Filter Badges on Desktop */}
           <div className="hidden md:flex items-center gap-2">
-            <button
-              onClick={() => setSelectedFilter(selectedFilter === 'sale' ? 'all' : 'sale')}
-              className={cn(
-                "px-3 py-1.5 rounded-lg text-xs font-medium border transition",
-                selectedFilter === 'sale'
-                  ? "bg-terracotta-600 text-white border-terracotta-600"
-                  : "bg-sand-50 text-driftwood-700 border-sand-200 hover:bg-sand-100"
-              )}
-            >
-              On Sale
-            </button>
             <button
               onClick={() => setSelectedFilter(selectedFilter === 'new' ? 'all' : 'new')}
               className={cn(
@@ -438,7 +426,7 @@ export default function ShopContent() {
                 </h3>
                 <p className="text-xs sm:text-sm text-driftwood-500 max-w-md mx-auto">
                   {products.length === 0
-                    ? 'Our online catalogue is currently being prepared with artisan coastal decor and boutique items. Please check back soon or visit our Gansbaai showroom.'
+                    ? 'Our online catalogue is currently being prepared with artisan coastal décor and homeware. Please check back soon or visit our Gansbaai showroom.'
                     : 'We couldn’t find any items matching your active filter criteria. Try clearing some filters or searching for another term.'}
                 </p>
                 <div className="flex flex-wrap items-center justify-center gap-3 pt-2">

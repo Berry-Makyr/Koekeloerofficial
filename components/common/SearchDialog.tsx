@@ -82,7 +82,7 @@ export default function SearchDialog() {
             type="text"
             value={query}
             onChange={(e) => setQuery(e.target.value)}
-            placeholder="Search decor, teak furniture, linen dresses, Esthé shoes, brass gifts..."
+            placeholder="Search décor, furniture, mirrors, leather bags..."
             className="w-full bg-transparent text-sm sm:text-base text-driftwood-900 placeholder-driftwood-400 focus:outline-none"
           />
           {query && (
@@ -127,7 +127,7 @@ export default function SearchDialog() {
           {filteredProducts.length === 0 ? (
             <div className="text-center py-10">
               <p className="text-driftwood-600 font-medium text-sm">No items matching &ldquo;{query}&rdquo;</p>
-              <p className="text-xs text-driftwood-400 mt-1">Try searching for &ldquo;cushion&rdquo;, &ldquo;teak&rdquo;, &ldquo;linen&rdquo;, &ldquo;sandals&rdquo;, or &ldquo;brass&rdquo;</p>
+              <p className="text-xs text-driftwood-400 mt-1">Try searching for &ldquo;cushion&rdquo;, &ldquo;mirror&rdquo;, &ldquo;cabinet&rdquo;, &ldquo;rattan&rdquo;, or &ldquo;ceramic&rdquo;</p>
             </div>
           ) : (
             filteredProducts.map((p) => (

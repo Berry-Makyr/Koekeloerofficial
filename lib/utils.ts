@@ -16,12 +16,9 @@ export function formatZAR(amount: number): string {
     .replace('ZAR', 'R');
 }
 
-export const FREE_SHIPPING_THRESHOLD = 1200;
+/** @deprecated Free shipping removed — courier always at client expense */
+export const FREE_SHIPPING_THRESHOLD = Number.POSITIVE_INFINITY;
 export const STANDARD_SHIPPING_FEE = 150;
 export const EXPRESS_SHIPPING_FEE = 220;
 
-export const COUPON_CODES: Record<string, { discountPercent: number; description: string }> = {
-  KOEKELOER10: { discountPercent: 10, description: '10% Welcome Discount' },
-  WINTER20: { discountPercent: 20, description: '20% Seasonal Sale' },
-  BEACHSAND: { discountPercent: 15, description: '15% Coastal Living Special' },
-};
+export const COUPON_CODES: Record<string, { discountPercent: number; description: string }> = {};

@@ -45,7 +45,7 @@ export default function Footer() {
             <div>
               <h4 className="font-serif text-white font-semibold text-base mb-1">Nationwide Courier</h4>
               <p className="text-xs text-sand-400 leading-relaxed">
-                Tracked door-to-door delivery across South Africa via The Courier Guy. Free on orders over R1,200.
+                Tracked door-to-door delivery across South Africa via The Courier Guy. Courier cost at client&apos;s expense.
               </p>
             </div>
           </div>
@@ -104,8 +104,8 @@ export default function Footer() {
               </span>
             </Link>
             <p className="text-xs text-sand-400 leading-relaxed max-w-sm">
-              {siteContent.footerBio ||
-                'A unique lifestyle store that takes you on a voyage of discovery through artisanal gifts, coastal decor, handcrafted solid wood furniture, resort wear, genuine leather footwear, and kitchenware. Visit our store at Shop 2, Great White Junction in Gansbaai, Western Cape.'}
+              {                siteContent.footerBio ||
+                'A unique lifestyle store that takes you on a voyage of discovery through artisanal gifts, coastal décor, handcrafted solid wood furniture, statement mirrors, carved leather bags, and kitchenware. Visit our store at Shop 2, Great White Junction in Gansbaai, Western Cape.'}
             </p>
 
             {/* Newsletter */}
@@ -197,11 +197,6 @@ export default function Footer() {
               <li>
                 <Link href="/shop?filter=new" className="hover:text-white transition">
                   Fresh Arrivals
-                </Link>
-              </li>
-              <li>
-                <Link href="/shop?filter=sale" className="hover:text-white transition text-terracotta-400">
-                  Sale & Promotions
                 </Link>
               </li>
               <li>

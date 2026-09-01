@@ -49,7 +49,7 @@ function AdminLoginContent() {
   };
 
   return (
-    <div className="bg-sand-100/80 min-h-[85vh] py-12 sm:py-20 px-4 flex items-center justify-center">
+    <div className="bg-sand-100/80 min-h-screen py-8 sm:py-20 px-4 flex items-center justify-center">
       <div className="max-w-md w-full mx-auto space-y-6">
         
         {/* Header */}
@@ -60,7 +60,7 @@ function AdminLoginContent() {
           <span className="text-[11px] font-bold uppercase tracking-[0.25em] text-coastal-800 block">
             Koekeloer Gansbaai
           </span>
-          <h1 className="font-serif text-3xl font-bold text-driftwood-950 tracking-tight">
+          <h1 className="font-serif text-2xl sm:text-3xl font-bold text-driftwood-950 tracking-tight">
             Admin Control Center
           </h1>
           <p className="text-xs text-driftwood-600 max-w-sm mx-auto">

@@ -474,7 +474,7 @@ export default function ProductDetailView({
 
             {activeTab === 'shipping' && (
               <div className="space-y-3">
-                <p><strong>Courier Delivery:</strong> Nationwide tracked shipping via The Courier Guy (2-4 business days). Free for orders over R1,200.</p>
+                <p><strong>Courier Delivery:</strong> Nationwide tracked shipping via The Courier Guy (2–4 business days). Courier cost at client&apos;s expense.</p>
                 <p><strong>Store Collection:</strong> Free collection available from Koekeloer Gift Shop or Boutique at Great White Junction, Gansbaai.</p>
               </div>
             )}

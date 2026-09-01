@@ -38,15 +38,6 @@ export const categories: Category[] = [
     featured: true,
   },
   {
-    id: 'boutique-fashion',
-    name: 'Boutique Apparel & Dresses',
-    slug: 'boutique-fashion',
-    description: 'Boutique ladies fashion, linen resort wear, dresses, and seasonal apparel.',
-    image: '/fb-images/615057225_24998643253147828_5505068522394442945_n.jpg',
-    itemCount: 42,
-    featured: true,
-  },
-  {
     id: 'shoes-leather',
     name: 'Leather Bags & Footwear',
     slug: 'shoes-leather',

@@ -19,7 +19,6 @@ export const stores: StoreLocation[] = [
     features: [
       'Artisanal Coastal Gifts, Décor & Nautical Accents',
       'Handcrafted Solid Wood Furniture & Statement Mirrors',
-      'Boutique Ladies Apparel & Genuine Leather Footwear',
       'Handmade Carved Leather Bags & Mandala Laptop Bags',
       'Charlotte Rhys Luxury Fragrances & Traditional Boereseep',
       'Chalk Paint, Stencils & Personal Gifting Advice',

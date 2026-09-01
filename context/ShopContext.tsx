@@ -86,7 +86,7 @@ export function ShopProvider({ children }: { children: React.ReactNode }) {
   const [isCartOpen, setIsCartOpen] = useState(false);
   const [isSearchOpen, setIsSearchOpen] = useState(false);
   const [quickViewProduct, setQuickViewProduct] = useState<Product | null>(null);
-  const [activeCoupon, setActiveCoupon] = useState<string | null>('KOEKELOER10');
+  const [activeCoupon, setActiveCoupon] = useState<string | null>(null);
   const [couponError, setCouponError] = useState<string | null>(null);
   const [isHydrated, setIsHydrated] = useState(false);
 
@@ -109,22 +109,22 @@ export function ShopProvider({ children }: { children: React.ReactNode }) {
       }
 
       // Categories
-      const savedCategories = localStorage.getItem('koekeloer_custom_categories_v5');
+      const savedCategories = localStorage.getItem('koekeloer_custom_categories_v6');
       if (savedCategories) {
         const parsed = JSON.parse(savedCategories);
         if (Array.isArray(parsed) && parsed.length > 0) {
           setCategoriesList(parsed);
         } else {
           setCategoriesList(defaultCategories);
-          localStorage.setItem('koekeloer_custom_categories_v5', JSON.stringify(defaultCategories));
+          localStorage.setItem('koekeloer_custom_categories_v6', JSON.stringify(defaultCategories));
         }
       } else {
         setCategoriesList(defaultCategories);
-        localStorage.setItem('koekeloer_custom_categories_v5', JSON.stringify(defaultCategories));
+        localStorage.setItem('koekeloer_custom_categories_v6', JSON.stringify(defaultCategories));
       }
 
       // Site Content
-      const savedContent = localStorage.getItem('koekeloer_site_content_v6');
+      const savedContent = localStorage.getItem('koekeloer_site_content_v7');
       if (savedContent) {
         const parsed = JSON.parse(savedContent);
         if (parsed && typeof parsed === 'object') {
@@ -165,7 +165,7 @@ export function ShopProvider({ children }: { children: React.ReactNode }) {
   useEffect(() => {
     if (!isHydrated) return;
     try {
-      localStorage.setItem('koekeloer_custom_categories_v5', JSON.stringify(categoriesList));
+      localStorage.setItem('koekeloer_custom_categories_v6', JSON.stringify(categoriesList));
     } catch (e) {
       console.error('Error saving custom categories', e);
     }
@@ -175,7 +175,7 @@ export function ShopProvider({ children }: { children: React.ReactNode }) {
   useEffect(() => {
     if (!isHydrated) return;
     try {
-      localStorage.setItem('koekeloer_site_content_v6', JSON.stringify(siteContentState));
+      localStorage.setItem('koekeloer_site_content_v7', JSON.stringify(siteContentState));
     } catch (e) {
       console.error('Error saving site content', e);
     }
@@ -257,7 +257,7 @@ export function ShopProvider({ children }: { children: React.ReactNode }) {
   const resetCategories = () => {
     setCategoriesList(defaultCategories);
     try {
-      localStorage.setItem('koekeloer_custom_categories_v5', JSON.stringify(defaultCategories));
+      localStorage.setItem('koekeloer_custom_categories_v6', JSON.stringify(defaultCategories));
     } catch (e) {
       console.error(e);
     }
@@ -305,7 +305,7 @@ export function ShopProvider({ children }: { children: React.ReactNode }) {
   const resetSiteContent = () => {
     setSiteContentState(defaultSiteContent);
     try {
-      localStorage.setItem('koekeloer_site_content_v4', JSON.stringify(defaultSiteContent));
+      localStorage.setItem('koekeloer_site_content_v7', JSON.stringify(defaultSiteContent));
     } catch (e) {
       console.error(e);
     }
@@ -367,16 +367,10 @@ export function ShopProvider({ children }: { children: React.ReactNode }) {
 
   const isInWishlist = (productId: string) => wishlist.includes(productId);
 
-  const applyCoupon = (code: string): boolean => {
-    const formatted = code.trim().toUpperCase();
-    if (COUPON_CODES[formatted]) {
-      setActiveCoupon(formatted);
-      setCouponError(null);
-      return true;
-    } else {
-      setCouponError('Invalid coupon code. Try KOEKELOER10 or WINTER20');
-      return false;
-    }
+  const applyCoupon = (_code: string): boolean => {
+    setActiveCoupon(null);
+    setCouponError(null);
+    return false;
   };
 
   const removeCoupon = () => {
